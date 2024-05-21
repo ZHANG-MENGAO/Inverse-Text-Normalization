@@ -1,0 +1,8 @@
+denormalizer/checkpoints/
+denormalizer/data-bin/
+docker_files/denormalizer/denormalizer/checkpoints/
+GTN/AISG/
+GTN/sampled*
+SPGISpeech/parallel_corpus/
+SPGISpeech/csv
+**/.git

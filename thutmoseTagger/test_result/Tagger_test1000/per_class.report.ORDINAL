@@ -1,0 +1,558 @@
+error: pred= _8th_; inp=the eighth; ref=ORDINAL 8 10 | viii | the eighth
+	input=from fourteen ninety to fourteen ninety five charles the eighth installed a new rose window on the western facade of the chapel
+	tags=<SELF> _14 90_ <SELF> _14 9 5_ <SELF> <DELETE> _8th_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=from _14 90_ to _14 9 5_ charles  _8th_ installed a new rose window on the western facade of the chapel
+	semiotic=PLAIN DATE DATE PLAIN DATE DATE DATE PLAIN ORDINAL ORDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=from 1490 to 1495 charles viii installed a new rose window on the western facade of the chapel
+error: pred= _6th_; inp=the sixth; ref=ORDINAL 4 6 | vi | the sixth
+	input=in his absence ptolemy the sixth and his brother were reconciled
+	tags=<SELF> <SELF> <SELF> <SELF> <DELETE> _6th_ <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=in his absence ptolemy  _6th_ and his brother were reconciled
+	semiotic=PLAIN PLAIN PLAIN PLAIN ORDINAL ORDINAL PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=in his absence ptolemy vi and his brother were reconciled
+error: pred= _2nd_; inp=the second; ref=ORDINAL 3 5 | the second | ii
+	input=inaugurated by william the second in august eighteen eighty nine the palace housed the emperor for twelve visits down to nineteen fourteen
+	tags=<SELF> <SELF> <SELF> <DELETE> _2nd_ <SELF> <SELF> _18 8 9_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _19 14_
+	pred=inaugurated by william  _2nd_ in august _18 8 9_ the palace housed the emperor for twelve visits down to _19 14_
+	semiotic=PLAIN PLAIN PLAIN ORDINAL ORDINAL PLAIN DATE DATE DATE DATE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN DATE DATE
+	ref=inaugurated by william ii in august 1889 the palace housed the emperor for twelve visits down to 1914
+error: pred= _6th_; inp=the sixth; ref=ORDINAL 8 10 | vi | the sixth
+	input=in thirteen forty seven however their protector john the sixth kantakouzenos entered constantinople and forced his opponents to crown him co emperor
+	tags=<SELF> _13 4 7_ <SELF> <SELF> <SELF> <SELF> <DELETE> _6th_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=in _13 4 7_ however their protector john  _6th_ kantakouzenos entered constantinople and forced his opponents to crown him co emperor
+	semiotic=PLAIN DATE DATE DATE PLAIN PLAIN PLAIN PLAIN ORDINAL ORDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=in 1347 however their protector john vi kantakouzenos entered constantinople and forced his opponents to crown him co emperor
+error: pred= _xith_; inp=the eleventh; ref=ORDINAL 13 15 | the eleventh | xi
+	input=he participated in the conclave of nineteen twenty two that elected pope pius the eleventh
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _19 2 2_ <SELF> <SELF> <SELF> <SELF> <DELETE> _xith_
+	pred=he participated in the conclave of _19 2 2_ that elected pope pius  _xith_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN DATE DATE DATE PLAIN PLAIN PLAIN PLAIN ORDINAL ORDINAL
+	ref=he participated in the conclave of 1922 that elected pope pius xi
+error: pred= _4th_; inp=the fourth; ref=ORDINAL 9 11 | iv | the fourth | iiii
+	input=she was the first public mistress of king george the fourth while he was still prince of wales
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <DELETE> _4th_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=she was the first public mistress of king george  _4th_ while he was still prince of wales
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN ORDINAL ORDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=she was the first public mistress of king george iv while he was still prince of wales
+error: pred= _7th_; inp=the seventh; ref=ORDINAL 7 9 | the seventh | vii
+	input=he was the eldest son of robert the seventh of auvergne and blanche of bourbon daughter of robert count of clermont
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <DELETE> _7th_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=he was the eldest son of robert  _7th_ of auvergne and blanche of bourbon daughter of robert count of clermont
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN ORDINAL ORDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=he was the eldest son of robert vii of auvergne and blanche of bourbon daughter of robert count of clermont
+error: pred= _4th_; inp=the fourth; ref=ORDINAL 8 10 | iv | the fourth | iiii
+	input=several renovations were made most notably by frederick the fourth in seventeen twenty one to twenty nine
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <DELETE> _4th_ <SELF> _17 2 1_ _-_ _2 9_
+	pred=several renovations were made most notably by frederick  _4th_ in _17 2 1_ _-_ _2 9_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN ORDINAL ORDINAL PLAIN DATE DATE DATE PLAIN CARDINAL CARDINAL
+	ref=several renovations were made most notably by frederick iv in 1721 - 29
+error: pred= _2nd_; inp=the second; ref=ORDINAL 2 4 | the second | ii
+	input=sultan mahmud the second died on june twenty ninth eighteen thirty nine at her palace in camlica
+	tags=<SELF> <SELF> <DELETE> _2nd_ <SELF> <SELF> <SELF> _2 9 ,18 3 9_ <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=sultan mahmud  _2nd_ died on june _2 9 ,18 3 9_ at her palace in camlica
+	semiotic=PLAIN PLAIN ORDINAL ORDINAL PLAIN PLAIN DATE DATE DATE DATE DATE DATE PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=sultan mahmud ii died on june 29, 1839 at her palace in camlica
+error: pred= _6th_; inp=the sixth; ref=ORDINAL 2 4 | vi | the sixth
+	input=king mohammed the sixth ordered the minaret be rebuilt according to historical specifications
+	tags=<SELF> <SELF> <DELETE> _6th_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=king mohammed  _6th_ ordered the minaret be rebuilt according to historical specifications
+	semiotic=PLAIN PLAIN ORDINAL ORDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=king mohammed vi ordered the minaret be rebuilt according to historical specifications
+error: pred= _4th_; inp=the fourth; ref=ORDINAL 7 9 | iv | the fourth | iiii
+	input=he then was employed by landgraf wilhelm the fourth
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <DELETE> _4th_
+	pred=he then was employed by landgraf wilhelm  _4th_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN ORDINAL ORDINAL
+	ref=he then was employed by landgraf wilhelm iv
+error: pred= second; inp=the second; ref=ORDINAL 3 5 | the second | ii
+	input=michael bennett richard the second and the revolution of thirteen ninety nine nineteen ninety nine p seventy nine
+	tags=<SELF> <SELF> <SELF> <DELETE> <SELF> <SELF> <SELF> <SELF> <SELF> _13 9 9_ _19 9 9_ <SELF> _7 9_
+	pred=michael bennett richard  second and the revolution of _13 9 9_ _19 9 9_ p _7 9_
+	semiotic=PLAIN PLAIN PLAIN ORDINAL ORDINAL PLAIN PLAIN PLAIN PLAIN DATE DATE DATE DATE DATE DATE PLAIN CARDINAL CARDINAL
+	ref=michael bennett richard ii and the revolution of 1399 1999 p 79
+error: pred= _4th_; inp=the fourth; ref=ORDINAL 10 12 | iv | the fourth | iiii
+	input=on the twenty ninth of september twelve fifty pope innocent the fourth recognized his sovereignty in arborea though the corona de logu never did
+	tags=<SELF> <DELETE> _2 9_ <DELETE> <SELF> _12_ _50,_ <SELF> <SELF> <DELETE> _4th_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=on  _2 9_  september _12_ _50,_ pope innocent  _4th_ recognized his sovereignty in arborea though the corona de logu never did
+	semiotic=PLAIN DATE DATE DATE DATE DATE CARDINAL CARDINAL PLAIN PLAIN ORDINAL ORDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=on 29 september  12 50, pope innocent iv recognised his sovereignty in arborea though the corona de logu never did
+error: pred= _15th_; inp=the fifteenth; ref=ORDINAL 7 9 | the fifteenth | xv
+	input=he remained in grenoble until pope benedict the fifteenth appointed him archbishop of lyon on the first of december nineteen sixteen
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <DELETE> _15th_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <DELETE> _1_ <DELETE> <SELF> _19 16_
+	pred=he remained in grenoble until pope benedict  _15th_ appointed him archbishop of lyon on  _1_  december _19 16_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN ORDINAL ORDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN DATE DATE DATE DATE DATE DATE
+	ref=he remained in grenoble until pope benedict xv appointed him archbishop of lyon on 1 december 1916
+error: pred= _9th_; inp=the ninth; ref=ORDINAL 15 17 | ix | the ninth
+	input=he was appointed titular bishop of areopolis and auxiliary bishop of toledo by pope pius the ninth on the twenty eighth of january eighteen seventy six
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <DELETE> _9th_ <SELF> <DELETE> _2 8_ <DELETE> <SELF> _18 7 6_
+	pred=he was appointed titular bishop of areopolis and auxiliary bishop of toledo by pope pius  _9th_ on  _2 8_  january _18 7 6_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN ORDINAL ORDINAL PLAIN DATE DATE DATE DATE DATE DATE DATE DATE
+	ref=he was appointed titular bishop of areopolis and auxiliary bishop of toledo by pope pius ix on 28 january 1876
+error: pred= _2nd_; inp=the second; ref=ORDINAL 7 9 | the second | ii
+	input=his great grandfather was king victor emmanuel the second of italy making him a member of the house of savoy
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <DELETE> _2nd_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=his great grandfather was king victor emmanuel  _2nd_ of italy making him a member of the house of savoy
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN ORDINAL ORDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=his great grandfather was king victor emmanuel ii of italy making him a member of the house of savoy
+error: pred= _2nd_; inp=the second; ref=ORDINAL 11 13 | the second | ii
+	input=on the second of february two thousand two pope john paul the second he appointed him auxiliary bishop of morelia
+	tags=<SELF> <DELETE> _2_ <DELETE> <SELF> _2 00 2,_ <SELF> <SELF> <SELF> <DELETE> _2nd_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=on  _2_  february _2 00 2,_ pope john paul  _2nd_ he appointed him auxiliary bishop of morelia
+	semiotic=PLAIN DATE DATE DATE DATE DATE DATE DATE PLAIN PLAIN PLAIN ORDINAL ORDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=on 2 february 2002 pope john paul ii he appointed him auxiliary bishop of morelia
+error: pred= _2nd_; inp=the second; ref=ORDINAL 16 18 | the second | ii
+	input=after the war he was also made honorary air marshal of the raf by queen elizabeth the second
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <DELETE> _2nd_
+	pred=after the war he was also made honorary air marshal of the raf by queen elizabeth  _2nd_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN ORDINAL ORDINAL
+	ref=after the war he was also made honorary air marshal of the raf by queen elizabeth ii
+error: pred= _4th_; inp=the fourth; ref=ORDINAL 18 20 | iv | the fourth | iiii
+	input=four men were hanged despite a petition of ten thousand bristolian signatures which was given to king william the fourth
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _10 ,000_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <DELETE> _4th_
+	pred=four men were hanged despite a petition of _10 ,000_ bristolian signatures which was given to king william  _4th_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN ORDINAL ORDINAL
+	ref=four men were hanged despite a petition of 10,000 bristolian signatures which was given to king william iv
+error: pred= _8th_; inp=the eighth; ref=ORDINAL 3 5 | viii | the eighth
+	input=the grandfather william the eighth landgrave of hesse granted the county of hanau and its revenues to mary and her sons
+	tags=<SELF> <SELF> <SELF> <DELETE> _8th_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=the grandfather william  _8th_ landgrave of hesse granted the county of hanau and its revenues to mary and her sons
+	semiotic=PLAIN PLAIN PLAIN ORDINAL ORDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=the grandfather william viii landgrave of hesse granted the county of hanau and its revenues to mary and her sons
+error: pred= _2nd_; inp=the second; ref=ORDINAL 9 11 | the second | ii
+	input=in seventeen eighty eight the prussian king friedrich william the second expanded the town and his stud
+	tags=<SELF> _17 8 8_ <SELF> <SELF> <SELF> <SELF> <SELF> <DELETE> _2nd_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=in _17 8 8_ the prussian king friedrich william  _2nd_ expanded the town and his stud
+	semiotic=PLAIN DATE DATE DATE PLAIN PLAIN PLAIN PLAIN PLAIN ORDINAL ORDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=in 1788 the prussian king friedrich william ii expanded the town and his stud
+error: pred= _xivth_; inp=the fourteenth; ref=ORDINAL 14 16 | xiv | the fourteenth
+	input=the affair of the poisons murder infanticide and satanism at the court of louis the fourteenth
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <DELETE> _xivth_
+	pred=the affair of the poisons murder infanticide and satanism at the court of louis  _xivth_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN ORDINAL ORDINAL
+	ref=the affair of the poisons murder infanticide and satanism at the court of louis xiv
+error: pred= 13th_; inp=the thirteenth; ref=ORDINAL 17 19 | xiii | the thirteenth
+	input=on the fifth of september fifteen seventy eight he was appointed during the papacy of pope gregory the thirteenth as bishop of leon
+	tags=<SELF> <DELETE> _5_ <DELETE> <SELF> _15 7 8_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <DELETE> 13th_ <SELF> <SELF> <SELF> <SELF>
+	pred=on  _5_  september _15 7 8_ he was appointed during the papacy of pope gregory  13th_ as bishop of leon
+	semiotic=PLAIN DATE DATE DATE DATE DATE DATE DATE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN ORDINAL ORDINAL PLAIN PLAIN PLAIN PLAIN
+	ref=on 5 sep 1578 he was appointed during the papacy of pope gregory xiii as bishop of leon
+error: pred= _3rd_; inp=the third; ref=ORDINAL 12 14 | iii | the third
+	input=this was prevented and frederick left the army in protest to gustav the third whom he referred to as a tyrant
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <DELETE> _3rd_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=this was prevented and frederick left the army in protest to gustav  _3rd_ whom he referred to as a tyrant
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN ORDINAL ORDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=this was prevented and frederick left the army in protest to gustav iii whom he referred to as a tyrant
+error: pred= _8th_; inp=the eighth; ref=ORDINAL 15 17 | viii | the eighth
+	input=under habsburg pressure mazarin was sent back to avignon where he was dismissed by urban the eighth on january seventeenth sixteen thirty six
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <DELETE> _8th_ <SELF> <SELF> _17 ,16 3 6_
+	pred=under habsburg pressure mazarin was sent back to avignon where he was dismissed by urban  _8th_ on january _17 ,16 3 6_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN ORDINAL ORDINAL PLAIN DATE DATE DATE DATE DATE
+	ref=under habsburg pressure mazarin was sent back to avignon where he was dismissed by urban viii on january 17, 1636
+error: pred= _2nd_; inp=the second; ref=ORDINAL 15 17 | the second | ii
+	input=on the nineteenth of february six eighty two s barbato died under pope saint leo the second six hundred eighty two to six hundred eighty three
+	tags=<SELF> <DELETE> _19_ <DELETE> <SELF> _6_ _8 2,_ _s._ <SELF> <SELF> <SELF> <SELF> _st_ <SELF> <DELETE> _2nd_ _6 <DELETE> 8 2_ _-_ _6 <DELETE> 8 3_
+	pred=on  _19_  february _6_ _8 2,_ _s._ barbato died under pope _st_ leo  _2nd_ _6  8 2_ _-_ _6  8 3_
+	semiotic=PLAIN DATE DATE DATE DATE CARDINAL CARDINAL CARDINAL LETTERS PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN ORDINAL ORDINAL CARDINAL CARDINAL CARDINAL CARDINAL PLAIN CARDINAL CARDINAL CARDINAL CARDINAL
+	ref=on 19 february 682 s barbato died under pope st leo ii 682 - 683
+error: pred= _3rd_; inp=the third; ref=ORDINAL 10 12 | iii | the third
+	input=meetings were held three times a week under pope innocent the third
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <DELETE> _3rd_
+	pred=meetings were held three times a week under pope innocent  _3rd_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN ORDINAL ORDINAL
+	ref=meetings were held three times a week under pope innocent iii
+error: pred= _16th_; inp=the sixteenth; ref=ORDINAL 8 10 | the sixteenth | xvi
+	input=for the first time a pope emeritus benedict the sixteenth attended a consistory
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <DELETE> _16th_ <SELF> <SELF> <SELF>
+	pred=for the first time a pope emeritus benedict  _16th_ attended a consistory
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN ORDINAL ORDINAL PLAIN PLAIN PLAIN
+	ref=for the first time a pope emeritus benedict xvi attended a consistory
+error: pred=/1  6 8_; inp=one hundred sixty eighth; ref=ORDINAL 1 5 | 168th | one hundred sixty eighth
+	input=one one hundred sixty eighth g s a b medevac wolf pack and b co
+	tags=_1 /1 <DELETE> 6 8_ _g <SELF> a_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=_1 /1  6 8_ _g s a_ b medevac wolf pack and b co
+	semiotic=FRACTION FRACTION FRACTION FRACTION FRACTION LETTERS LETTERS LETTERS PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=1 168th gsab medevac wolf pack and b co
+error: pred= _7th_; inp=the seventh; ref=ORDINAL 2 4 | the seventh | vii
+	input=king haakon the seventh formally repealed the order in a court resolution on the eleventh of march nineteen fifty two
+	tags=<SELF> <SELF> <DELETE> _7th_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <DELETE> _11_ <DELETE> <SELF> _19 5 2_
+	pred=king haakon  _7th_ formally repealed the order in a court resolution on  _11_  march _19 5 2_
+	semiotic=PLAIN PLAIN ORDINAL ORDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN DATE DATE DATE DATE DATE DATE DATE
+	ref=king haakon vii formally repealed the order in a court resolution on 11 march 1952
+error: pred= _3rd_; inp=the third; ref=ORDINAL 6 8 | iii | the third
+	input=in eighteen ten king frederick william the third revised the statutes of the order expanding it into three classes
+	tags=<SELF> _18 10_ <SELF> <SELF> <SELF> <DELETE> _3rd_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=in _18 10_ king frederick william  _3rd_ revised the statutes of the order expanding it into three classes
+	semiotic=PLAIN DATE DATE PLAIN PLAIN PLAIN ORDINAL ORDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=in 1810 king frederick william iii revised the statutes of the order expanding it into three classes
+error: pred= _2nd_; inp=the second; ref=ORDINAL 6 8 | the second | ii
+	input=an even larger statue of philip the second is under construction at the other end of the square
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <DELETE> _2nd_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=an even larger statue of philip  _2nd_ is under construction at the other end of the square
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN ORDINAL ORDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=an even larger statue of philip ii is under construction at the other end of the square
+error: pred= _2_; inp=the second; ref=ORDINAL 11 13 | the second | ii
+	input=antikyra was destroyed in three forty six b c by philip the second of macedon amid the third sacred war
+	tags=<SELF> <SELF> <SELF> <SELF> _3 4 6_ <DELETE> _bc_ <SELF> <SELF> <DELETE> _2_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=antikyra was destroyed in _3 4 6_  _bc_ by philip  _2_ of macedon amid the third sacred war
+	semiotic=PLAIN PLAIN PLAIN PLAIN DATE DATE DATE DATE DATE PLAIN PLAIN ORDINAL ORDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=antikyra was destroyed in 346 bc by philip ii of macedon amid the third sacred war
+error: pred= _3rd_; inp=the third; ref=ORDINAL 1 3 | iii | the third
+	input=napoleon the third and macmahon formed the new french army of chalons to march on to metz to rescue bazaine
+	tags=<SELF> <DELETE> _3rd_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=napoleon  _3rd_ and macmahon formed the new french army of chalons to march on to metz to rescue bazaine
+	semiotic=PLAIN ORDINAL ORDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=napoleon iii and macmahon formed the new french army of chalons to march on to metz to rescue bazaine
+error: pred= _16th_; inp=the sixteenth; ref=ORDINAL 2 4 | the sixteenth | xvi
+	input=pope benedict the sixteenth also restored the use of all three forms of the papal mozzetta
+	tags=<SELF> <SELF> <DELETE> _16th_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=pope benedict  _16th_ also restored the use of all three forms of the papal mozzetta
+	semiotic=PLAIN PLAIN ORDINAL ORDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=pope benedict xvi also restored the use of all three forms of the papal mozzetta
+error: pred= _2nd_; inp=the second; ref=ORDINAL 17 19 | the second | ii
+	input=she was a granddaughter of queen victoria of the united kingdom as well as of tsar alexander the second of russia
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <DELETE> _2nd_ <SELF> <SELF>
+	pred=she was a granddaughter of queen victoria of the united kingdom as well as of tsar alexander  _2nd_ of russia
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN ORDINAL ORDINAL PLAIN PLAIN
+	ref=she was a granddaughter of queen victoria of the united kingdom as well as of tsar alexander ii of russia
+error: pred= _2nd_; inp=the second; ref=ORDINAL 7 9 | the second | ii
+	input=the funeral was attended by queen elizabeth the second and other members of the british royal family
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <DELETE> _2nd_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=the funeral was attended by queen elizabeth  _2nd_ and other members of the british royal family
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN ORDINAL ORDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=the funeral was attended by queen elizabeth ii and other members of the british royal family
+error: pred= second; inp=the second; ref=ORDINAL 2 4 | the second | ii
+	input=king george the second
+	tags=<SELF> <SELF> <DELETE> <SELF>
+	pred=king george  second
+	semiotic=PLAIN PLAIN ORDINAL ORDINAL
+	ref=king george ii
+error: pred= _9th_; inp=the ninth; ref=ORDINAL 19 21 | ix | the ninth
+	input=from nineteen forty seven to nineteen fifty three prince knud was heir presumptive of his older brother king frederick the ninth
+	tags=<SELF> _19 4 7_ <SELF> _19 5 3_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <DELETE> _9th_
+	pred=from _19 4 7_ to _19 5 3_ prince knud was heir presumptive of his older brother king frederick  _9th_
+	semiotic=PLAIN DATE DATE DATE PLAIN DATE DATE DATE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN ORDINAL ORDINAL
+	ref=from 1947 to 1953 prince knud was heir presumptive of his older brother king frederick ix
+error: pred= _4th_; inp=the fourth; ref=ORDINAL 5 7 | iv | the fourth | iiii
+	input=under the leadership of antiochus the fourth a seleucid greek a greek style polis was established in jerusalem
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <DELETE> _4th_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=under the leadership of antiochus  _4th_ a seleucid greek a greek style polis was established in jerusalem
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN ORDINAL ORDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=under the leadership of antiochus iv a seleucid greek a greek style polis was established in jerusalem
+error: pred= _6th_; inp=the sixth; ref=ORDINAL 8 10 | vi | the sixth
+	input=after marrying the landgrave of hesse homburg frederick the sixth she took permanent residence in germany as landgravine
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <DELETE> _6th_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=after marrying the landgrave of hesse homburg frederick  _6th_ she took permanent residence in germany as landgravine
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN ORDINAL ORDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=after marrying the landgrave of hesse homburg frederick vi she took permanent residence in germany as landgravine
+error: pred= _2nd_; inp=the second; ref=ORDINAL 18 20 | the second | ii
+	input=in nineteen fifty three she took part in the fleet review to celebrate the coronation of queen elizabeth the second
+	tags=<SELF> _19 5 3_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <DELETE> _2nd_
+	pred=in _19 5 3_ she took part in the fleet review to celebrate the coronation of queen elizabeth  _2nd_
+	semiotic=PLAIN DATE DATE DATE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN ORDINAL ORDINAL
+	ref=in 1953 she took part in the fleet review to celebrate the coronation of queen elizabeth ii
+error: pred=the _3rd_; inp=the third; ref=ORDINAL 5 7 | iii | the third
+	input=her maternal grandparents were friedrich the third german emperor and his empress consort victoria
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _3rd_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=her maternal grandparents were friedrich the _3rd_ german emperor and his empress consort victoria
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN ORDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=her maternal grandparents were friedrich iii german emperor and his empress consort victoria
+error: pred= _xvth_; inp=the fifteenth; ref=ORDINAL 2 4 | the fifteenth | xv
+	input=but louis the fifteenth took fright telling his cousin charles the third that my minister wishes for war but i do not
+	tags=<SELF> <SELF> <DELETE> _xvth_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <DELETE> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=but louis  _xvth_ took fright telling his cousin charles  third that my minister wishes for war but i do not
+	semiotic=PLAIN PLAIN ORDINAL ORDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN ORDINAL ORDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=but louis xv took fright telling his cousin charles iii that my minister wishes for war but i do not
+error: pred= third; inp=the third; ref=ORDINAL 10 12 | iii | the third
+	input=but louis the fifteenth took fright telling his cousin charles the third that my minister wishes for war but i do not
+	tags=<SELF> <SELF> <DELETE> _xvth_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <DELETE> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=but louis  _xvth_ took fright telling his cousin charles  third that my minister wishes for war but i do not
+	semiotic=PLAIN PLAIN ORDINAL ORDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN ORDINAL ORDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=but louis xv took fright telling his cousin charles iii that my minister wishes for war but i do not
+error: pred= _2nd_; inp=the second; ref=ORDINAL 7 9 | the second | ii
+	input=her second brother george became king george the second in nineteen twenty two but was deposed in nineteen twenty four
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <DELETE> _2nd_ <SELF> _19 2 2_ <SELF> <SELF> <SELF> <SELF> _19 2 4_
+	pred=her second brother george became king george  _2nd_ in _19 2 2_ but was deposed in _19 2 4_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN ORDINAL ORDINAL PLAIN DATE DATE DATE PLAIN PLAIN PLAIN PLAIN DATE DATE DATE
+	ref=her second brother george became king george ii in 1922 but was deposed in 1924
+error: pred= _2nd_; inp=the second; ref=ORDINAL 1 3 | the second | ii
+	input=innocent the second initially restored him as cardinal of s s
+	tags=<SELF> <DELETE> _2nd_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _s s_
+	pred=innocent  _2nd_ initially restored him as cardinal of _s s_
+	semiotic=PLAIN ORDINAL ORDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN LETTERS LETTERS
+	ref=innocent ii initially restored him as cardinal of ss
+error: pred= _2nd_; inp=the second; ref=ORDINAL 14 16 | the second | ii
+	input=in august eighteen forty eight the austrian army entered parma and officially restored charles the second
+	tags=<SELF> <SELF> _18 4 8_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <DELETE> _2nd_
+	pred=in august _18 4 8_ the austrian army entered parma and officially restored charles  _2nd_
+	semiotic=PLAIN DATE DATE DATE DATE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN ORDINAL ORDINAL
+	ref=in august 1848 the austrian army entered parma and officially restored charles ii
+error: pred= _6th_; inp=the sixth; ref=ORDINAL 6 8 | vi | the sixth
+	input=they would later become king frederick the sixth of denmark and queen marie sophie of denmark
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <DELETE> _6th_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=they would later become king frederick  _6th_ of denmark and queen marie sophie of denmark
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN ORDINAL ORDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=they would later become king frederick vi of denmark and queen marie sophie of denmark
+error: pred= _2nd_; inp=the second; ref=ORDINAL 9 11 | the second | ii
+	input=in three sixty nine b c bardylis prevented alexander the second from eliminating the dardanians from macedonia
+	tags=<SELF> _3_ _6 9_ _b c__,_ <SELF> <SELF> <SELF> <DELETE> _2nd_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=in _3_ _6 9_ _b c__,_ bardylis prevented alexander  _2nd_ from eliminating the dardanians from macedonia
+	semiotic=PLAIN CARDINAL CARDINAL CARDINAL LETTERS LETTERS PLAIN PLAIN PLAIN ORDINAL ORDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=in 3 69  bc, bardylis prevented alexander ii from eliminating the dardanians from macedonia
+error: pred= second; inp=the second; ref=ORDINAL 13 15 | the second | ii
+	input=the queen was a two thousand nine british drama documentary showing queen elizabeth the second at different points during her life
+	tags=<SELF> <SELF> <SELF> <SELF> _2 00 9_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <DELETE> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=the queen was a _2 00 9_ british drama documentary showing queen elizabeth  second at different points during her life
+	semiotic=PLAIN PLAIN PLAIN PLAIN DATE DATE DATE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN ORDINAL ORDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=the queen was a 2009 british drama documentary showing queen elizabeth ii at different points during her life
+error: pred= _3rd_; inp=the third; ref=ORDINAL 6 8 | iii | the third
+	input=by a large payment pope gregory the third induced the duke to restore the castle to him
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <DELETE> _3rd_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=by a large payment pope gregory  _3rd_ induced the duke to restore the castle to him
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN ORDINAL ORDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=by a large payment pope gregory iii induced the duke to restore the castle to him
+error: pred= _6th_; inp=the sixth; ref=ORDINAL 19 21 | vi | the sixth
+	input=it is this character trait which led to the opening of the process of beatification and canonization for paul the sixth
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <DELETE> _6th_
+	pred=it is this character trait which led to the opening of the process of beatification and canonization for paul  _6th_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN ORDINAL ORDINAL
+	ref=it is this character trait which led to the opening of the process of beatification and canonization for paul vi
+error: pred= _8th_; inp=the eighth; ref=ORDINAL 2 4 | viii | the eighth
+	input=king alfonso the eighth of castile in eleven seventy six donated an estate in benavides where the monks previously living in valverde settled
+	tags=<SELF> <SELF> <DELETE> _8th_ <SELF> <SELF> <SELF> _11 7 6_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=king alfonso  _8th_ of castile in _11 7 6_ donated an estate in benavides where the monks previously living in valverde settled
+	semiotic=PLAIN PLAIN ORDINAL ORDINAL PLAIN PLAIN PLAIN DATE DATE DATE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=king alfonso viii of castile in 1176 donated an estate in benavides where the monks previously living in valverde settled
+error: pred= second; inp=the second; ref=ORDINAL 2 4 | the second | ii
+	input=so william the second and auguste victoria could not attend it
+	tags=<SELF> <SELF> <DELETE> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=so william  second and auguste victoria could not attend it
+	semiotic=PLAIN PLAIN ORDINAL ORDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=so william ii and auguste victoria could not attend it
+error: pred= _9th_; inp=the ninth; ref=ORDINAL 5 7 | ix | the ninth
+	input=regarding a possible dogma pius the ninth created a commission of theologians and a commission of cardinals for consideration
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <DELETE> _9th_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=regarding a possible dogma pius  _9th_ created a commission of theologians and a commission of cardinals for consideration
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN ORDINAL ORDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=regarding a possible dogma pius ix created a commission of theologians and a commission of cardinals for consideration
+error: pred= _4th_; inp=the fourth; ref=ORDINAL 6 8 | iv | the fourth | iiii
+	input=king philip the fifth and frederick the fourth of denmark paid violante beatrice visits in seventeen o three and seventeen o nine respectively
+	tags=<SELF> <SELF> <DELETE> _v_ <SELF> <SELF> <DELETE> _4th_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _17 0 3_ <SELF> _17 0 9_ <SELF>
+	pred=king philip  _v_ and frederick  _4th_ of denmark paid violante beatrice visits in _17 0 3_ and _17 0 9_ respectively
+	semiotic=PLAIN PLAIN ORDINAL ORDINAL PLAIN PLAIN ORDINAL ORDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN DATE DATE DATE PLAIN DATE DATE DATE PLAIN
+	ref=king philip v and frederick iv of denmark paid violante beatrice visits in 1703 and 1709 respectively
+error: pred=_11_; inp=eleventh; ref=ORDINAL 4 5 | 11 th | xith | 11th | 11 st | 11ª | 11º | xi | eleventh | 11st
+	input=its presentation was the eleventh of april nineteen ninety seven in the campoamor theater of oviedo
+	tags=<SELF> <SELF> <SELF> <DELETE> _11_ <DELETE> <SELF> _19 9 7_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=its presentation was  _11_  april _19 9 7_ in the campoamor theater of oviedo
+	semiotic=PLAIN PLAIN PLAIN DATE DATE DATE DATE DATE DATE DATE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=its presentation was the 11th of april 1997 in the campoamor theater of oviedo
+error: pred= _2nd_; inp=the second; ref=ORDINAL 1 3 | the second | ii
+	input=henry the second of england continued to stoke revolts and rebellions in brittany against conan i v
+	tags=<SELF> <DELETE> _2nd_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _i v_
+	pred=henry  _2nd_ of england continued to stoke revolts and rebellions in brittany against conan _i v_
+	semiotic=PLAIN ORDINAL ORDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN LETTERS LETTERS
+	ref=henry ii of england continued to stoke revolts and rebellions in brittany against conan iv
+error: pred=_18_; inp=eighteenth; ref=ORDINAL 2 3 | 18 th | xviiith | eighteenth | xviii | 18º | 18th
+	input=on the eighteenth of april eighteen twenty one in kalamos in attica he fought the ottoman troops coming from euboea
+	tags=<SELF> <DELETE> _18_ <DELETE> <SELF> _18 2 1_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=on  _18_  april _18 2 1_ in kalamos in attica he fought the ottoman troops coming from euboea
+	semiotic=PLAIN DATE DATE DATE DATE DATE DATE DATE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=on the 18th of april 1821 in kalamos in attica he fought the ottoman troops coming from euboea
+error: pred= second; inp=the second; ref=ORDINAL 26 28 | the second | ii
+	input=upon his death in one thousand three hundred eighty eighty seconds raciborz k r n o v and bruntal were inherited by his elder son john the second the iron
+	tags=<SELF> <SELF> <SELF> <SELF> _1 <DELETE> 3 <DELETE> 80 /8 2_ <SELF> _k <SELF> <SELF> <SELF> v_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <DELETE> <SELF> <SELF> <SELF>
+	pred=upon his death in _1  3  80 /8 2_ raciborz _k r n o v_ and bruntal were inherited by his elder son john  second the iron
+	semiotic=PLAIN PLAIN PLAIN PLAIN FRACTION FRACTION FRACTION FRACTION FRACTION FRACTION FRACTION PLAIN LETTERS LETTERS LETTERS LETTERS LETTERS PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN ORDINAL ORDINAL PLAIN PLAIN
+	ref=upon his death in 1380/82 raciborz krnov and bruntal were inherited by his elder son john ii the iron
+error: pred= _6th_; inp=the sixth; ref=ORDINAL 18 20 | vi | the sixth
+	input=in may fifteen fifty three he formed one of the russia company incorporated under a charter of edward the sixth
+	tags=<SELF> <SELF> _15 5 3_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <DELETE> _6th_
+	pred=in may _15 5 3_ he formed one of the russia company incorporated under a charter of edward  _6th_
+	semiotic=PLAIN DATE DATE DATE DATE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN ORDINAL ORDINAL
+	ref=in may 1553 he formed one of the russia company incorporated under a charter of edward vi
+error: pred= _6th_; inp=the sixth; ref=ORDINAL 12 14 | vi | the sixth
+	input=however in fourteen fifty nine he swore allegiance to the lancastrian henry the sixth
+	tags=<SELF> <SELF> _14 5 9_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <DELETE> _6th_
+	pred=however in _14 5 9_ he swore allegiance to the lancastrian henry  _6th_
+	semiotic=PLAIN PLAIN DATE DATE DATE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN ORDINAL ORDINAL
+	ref=however in 1459 he swore allegiance to the lancastrian henry vi
+error: pred= _3rd_; inp=the third; ref=ORDINAL 6 8 | iii | the third
+	input=he was commissioned by king gustav the third of sweden to furnish stockholm castle
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <DELETE> _3rd_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=he was commissioned by king gustav  _3rd_ of sweden to furnish stockholm castle
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN ORDINAL ORDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=he was commissioned by king gustav iii of sweden to furnish stockholm castle
+error: pred= _4th_; inp=the fourth; ref=ORDINAL 21 23 | iv | the fourth | iiii
+	input=after william had also inherited the principality of wolfenbuttel in fourteen seventy three he gave gottingen to his eldest son william the fourth
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _14 7 3_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <DELETE> _4th_
+	pred=after william had also inherited the principality of wolfenbuttel in _14 7 3_ he gave gottingen to his eldest son william  _4th_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN DATE DATE DATE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN ORDINAL ORDINAL
+	ref=after william had also inherited the principality of wolfenbuttel in 1473 he gave gottingen to his eldest son william iv
+error: pred= _2nd_; inp=the second; ref=ORDINAL 11 13 | the second | ii
+	input=he was the eldest of three sons of the landgrave george the second of hesse darmstadt and sophia eleonore of saxony
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <DELETE> _2nd_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=he was the eldest of three sons of the landgrave george  _2nd_ of hesse darmstadt and sophia eleonore of saxony
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN ORDINAL ORDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=he was the eldest of three sons of the landgrave george ii of hesse darmstadt and sophia eleonore of saxony
+error: pred= _8th_; inp=the eighth; ref=ORDINAL 13 15 | viii | the eighth
+	input=finally louis was imprisoned in fourteen forty three by his own son louis the eighth who had allied with henry the sixteenth
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> _14 4 3_ <SELF> <SELF> <SELF> <SELF> <SELF> <DELETE> _8th_ <SELF> <SELF> <SELF> <SELF> <SELF> <DELETE> _16th_
+	pred=finally louis was imprisoned in _14 4 3_ by his own son louis  _8th_ who had allied with henry  _16th_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN DATE DATE DATE PLAIN PLAIN PLAIN PLAIN PLAIN ORDINAL ORDINAL PLAIN PLAIN PLAIN PLAIN PLAIN ORDINAL ORDINAL
+	ref=finally louis was imprisoned in 1443 by his own son louis viii who had allied with henry xvi
+error: pred= _16th_; inp=the sixteenth; ref=ORDINAL 20 22 | the sixteenth | xvi
+	input=finally louis was imprisoned in fourteen forty three by his own son louis the eighth who had allied with henry the sixteenth
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> _14 4 3_ <SELF> <SELF> <SELF> <SELF> <SELF> <DELETE> _8th_ <SELF> <SELF> <SELF> <SELF> <SELF> <DELETE> _16th_
+	pred=finally louis was imprisoned in _14 4 3_ by his own son louis  _8th_ who had allied with henry  _16th_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN DATE DATE DATE PLAIN PLAIN PLAIN PLAIN PLAIN ORDINAL ORDINAL PLAIN PLAIN PLAIN PLAIN PLAIN ORDINAL ORDINAL
+	ref=finally louis was imprisoned in 1443 by his own son louis viii who had allied with henry xvi
+error: pred= _xiiith_; inp=the thirteenth; ref=ORDINAL 6 8 | xiii | the thirteenth
+	input=sacred repertories in paris under louis the thirteenth
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <DELETE> _xiiith_
+	pred=sacred repertories in paris under louis  _xiiith_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN ORDINAL ORDINAL
+	ref=sacred repertories in paris under louis xiii
+error: pred= _7th_; inp=the seventh; ref=ORDINAL 7 9 | the seventh | vii
+	input=edmund went on to father king henry the seventh who seized the throne at the battle of bosworth in fourteen eighty five
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <DELETE> _7th_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _14 8 5_
+	pred=edmund went on to father king henry  _7th_ who seized the throne at the battle of bosworth in _14 8 5_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN ORDINAL ORDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN DATE DATE DATE
+	ref=edmund went on to father king henry vii who seized the throne at the battle of bosworth in 1485
+error: pred= _12th_; inp=the twelfth; ref=ORDINAL 4 6 | the twelfth | xii
+	input=frederic j baumgartner louis the twelfth p one hundred five
+	tags=<SELF> _j._ <SELF> <SELF> <DELETE> _12th_ <SELF> _1 0 5_
+	pred=frederic _j._ baumgartner louis  _12th_ p _1 0 5_
+	semiotic=PLAIN LETTERS PLAIN PLAIN ORDINAL ORDINAL PLAIN CARDINAL CARDINAL CARDINAL
+	ref=frederic j. baumgartner louis xii p 105
+error: pred= 12th_; inp=the twelfth; ref=ORDINAL 4 6 | the twelfth | xii
+	input=frederic j baumgartner louis the twelfth p one hundred six
+	tags=<SELF> _j._ <SELF> <SELF> <DELETE> 12th_ <SELF> _1 0 6_
+	pred=frederic _j._ baumgartner louis  12th_ p _1 0 6_
+	semiotic=PLAIN LETTERS PLAIN PLAIN ORDINAL ORDINAL PLAIN CARDINAL CARDINAL CARDINAL
+	ref=frederic j. baumgartner louis xii p 106
+error: pred= _2nd_; inp=the second; ref=ORDINAL 18 20 | the second | ii
+	input=in nineteen fifty three she took part in the fleet review to celebrate the coronation of queen elizabeth the second
+	tags=<SELF> _19 5 3_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <DELETE> _2nd_
+	pred=in _19 5 3_ she took part in the fleet review to celebrate the coronation of queen elizabeth  _2nd_
+	semiotic=PLAIN DATE DATE DATE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN ORDINAL ORDINAL
+	ref=in 1953 she took part in the fleet review to celebrate the coronation of queen elizabeth ii
+error: pred= _16th_; inp=the sixteenth; ref=ORDINAL 7 9 | the sixteenth | xvi
+	input=in august seventeen seventy four king louis the sixteenth granted her letters of official recognition of nobility identical to her sister
+	tags=<SELF> <SELF> _17 7 4_ <SELF> <SELF> <DELETE> _16th_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=in august _17 7 4_ king louis  _16th_ granted her letters of official recognition of nobility identical to her sister
+	semiotic=PLAIN DATE DATE DATE DATE PLAIN PLAIN ORDINAL ORDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=in august 1774 king louis xvi granted her letters of official recognition of nobility identical to her sister
+error: pred= _2nd_; inp=the second; ref=ORDINAL 7 9 | the second | ii
+	input=other egyptian kings employing impalements include sobekhotep the second akhenaten seti and ramesses the ninth
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <DELETE> _2nd_ <SELF> <SELF> <SELF> <SELF> <DELETE> _9th_
+	pred=other egyptian kings employing impalements include sobekhotep  _2nd_ akhenaten seti and ramesses  _9th_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN ORDINAL ORDINAL PLAIN PLAIN PLAIN PLAIN ORDINAL ORDINAL
+	ref=other egyptian kings employing impalements include sobekhotep ii akhenaten seti and ramesses ix
+error: pred= _9th_; inp=the ninth; ref=ORDINAL 13 15 | ix | the ninth
+	input=other egyptian kings employing impalements include sobekhotep the second akhenaten seti and ramesses the ninth
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <DELETE> _2nd_ <SELF> <SELF> <SELF> <SELF> <DELETE> _9th_
+	pred=other egyptian kings employing impalements include sobekhotep  _2nd_ akhenaten seti and ramesses  _9th_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN ORDINAL ORDINAL PLAIN PLAIN PLAIN PLAIN ORDINAL ORDINAL
+	ref=other egyptian kings employing impalements include sobekhotep ii akhenaten seti and ramesses ix
+error: pred= _6th_; inp=the sixth; ref=ORDINAL 2 4 | vi | the sixth
+	input=king george the sixth and queen elizabeth diamond stakes result
+	tags=<SELF> <SELF> <DELETE> _6th_ _&_ <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=king george  _6th_ _&_ queen elizabeth diamond stakes result
+	semiotic=PLAIN PLAIN ORDINAL ORDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=king george vi and queen elizabeth diamond stakes result
+error: pred=  2nd_; inp=the twenty second; ref=ORDINAL 13 16 | xxii | the twenty second
+	input=in thirteen twenty six otto the first and his wife visited pope john the twenty second in avignon with a large retinue
+	tags=<SELF> _13 2 6_ <SELF> <DELETE> _i_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <DELETE> <DELETE> 2nd_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=in _13 2 6_ otto  _i_ and his wife visited pope john   2nd_ in avignon with a large retinue
+	semiotic=PLAIN DATE DATE DATE PLAIN ORDINAL ORDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN ORDINAL ORDINAL ORDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=in 1326 otto i and his wife visited pope john xxii in avignon with a large retinue
+error: pred= _2nd_; inp=the second; ref=ORDINAL 10 12 | the second | ii
+	input=anthony goodman the loyal conspiracy the lords appellant under richard the second the university of miami press nineteen seventy one twelve
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <DELETE> _2nd_ <SELF> <SELF> <SELF> <SELF> <SELF> _19 7 1_ _12_
+	pred=anthony goodman the loyal conspiracy the lords appellant under richard  _2nd_ the university of miami press _19 7 1_ _12_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN ORDINAL ORDINAL PLAIN PLAIN PLAIN PLAIN PLAIN DATE DATE DATE CARDINAL
+	ref=anthony goodman the loyal conspiracy the lords appellant under richard ii the university of miami press 1971 12
+error: pred= _2nd_; inp=the second; ref=ORDINAL 10 12 | the second | ii
+	input=he was then made a cardinal by pope john paul the second during the consistory of the twenty fifth of may nineteen eighty five
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <DELETE> _2nd_ <SELF> <SELF> <SELF> <SELF> <DELETE> _2 5_ <DELETE> <SELF> _19 8 5_
+	pred=he was then made a cardinal by pope john paul  _2nd_ during the consistory of  _2 5_  may _19 8 5_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN ORDINAL ORDINAL PLAIN PLAIN PLAIN PLAIN DATE DATE DATE DATE DATE DATE DATE DATE
+	ref=he was then made a cardinal by pope john paul ii during the consistory of 25 may 1985
+error: pred= _6th_; inp=the sixth; ref=ORDINAL 17 19 | vi | the sixth
+	input=on may fourth nineteen seventy one connolly was appointed the bishop of baker oregon by pope paul the sixth
+	tags=<SELF> <SELF> _4 ,19 7 1_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <DELETE> _6th_
+	pred=on may _4 ,19 7 1_ connolly was appointed the bishop of baker oregon by pope paul  _6th_
+	semiotic=PLAIN DATE DATE DATE DATE DATE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN ORDINAL ORDINAL
+	ref=on may 4, 1971 connolly was appointed the bishop of baker oregon by pope paul vi
+error: pred= _7th_; inp=the seventh; ref=ORDINAL 2 4 | the seventh | vii
+	input=king ferdinand the seventh of spain summoned british officers to lead his troops against france
+	tags=<SELF> <SELF> <DELETE> _7th_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=king ferdinand  _7th_ of spain summoned british officers to lead his troops against france
+	semiotic=PLAIN PLAIN ORDINAL ORDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=king ferdinand vii of spain summoned british officers to lead his troops against france
+error: pred= _3rd_; inp=the third; ref=ORDINAL 5 7 | iii | the third
+	input=finance and trade under edward the third the london lay subsidy of thirteen thirty two
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <DELETE> _3rd_ <SELF> <SELF> <SELF> <SELF> <SELF> _13 3 2_
+	pred=finance and trade under edward  _3rd_ the london lay subsidy of _13 3 2_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN ORDINAL ORDINAL PLAIN PLAIN PLAIN PLAIN PLAIN DATE DATE DATE
+	ref=finance and trade under edward iii the london lay subsidy of 1332
+error: pred= _2nd_; inp=the second; ref=ORDINAL 2 4 | the second | ii
+	input=queen elizabeth the second officially opened the extension on the seventh of june twenty thirteen
+	tags=<SELF> <SELF> <DELETE> _2nd_ <SELF> <SELF> <SELF> <SELF> <SELF> <DELETE> _7_ <DELETE> <SELF> _20 13_
+	pred=queen elizabeth  _2nd_ officially opened the extension on  _7_  june _20 13_
+	semiotic=PLAIN PLAIN ORDINAL ORDINAL PLAIN PLAIN PLAIN PLAIN PLAIN DATE DATE DATE DATE DATE DATE
+	ref=queen elizabeth ii officially opened the extension on 7 june 2013
+error: pred= _4th_; inp=the fourth; ref=ORDINAL 11 13 | iv | the fourth | iiii
+	input=she was also an intimate as well as lover of henry the fourth of france her future cousin by marriage
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <DELETE> _4th_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=she was also an intimate as well as lover of henry  _4th_ of france her future cousin by marriage
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN ORDINAL ORDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=she was also an intimate as well as lover of henry iv of france her future cousin by marriage
+error: pred= third; inp=the third; ref=ORDINAL 1 3 | iii | the third
+	input=muhammad the third ibn abd al aziz abu zayyan al s a i d was marinid sultan of morocco from thirteen seventy two to thirteen seventy four
+	tags=<SELF> <DELETE> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _s a__'_ _i d_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _13 7 2_ <SELF> _13 7 4_
+	pred=muhammad  third ibn abd al aziz abu zayyan al _s a__'_ _i d_ was marinid sultan of morocco from _13 7 2_ to _13 7 4_
+	semiotic=PLAIN ORDINAL ORDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN LETTERS LETTERS LETTERS LETTERS PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN DATE DATE DATE PLAIN DATE DATE DATE
+	ref=muhammad iii ibn abd al aziz abu zayyan al sa'id was marinid sultan of morocco from 1372 to 1374
+error: pred= _2nd_; inp=the second; ref=ORDINAL 14 16 | the second | ii
+	input=together with indefatigable she was present during the coronation fleet review of queen elizabeth the second on the fifteenth of june nineteen fifty three
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <DELETE> _2nd_ <SELF> <DELETE> _15_ <DELETE> <SELF> _19 5 3_
+	pred=together with indefatigable she was present during the coronation fleet review of queen elizabeth  _2nd_ on  _15_  june _19 5 3_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN ORDINAL ORDINAL PLAIN DATE DATE DATE DATE DATE DATE DATE
+	ref=together with indefatigable she was present during the coronation fleet review of queen elizabeth ii on 15 june 1953
+error: pred= _15th_; inp=the fifteenth; ref=ORDINAL 7 9 | the fifteenth | xv
+	input=he was a cousin of pope gregory the fifteenth
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <DELETE> _15th_
+	pred=he was a cousin of pope gregory  _15th_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN ORDINAL ORDINAL
+	ref=he was a cousin of pope gregory xv
+error: pred= _3rd_; inp=the third; ref=ORDINAL 4 6 | iii | the third
+	input=thirteen and fourteen george the third c point four o and thirty one george the third c point four six two one geo
+	tags=_13_ _&_ _14_ <SELF> <DELETE> _3rd_ <SELF> _. 4 0_ <SELF> _3 1_ <SELF> <DELETE> _3rd_ <SELF> _. 4 6 2 1_ <SELF>
+	pred=_13_ _&_ _14_ george  _3rd_ c _. 4 0_ and _3 1_ george  _3rd_ c _. 4 6 2 1_ geo
+	semiotic=CARDINAL VERBATIM CARDINAL PLAIN ORDINAL ORDINAL PLAIN DECIMAL DECIMAL DECIMAL PLAIN CARDINAL CARDINAL PLAIN ORDINAL ORDINAL PLAIN DECIMAL DECIMAL DECIMAL DECIMAL DECIMAL PLAIN
+	ref=13 & 14 george iii c .40 and 31 george iii c .4621 geo
+error: pred= _3rd_; inp=the third; ref=ORDINAL 14 16 | iii | the third
+	input=thirteen and fourteen george the third c point four o and thirty one george the third c point four six two one geo
+	tags=_13_ _&_ _14_ <SELF> <DELETE> _3rd_ <SELF> _. 4 0_ <SELF> _3 1_ <SELF> <DELETE> _3rd_ <SELF> _. 4 6 2 1_ <SELF>
+	pred=_13_ _&_ _14_ george  _3rd_ c _. 4 0_ and _3 1_ george  _3rd_ c _. 4 6 2 1_ geo
+	semiotic=CARDINAL VERBATIM CARDINAL PLAIN ORDINAL ORDINAL PLAIN DECIMAL DECIMAL DECIMAL PLAIN CARDINAL CARDINAL PLAIN ORDINAL ORDINAL PLAIN DECIMAL DECIMAL DECIMAL DECIMAL DECIMAL PLAIN
+	ref=13 & 14 george iii c .40 and 31 george iii c .4621 geo
+error: pred= first; inp=the first; ref=ORDINAL 30 32 | the first | i | i.
+	input=i s b n o seven one four six three two nine four five sil o c l c sil one three two one four six seven two handel michael the first masters of war classical strategic thought
+	tags=_i <SELF> <SELF> n_ _0 7 1 4 6 3 2 9 4 5_ <DELETE> <DELETE> <DELETE> _oclc_ <DELETE> <DELETE> _1 3 2 1 4 6 7 2_ <SELF> <SELF> <DELETE> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=_i s b n_ _0 7 1 4 6 3 2 9 4 5_    _oclc_   _1 3 2 1 4 6 7 2_ handel michael  first masters of war classical strategic thought
+	semiotic=LETTERS LETTERS LETTERS LETTERS TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=isbn 0714632945 oclc 13214672 handel michael i. masters of war classical strategic thought
+error: pred= _2nd_; inp=the second; ref=ORDINAL 42 44 | the second | ii
+	input=meier jorg piirainen i l p o tapani wegera klaus peter deutschsprachige handschriften in slowakischen archiven berlin two thousand nine i s b n nine seven eight sil three sil one one sil o one nine three three four sil three albert the second
+	tags=<SELF> <SELF> <SELF> _i <SELF> <SELF> o_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _2 00 9_ _i <SELF> <SELF> n_ _9 7 8 - 3 - 1 1 - 0 1 9 3 3 4 - 3_ <SELF> <DELETE> _2nd_
+	pred=meier jorg piirainen _i l p o_ tapani wegera klaus peter deutschsprachige handschriften in slowakischen archiven berlin _2 00 9_ _i s b n_ _9 7 8 - 3 - 1 1 - 0 1 9 3 3 4 - 3_ albert  _2nd_
+	semiotic=PLAIN PLAIN PLAIN LETTERS LETTERS LETTERS LETTERS PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN DATE DATE DATE LETTERS LETTERS LETTERS LETTERS TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE PLAIN ORDINAL ORDINAL
+	ref=meier jorg piirainen ilpo tapani wegera klaus peter deutschsprachige handschriften in slowakischen archiven berlin 2009 isbn 978-3-11-019334-3 albert ii
+error: pred= _2nd_; inp=the second; ref=ORDINAL 5 7 | the second | ii
+	input=by thirteen ten under edward the second he was a wardrobe clerk on a wage of seven and a half d
+	tags=<SELF> _13 10_ <SELF> <SELF> <DELETE> _2nd_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _7 <DELETE> <DELETE> ½_ <SELF>
+	pred=by _13 10_ under edward  _2nd_ he was a wardrobe clerk on a wage of _7   ½_ d
+	semiotic=PLAIN DATE DATE PLAIN PLAIN ORDINAL ORDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN FRACTION FRACTION FRACTION FRACTION PLAIN
+	ref=by 1310 under edward ii he was a wardrobe clerk on a wage of 7½ d

@@ -1,0 +1,408 @@
+error: pred=_m_; inp=meters; ref=PLAIN 5 6 | metres | meters
+	input=at seven hundred fifty seven meters two thousand four hundred eighty four feet it is the seventy third highest in the republic of ireland
+	tags=<SELF> _7 <DELETE> 5 7_ _m_ _2 , 4 <DELETE> 8 4_ _ft_ <SELF> <SELF> <SELF> _7 3rd_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=at _7  5 7_ _m_ _2 , 4  8 4_ _ft_ it is the _7 3rd_ highest in the republic of ireland
+	semiotic=PLAIN MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE PLAIN PLAIN PLAIN ORDINAL ORDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=at 757 metres 2,484 feet it is the 73rd highest in the republic of ireland
+error: pred=_2_; inp=kilometers; ref=PLAIN 12 13 | kilometres | kilometers
+	input=covering an area of seventy eight thousand seven hundred eighty two square kilometers thirty thousand four hundred eighteen square miles scotland has a population density of sixty seven point two per square kilometers one hundred seventy four square mi
+	tags=<SELF> <SELF> <SELF> <SELF> _7 8 , 7 <DELETE> 8 2_ _km_ _2_ _30 , 4 <DELETE> 18_ _sq_ _mi_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _6 7 . 2 /_ _km_ _2_ _1 <DELETE> 7 4_ _sq_ <SELF>
+	pred=covering an area of _7 8 , 7  8 2_ _km_ _2_ _30 , 4  18_ _sq_ _mi_ scotland has a population density of _6 7 . 2 /_ _km_ _2_ _1  7 4_ _sq_ mi
+	semiotic=PLAIN PLAIN PLAIN PLAIN MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE CARDINAL CARDINAL CARDINAL CARDINAL PLAIN PLAIN
+	ref=covering an area of 78,782 square kilometres 30,418 sq mi scotland has a population density of 67.2/km2 174 sq mi
+error: pred=_km_; inp=kilometers; ref=PLAIN 14 15 | kilometres | kilometers
+	input=it is a part of the municipality of sittard geleen and lies about three kilometers northwest of sittard
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _3_ _km_ <SELF> <SELF> <SELF>
+	pred=it is a part of the municipality of sittard geleen and lies about _3_ _km_ northwest of sittard
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN MEASURE MEASURE PLAIN PLAIN PLAIN
+	ref=it is a part of the municipality of sittard geleen and lies about three kilometres northwest of sittard
+error: pred=_km_; inp=kilometers; ref=PLAIN 6 7 | kilometres | kilometers
+	input=the whole trail is one hundred kilometers long marked by distance posts at five hundred meters intervals along the path
+	tags=<SELF> <SELF> <SELF> <SELF> _1 00_ _km_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _5 00_ _m_ <SELF> <SELF> <SELF> <SELF>
+	pred=the whole trail is _1 00_ _km_ long marked by distance posts at _5 00_ _m_ intervals along the path
+	semiotic=PLAIN PLAIN PLAIN PLAIN MEASURE MEASURE MEASURE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN MEASURE MEASURE MEASURE PLAIN PLAIN PLAIN PLAIN
+	ref=the whole trail is 100 kilometres long marked by distance posts at 500m intervals along the path
+error: pred=_km_; inp=kilometers; ref=PLAIN 12 13 | kilometres | kilometers
+	input=it lies approximately fifteen kilometers from sabadell and granollers and twenty five kilometers north of the city of barcelona
+	tags=<SELF> <SELF> <SELF> _15_ _km_ <SELF> <SELF> <SELF> <SELF> <SELF> _2 5_ _km_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=it lies approximately _15_ _km_ from sabadell and granollers and _2 5_ _km_ north of the city of barcelona
+	semiotic=PLAIN PLAIN PLAIN MEASURE MEASURE PLAIN PLAIN PLAIN PLAIN PLAIN MEASURE MEASURE MEASURE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=it lies approximately 15 km from sabadell and granollers and 25 kilometres north of the city of barcelona
+error: pred=_m__2_; inp=meter; ref=PLAIN 12 13 | metre | meter
+	input=they can occur in huge quantities up to sixty thousand per square meter have been observed
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _60 ,000_ <SELF> <DELETE> _m__2_ <SELF> <SELF> <SELF>
+	pred=they can occur in huge quantities up to _60 ,000_ per  _m__2_ have been observed
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL CARDINAL MEASURE MEASURE MEASURE PLAIN PLAIN PLAIN
+	ref=they can occur in huge quantities up to 60,000 per square metre have been observed
+error: pred=_2_; inp=kilometers; ref=PLAIN 10 11 | kilometres | kilometers
+	input=the river's catchment covers forty six thousand one hundred square kilometers seventeen thousand seven hundred ninety nine square miles
+	tags=<SELF> <SELF> <SELF> <SELF> _4 6 , 1 00_ _km_ _2_ _17 , 7 <DELETE> 9 9_ _sq_ _mi_
+	pred=the river's catchment covers _4 6 , 1 00_ _km_ _2_ _17 , 7  9 9_ _sq_ _mi_
+	semiotic=PLAIN PLAIN PLAIN PLAIN MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE
+	ref=the river's catchment covers 46,100 square kilometres 17,799 sq mi
+error: pred=_m_; inp=meters; ref=PLAIN 8 9 | metres | meters
+	input=it is a resinous tree up to sixteen meters fifty two feet tall
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _16_ _m_ _5 2_ _ft_ <SELF>
+	pred=it is a resinous tree up to _16_ _m_ _5 2_ _ft_ tall
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN MEASURE MEASURE MEASURE MEASURE MEASURE PLAIN
+	ref=it is a resinous tree up to 16 metres 52 ft tall
+error: pred=sad face _::_; inp=sad face sil; ref=PLAIN 1 4 | :( | sad face sil | :-(
+	input=note sad face sil nineteen twenty six eight hundred eight horsepower direct drive
+	tags=<SELF> <SELF> <SELF> _::_ _19 2 6_ _8 0 8_ _hp_ <SELF> <SELF>
+	pred=note sad face _::_ _19 2 6_ _8 0 8_ _hp_ direct drive
+	semiotic=PLAIN PLAIN PLAIN ELECTRONIC TELEPHONE DATE DATE MEASURE MEASURE MEASURE MEASURE PLAIN PLAIN
+	ref=note :( 1926 808 hp direct drive
+error: pred=_1:; inp=one; ref=PLAIN 1 2 | one | i
+	input=book one fifteen
+	tags=<SELF> _1: 15_
+	pred=book _1: 15_
+	semiotic=PLAIN TIME TIME
+	ref=book i xv
+error: pred=_2_; inp=kilometers; ref=PLAIN 7 8 | kilometres | kilometers
+	input=surface forty four point five eight square kilometers seventeen point two one square miles
+	tags=<SELF> _4 4 . 5 8_ _km_ _2_ _17 . 2 1_ _sq_ _mi_
+	pred=surface _4 4 . 5 8_ _km_ _2_ _17 . 2 1_ _sq_ _mi_
+	semiotic=PLAIN MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE
+	ref=surface 44.58 square kilometres 17.21 sq mi
+error: pred=_m_; inp=meters; ref=PLAIN 9 10 | metres | meters
+	input=it is found at elevations less than three hundred meters nine hundred eighty feet
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _3 00_ _m_ _9 <DELETE> 80_ _ft_
+	pred=it is found at elevations less than _3 00_ _m_ _9  80_ _ft_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE
+	ref=it is found at elevations less than 300 metres 980 ft
+error: pred=_m_; inp=meters; ref=PLAIN 8 9 | metres | meters
+	input=it was cut to two thousand five hundred meters in nineteen seventy one
+	tags=<SELF> <SELF> <SELF> <SELF> _2 , 5 00_ _m_ <SELF> _19 7 1_
+	pred=it was cut to _2 , 5 00_ _m_ in _19 7 1_
+	semiotic=PLAIN PLAIN PLAIN PLAIN MEASURE MEASURE MEASURE MEASURE MEASURE PLAIN DATE DATE DATE
+	ref=it was cut to 2,500 metres in 1971
+error: pred=_km_; inp=kilometers; ref=PLAIN 18 19 | kilometres | kilometers
+	input=the race consisted of thirteen laps on the champs elysées in paris making a distance of eighty nine kilometers
+	tags=<SELF> <SELF> <SELF> <SELF> _13_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _8 9_ _km_
+	pred=the race consisted of _13_ laps on the champs elysées in paris making a distance of _8 9_ _km_
+	semiotic=PLAIN PLAIN PLAIN PLAIN CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN MEASURE MEASURE MEASURE
+	ref=the race consisted of 13 laps on the champs elysées in paris making a distance of 89 kilometres
+error: pred=_#_; inp=number; ref=PLAIN 0 1 | no | number
+	input=number three hundred ninety six expeditionary combat support wing
+	tags=_#_ _3 <DELETE> 9 6_ <SELF> <SELF> <SELF> <SELF>
+	pred=_#_ _3  9 6_ expeditionary combat support wing
+	semiotic=VERBATIM CARDINAL CARDINAL CARDINAL CARDINAL PLAIN PLAIN PLAIN PLAIN
+	ref=no 396 expeditionary combat support wing
+error: pred=_mm_; inp=millimeters; ref=PLAIN 6 7 | millimeters | millimetres
+	input=the head are up to eighteen millimeters zero point seven in in diameter and contain up to ten individual flowers
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> _18_ _mm_ _0 . 7_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _10_ <SELF> <SELF>
+	pred=the head are up to _18_ _mm_ _0 . 7_ in in diameter and contain up to _10_ individual flowers
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN MEASURE MEASURE DECIMAL DECIMAL DECIMAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL PLAIN PLAIN
+	ref=the head are up to 18 millimetres 0.7 in in diameter and contain up to 10 individual flowers
+error: pred=_²_; inp=kilometers; ref=PLAIN 10 11 | kilometres | kilometers
+	input=it covers an area of twelve point eight o square kilometers and has about forty thousand inhabitants
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> _12 . 8 0_ _km_ _²_> <SELF> <SELF> <SELF> _40 ,000_ <SELF>
+	pred=it covers an area of _12 . 8 0_ _km_ _²_ and has about _40 ,000_ inhabitants
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE PLAIN PLAIN PLAIN CARDINAL CARDINAL PLAIN
+	ref=it covers an area of 12.80 square kilometres and has about 40,000 inhabitants
+error: pred=_mm_; inp=millimeters; ref=PLAIN 14 15 | millimeters | millimetres
+	input=the corrections exemplary service medal is circular made of silver colored metal thirty six millimeters one point four in in diameter
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _3 6_ _mm_ _1 . 4_ <SELF> <SELF> <SELF>
+	pred=the corrections exemplary service medal is circular made of silver colored metal _3 6_ _mm_ _1 . 4_ in in diameter
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN MEASURE MEASURE MEASURE DECIMAL DECIMAL DECIMAL PLAIN PLAIN PLAIN
+	ref=the corrections exemplary service medal is circular made of silver coloured metal 36 millimetres 1.4 in in diameter
+error: pred=_km_; inp=kilometers; ref=PLAIN 1 2 | kilometres | kilometers
+	input=twenty kilometers north of fitionesti after glodisteanu woods there is mosinoaiele monastery mosanoaia
+	tags=_20_ _km_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=_20_ _km_ north of fitionesti after glodisteanu woods there is mosinoaiele monastery mosanoaia
+	semiotic=MEASURE MEASURE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=twenty kilometres north of fitionesti after glodisteanu woods there is mosinoaiele monastery mosanoaia
+error: pred=_km_; inp=kilometers; ref=PLAIN 14 15 | kilometres | kilometers
+	input=its administrative seat and largest town is szczecinek which lies one hundred forty three kilometers eighty nine miles east of the regional capital szczecin
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _1 <DELETE> 4 3_ _km_ _8 9_ _mi_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=its administrative seat and largest town is szczecinek which lies _1  4 3_ _km_ _8 9_ _mi_ east of the regional capital szczecin
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=its administrative seat and largest town is szczecinek which lies 143 kilometres 89 mi east of the regional capital szczecin
+error: pred=_m_; inp=meters; ref=PLAIN 19 20 | metres | meters
+	input=the eastern yellowbelly racer is a thin bodied snake capable of attaining a total length of one point five meters sixty inches
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _1 . 5_ _m_ _60_ <SELF>
+	pred=the eastern yellowbelly racer is a thin bodied snake capable of attaining a total length of _1 . 5_ _m_ _60_ inches
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN MEASURE MEASURE MEASURE MEASURE MEASURE PLAIN
+	ref=the eastern yellowbelly racer is a thin bodied snake capable of attaining a total length of 1.5 metres 60 inches
+error: pred=_km_; inp=kilometers; ref=PLAIN 4 5 | kilometres | kilometers
+	input=dubcany lies approximately thirteen kilometers eight miles north west of olomouc and one hundred ninety eight kilometers one hundred twenty three miles east of prague
+	tags=<SELF> <SELF> <SELF> _13_ _km_ _8_ _mi_ <SELF> <SELF> <SELF> <SELF> <SELF> _1 <DELETE> 9 8_ _km_ _1 <DELETE> 2 3_ _mi_ <SELF> <SELF> <SELF>
+	pred=dubcany lies approximately _13_ _km_ _8_ _mi_ north west of olomouc and _1  9 8_ _km_ _1  2 3_ _mi_ east of prague
+	semiotic=PLAIN PLAIN PLAIN MEASURE MEASURE MEASURE MEASURE PLAIN PLAIN PLAIN PLAIN PLAIN MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE PLAIN PLAIN PLAIN
+	ref=dubcany lies approximately 13 kilometres 8 mi north west of olomouc and 198 km 123 mi east of prague
+error: pred=_km_; inp=kilometers; ref=PLAIN 22 23 | kilometres | kilometers
+	input=antimilos greek alpha nu tau iota mu eta lambda omicron sigma is a greek island in the cyclades thirteen miles twenty one kilometers northwest of milos
+	tags=<SELF> <SELF> _α_ _ν_ _τ_ _ι_ _μ_ _η_ _λ_ _ο_ _σ_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _13_ <SELF> _2 1_ _km_ <SELF> <SELF> <SELF>
+	pred=antimilos greek _α_ _ν_ _τ_ _ι_ _μ_ _η_ _λ_ _ο_ _σ_ is a greek island in the cyclades _13_ miles _2 1_ _km_ northwest of milos
+	semiotic=PLAIN PLAIN VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL PLAIN MEASURE MEASURE MEASURE PLAIN PLAIN PLAIN
+	ref=antimilos greek α ν τ ι μ η λ ο σ is a greek island in the cyclades 13 miles 21 kilometres northwest of milos
+error: pred=_km_; inp=kilometers; ref=PLAIN 6 7 | kilometres | kilometers
+	input=distance to mut was forty five kilometers twenty eight miles and to mersin is two hundred five kilometers one hundred twenty seven miles
+	tags=<SELF> <SELF> <SELF> <SELF> _4 5_ _km_ _2 8_ _mi_ <SELF> <SELF> <SELF> <SELF> _2 0 5_ _km_ _1 <DELETE> 2 7_ _mi_
+	pred=distance to mut was _4 5_ _km_ _2 8_ _mi_ and to mersin is _2 0 5_ _km_ _1  2 7_ _mi_
+	semiotic=PLAIN PLAIN PLAIN PLAIN MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE PLAIN PLAIN PLAIN PLAIN MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE
+	ref=distance to mut was 45 kilometres 28 mi and to mersin is 205 kilometres 127 mi
+error: pred=_km_; inp=kilometers; ref=PLAIN 17 18 | kilometres | kilometers
+	input=distance to mut was forty five kilometers twenty eight miles and to mersin is two hundred five kilometers one hundred twenty seven miles
+	tags=<SELF> <SELF> <SELF> <SELF> _4 5_ _km_ _2 8_ _mi_ <SELF> <SELF> <SELF> <SELF> _2 0 5_ _km_ _1 <DELETE> 2 7_ _mi_
+	pred=distance to mut was _4 5_ _km_ _2 8_ _mi_ and to mersin is _2 0 5_ _km_ _1  2 7_ _mi_
+	semiotic=PLAIN PLAIN PLAIN PLAIN MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE PLAIN PLAIN PLAIN PLAIN MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE
+	ref=distance to mut was 45 kilometres 28 mi and to mersin is 205 kilometres 127 mi
+error: pred=_2_; inp=kilometers; ref=PLAIN 9 10 | kilometres | kilometers
+	input=the municipality covers an area of ninety three square kilometers thirty six square miles
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _9 3_ _km_ _2_ _3 6_ _sq_ _mi_
+	pred=the municipality covers an area of _9 3_ _km_ _2_ _3 6_ _sq_ _mi_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE
+	ref=the municipality covers an area of 93 square kilometres 36 sq mi
+error: pred=_km_; inp=kilometers; ref=PLAIN 7 8 | kilometres | kilometers
+	input=there is a sandy ridge along two kilometers one point two miles of the shore
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _2_ _km_ _1 . 2_ _mi_ <SELF> <SELF> <SELF>
+	pred=there is a sandy ridge along _2_ _km_ _1 . 2_ _mi_ of the shore
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE PLAIN PLAIN PLAIN
+	ref=there is a sandy ridge along 2 kilometres 1.2 mi of the shore
+error: pred=_m_; inp=meters; ref=PLAIN 5 6 | metres | meters
+	input=with two point two o meters seven feet two point six in paulo conceicao holds the portuguese u twenty three record in men's high jump
+	tags=<SELF> _2 . 2 0_ _m_ _7_ _ft_ _2 . 6_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _u__-_ _2 3_ <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=with _2 . 2 0_ _m_ _7_ _ft_ _2 . 6_ in paulo conceicao holds the portuguese _u__-_ _2 3_ record in men's high jump
+	semiotic=PLAIN MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE DECIMAL DECIMAL DECIMAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=with 2.20 metres 7 ft 2.6 in paulo conceicao holds the portuguese u- 23 record in men's high jump
+error: pred=_2_; inp=kilometers; ref=PLAIN 18 19 | kilometres | kilometers
+	input=as of the first of january two thousand nine as municipality covers one hundred one point three square kilometers thirty nine square miles and has fifteen thousand eight hundred sixty three inhabitants
+	tags=<SELF> <SELF> <DELETE> _1_ <DELETE> <SELF> _2 00 9_ <SELF> <SELF> <SELF> _1 0 1 . 3_ _km_ _2_ _3 9_ _sq_ _mi_ <SELF> <SELF> _15 , 8 <DELETE> 6 3_ <SELF>
+	pred=as of  _1_  january _2 00 9_ as municipality covers _1 0 1 . 3_ _km_ _2_ _3 9_ _sq_ _mi_ and has _15 , 8  6 3_ inhabitants
+	semiotic=PLAIN PLAIN DATE DATE DATE DATE DATE DATE DATE PLAIN PLAIN PLAIN MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE PLAIN PLAIN CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL PLAIN
+	ref=as of 1 january 2009, as municipality covers 101.3 square kilometres 39 sq mi and has 15,863 inhabitants
+error: pred=_m_; inp=meters; ref=PLAIN 12 13 | metres | meters
+	input=kapudzhukh or kapydzhik at an elevation of three thousand nine hundred four meters twelve thousand eight hundred eight feet drains into the araxes
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _3 , 9 0 4_ _m_ _12 , 8 0 8_ _ft_ <SELF> <SELF> <SELF> <SELF>
+	pred=kapudzhukh or kapydzhik at an elevation of _3 , 9 0 4_ _m_ _12 , 8 0 8_ _ft_ drains into the araxes
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE PLAIN PLAIN PLAIN PLAIN
+	ref=kapudzhukh or kapydzhik at an elevation of 3,904 metres 12,808 ft drains into the araxes
+error: pred=_km_; inp=kilometers; ref=PLAIN 4 5 | kilometres | kilometers
+	input=tabriz is ninety four kilometers fifty eight miles away to the north northwest
+	tags=<SELF> <SELF> _9 4_ _km_ _5 8_ _mi_ <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=tabriz is _9 4_ _km_ _5 8_ _mi_ away to the north northwest
+	semiotic=PLAIN PLAIN MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=tabriz is 94 kilometres 58 mi away to the north northwest
+error: pred=_m_; inp=meters; ref=PLAIN 15 16 | metres | meters
+	input=in august twenty fourteen arzamasava won twenty fourteen european athletics championships in the eight hundred meters in a european leading time of one minute fifty eight seconds and fifteen milliseconds
+	tags=<SELF> <SELF> _20 14_ <SELF> <SELF> _20 14_ <SELF> <SELF> <SELF> <SELF> <SELF> _8 00_ _m_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _1: <DELETE> 5 8: <DELETE> <DELETE> 15_ <DELETE>
+	pred=in august _20 14_ arzamasava won _20 14_ european athletics championships in the _8 00_ _m_ in a european leading time of _1:  5 8:   15_ 
+	semiotic=PLAIN DATE DATE DATE PLAIN PLAIN DATE DATE PLAIN PLAIN PLAIN PLAIN PLAIN MEASURE MEASURE MEASURE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN TIME TIME TIME TIME TIME TIME TIME TIME
+	ref=in august 2014 arzamasava won 2014 european athletics championships in the 800 metres in a european leading time of 1:58.15
+error: pred=_km_; inp=kilometers; ref=PLAIN 7 8 | kilometres | kilometers
+	input=n h thirty four is about fourteen kilometers eight point seven miles from the site
+	tags=_n h__-_ _3 4_ <SELF> <SELF> _14_ _km_ _8 . 7_ _mi_ <SELF> <SELF> <SELF>
+	pred=_n h__-_ _3 4_ is about _14_ _km_ _8 . 7_ _mi_ from the site
+	semiotic=LETTERS LETTERS CARDINAL CARDINAL PLAIN PLAIN MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE PLAIN PLAIN PLAIN
+	ref=nh 34 is about 14 kilometres 8.7 mi from the site
+error: pred=_m_; inp=meters; ref=PLAIN 17 18 | metres | meters
+	input=the volcano is buried by ignimbrites which on its northern side reach an altitude of three hundred meters nine hundred eighty feet
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _3 00_ _m_ _9 <DELETE> 80_ _ft_
+	pred=the volcano is buried by ignimbrites which on its northern side reach an altitude of _3 00_ _m_ _9  80_ _ft_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE
+	ref=the volcano is buried by ignimbrites which on its northern side reach an altitude of 300 metres 980 ft
+error: pred=_m_; inp=meters; ref=PLAIN 19 20 | metres | meters
+	input=pointe de la fournache lies north of aussois and southwest of dent parrachée three thousand six hundred ninety seven meters twelve thousand one hundred twenty nine feet
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _3 , 6 <DELETE> 9 7_ _m_ _12 , 1 <DELETE> 2 9_ _ft_
+	pred=pointe de la fournache lies north of aussois and southwest of dent parrachée _3 , 6  9 7_ _m_ _12 , 1  2 9_ _ft_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE
+	ref=pointe de la fournache lies north of aussois and southwest of dent parrachée 3,697 metres 12,129 ft
+error: pred=_m_; inp=meters; ref=PLAIN 11 12 | metres | meters
+	input=it has an elevation of two thousand five hundred ninety six meters eight thousand five hundred seventeen feet above sea level
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> _2 , 5 <DELETE> 9 6_ _m_ _8 , 5 <DELETE> 17_ _ft_ <SELF> <SELF> <SELF>
+	pred=it has an elevation of _2 , 5  9 6_ _m_ _8 , 5  17_ _ft_ above sea level
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE PLAIN PLAIN PLAIN
+	ref=it has an elevation of 2,596 metres 8,517 ft above sea level
+error: pred=_km_; inp=kilometers; ref=PLAIN 4 5 | kilometres | kilometers
+	input=it lies approximately eleven kilometers seven miles west of garwolin and forty seven kilometers twenty nine miles south east of warsaw
+	tags=<SELF> <SELF> <SELF> _11_ _km_ _7_ _mi_ <SELF> <SELF> <SELF> <SELF> _4 7_ _km_ _2 9_ _mi_ <SELF> <SELF> <SELF> <SELF>
+	pred=it lies approximately _11_ _km_ _7_ _mi_ west of garwolin and _4 7_ _km_ _2 9_ _mi_ south east of warsaw
+	semiotic=PLAIN PLAIN PLAIN MEASURE MEASURE MEASURE MEASURE PLAIN PLAIN PLAIN PLAIN MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE PLAIN PLAIN PLAIN PLAIN
+	ref=it lies approximately 11 kilometres 7 mi west of garwolin and 47 km 29 mi south east of warsaw
+error: pred=_cm_; inp=centimeter; ref=PLAIN 7 8 | centimeter | centimetre
+	input=it grows to a diameter of one centimeter zero point three nine in
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _1_ _cm_ _0 . 3 9_ <SELF>
+	pred=it grows to a diameter of _1_ _cm_ _0 . 3 9_ in
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN MEASURE MEASURE DECIMAL DECIMAL DECIMAL DECIMAL PLAIN
+	ref=it grows to a diameter of 1 centimetre 0.39 in
+error: pred=_cm_; inp=centimeters; ref=PLAIN 11 12 | centimeters | centimetres
+	input=this species grows to a length of forty one point zero centimeters sixteen point one in s l
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _4 1 . 0_ _cm_ _16 . 1_ <SELF> _s l_
+	pred=this species grows to a length of _4 1 . 0_ _cm_ _16 . 1_ in _s l_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN MEASURE MEASURE MEASURE MEASURE MEASURE DECIMAL DECIMAL DECIMAL PLAIN LETTERS LETTERS
+	ref=this species grows to a length of 41.0 centimetres 16.1 in sl
+error: pred=_m_; inp=meters; ref=PLAIN 15 16 | metres | meters
+	input=the highest peak in the range is sallqantay at six thousand two hundred seventy one meters twenty thousand five hundred seventy four feet
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _6 , 2 <DELETE> 7 1_ _m_ _20 , 5 <DELETE> 7 4_ _ft_
+	pred=the highest peak in the range is sallqantay at _6 , 2  7 1_ _m_ _20 , 5  7 4_ _ft_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE
+	ref=the highest peak in the range is sallqantay at 6,271 metres 20,574 ft
+error: pred=_m_; inp=meters; ref=PLAIN 9 10 | metres | meters
+	input=each of these units is including a sixty five meters two hundred thirteen feet high flue gas stack
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _6 5_ _m_ _2 <DELETE> 13_ _ft_ <SELF> <SELF> <SELF> <SELF>
+	pred=each of these units is including a _6 5_ _m_ _2  13_ _ft_ high flue gas stack
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE PLAIN PLAIN PLAIN PLAIN
+	ref=each of these units is including a 65 metres 213 ft high flue gas stack
+error: pred=_km_; inp=kilometers; ref=PLAIN 4 5 | kilometres | kilometers
+	input=it lies approximately eight kilometers five miles south east of witnica and twenty two kilometers fourteen miles south west of gorzow wielkopolski
+	tags=<SELF> <SELF> <SELF> _8_ _km_ _5_ _mi_ <SELF> <SELF> <SELF> <SELF> <SELF> _2 2_ _km_ _14_ _mi_ <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=it lies approximately _8_ _km_ _5_ _mi_ south east of witnica and _2 2_ _km_ _14_ _mi_ south west of gorzow wielkopolski
+	semiotic=PLAIN PLAIN PLAIN MEASURE MEASURE MEASURE MEASURE PLAIN PLAIN PLAIN PLAIN PLAIN MEASURE MEASURE MEASURE MEASURE MEASURE PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=it lies approximately 8 kilometres 5 mi south east of witnica and 22 km 14 mi south west of gorzow wielkopolski
+error: pred=_cm_; inp=centimeters; ref=PLAIN 6 7 | centimeters | centimetres
+	input=it can grow up to nineteen centimeters seven point five in in length
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> _19_ _cm_ _7 . 5_ <SELF> <SELF> <SELF>
+	pred=it can grow up to _19_ _cm_ _7 . 5_ in in length
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN MEASURE MEASURE DECIMAL DECIMAL DECIMAL PLAIN PLAIN PLAIN
+	ref=it can grow up to 19 centimetres 7.5 in in length
+error: pred=_m_; inp=meters; ref=PLAIN 19 20 | metres | meters
+	input=the longest throw on the day was from tim eschebach with a throw of sixty one point eight eight meters twenty eleven record sixty five point nine nine meters
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _6 1 . 8 8_ _m_ _20 11_ <SELF> _6 5 . 9 9_ _m_
+	pred=the longest throw on the day was from tim eschebach with a throw of _6 1 . 8 8_ _m_ _20 11_ record _6 5 . 9 9_ _m_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN DECIMAL DECIMAL DECIMAL DECIMAL DECIMAL PLAIN DATE DATE PLAIN MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE
+	ref=the longest throw on the day was from tim eschebach with a throw of 61.88 metres 2011 record 65.99m
+error: pred=_km_; inp=kilometers; ref=PLAIN 11 12 | kilometres | kilometers
+	input=it is located in the town of nanyang eight point three kilometers five point two miles from the city center
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _8 . 3_ _km_ _5 . 2_ _mi_ <SELF> <SELF> <SELF> <SELF>
+	pred=it is located in the town of nanyang _8 . 3_ _km_ _5 . 2_ _mi_ from the city center
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE PLAIN PLAIN PLAIN PLAIN
+	ref=it is located in the town of nanyang 8.3 kilometres 5.2 mi from the city center
+error: pred=_m_; inp=meters; ref=PLAIN 39 40 | metres | meters
+	input=s p o r t s d a s h r e f e r e n c e dot c o m olympic sports swimming at the nineteen sixty eight ciudad de méxico summer games women's one hundred meters butterfly final
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _-_ <DELETE> <DELETE> <DELETE> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <DELETE> <DELETE> e.__c <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _19 6 8_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _1 00_ _m_ <SELF> <SELF>
+	pred=s p o r t s _-_    r e f e r e n c   e.__c o m olympic sports swimming at the _19 6 8_ ciudad de méxico summer games women's _1 00_ _m_ butterfly final
+	semiotic=ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC PLAIN PLAIN PLAIN PLAIN PLAIN DATE DATE DATE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN MEASURE MEASURE MEASURE PLAIN PLAIN
+	ref=sports-reference.com olympic sports swimming at the 1968 ciudad de méxico summer games women's 100 metres butterfly final
+error: pred=_2_; inp=kilometers; ref=PLAIN 13 14 | kilometres | kilometers
+	input=the macquarie system covers an area of more than seventy four thousand square kilometers twenty nine thousand square miles
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _7 4 ,000_ _km_ _2_ _2 9 ,000_ _sq_ _mi_
+	pred=the macquarie system covers an area of more than _7 4 ,000_ _km_ _2_ _2 9 ,000_ _sq_ _mi_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN MEASURE MEASURE CARDINAL MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE
+	ref=the macquarie system covers an area of more than 74,000 square kilometres 29,000 sq mi
+error: pred=_km_; inp=kilometers; ref=PLAIN 10 11 | kilometres | kilometers
+	input=the total length of the race is roughly five hundred kilometers three hundred ten miles
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _5 00_ _km_ _3 <DELETE> 10_ _mi_
+	pred=the total length of the race is roughly _5 00_ _km_ _3  10_ _mi_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE
+	ref=the total length of the race is roughly 500 kilometres 310 mi
+error: pred=_m_; inp=meters; ref=PLAIN 8 9 | metres | meters
+	input=it had a diameter of ten point five meters thirty four feet with walls three point five meters eleven feet thick at the bottom
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> _10 0. 5_ _m_ _3 4_ _ft_ <SELF> <SELF> _3 . 5_ _m_ _11_ <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=it had a diameter of _10 0. 5_ _m_ _3 4_ _ft_ with walls _3 . 5_ _m_ _11_ feet thick at the bottom
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN DECIMAL MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE PLAIN PLAIN MEASURE MEASURE MEASURE MEASURE MEASURE PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=it had a diameter of 10.5 metres 34 ft with walls 3.5 metres 11 ft thick at the bottom
+error: pred=_m_; inp=meters; ref=PLAIN 17 18 | metres | meters
+	input=it had a diameter of ten point five meters thirty four feet with walls three point five meters eleven feet thick at the bottom
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> _10 0. 5_ _m_ _3 4_ _ft_ <SELF> <SELF> _3 . 5_ _m_ _11_ <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=it had a diameter of _10 0. 5_ _m_ _3 4_ _ft_ with walls _3 . 5_ _m_ _11_ feet thick at the bottom
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN DECIMAL MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE PLAIN PLAIN MEASURE MEASURE MEASURE MEASURE MEASURE PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=it had a diameter of 10.5 metres 34 ft with walls 3.5 metres 11 ft thick at the bottom
+error: pred=_2_; inp=kilometers; ref=PLAIN 11 12 | kilometres | kilometers
+	input=the city covered an area of ten point eight eight square kilometers four point two square miles and existed from nineteen thirty eight until nineteen ninety four
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _1 0. 8 8_ _km_ _2_ _4 . 2_ _sq_ _mi_ <SELF> <SELF> <SELF> _19 3 8_ <SELF> _19 9 4_
+	pred=the city covered an area of _1 0. 8 8_ _km_ _2_ _4 . 2_ _sq_ _mi_ and existed from _19 3 8_ until _19 9 4_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE PLAIN PLAIN PLAIN DATE DATE DATE PLAIN DATE DATE DATE
+	ref=the city covered an area of 10.88 square kilometres 4.2 sq mi and existed from 1938 until 1994
+error: pred=_cm_; inp=centimeters; ref=PLAIN 10 11 | centimeters | centimetres
+	input=this species can reach a length of four point seven centimeters one point nine in t l
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _4 . 7_ _cm_ _1 . 9_ <SELF> _t l_
+	pred=this species can reach a length of _4 . 7_ _cm_ _1 . 9_ in _t l_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN MEASURE MEASURE MEASURE MEASURE DECIMAL DECIMAL DECIMAL PLAIN LETTERS LETTERS
+	ref=this species can reach a length of 4.7 centimetres 1.9 in tl
+error: pred=_m__2_; inp=meters; ref=PLAIN 8 9 | metres | meters
+	input=the tower covers six thousand eight hundred square meters one point seven acres zero point six eight hectares of land right on the bank of saigon river
+	tags=<SELF> <SELF> <SELF> _6 , 8 00_ <DELETE> _m__2_ _1 . 7_ <SELF> _0 . 6 8_ _ha_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=the tower covers _6 , 8 00_  _m__2_ _1 . 7_ acres _0 . 6 8_ _ha_ of land right on the bank of saigon river
+	semiotic=PLAIN PLAIN PLAIN MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE DECIMAL DECIMAL DECIMAL PLAIN MEASURE MEASURE MEASURE MEASURE MEASURE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=the tower covers 6,800 square metres 1.7 acres 0.68 ha of land right on the bank of saigon river
+error: pred=_m_; inp=meters; ref=PLAIN 14 15 | metres | meters
+	input=the wikki warm spring is the largest spring and is about thirteen point zero meters wide and one point nine meters deep
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _13 . 0_ _m_ <SELF> <SELF> _1 . 9_ _m_ <SELF>
+	pred=the wikki warm spring is the largest spring and is about _13 . 0_ _m_ wide and _1 . 9_ _m_ deep
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN DECIMAL DECIMAL MEASURE MEASURE PLAIN PLAIN MEASURE MEASURE DECIMAL PLAIN PLAIN
+	ref=the wikki warm spring is the largest spring and is about 13.0 metres wide and 1.9 metres deep
+error: pred=_m_; inp=meters; ref=PLAIN 20 21 | metres | meters
+	input=the wikki warm spring is the largest spring and is about thirteen point zero meters wide and one point nine meters deep
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _13 . 0_ _m_ <SELF> <SELF> _1 . 9_ _m_ <SELF>
+	pred=the wikki warm spring is the largest spring and is about _13 . 0_ _m_ wide and _1 . 9_ _m_ deep
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN DECIMAL DECIMAL MEASURE MEASURE PLAIN PLAIN MEASURE MEASURE DECIMAL PLAIN PLAIN
+	ref=the wikki warm spring is the largest spring and is about 13.0 metres wide and 1.9 metres deep
+error: pred=_2_; inp=kilometers; ref=PLAIN 12 13 | kilometres | kilometers
+	input=until amalgamation the city was five hundred ninety eight point three square kilometers two hundred thirty one point zero square miles in size
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> _5 <DELETE> 9 8 . 3_ _km_ _2_ _2 <DELETE> 3 1 . 0_ _sq_ _mi_ <SELF> <SELF>
+	pred=until amalgamation the city was _5  9 8 . 3_ _km_ _2_ _2  3 1 . 0_ _sq_ _mi_ in size
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE PLAIN PLAIN
+	ref=until amalgamation the city was 598.3 square kilometres 231.0 sq mi in size
+error: pred=_km_; inp=kilometers; ref=PLAIN 14 15 | kilometres | kilometers
+	input=the television series babylon five concerned an o'neill style space station eight point zero kilometers five miles long
+	tags=<SELF> <SELF> <SELF> <SELF> _5_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _8 . 0_ _km_ _5_ _mi_ <SELF>
+	pred=the television series babylon _5_ concerned an o'neill style space station _8 . 0_ _km_ _5_ _mi_ long
+	semiotic=PLAIN PLAIN PLAIN PLAIN CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE PLAIN
+	ref=the television series babylon 5 concerned an o'neill style space station 8.0 kilometres 5 miles long
+error: pred=_2_; inp=kilometers; ref=PLAIN 10 11 | kilometres | kilometers
+	input=it has an area one hundred eleven point two square kilometers forty two point nine square miles and it has the largest area of farmland in incheon
+	tags=<SELF> <SELF> <SELF> <SELF> _1 <DELETE> 11 . 2_ _km_ _2_ _4 2 . 9_ _sq_ _mi_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=it has an area _1  11 . 2_ _km_ _2_ _4 2 . 9_ _sq_ _mi_ and it has the largest area of farmland in incheon
+	semiotic=PLAIN PLAIN PLAIN PLAIN MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=it has an area 111.2 square kilometres 42.9 sq mi and it has the largest area of farmland in incheon
+error: pred=_m_; inp=meters; ref=PLAIN 10 11 | metres | meters
+	input=his personal best throw of seventy one point two six meters puts him eighth in the all time performers list
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> _7 1 . 2 6_ _m_ <SELF> <SELF> _8th_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=his personal best throw of _7 1 . 2 6_ _m_ puts him _8th_ in the all time performers list
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN DECIMAL DECIMAL DECIMAL MEASURE MEASURE MEASURE PLAIN PLAIN ORDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=his personal best throw of 71.26 metres puts him eighth in the all time performers list
+error: pred=_#_; inp=number; ref=PLAIN 10 11 | no | number
+	input=the e t four o o o a x had number three d core or shader
+	tags=<SELF> _e t_ _4 0 0 0_ _a x_ <SELF> _#_ _3_ <SELF> <SELF> <SELF> <SELF>
+	pred=the _e t_ _4 0 0 0_ _a x_ had _#_ _3_ d core or shader
+	semiotic=PLAIN LETTERS LETTERS DIGIT DIGIT DIGIT DIGIT LETTERS LETTERS PLAIN VERBATIM CARDINAL PLAIN PLAIN PLAIN PLAIN
+	ref=the et 4000 ax had no 3 d core or shader
+error: pred=_km_; inp=kilometers; ref=PLAIN 14 15 | kilometres | kilometers
+	input=six hundred seventy elevenths g b is a village located in pakistan approximately five kilometers three point one miles from p i r mahal
+	tags=_6 <DELETE> 70 /11_ _g b_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _5_ _km_ _3 . 1_ _mi_ <SELF> _p <SELF> r_ <SELF>
+	pred=_6  70 /11_ _g b_ is a village located in pakistan approximately _5_ _km_ _3 . 1_ _mi_ from _p i r_ mahal
+	semiotic=FRACTION FRACTION FRACTION FRACTION LETTERS LETTERS PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE PLAIN LETTERS LETTERS LETTERS PLAIN
+	ref=670/11 g.b. is a village located in pakistan approximately 5 kilometres 3.1 mi from pir mahal
+error: pred=_m_; inp=meters; ref=PLAIN 7 8 | metres | meters
+	input=her personal best in the eight hundred meters is one minute fifty nine seconds and thirty milliseconds from twenty thirteen
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> _8 00_ _m_ <SELF> _1: <DELETE> 5 9: <DELETE> <DELETE> 3 0_ <SELF> _20 13_
+	pred=her personal best in the _8 00_ _m_ is _1:  5 9:   3 0_ from _20 13_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN MEASURE MEASURE MEASURE PLAIN TIME TIME TIME TIME TIME TIME TIME TIME PLAIN DATE DATE
+	ref=her personal best in the 800 metres is 1:59.30 from 2013
+error: pred=_#_; inp=number; ref=PLAIN 3 4 | no | number
+	input=common ministerial decision number three thousand twenty one twenty two tenths f of the twenty fourth of december two thousand seven decree no twenty five two thousand firsts
+	tags=<SELF> <SELF> <SELF> _#_ _3 0 2 1_ _2 2 /10_ <SELF> <SELF> <DELETE> _2 4_ <DELETE> <SELF> _2 00 7_ <SELF> <SELF> _2 5 /2 <DELETE> 001_
+	pred=common ministerial decision _#_ _3 0 2 1_ _2 2 /10_ f of  _2 4_  december _2 00 7_ decree no _2 5 /2  001_
+	semiotic=PLAIN PLAIN PLAIN VERBATIM CARDINAL CARDINAL CARDINAL CARDINAL FRACTION FRACTION FRACTION PLAIN PLAIN DATE DATE DATE DATE DATE DATE DATE DATE PLAIN PLAIN FRACTION FRACTION FRACTION FRACTION FRACTION
+	ref=common ministerial decision no 3021 22/10 f of 24 december 2007 decree no 25/2001
+error: pred=_m_; inp=meters; ref=PLAIN 7 8 | metres | meters
+	input=remarkably eighteen hours after the five thousand meters final he competed in the men's marathon and finished fifth in two hours thirteen minutes and eleven seconds
+	tags=<SELF> _18_ <SELF> <SELF> <SELF> _5 000_ _m_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _2: <DELETE> 13: <DELETE> <DELETE> 11_ <DELETE>
+	pred=remarkably _18_ hours after the _5 000_ _m_ final he competed in the men's marathon and finished fifth in _2:  13:   11_ 
+	semiotic=PLAIN CARDINAL PLAIN PLAIN PLAIN MEASURE MEASURE MEASURE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN TIME TIME TIME TIME TIME TIME TIME
+	ref=remarkably 18 hours after the 5,000 metres final he competed in the men's marathon and finished fifth in 2:13:11
+error: pred=_m_; inp=meters; ref=PLAIN 8 9 | metres | meters
+	input=her personal best times on the five thousand meters was fifteen minutes thirty four seconds and thirty one milliseconds minutes achieved in september nineteen ninety nine in xi'an
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _5 000_ _m_ <SELF> _15: <DELETE> 3 4: <DELETE> <DELETE> 3 1_ <DELETE> <SELF> <SELF> <SELF> <SELF> _19 9 9_ <SELF> <SELF>
+	pred=her personal best times on the _5 000_ _m_ was _15:  3 4:   3 1_  minutes achieved in september _19 9 9_ in xi'an
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN MEASURE MEASURE MEASURE PLAIN TIME TIME TIME TIME TIME TIME TIME TIME TIME PLAIN PLAIN PLAIN DATE DATE DATE DATE PLAIN PLAIN
+	ref=her personal best times on the 5000 metres was 15:34.31 minutes achieved in september 1999 in xi'an
+error: pred=_£_; inp=pound; ref=PLAIN 2 3 | pound | lb
+	input=choate putt pound eighteen one thousand eight hundred fifty sixths
+	tags=<SELF> <SELF> _£_ _18 /1 <DELETE> 8 <DELETE> 5 6_
+	pred=choate putt _£_ _18 /1  8  5 6_
+	semiotic=PLAIN PLAIN VERBATIM FRACTION FRACTION FRACTION FRACTION FRACTION FRACTION FRACTION
+	ref=choate putt lb 18/1856
+error: pred=_m_; inp=meters; ref=PLAIN 7 8 | metres | meters
+	input=his personal best time over eight hundred meters was one minute forty four seconds and twenty four milliseconds minutes achieved in nineteen ninety three
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> _8 00_ _m_ <SELF> _1: <DELETE> 4 4: <DELETE> <DELETE> 2 4_ <DELETE> <SELF> <SELF> <SELF> _19 9 3_
+	pred=his personal best time over _8 00_ _m_ was _1:  4 4:   2 4_  minutes achieved in _19 9 3_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN MEASURE MEASURE MEASURE PLAIN TIME TIME TIME TIME TIME TIME TIME TIME TIME PLAIN PLAIN PLAIN DATE DATE DATE
+	ref=his personal best time over 800 metres was 1:44.24 minutes achieved in 1993
+error: pred=_m_; inp=meters; ref=PLAIN 9 10 | metres | meters
+	input=he gained the advantage in the last one hundred meters and won by a head at odds of four over one
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _1 00_ _m_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _4 / 1_
+	pred=he gained the advantage in the last _1 00_ _m_ and won by a head at odds of _4 / 1_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL MEASURE MEASURE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN FRACTION FRACTION FRACTION
+	ref=he gained the advantage in the last 100 metres and won by a head at odds of 4/1

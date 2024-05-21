@@ -1,0 +1,292 @@
+-------------------------------------------
+TYPE              ERRORS     TOTAL     RATE
+-------------------------------------------
+Sentence              37        37  100.00%
+Word                 300       502   59.76%
+-------------------------------------------
+Copy Word            144       437   32.95%
+Uppercase Word       149        11 1354.55%
+Digit                 43        40  107.50%
+Punctuation           88         0    0.00%
+Symbol                 2         4   50.00%
+-------------------------------------------
+
+-------------------------------------------
+CHARACTER SETS:
+-------------------------------------------
+Copy chars:     abcdefghijklmnopqrstuvwxyz
+Punctuation:    ,;:.?!/-()"
+Symbols:        % & ° § + EUR CHF USD GBP m mm cm km m2 m3 km2 l dl ml g kg
+-------------------------------------------
+ the way to seletar lodge 1 * 
+
+  |     |   |   |   |  |     |      |   | | 
+
+Please show me the way to Seletar Lodge 1 . 
+
+  S                          S      S     I 
+
+   *     gilstead road bedok north and  *   one  north link 
+
+   |        |      |     |     |    |   |    |     |    |   
+
+Gilstead   Road    ,   Bedok North and One North  Link  .   
+
+   I        S      S     S     S        I    S     S    S   
+
+promenade siang cho keong temple and library at     *     chinatown 
+
+    |       |    |    |     |     |     |    |      |         |     
+
+Promenade Siang Cho Keong Temple and Library at Chinatown     .     
+
+    S       S    S    S     S           S           I         S     
+
+jurong island terminal miller street and    *     aljunied   mrt   station 
+
+  |      |       |       |      |     |     |        |        |       |    
+
+Jurong Island Terminal Miller Street and Aljunied   MRT    Station    .    
+
+  S      S       S       S      S           I        S        S       S    
+
+seletar teng tong road and  *     axa     university   asia  pacific campus 
+
+   |     |    |    |    |   |      |          |         |       |      |    
+
+Seletar Teng Tong Road and AXA University    Asia    Pacific  Campus   .    
+
+   S     S    S    S        I      S          S         S       S      S    
+
+geylang lorong 8 bukit ho swee link and   *   jalan  basong 
+
+   |      |    |   |   |   |    |    |    |     |      |    
+
+Geylang Lorong 8 Bukit Ho Swee Link and Jalan Basong   .    
+
+   S      S        S   S   S    S         I     S      S    
+
+250000 mm  *  yes 
+
+  |    |   |   |  
+
+250000 mm Yes  .  
+
+           I   S  
+
+so the sort code is * * * * * * * * * * * 560018 
+
+|   |   |    |   |  | | | | | | | | | | |   |    
+
+So the sort code is 5 , 6 , 0 , 0 , 1 , 8   .    
+
+S                   I I I I I I I I I I I   S    
+
+  *   think ah let me see how many bond holdings we have * we have around 55 % 
+
+  |     |   |   |  |   |   |   |    |      |     |   |   | |   |     |    |  | 
+
+Think   Ah  ,  let me see how many bond holdings we have . We have around 55 % 
+
+  I     S   S                                            I S                   
+
+is not like 100 % or 80 % is not a very aggressive um as asset allocation in your yeah in your portfolio * so um 
+
+|   |   |    |  | |  |  | |   |  |  |       |      |  |    |       |      |   |    |   |   |       |     | |  |  
+
+is not like 100 % or 80 % is not a very aggressive UM as asset allocation in your yeah in your portfolio . So UM 
+
+                                                   S                                                     I S  S  
+
+3472 * 
+
+ |   | 
+
+3472 . 
+
+     I 
+
+oh oh so would you like to settle the *   er   HK    $    outstanding balance with your  *  *   US   $ 
+
+|  |  |    |    |   |   |    |     |  |   |    |     |         |         |     |    |    |  |   |    | 
+
+00 .  So would you like to settle the ER Hong Kong dollar outstanding balance with your U.S . dollar ? 
+
+S  S  S                               I   S    S     S                                   I  I   S    S 
+
+  *   remit  HK     $    3500 * 
+
+  |     |    |      |     |   | 
+
+Remit  Hong Kong Dollars 3500 . 
+
+  I     S    S      S         I 
+
+so you prefer to come down i 'll be there in 30 minutes * is it *  ok 
+
+|   |    |    |   |    |   |  |  |    |   |  |     |    | |  |  |  |  
+
+So you prefer to come down . Ill be there in 30 minutes . Is it OK ?  
+
+S                          S  S                         I S     I  S  
+
+ *  yup the account number is *  * *  004 
+
+ |   |   |     |      |    |  |  | |   |  
+
+Yup  ,  the account number is 00 : 04  .  
+
+ I   S                        I  I I   S  
+
+ *   £550 okay against  US $ 
+
+ |    |    |      |     |  | 
+
+550 pound okay against USD . 
+
+ I    S                 S  S 
+
+then i was looking at the hong kong account ah that time we sell *    er   costco and then there is some cash there * so i trying to do some er cleanup * i put it to your sing account *  ah so whenever you want to do conversion is easier * so i also will fax to you another instruction will be from your  *   hong kong 
+
+ |   |  |     |    |   |   |    |      |    |   |    |   |   |   |    |      |     |   |     |   |   |    |     |   | |  |   |    |  |   |   |     |    | |  |  |  |   |    |      |    |  |  |     |      |   |   |  |      |      |    |    | |  |  |    |    |  |   |     |         |       |   |   |    |    |    |    |   
+
+Then I was looking at the Hong Kong account AH that time we sell ER Costco   .    And then there is some cash there . So I trying to do some ER cleanup . I put it to your Sing account AH .  So whenever you want to do conversion is easier . So I also will fax to you another instruction will be from your Hong Kong  .   
+
+ S   S                     S    S           S                    I    S      S     S                                I S  S                   S          I S                 S           I  S  S                                               I S  S                                                             I    S    S   
+
+um hum the second one is     uh     AUD 38195 *  uh 
+
+|   |   |    |     |  |      |       |    |   |  |  
+
+Um Hum  II  One    is UH Australian  $  38195 UH .  
+
+S   S   S    S     S  S      S       S        I  S  
+
+860000   8   6 6 60000 * 
+
+  |      |   | |   |   | 
+
+  *    86008 6 : 60000 . 
+
+  D      S     S       I 
+
+mmmmm or 2 weeks * 2 weeks *  *   okay  2  weeks is fine and then eh and then umm 
+
+  |   |  |   |   | |   |   |  |    |    |    |   |   |    |   |   |   |   |    |  
+
+ MMMM or 2 weeks , 2 weeks . Okay  .   Two weeks is fine and then EH and then UMM 
+
+  S              I         I  I    S    S                         S            S  
+
+and the bank will be bank of   *    cyprus the swift is   *    * * bcypcy2n 
+
+ |   |   |    |   |   |   |    |      |     |    |   |    |    | |    |     
+
+And the bank will be bank of Cyprus   ,    the swift is BCYPCY 2 N    .     
+
+ S                             I      S                   I    I I    S     
+
+this is for service fees 17th of April to 16th of July * 
+
+ |   |   |     |     |    |   |    |   |   |   |   |   | 
+
+This is for service fees  17  of April to  16  of July . 
+
+ S                        S                S           I 
+
+all same amount 360000 *  *  yes i just i just pick that straight out 
+
+ |   |     |      |    |  |   |  |  |   |  |    |    |      |      |  
+
+all same amount 360000 ? Yes  .  I just I just pick that straight out 
+
+                       I  I   S  S      S                             
+
+so we will remit US    $     203000  
+
+|  |   |     |   |     |       |     
+
+So we will remit us dollars 2003,000 
+
+S                S     S       S     
+
+  *   *   *  0.93 usd so so we’ll do that *  uh i mean * the buy back the euros 
+
+  |   |   |   |    |  |  |    |   |   |   |  |  |  |   |  |   |   |    |    |   
+
+point 93 USD  .    So so we  'll  do that UH .  I mean , the buy back the euros 
+
+  I   I   I   S    S     S    S           I  S  S      I                        
+
+so we 'll be doing this for value tomorrow * so the indicative spot rate right now is 1.   uh  3 
+
+|  |   |  |    |    |    |    |      |     | |   |      |       |    |     |    |  |  |    |   | 
+
+So we 'll be doing this for value tomorrow . So the indicative spot rate right now is *  1.UH3 . 
+
+S                                          I S                                        D    S   S 
+
+ *   okay good yeap and the second would be the    *        *    CAD    er      CAD   10000 * 
+
+ |    |    |    |    |   |    |      |   |   |     |        |     |     |        |      |   | 
+
+Okay  ,   good yeap and the second would be the Canadian dollars  ER Canadian dollars 10000 . 
+
+ I    S                                            I        I     S     S        S          I 
+
+ *   yeah you would like to do it  1  week or  2  week * 
+
+ |    |    |    |    |   |  |  |   |   |   |   |   |   | 
+
+Yeah  :   You would like to do it one week or two week . 
+
+ I    S    S                       S           S       I 
+
+ter the iban for this transfer is *   *  *  *   * * * * * *   fr   76300770489439 
+
+ |   |   |    |   |      |     |  |   |  |  |   | | | | | |   |          |        
+
+Ter the Iban for this transfer is FR 763 , Zero 7 , 7 , 0 , 489439       .        
+
+ S       S                        I   I  I  I   I I I I I I   S          S        
+
+you need to remit US $ 15000 *  to bank united new york branch * the beneficiary * 
+
+ |   |   |    |   |  |   |   |  |   |     |     |   |     |    |  |       |      | 
+
+You need to remit *  $ 15000 us to bank United New York branch , the beneficiary . 
+
+ S                D          I            S     S   S          I                 I 
+
+2.117 * but this is like as of today * 
+
+  |   |  |   |   |   |   |  |    |   | 
+
+2.117 , but this is like as of today . 
+
+      I                              I 
+
+*    *    *  ya 800350 
+
+|    |    |  |    |    
+
+Ya 80300 and 50   .    
+
+I    I    I  S    S    
+
+ *    *  *   *   * * * * * * * * * * * * * * * * * * * * * *  *  01950000357023318879 and this reference will be service fee * 
+
+ |    |  |   |   | | | | | | | | | | | | | | | | | | | | | |  |           |            |   |       |      |   |     |     |  | 
+
+Zero One 95 Zero 0 , 0 , 3 , 5 , 7 , 0 , 2 , 3 , 3 , 1 , 8 , 879          ,           and this reference will be service fee . 
+
+ I    I  I   I   I I I I I I I I I I I I I I I I I I I I I I  I           S                                                  I 
+
+um apparently * there were letters sent all they way back febuary saying we are going to be changing the system to all the clients * and i think clients get so much junk mail from the bank that they do n't alway read * the stuff they also put in that revise based on this * and let me tell you that we still have outstanding matters * that have n't been read my understanding is that all of the stuff from the 
+
+|      |      |   |    |      |     |    |   |    |   |      |      |    |   |    |   |  |     |      |    |    |   |   |     |    |  |  |   |      |     |  |   |    |    |    |    |   |    |    |   |   |    |    |   |  |    |    |    |    |  |   |     |      |   |   |   |  |   |  |   |    |   |   |    |    |        |         |    |  |    |    |   |    |   |        |       |   |    |  |   |    |    |    |  
+
+UM apparently , there were letters sent all they way back febuary saying we are going to be changing the system to all the clients . And I think clients get so much junk mail from the bank that they do n't alway read . The stuff they also put in that revise based on this . And let me tell you that we still  *   outstanding matters . That have n't been  *   *        *       *   *   all *  the stuff that  .  
+
+S             I                                                                                                                    I  S  S                                                                               I  S                                                   I  S                                 D                       I  S                  D   D        D       D   D       D             S    S  
+

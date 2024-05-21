@@ -1,0 +1,330 @@
+error: pred=_19 8; inp=nineteen eighty; ref=DATE 12 14 | 1980 a | nineteen eighty | 1980, | 1980/ | 1980
+	input=this is a coincidence however as the crater was not discovered until nineteen eighty three years after the film was made
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _19 8 3_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=this is a coincidence however as the crater was not discovered until _19 8 3_ years after the film was made
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN DATE DATE DATE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=this is a coincidence however as the crater was not discovered until 1980 three years after the film was made
+error: pred=_1 6  .05 .20 12_; inp=the sixteenth of may twenty twelve; ref=DATE 3 9 | 16 may 2012 | 2012-5-16 | the sixteenth of may twenty twelve | 2012-05-16 | 16/05/2012 | 2012.05.16 | 2012/05/16
+	input=a i k the sixteenth of may twenty twelve soccerwayorebro versus
+	tags=_a <SELF> k_ _1 6 <DELETE> .05 .20 12_ <SELF> <SELF>
+	pred=_a i k_ _1 6  .05 .20 12_ soccerwayorebro versus
+	semiotic=LETTERS LETTERS LETTERS DATE DATE DATE DATE DATE DATE PLAIN PLAIN
+	ref=aik 16 may 2012 soccerwayorebro vs
+error: pred=_sep._ _2 7 ,19 30_; inp=september twenty seventh nineteen thirty; ref=DATE 1 6 | september 27, 1930 | sep 27, 1930 | september twenty seventh nineteen thirty
+	input=ten september twenty seventh nineteen thirty p one hundred fifty three
+	tags=_10_ _sep._ _2 7 ,19 30_ <SELF> _1 <DELETE> 5 3_
+	pred=_10_ _sep._ _2 7 ,19 30_ p _1  5 3_
+	semiotic=CARDINAL DATE DATE DATE DATE DATE PLAIN CARDINAL CARDINAL CARDINAL CARDINAL
+	ref=10 september 27, 1930 p 153
+error: pred=_7 _3 .20 15_; inp=july thirtieth twenty fifteen; ref=DATE 22 26 | july 30 2015 | july 30th, 2015 | 7/30/2015 | july 30th 2015 | 7.30.2015 | jul 30, 2015 | july 30, 2015 | july thirtieth twenty fifteen
+	input=s h o w b u z z d a i l y's top one hundred thursday cable originals and network update july thirtieth twenty fifteen
+	tags=_s <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> y's_ <SELF> _1 00_ <SELF> <SELF> <SELF> _&_ <SELF> <SELF> _7 _3 .20 15_
+	pred=_s h o w b u z z d a i l y's_ top _1 00_ thursday cable originals _&_ network update _7 _3 .20 15_
+	semiotic=LETTERS LETTERS LETTERS LETTERS LETTERS LETTERS LETTERS LETTERS LETTERS LETTERS LETTERS LETTERS LETTERS PLAIN CARDINAL CARDINAL PLAIN PLAIN PLAIN VERBATIM PLAIN PLAIN DATE DATE DATE DATE
+	ref=showbuzzdaily's top 100 thursday cable originals & network update 7.30.2015
+error: pred=wednesday  _,2 4_  august _20 11_; inp=wednesday the twenty fourth of august twenty eleven; ref=DATE 11 19 | wednesday the twenty fourth of august twenty eleven | wednesday 24 august 2011
+	input=the ties are due to be played on tuesday twenty three wednesday the twenty fourth of august twenty eleven
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _2 3_ <SELF> <DELETE> _,2 4_ <DELETE> <SELF> _20 11_
+	pred=the ties are due to be played on tuesday _2 3_ wednesday  _,2 4_  august _20 11_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL CARDINAL DATE DATE DATE DATE DATE DATE DATE DATE
+	ref=the ties are due to be played on tuesday 23 wednesday 24 august 2011
+error: pred=_1 ,000_; inp=one thousand; ref=DATE 12 14 | 1000, | one thousand | 1000 | 1000 m | 1000/
+	input=between forty and fifty local sabbath schools were opened where more than one thousand children were taught
+	tags=<SELF> _40_ <SELF> _50_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _1 ,000_ <SELF> <SELF> <SELF>
+	pred=between _40_ and _50_ local sabbath schools were opened where more than _1 ,000_ children were taught
+	semiotic=PLAIN CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL CARDINAL PLAIN PLAIN PLAIN
+	ref=between 40 and 50 local sabbath schools were opened where more than 1000 children were taught
+error: pred= _2 9_  august _19 _14,_; inp=the twenty ninth of august nineteen fourteen; ref=DATE 4 11 | 29 august 1914 | the twenty ninth of august nineteen fourteen
+	input=he was commissioned on the twenty ninth of august nineteen fourteen temporary second lieutenant into the sixth battalion east yorkshire regiment
+	tags=<SELF> <SELF> <SELF> <SELF> <DELETE> _2 9_ <DELETE> <SELF> _19 _14,_ <SELF> <SELF> <SELF> <SELF> <SELF> _6th_ <SELF> <SELF> <SELF> <SELF>
+	pred=he was commissioned on  _2 9_  august _19 _14,_ temporary second lieutenant into the _6th_ battalion east yorkshire regiment
+	semiotic=PLAIN PLAIN PLAIN PLAIN DATE DATE DATE DATE DATE DATE CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN ORDINAL PLAIN PLAIN PLAIN PLAIN
+	ref=he was commissioned on 29 august 1914 temporary second lieutenant into the 6th battalion east yorkshire regiment
+error: pred=_feb._ 18 8 2_; inp=february eighteen eighty two; ref=DATE 3 7 | feb 1882 | february 1882 | february eighteen eighty two
+	input=one to five february eighteen eighty two p p
+	tags=_1_ _-_ _5_ _feb._ 18 8 2_ <DELETE> _pp_
+	pred=_1_ _-_ _5_ _feb._ 18 8 2_  _pp_
+	semiotic=CARDINAL PLAIN CARDINAL DATE DATE DATE DATE VERBATIM VERBATIM
+	ref=1 - 5 february 1882 pp
+error: pred=september _02 ,2 00 5_; inp=september second two thousand five; ref=DATE 2 7 | september 2, 2005 | sep 2, 2005 | sept 2, 2005 | september second two thousand five
+	input=renew america september second two thousand five the next conservatism number thirty five good new taxes paul weyrich
+	tags=<SELF> <SELF> <SELF> _02 ,2 00 5_ <SELF> <SELF> <SELF> _#_ _3 5_ <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=renew america september _02 ,2 00 5_ the next conservatism _#_ _3 5_ good new taxes paul weyrich
+	semiotic=PLAIN PLAIN DATE DATE DATE DATE DATE PLAIN PLAIN PLAIN VERBATIM CARDINAL CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=renew america september 2, 2005 the next conservatism # 35 good new taxes paul weyrich
+error: pred=_11: 5 8_; inp=eleven fifty eight; ref=DATE 2 5 | eleven fifty eight | 1158 | 1158/
+	input=brain research eleven fifty eight ninety three to one hundred two zeki semir
+	tags=<SELF> <SELF> _11: 5 8_ _9 3_ _-_ _1 0 2_ <SELF> <SELF>
+	pred=brain research _11: 5 8_ _9 3_ _-_ _1 0 2_ zeki semir
+	semiotic=PLAIN PLAIN TIME TIME DATE CARDINAL CARDINAL PLAIN CARDINAL CARDINAL CARDINAL PLAIN PLAIN
+	ref=brain research 1158 93 - 102 zeki semir
+error: pred=december _19_ _8 5,_; inp=december nineteen eighty five; ref=DATE 0 4 | dec. 1985 | december 1985 | dec 1985 | december nineteen eighty five
+	input=december nineteen eighty five volume eight number twelve with pete loncarevich sixteen and gary ellis nine
+	tags=<SELF> _19_ _8 5,_ <SELF> _8,_ <SELF> _12_ <SELF> <SELF> <SELF> _16_ <SELF> <SELF> <SELF> _9_
+	pred=december _19_ _8 5,_ volume _8,_ number _12_ with pete loncarevich _16_ and gary ellis _9_
+	semiotic=PLAIN CARDINAL CARDINAL CARDINAL PLAIN CARDINAL PLAIN CARDINAL PLAIN PLAIN PLAIN CARDINAL PLAIN PLAIN PLAIN CARDINAL
+	ref=december 1985 vol 8 no 12 with pete loncarevich 16 and gary ellis 9
+error: pred=october _3 ,20 14_; inp=october thirtieth twenty fourteen; ref=DATE 37 41 | 10.30.2014 | 10-30-2014 | october 30, 2014 | oct 30, 2014 | october thirtieth twenty fourteen | oct. 30, 2014 | october 30 2014 | october 30th 2014 | 10/30/2014
+	input=uganda selected fish landing sites and fishing communities r f o u r d dot d f i d dot g o v dot u k dot r e t r i e v e d on october thirtieth twenty fourteen
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _4_ <DELETE> <DELETE> <DELETE> d._ <DELETE> <SELF> <SELF> <SELF> d._ <DELETE> <SELF> <SELF> v._ <DELETE> <SELF> k._ <DELETE> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _3 ,20 14_
+	pred=uganda selected fish landing sites and fishing communities r _4_    d._  d f i d._  g o v._  u k._  r e t r i e v e d on october _3 ,20 14_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC PLAIN DATE DATE DATE DATE
+	ref=uganda selected fish landing sites and fishing communities r4d.dfid.gov.uk.retrieved on october 30, 2014
+error: pred=,17 2 2_; inp=seventeen twenty two; ref=DATE 17 20 | seventeen twenty two | 1722
+	input=cornet chidley blachford son to major william blachford leys buried here who dyed august ye twenty ninth seventeen twenty two
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _2 9th_ ,17 2 2_
+	pred=cornet chidley blachford son to major william blachford leys buried here who dyed august ye _2 9th_ ,17 2 2_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN ORDINAL ORDINAL DATE DATE DATE
+	ref=cornet chidley blachford son to major william blachford leys buried here who dyed august ye 29th 1722
+error: pred= _14_  september _18_ _30,_; inp=the fourteenth of september eighteen thirty; ref=DATE 4 10 | 14 september 1830 | the fourteenth of september eighteen thirty
+	input=in the hague on the fourteenth of september eighteen thirty albert married princess marianne daughter of king william the first of the netherlands
+	tags=<SELF> <SELF> <SELF> <SELF> <DELETE> _14_ <DELETE> <SELF> _18_ _30,_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <DELETE> _i_ <SELF> <SELF> <SELF>
+	pred=in the hague on  _14_  september _18_ _30,_ albert married princess marianne daughter of king william  _i_ of the netherlands
+	semiotic=PLAIN PLAIN PLAIN PLAIN DATE DATE DATE DATE CARDINAL CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN ORDINAL ORDINAL PLAIN PLAIN PLAIN
+	ref=in the hague on 14 september 1830 albert married princess marianne daughter of king william i of the netherlands
+error: pred=_oct._ _30 ,19 0 7_; inp=october thirtieth nineteen o seven; ref=DATE 13 18 | october thirtieth nineteen o seven | october 30, 1907
+	input=april nineteen o seven p point two one eight w b everett died october thirtieth nineteen o seven c f
+	tags=<SELF> _19 0 7_ <SELF> _. 2 1 8_ _w._ _b._ <SELF> <SELF> _oct._ _30 ,19 0 7_ _c f_
+	pred=april _19 0 7_ p _. 2 1 8_ _w._ _b._ everett died _oct._ _30 ,19 0 7_ _c f_
+	semiotic=DATE DATE DATE DATE PLAIN DECIMAL DECIMAL DECIMAL DECIMAL LETTERS LETTERS PLAIN PLAIN DATE DATE DATE DATE DATE LETTERS LETTERS
+	ref=april 1907 p .218 w.b. everett died october 30, 1907 cf
+error: pred= _18:00_; inp=eighteen hundred; ref=DATE 22 24 | 1800 | 1800, | eighteen hundred | 1800/
+	input=the following day the storm rapidly intensified with the central pressure dropping to nine hundred fifty seven hecto pascals m bar by eighteen hundred u t c
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _9 <DELETE> 5 7_ <DELETE> _hpa_ <SELF> <SELF> <SELF> <DELETE> _18:00_ _utc_ <DELETE> <DELETE>
+	pred=the following day the storm rapidly intensified with the central pressure dropping to _9  5 7_  _hpa_ m bar by  _18:00_ _utc_  
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE PLAIN PLAIN PLAIN TIME TIME TIME TIME TIME
+	ref=the following day the storm rapidly intensified with the central pressure dropping to 957 hpa m bar by 1800 utc
+error: pred= _5_  september _15 7 8_; inp=the fifth of september fifteen seventy eight; ref=DATE 1 8 | the fifth of september fifteen seventy eight | 5 sep 1578
+	input=on the fifth of september fifteen seventy eight he was appointed during the papacy of pope gregory the thirteenth as bishop of leon
+	tags=<SELF> <DELETE> _5_ <DELETE> <SELF> _15 7 8_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <DELETE> 13th_ <SELF> <SELF> <SELF> <SELF>
+	pred=on  _5_  september _15 7 8_ he was appointed during the papacy of pope gregory  13th_ as bishop of leon
+	semiotic=PLAIN DATE DATE DATE DATE DATE DATE DATE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN ORDINAL ORDINAL PLAIN PLAIN PLAIN PLAIN
+	ref=on 5 sep 1578 he was appointed during the papacy of pope gregory xiii as bishop of leon
+error: pred= _1_  january 10_; inp=the first of january ten; ref=DATE 7 12 | the first of january ten | 01/01/10 | 10-1-1 | 1/1/10
+	input=going into the postseason colorado had a the first of january ten record and was ranked number one in both coaches' and a p polls
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <DELETE> _1_ <DELETE> <SELF> 10_ <SELF> <SELF> <SELF> <SELF> _#_ _1_ <SELF> <SELF> <SELF> <SELF> _a p_ <SELF>
+	pred=going into the postseason colorado had a  _1_  january 10_ record and was ranked _#_ _1_ in both coaches' and _a p_ polls
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN DATE DATE DATE DATE DATE PLAIN PLAIN PLAIN PLAIN VERBATIM CARDINAL PLAIN PLAIN PLAIN PLAIN LETTERS LETTERS PLAIN
+	ref=going into the postseason colorado had a 10-1-1 record and was ranked # 1 in both coaches' and ap polls
+error: pred= _19_  february _6_ _8 2,_; inp=the nineteenth of february six eighty two; ref=DATE 1 8 | 19 february 682 | the nineteenth of february six eighty two
+	input=on the nineteenth of february six eighty two s barbato died under pope saint leo the second six hundred eighty two to six hundred eighty three
+	tags=<SELF> <DELETE> _19_ <DELETE> <SELF> _6_ _8 2,_ _s._ <SELF> <SELF> <SELF> <SELF> _st_ <SELF> <DELETE> _2nd_ _6 <DELETE> 8 2_ _-_ _6 <DELETE> 8 3_
+	pred=on  _19_  february _6_ _8 2,_ _s._ barbato died under pope _st_ leo  _2nd_ _6  8 2_ _-_ _6  8 3_
+	semiotic=PLAIN DATE DATE DATE DATE CARDINAL CARDINAL CARDINAL LETTERS PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN ORDINAL ORDINAL CARDINAL CARDINAL CARDINAL CARDINAL PLAIN CARDINAL CARDINAL CARDINAL CARDINAL
+	ref=on 19 february 682 s barbato died under pope st leo ii 682 - 683
+error: pred=tuesday  _,18_  march _2 00 3_; inp=tuesday the eighteenth of march two thousand three; ref=DATE 8 16 | tuesday the eighteenth of march two thousand three | tuesday, 18th march 2003 | tuesday 18 march 2003
+	input=o four of two thousand three sitting of tuesday the eighteenth of march two thousand three
+	tags=_0 4_ <SELF> _2 00 3_ <SELF> <SELF> <SELF> <DELETE> _,18_ <DELETE> <SELF> _2 00 3_
+	pred=_0 4_ of _2 00 3_ sitting of tuesday  _,18_  march _2 00 3_
+	semiotic=DIGIT DIGIT PLAIN DATE DATE DATE PLAIN PLAIN DATE DATE DATE DATE DATE DATE DATE DATE
+	ref=04 of 2003 sitting of tuesday 18 march 2003
+error: pred= _5_  february _19; inp=the fifth of february nineteen; ref=DATE 18 23 | the fifth of february nineteen | 02/05/19
+	input=many of the thirty seven quarters s are from e w s d b schenker four hundred one the fifth of february nineteen twenty two twenty fifths largely stored at carlisle kingmoor depot
+	tags=<SELF> <SELF> <SELF> _3 7 /4_ <SELF> <SELF> <SELF> _e <SELF> s_ <SELF> b_ <SELF> _4 0 1_ <DELETE> _5_ <DELETE> <SELF> _19 2 2 /2 5_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=many of the _3 7 /4_ s are from _e w s_ d b_ schenker _4 0 1_  _5_  february _19 2 2 /2 5_ largely stored at carlisle kingmoor depot
+	semiotic=PLAIN PLAIN PLAIN FRACTION FRACTION FRACTION PLAIN PLAIN PLAIN LETTERS LETTERS LETTERS LETTERS LETTERS PLAIN CARDINAL CARDINAL CARDINAL DATE DATE DATE DATE DATE FRACTION FRACTION FRACTION FRACTION PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=many of the 37/4 s are from ews db schenker 401 02/05/19 22/25 largely stored at carlisle kingmoor depot
+error: pred= _15_  .05 _19 6 8_; inp=the fifteenth of may nineteen sixty eight; ref=DATE 4 11 | 15 may 1968 | 15 may, 1968 | the fifteenth of may nineteen sixty eight
+	input=series two episode one the fifteenth of may nineteen sixty eight two point two
+	tags=<SELF> _2_ <SELF> _1_ <DELETE> _15_ <DELETE> .05 _19 6 8_ _2 . 2_
+	pred=series _2_ episode _1_  _15_  .05 _19 6 8_ _2 . 2_
+	semiotic=PLAIN CARDINAL PLAIN CARDINAL DATE DATE DATE DATE DATE DATE DATE DECIMAL DECIMAL DECIMAL
+	ref=series 2 episode 1 15 may 1968 2.2
+error: pred=_18_ _2 4,_; inp=eighteen twenty four; ref=DATE 1 4 | 1824/ | eighteen twenty four | 1824
+	input=marshall eighteen twenty four volume two part one p p point two four two to three
+	tags=<SELF> _18_ _2 4,_ <SELF> _2,_ <SELF> _1_ <DELETE> _pp_ _. 2 4 2_ _-_ _3_
+	pred=marshall _18_ _2 4,_ volume _2,_ part _1_  _pp_ _. 2 4 2_ _-_ _3_
+	semiotic=PLAIN CARDINAL CARDINAL CARDINAL PLAIN CARDINAL PLAIN CARDINAL VERBATIM VERBATIM DECIMAL DECIMAL DECIMAL DECIMAL PLAIN DECIMAL
+	ref=marshall 1824 vol 2 part 1 pp .242 - 3
+error: pred=january _11 9 5_; inp=january eleven ninety five; ref=DATE 19 23 | january eleven ninety five | jan 1195
+	input=armenia medieval landssempad six hundred forty three the first of february one thousand one hundred ninety four thirty firsts january eleven ninety five p six hundred thirty two
+	tags=<SELF> <SELF> <SELF> _6 <DELETE> 4 3_ <DELETE> _1_ <DELETE> _feb_ _1 <DELETE> 1 <DELETE> 9 4 /3 1_ <SELF> _11 9 5_ <SELF> _6 <DELETE> 3 2_
+	pred=armenia medieval landssempad _6  4 3_  _1_  _feb_ _1  1  9 4 /3 1_ january _11 9 5_ p _6  3 2_
+	semiotic=PLAIN PLAIN PLAIN CARDINAL CARDINAL CARDINAL CARDINAL DATE DATE DATE DATE FRACTION FRACTION FRACTION FRACTION FRACTION FRACTION FRACTION FRACTION DATE DATE DATE DATE PLAIN CARDINAL CARDINAL CARDINAL CARDINAL
+	ref=armenia medieval landssempad 643 1 feb 1194/31 jan 1195 p 632
+error: pred= _20_  february _2 000,_; inp=the twentieth of february two thousand; ref=DATE 19 25 | the twentieth of february two thousand | 2000-02-20 | 20 february 2000
+	input=forty eight ten i s s n o o o four sil three two one four dobrzynski judith h the twentieth of february two thousand hip versus
+	tags=_4 8_ _10_ _i <SELF> <SELF> n_ _0 0 0 4 - 3 2 1 4_ <SELF> <SELF> _h._ <DELETE> _20_ <DELETE> <SELF> _2 000,_ <SELF> <SELF>
+	pred=_4 8_ _10_ _i s s n_ _0 0 0 4 - 3 2 1 4_ dobrzynski judith _h._  _20_  february _2 000,_ hip versus
+	semiotic=CARDINAL CARDINAL CARDINAL LETTERS LETTERS LETTERS LETTERS TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE PLAIN PLAIN LETTERS DATE DATE DATE DATE DATE DATE PLAIN PLAIN
+	ref=48 10 issn 0004-3214 dobrzynski judith h. 20 february 2000 hip vs
+error: pred=_0 _1_  september _0 6; inp=the first of september o six; ref=DATE 3 9 | 01 sep 06 | 9/1/06 | the first of september o six | 09/01/06
+	input=committees cop reports the first of september o six o six
+	tags=<SELF> <SELF> <SELF> _0 _1_ <DELETE> <SELF> _0 6 _0 6_
+	pred=committees cop reports _0 _1_  september _0 6 _0 6_
+	semiotic=PLAIN PLAIN PLAIN DATE DATE DATE DATE DIGIT DIGIT DIGIT DIGIT
+	ref=committees cop reports 01 sep 06 06
+error: pred= _2 6_  september _19_ _9 7,_; inp=the twenty sixth of september nineteen ninety seven; ref=DATE 0 8 | the twenty sixth of september nineteen ninety seven | 26 sep 1997 | 26 september 1997 | 1997-09-26
+	input=the twenty sixth of september nineteen ninety seven garuda indonesia flight one five two was on approach to polonia international airport in medan
+	tags=<DELETE> _2 6_ <DELETE> <SELF> _19_ _9 7,_ <SELF> <SELF> <SELF> _1 5 2_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred= _2 6_  september _19_ _9 7,_ garuda indonesia flight _1 5 2_ was on approach to polonia international airport in medan
+	semiotic=DATE DATE DATE DATE DATE CARDINAL CARDINAL CARDINAL PLAIN PLAIN PLAIN DIGIT DIGIT DIGIT PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=26 september 1997 garuda indonesia flight 152 was on approach to polonia international airport in medan
+error: pred=_jan_ _2 ,19 5 2_; inp=january second nineteen fifty two; ref=DATE 10 15 | jan. 2, 1952 | january second nineteen fifty two | january 2, 1952
+	input=the top box office hits of nineteen fifty one variety january second nineteen fifty two h t t p c o l o n s l a s h s l a s h w w w dot s l a t e dot c o m s l a s h a r t i c l e s s l a s h n e w s u n d e r s c o r e a n d u n d e r s c o r e p o l i t i c s s l a s h p r e s s u n d e r s c o r e b o x s l a s h t w o o o s e v e n s l a s h o s e v e n s l a s h p r e s e n c e u n d e r s c o r e o f u n d e r s c o r e m a l i c e dot h t m l s i k o v ed nineteen ninety eight
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _19 5 1_ <SELF> _jan_ _2 ,19 5 2_ <SELF> <SELF> <SELF> <SELF> <DELETE> <DELETE> <DELETE> <DELETE> <DELETE> <DELETE> <DELETE> <DELETE> <DELETE> <DELETE> <DELETE> <DELETE> <DELETE> <DELETE> _://_ <SELF> <SELF> w._ _s l a t <DELETE> <DELETE> e.__c o m_ _/_ <DELETE> <DELETE> <DELETE> <DELETE> _a r t i c l e s_ _/_ <DELETE> <DELETE> <DELETE> <DELETE> _n e w s_ ___ <DELETE> <DELETE> <DELETE> <DELETE> <DELETE> <DELETE> <DELETE> <DELETE> <DELETE> _a n d_ ___ <DELETE> <DELETE> <DELETE> <DELETE> <DELETE> <DELETE> <DELETE> <DELETE> <DELETE> _p o l i t i c s_ _/_ <DELETE> <DELETE> <DELETE> <DELETE> _p r e s <SELF> __ _ <DELETE> <DELETE> <DELETE> <DELETE> <DELETE> <DELETE> <DELETE> <DELETE> <DELETE> <SELF> <SELF> <SELF> _/_ <SELF> <DELETE> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=the top box office hits of _19 5 1_ variety _jan_ _2 ,19 5 2_ h t t p               _://_ w w w._ _s l a t   e.__c o m_ _/_     _a r t i c l e s_ _/_     _n e w s_ ___          _a n d_ ___          _p o l i t i c s_ _/_     _p r e s s __ _          b o x _/_ l  s h t w o o o s e v e n s l a s h o s e v e n s l a s h p r e s e n c e u n d e r s c o r e o f u n d e r s c o r e m a l i c e dot h t m l s i k o v ed nineteen ninety eight
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN DATE DATE DATE PLAIN DATE DATE DATE DATE DATE ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS
+	ref=the top box office hits of 1951 variety january 2, 1952 http://www.slate.com/articles/news_and_politics/press_box/2007/07/presence_of_malice.htmlsikov ed 1998
+error: pred= _8_  september _,10_; inp=the eighth of september ten; ref=DATE 9 14 | 10-9-8 | 09/08/10 | the eighth of september ten
+	input=there were three versions made which were known as the eighth of september ten seven sil six sil five sil four and three sil two sil one
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <DELETE> _8_ <DELETE> <SELF> _,10_ _7 - 6 - 5 - 4_ <SELF> _3 - 2 - 1_
+	pred=there were three versions made which were known as  _8_  september _,10_ _7 - 6 - 5 - 4_ and _3 - 2 - 1_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN DATE DATE DATE DATE DATE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE
+	ref=there were three versions made which were known as 10-9-8 7-6-5-4 and 3-2-1
+error: pred= _11_  april _0 8_; inp=the eleventh of april o eight; ref=DATE 10 16 | 04/11/08 | the eleventh of april o eight | 4/11/08
+	input=kalifa keita conflict and conflict resolution in the sahel retrieved the eleventh of april o eight from h t t p c o l o n s l a s h s l a s h p e r m a n e n t dot a c c e s s dot g p o dot g o v s l a s h l p s o n e t w o t h r e e o n e t w o s l a s h c a r l i s l e d a s h w w w dot a r m y dot m i l s l a s h u s a s s i s l a s h s s i p u b s s l a s h p u b s n i n e t y e i g h t s l a s h t u a r e g s l a s h t u a r e g dot p d f m y r i a m gervais
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <DELETE> _11_ <DELETE> <SELF> _0 8_ <SELF> <SELF> <SELF> <SELF> <SELF> <DELETE> <DELETE> <DELETE> <DELETE> <DELETE> <DELETE> <DELETE> <DELETE> <DELETE> <DELETE> <DELETE> <DELETE> <DELETE> <DELETE> _://_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> t._ _a c <SELF> e s <DELETE> <DELETE> s._ <SELF> <SELF> <DELETE> o._ <SELF> <SELF> <SELF> _/_ <DELETE> <DELETE> <DELETE> <DELETE> <SELF> <SELF> <SELF> <DELETE> <DELETE> <DELETE> 2 <DELETE> <DELETE> <DELETE> <DELETE> <DELETE> 3 <DELETE> <DELETE> <DELETE> <DELETE> 2 <DELETE> <DELETE> <DELETE> <DELETE> <DELETE> <DELETE> /_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _-_ <DELETE> <DELETE> <DELETE> <SELF> <SELF> w._ <DELETE> <SELF> <SELF> <SELF> y._ <DELETE> <SELF> <SELF> <SELF> _/_ <DELETE> <DELETE> <DELETE> <DELETE> <SELF> <DELETE> <DELETE> <DELETE> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=kalifa keita conflict and conflict resolution in the sahel retrieved  _11_  april _0 8_ from h t t p               _://_ p e r m a n e n t._ _a c c e s   s._ g p  o._ g o v _/_     l p s    2      3     2       /_ c a r l i s l e _-_    w w w._  a r m y._  m i l _/_     u    s i s l a s h s s i p u b s s l a s h p u b s n i n e t y e i g h t s l a s h t u a r e g s l a s h t u a r e g dot p d f m y r i a m gervais
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN DATE DATE DATE DATE DATE DATE PLAIN ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS
+	ref=kalifa keita conflict and conflict resolution in the sahel retrieved 4/11/08 from http://permanent.access.gpo.gov/lps12312/carlisle-www.army.mil/usassi/ssipubs/pubs98/tuareg/tuareg.pdfmyriam gervais
+error: pred=_sun_ _,__june_ _7 ,20 15_; inp=sunday june seventh twenty fifteen; ref=DATE 85 90 | sunday, june 7, 2015 | sun jun 7 2015 | sunday june 7, 2015 | sunday june seventh twenty fifteen
+	input=lleida the fifteenth of march twenty fourteen spain h t t p c o l o n s l a s h s l a s h w w w dot l l e i d a dot c o m s l a s h c o n t e n t s l a s h a s h w i n d a s h b a t i s h t h e indian sitar meets western electronica times of malta sunday june seventh twenty fifteen
+	tags=<SELF> <DELETE> _15_ <DELETE> <SELF> _20 14_ <SELF> <SELF> <SELF> <SELF> <SELF> <DELETE> <DELETE> <DELETE> <DELETE> <DELETE> <DELETE> <DELETE> <DELETE> <DELETE> <DELETE> <DELETE> <DELETE> <DELETE> <DELETE> _://_ <SELF> <SELF> w._ _l <SELF> e i d <DELETE> <DELETE> a._ <SELF> <SELF> <SELF> _/_ <DELETE> <DELETE> <DELETE> <DELETE> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _/_ <DELETE> <DELETE> <DELETE> <DELETE> <DELETE> <DELETE> <DELETE> <SELF> <SELF> <SELF> _-_ <DELETE> <DELETE> <DELETE> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _sun_ _,__june_ _7 ,20 15_
+	pred=lleida  _15_  march _20 14_ spain h t t p               _://_ w w w._ _l l e i d   a._ c o m _/_     c o n t e n t _/_        w i n _-_    b a t i s h t h e indian sitar meets western electronica times of malta _sun_ _,__june_ _7 ,20 15_
+	semiotic=PLAIN DATE DATE DATE DATE DATE DATE PLAIN ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN DATE DATE DATE DATE DATE
+	ref=lleida 15/03/2014 spain http://www.lleida.com/content/ashwin-batishthe indian sitar meets western electronica times of malta sunday, june 7, 2015
+error: pred=september _20_ _12,_; inp=september twenty twelve; ref=DATE 29 32 | september twenty twelve | sep. 2012 | sep 2012 | september 2012 m | september 2012 | sept 2012
+	input=i s b n one sil five eight five seven four sil o nine four sil two j ravilious dame crystyane of douglas and her ancestry the scottish genealogist september twenty twelve volume fifty nine no
+	tags=_i <SELF> <SELF> n_ _1 - 5 8 5 7 4 - 0 9 4 - 2_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _20_ _12,_ <SELF> _5 9,_ <SELF>
+	pred=_i s b n_ _1 - 5 8 5 7 4 - 0 9 4 - 2_ j ravilious dame crystyane of douglas and her ancestry the scottish genealogist september _20_ _12,_ volume _5 9,_ no
+	semiotic=LETTERS LETTERS LETTERS LETTERS TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL CARDINAL PLAIN CARDINAL CARDINAL PLAIN
+	ref=isbn 1-58574-094-2 j ravilious dame crystyane of douglas and her ancestry the scottish genealogist sept 2012 vol lix no
+error: pred= _1_  february _,13_; inp=the first of february thirteen; ref=DATE 12 17 | 13-2-1 | the first of february thirteen | 2/01/13
+	input=prior to nineteen thirty seven georgia leads the series by a combined the first of february thirteen from nineteen thirty seven on florida leads by three nine sil three six sil one
+	tags=<SELF> <SELF> _19 3 7_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <DELETE> _1_ <DELETE> <SELF> _,13_ <SELF> _19 3 7_ <SELF> <SELF> <SELF> <SELF> _3 9 - 3 6 - 1_
+	pred=prior to _19 3 7_ georgia leads the series by a combined  _1_  february _,13_ from _19 3 7_ on florida leads by _3 9 - 3 6 - 1_
+	semiotic=PLAIN PLAIN DATE DATE DATE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN DATE DATE DATE DATE DATE PLAIN DATE DATE DATE PLAIN PLAIN PLAIN PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE
+	ref=prior to 1937 georgia leads the series by a combined 13-2-1 from 1937 on florida leads by 39-36-1
+error: pred=_0 _2_  may _0 4_; inp=the second of may o four; ref=DATE 5 11 | the second of may o four | 05/02/04 | 5/2/04
+	input=hot docs four twenty thirds the second of may o four
+	tags=<SELF> <SELF> _4 /2 3_ _0 _2_ <DELETE> <SELF> _0 4_
+	pred=hot docs _4 /2 3_ _0 _2_  may _0 4_
+	semiotic=PLAIN PLAIN FRACTION FRACTION FRACTION DATE DATE DATE DATE DATE DATE
+	ref=hot docs 4/23 5/2/04
+error: pred= _7 ,_ june _3 4,_; inp=the seventh of june thirty four; ref=DATE 0 6 | 6-7-34 | the seventh of june thirty four
+	input=the seventh of june thirty four nakatsu kita ku osaka city five three one sil o o seven one home page
+	tags=<DELETE> _7 ,_ <SELF> _3 4,_ <SELF> <SELF> <SELF> <SELF> <SELF> _5 3 1 - 0 0 7 1_ <SELF> <SELF>
+	pred= _7 ,_ june _3 4,_ nakatsu kita ku osaka city _5 3 1 - 0 0 7 1_ home page
+	semiotic=DATE DATE DATE DATE DATE CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE PLAIN PLAIN
+	ref=6-7-34 nakatsu kita ku osaka city 531-0071 home page
+error: pred=friday  _,2 1_  september _2 00 1_; inp=friday the twenty first of september two thousand one; ref=DATE 10 19 | friday the twenty first of september two thousand one | friday 21 september 2001
+	input=parker was murdered shortly after one fifteen a m on friday the twenty first of september two thousand one while walking with his girlfriend
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> _1: 15_ _am_ <DELETE> <SELF> <SELF> <DELETE> _,2 1_ <DELETE> <SELF> _2 00 1_ <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=parker was murdered shortly after _1: 15_ _am_  on friday  _,2 1_  september _2 00 1_ while walking with his girlfriend
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN TIME TIME TIME TIME PLAIN DATE DATE DATE DATE DATE DATE DATE DATE DATE PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=parker was murdered shortly after 1:15 am on friday 21 september 2001 while walking with his girlfriend
+error: pred=friday _,__mar_ _16 ,20 12_; inp=friday march sixteenth twenty twelve; ref=DATE 1 6 | fri mar 16 2012 | friday march 16, 2012 | friday, mar 16 2012 | friday march sixteenth twenty twelve | friday, march 16, 2012 | fri, mar 16, 2012
+	input=published friday march sixteenth twenty twelve five fifty three a m e d t the sixteenth of march twenty twelve
+	tags=<SELF> <SELF> _,__mar_ _16 ,20 12_ _5: 5 3_ _am_ <DELETE> <DELETE> _edt_ <DELETE> <DELETE> _16_ <DELETE> <SELF> _20 12_
+	pred=published friday _,__mar_ _16 ,20 12_ _5: 5 3_ _am_   _edt_   _16_  march _20 12_
+	semiotic=PLAIN DATE DATE DATE DATE DATE TIME TIME TIME TIME TIME TIME TIME TIME DATE DATE DATE DATE DATE DATE
+	ref=published friday, mar 16 2012 5:53am edt 2012-03-16
+error: pred=_tue_ _,__may_ _2 9 ,2 00 7_; inp=tuesday may twenty ninth two thousand seven; ref=DATE 9 16 | tuesday, may 29th 2007 | tuesday, may 29, 2007 | tuesday may twenty ninth two thousand seven
+	input=northwest flight attendants okay bargaining agreement reuters web posted tuesday may twenty ninth two thousand seven nine o three p m e d t
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _tue_ _,__may_ _2 9 ,2 00 7_ _9: 0 3_ _pm_ <DELETE> <DELETE> _edt_ <DELETE>
+	pred=northwest flight attendants okay bargaining agreement reuters web posted _tue_ _,__may_ _2 9 ,2 00 7_ _9: 0 3_ _pm_   _edt_ 
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN DATE DATE DATE DATE DATE DATE DATE TIME TIME TIME TIME TIME TIME TIME TIME
+	ref=northwest flight attendants okay bargaining agreement reuters web posted tuesday, may 29, 2007 9:03pm edt
+error: pred=_2 00; inp=two thousand; ref=DATE 7 9 | 2000, | 2000 i | 2000/ | 2000 | two thousand | 2000 m
+	input=madrid sociedad general de autores y editores two thousand six over one minus eleven
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _2 00 6 / 1_ _- 11_
+	pred=madrid sociedad general de autores y editores _2 00 6 / 1_ _- 11_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN FRACTION FRACTION FRACTION FRACTION FRACTION CARDINAL CARDINAL
+	ref=madrid sociedad general de autores y editores 2000 6/1 -11
+error: pred=_16: 00_; inp=sixteen hundred; ref=DATE 16 18 | sixteen hundred | 1600/ | 1600 | 1600 i
+	input=justin murdock and his meade teammates blow out a three minutes sixteen seconds and six milliseconds sixteen hundred relay time in orlando
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _3: <DELETE> 16: <DELETE> <DELETE> 6_ <DELETE> _16: 00_ <SELF> <SELF> <SELF> <SELF>
+	pred=justin murdock and his meade teammates blow out a _3:  16:   6_  _16: 00_ relay time in orlando
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN TIME TIME TIME TIME TIME TIME TIME TIME TIME PLAIN PLAIN PLAIN PLAIN
+	ref=justin murdock and his meade teammates blow out a 3:16.6 1600 relay time in orlando
+error: pred=wednesday  _,3_  november _20 10_; inp=wednesday the third of november twenty ten; ref=DATE 1 8 | wednesday the third of november twenty ten | wednesday, 3 nov 2010
+	input=published wednesday the third of november twenty ten eight thirty nine g m t the third of november twenty ten
+	tags=<SELF> <SELF> <DELETE> _,3_ <DELETE> <SELF> _20 10_ _08: 3 9_ _gmt_ <DELETE> <DELETE> <DELETE> _3_ <DELETE> <SELF> _20 10_
+	pred=published wednesday  _,3_  november _20 10_ _08: 3 9_ _gmt_    _3_  november _20 10_
+	semiotic=PLAIN DATE DATE DATE DATE DATE DATE DATE TIME TIME TIME TIME TIME TIME DATE DATE DATE DATE DATE DATE
+	ref=published wednesday, 3 nov 2010 08:39 gmt 3 november 2010
+error: pred=_jul._ _19 6 4_; inp=july nineteen sixty four; ref=DATE 17 21 | july nineteen sixty four | jul 1964 | july 1964
+	input=metzger bruce m the new world translation of the christian greek scriptures the bible translator fifteen thirds july nineteen sixty four p p
+	tags=<SELF> <SELF> _m._ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _15 /3_ _jul._ _19 6 4_ <DELETE> _pp_
+	pred=metzger bruce _m._ the new world translation of the christian greek scriptures the bible translator _15 /3_ _jul._ _19 6 4_  _pp_
+	semiotic=PLAIN PLAIN LETTERS PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN FRACTION FRACTION DATE DATE DATE DATE VERBATIM VERBATIM
+	ref=metzger bruce m. the new world translation of the christian greek scriptures the bible translator 15/3 july 1964 pp
+error: pred=saturday  _,14_  march _19 9 2_; inp=saturday the fourteenth of march nineteen ninety two; ref=DATE 9 17 | saturday the fourteenth of march nineteen ninety two | saturday 14 march 1992
+	input=the program premiered at seven thirty p m on saturday the fourteenth of march nineteen ninety two
+	tags=<SELF> <SELF> <SELF> <SELF> _7: 30_ _pm_ <DELETE> <SELF> <SELF> <DELETE> _,14_ <DELETE> <SELF> _19 9 2_
+	pred=the program premiered at _7: 30_ _pm_  on saturday  _,14_  march _19 9 2_
+	semiotic=PLAIN PLAIN PLAIN PLAIN TIME TIME TIME TIME PLAIN DATE DATE DATE DATE DATE DATE DATE DATE
+	ref=the program premiered at 7:30 pm on saturday 14 march 1992
+error: pred=_11: 2 9_; inp=eleven twenty nine; ref=DATE 1 4 | 1129 | eleven twenty nine | 1129/
+	input=the eleven twenty nine ambikapur surguja express departs from gwalior at ten o'clock daily and reaches ambikapur at four a m the next day
+	tags=<SELF> _11: 2 9_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _10:00_ <DELETE> <SELF> <SELF> <SELF> <SELF> <SELF> _4:00_ _am_ <DELETE> <SELF> <SELF> <SELF>
+	pred=the _11: 2 9_ ambikapur surguja express departs from gwalior at _10:00_  daily and reaches ambikapur at _4:00_ _am_  the next day
+	semiotic=PLAIN TIME TIME TIME PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN TIME TIME PLAIN PLAIN PLAIN PLAIN PLAIN TIME TIME TIME PLAIN PLAIN PLAIN
+	ref=the 1129 ambikapur surguja express departs from gwalior at 10:00 daily and reaches ambikapur at 4:00 am the next day
+error: pred=_1 _13_  .12 .19 8 4_; inp=the thirteenth of december nineteen eighty four; ref=DATE 28 35 | 13.12.1984 | 13 december 1984 | the thirteenth of december nineteen eighty four | 1984-12-13
+	input=decreto one hundred seventy one thousand nine hundred eighty fourths de twenty seven de xuno polo que se crea a medalla castelao dog n two hundred thirty de the thirteenth of december nineteen eighty four
+	tags=<SELF> _1 <DELETE> 70 /1 <DELETE> 9 <DELETE> 8 4_ <SELF> _2 7_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _2 <DELETE> 30_ <SELF> _1 _13_ <DELETE> .12 .19 8 4_
+	pred=decreto _1  70 /1  9  8 4_ de _2 7_ de xuno polo que se crea a medalla castelao dog n _2  30_ de _1 _13_  .12 .19 8 4_
+	semiotic=PLAIN FRACTION FRACTION FRACTION FRACTION FRACTION FRACTION FRACTION FRACTION FRACTION PLAIN CARDINAL CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL CARDINAL CARDINAL PLAIN DATE DATE DATE DATE DATE DATE DATE
+	ref=decreto 170/1984 de 27 de xuno polo que se crea a medalla castelao dog n 230 de 13.12.1984
+error: pred=_19 9; inp=nineteen ninety; ref=DATE 1 3 | 1990/ | 1990, | 1990 | nineteen ninety
+	input=after nineteen ninety one fifty sixth dropped basic training that mission assumed by fort sill
+	tags=<SELF> _19 9 1_ _5 6th_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=after _19 9 1_ _5 6th_ dropped basic training that mission assumed by fort sill
+	semiotic=PLAIN DATE DATE DATE ORDINAL ORDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=after 1990 1/56 dropped basic training that mission assumed by fort sill
+error: pred=_1 _12_  january _20 14_; inp=the twelfth of january twenty fourteen; ref=DATE 11 17 | 01/12/2014 | 12th january 2014 | 01-12-2014 | 2014-1-12 | the twelfth of january twenty fourteen | 12 january 2014 | 12 jan. 2014 | 12 january, 2014 | 1/12/2014 | 12 jan 2014 | 1.12.2014 | 1-12-2014 | 01.12.2014 | 2014-01-12
+	input=marine weather warning for g m d s s metarea xi the twelfth of january twenty fourteen t eighteen hours zero minutes and zero seconds z
+	tags=<SELF> <SELF> <SELF> <SELF> _g <SELF> <SELF> <SELF> s_ <SELF> <SELF> _1 _12_ <DELETE> <SELF> _20 14_ <SELF> _18: 0 <DELETE> <DELETE> <DELETE> 0:00_ <DELETE> <SELF>
+	pred=marine weather warning for _g m d s s_ metarea xi _1 _12_  january _20 14_ t _18: 0    0:00_  z
+	semiotic=PLAIN PLAIN PLAIN PLAIN LETTERS LETTERS LETTERS LETTERS LETTERS PLAIN PLAIN DATE DATE DATE DATE DATE DATE PLAIN TIME TIME TIME TIME TIME TIME TIME PLAIN
+	ref=marine weather warning for gmdss metarea xi 2014-01-12 t 18:00:00z
+error: pred=_fri_  _,3 1_  october _2 00 8_; inp=friday the thirty first of october two thousand eight; ref=DATE 4 13 | friday 31 october 2008 | friday the thirty first of october two thousand eight | friday, 31 october 2008 | fri 31 october 2008
+	input=tags kolakta sports posted friday the thirty first of october two thousand eight three forty three h r s the thirty first of october two thousand eight
+	tags=<SELF> <SELF> <SELF> <SELF> _fri_ <DELETE> _,3 1_ <DELETE> <SELF> _2 00 8_ _03: 4 3_ _h <SELF> s_ <DELETE> _3 1_ <DELETE> <SELF> _2 00 8_
+	pred=tags kolakta sports posted _fri_  _,3 1_  october _2 00 8_ _03: 4 3_ _h r s_  _3 1_  october _2 00 8_
+	semiotic=PLAIN PLAIN PLAIN PLAIN DATE DATE DATE DATE DATE DATE DATE DATE DATE TIME TIME TIME LETTERS LETTERS LETTERS DATE DATE DATE DATE DATE DATE DATE DATE
+	ref=tags kolakta sports posted fri 31 october 2008 03:43 hrs 2008-10-31
+error: pred=wednesday _,__jul_ _11 ,20 12_; inp=wednesday july eleventh twenty twelve; ref=DATE 1 6 | wednesday july eleventh twenty twelve | wednesday, jul 11 2012 | wednesday, july 11, 2012
+	input=published wednesday july eleventh twenty twelve zero o one b s t the eleventh of july twenty twelve
+	tags=<SELF> <SELF> _,__jul_ _11 ,20 12_ _00: 0 1_ _bst_ <DELETE> <DELETE> <DELETE> _11_ <DELETE> <SELF> _20 12_
+	pred=published wednesday _,__jul_ _11 ,20 12_ _00: 0 1_ _bst_    _11_  july _20 12_
+	semiotic=PLAIN DATE DATE DATE DATE DATE TIME TIME TIME TIME TIME TIME DATE DATE DATE DATE DATE DATE
+	ref=published wednesday, jul 11 2012 00:01 bst 2012-07-11
+error: pred=_2 ; inp=two thousand; ref=DATE 16 18 | 2000, | 2000 i | 2000/ | 2000 | two thousand | 2000 m
+	input=starting in nineteen sixty seven the cedric was sold in various export markets as the datsun two thousand two thousand three hundred two thousand four hundredths rather than nissan cedric
+	tags=<SELF> <SELF> _19 6 7_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _2 <DELETE> 2 <DELETE> 3 00 /2 <DELETE> 4 00_ <SELF> <SELF> <SELF> <SELF>
+	pred=starting in _19 6 7_ the cedric was sold in various export markets as the datsun _2  2  3 00 /2  4 00_ rather than nissan cedric
+	semiotic=PLAIN PLAIN DATE DATE DATE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN FRACTION FRACTION FRACTION FRACTION FRACTION FRACTION FRACTION FRACTION FRACTION FRACTION PLAIN PLAIN PLAIN PLAIN
+	ref=starting in 1967 the cedric was sold in various export markets as the datsun 2000 2300/2400 rather than nissan cedric
+error: pred= _2_  april _,14_; inp=the second of april fourteen; ref=DATE 1 6 | 4/2/14 | the second of april fourteen
+	input=issued the second of april fourteen patent fourteen two hundred forty three thousand four hundred forty sevenths
+	tags=<SELF> <DELETE> _2_ <DELETE> <SELF> _,14_ <SELF> _14 /2 <DELETE> 4 3 , 4 <DELETE> 4 7_
+	pred=issued  _2_  april _,14_ patent _14 /2  4 3 , 4  4 7_
+	semiotic=PLAIN DATE DATE DATE DATE DATE PLAIN FRACTION FRACTION FRACTION FRACTION FRACTION FRACTION FRACTION FRACTION FRACTION FRACTION
+	ref=issued 4/2/14 patent 14/243,447
+error: pred= _11_  _nov_ _19 8 7_; inp=the eleventh of november nineteen eighty seven; ref=DATE 1 8 | 1987-11-11 | the eleventh of november nineteen eighty seven | 11 november 1987
+	input=suntimes the eleventh of november nineteen eighty seven one sixth
+	tags=<SELF> <DELETE> _11_ <DELETE> _nov_ _19 8 7_ _1 /6_
+	pred=suntimes  _11_  _nov_ _19 8 7_ _1 /6_
+	semiotic=PLAIN DATE DATE DATE DATE DATE DATE DATE FRACTION FRACTION
+	ref=suntimes 1987-11-11 1/6
+error: pred=_20_ _12,_; inp=twenty twelve; ref=DATE 5 7 | 2012 m | 2012/ | 2012 a | twenty twelve | 2012
+	input=admirality list of radio signals twenty twelve volume five page eighty eight b three navigation rules online
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> _20_ _12,_ <SELF> _5,_ <SELF> _8 8_ <SELF> _3_ <SELF> <SELF> <SELF>
+	pred=admirality list of radio signals _20_ _12,_ volume _5,_ page _8 8_ b _3_ navigation rules online
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL CARDINAL PLAIN CARDINAL PLAIN CARDINAL CARDINAL ADDRESS ADDRESS PLAIN PLAIN PLAIN
+	ref=admirality list of radio signals 2012 vol 5 page 88 b3 navigation rules online
+error: pred=march _08 ,2 00 2_; inp=march eighth two thousand two; ref=DATE 10 15 | march 8, 2002 | march 8th, 2002 | march eighth two thousand two | march 8th 2002
+	input=b four obituaries lavaun pearl berg taylor anchorage daily news march eighth two thousand two p p
+	tags=<SELF> _4_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _08 ,2 00 2_ <DELETE> _pp_
+	pred=b _4_ obituaries lavaun pearl berg taylor anchorage daily news march _08 ,2 00 2_  _pp_
+	semiotic=ADDRESS ADDRESS PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN DATE DATE DATE DATE DATE VERBATIM VERBATIM
+	ref=b4 obituaries lavaun pearl berg taylor anchorage daily news march 8, 2002 pp
+error: pred= _2 7_  _feb._ 19 6 8_; inp=the twenty seventh of february nineteen sixty eight; ref=DATE 3 11 | 27 february 1968 | the twenty seventh of february nineteen sixty eight | 27 feb 1968
+	input=the washington post the twenty seventh of february nineteen sixty eight c six
+	tags=<SELF> <SELF> <SELF> <DELETE> _2 7_ <DELETE> _feb._ 19 6 8_ <SELF> _6_
+	pred=the washington post  _2 7_  _feb._ 19 6 8_ c _6_
+	semiotic=PLAIN PLAIN PLAIN DATE DATE DATE DATE DATE DATE DATE DATE ADDRESS ADDRESS
+	ref=the washington post 27 feb 1968 c6

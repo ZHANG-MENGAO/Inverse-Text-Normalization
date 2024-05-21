@@ -1,0 +1,96 @@
+error: pred=_0 2 9 7 7 9 0 6 5-_; inp=o two nine seven seven nine o six five; ref=DIGIT 13 22 | 029779065 | o two nine seven seven nine o six five
+	input=weidenfeld and nicolson london p six nineteen eighty seven i s b n o two nine seven seven nine o six five x person page two thousand nine hundred twenty five
+	tags=<SELF> _&_ <SELF> <SELF> <SELF> _6_ _19 8 7_ _i <SELF> <SELF> n_ _0 2 9 7 7 9 0 6 5-_ <SELF> <SELF> <SELF> _2 <DELETE> 9 <DELETE> 2 5_
+	pred=weidenfeld _&_ nicolson london p _6_ _19 8 7_ _i s b n_ _0 2 9 7 7 9 0 6 5-_ x person page _2  9  2 5_
+	semiotic=PLAIN VERBATIM PLAIN PLAIN PLAIN CARDINAL DATE DATE DATE LETTERS LETTERS LETTERS LETTERS DIGIT DIGIT DIGIT DIGIT DIGIT DIGIT DIGIT DIGIT DIGIT PLAIN PLAIN PLAIN CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL
+	ref=weidenfeld and nicolson london p 6 1987 isbn 029779065 x person page 2925
+error: pred=o_ _1_; inp=o one; ref=DIGIT 12 14 | 01 | o one | 0 1 | 01 a | 01- | 01,
+	input=however activating heat shock genes before sleep deprivation rescued c y c o one flies from its lethal effects
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _c <SELF> c__-_ o_ _1_ <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=however activating heat shock genes before sleep deprivation rescued _c y c__-_ o_ _1_ flies from its lethal effects
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN LETTERS LETTERS LETTERS LETTERS CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=however activating heat shock genes before sleep deprivation rescued cyc 01 flies from its lethal effects
+error: pred=_3 5 2 1-_; inp=three five two one; ref=DIGIT 17 21 | three five two one | 3521
+	input=it was one of thirty cars built on lot four thousand nine hundred ninety eight to plan three five two one a
+	tags=<SELF> <SELF> <SELF> <SELF> _30_ <SELF> <SELF> <SELF> <SELF> _4 <DELETE> 9 <DELETE> 9 8_ <SELF> <SELF> _3 5 2 1-_ <SELF>
+	pred=it was one of _30_ cars built on lot _4  9  9 8_ to plan _3 5 2 1-_ a
+	semiotic=PLAIN PLAIN PLAIN PLAIN CARDINAL PLAIN PLAIN PLAIN PLAIN CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL PLAIN PLAIN DIGIT DIGIT DIGIT DIGIT PLAIN
+	ref=it was one of thirty cars built on lot 4998 to plan 3521 a
+error: pred=_9 7 8 0 8 7 2 4 9 9 7 7 5_; inp=nine seven eight o eight seven two four nine nine seven seven five; ref=DIGIT 11 24 | nine seven eight o eight seven two four nine nine seven seven five | 9780872499775,
+	input=seventy three seventy six one sixty two i s b n nine seven eight o eight seven two four nine nine seven seven five o c l c twenty eight million sixty seven thousand six hundred fifty one ruches pyrrhus j ed
+	tags=_7 3_ _7 6_ _1_ _6 2,_ _i <SELF> <SELF> n_ _9 7 8 0 8 7 2 4 9 9 7 7 5_ _o <SELF> <SELF> c_ _2 8 0 6 7 <DELETE> 6 <DELETE> 5 1_ <SELF> <SELF> _j._ <SELF>
+	pred=_7 3_ _7 6_ _1_ _6 2,_ _i s b n_ _9 7 8 0 8 7 2 4 9 9 7 7 5_ _o c l c_ _2 8 0 6 7  6  5 1_ ruches pyrrhus _j._ ed
+	semiotic=CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL LETTERS LETTERS LETTERS LETTERS DIGIT DIGIT DIGIT DIGIT DIGIT DIGIT DIGIT DIGIT DIGIT DIGIT DIGIT DIGIT DIGIT LETTERS LETTERS LETTERS LETTERS CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL PLAIN PLAIN LETTERS PLAIN
+	ref=73 76 1 62,  isbn 9780872499775, oclc 28067651 ruches pyrrhus j. ed
+error: pred=_2 2 9-_; inp=two two nine; ref=DIGIT 17 20 | two two nine | 229
+	input=two p eighty three calic twenty twelve p one hundred twenty one goldstein nineteen ninety nine p two two nine c i a two thousand two p nine three c i a two thousand two p nine four c i a two thousand two p p
+	tags=_2_ <SELF> _8 3_ <SELF> _20 12_ <SELF> _1 <DELETE> 2 1_ <SELF> _19 9 9_ <SELF> _2 2 9-_ _c <SELF> a_ _2 00 2_ <SELF> _9 3_ _c <SELF> a_ _2 00 2_ <SELF> _9 4_ _c <SELF> a_ _2 00 2_ <DELETE> _pp_
+	pred=_2_ p _8 3_ calic _20 12_ p _1  2 1_ goldstein _19 9 9_ p _2 2 9-_ _c i a_ _2 00 2_ p _9 3_ _c i a_ _2 00 2_ p _9 4_ _c i a_ _2 00 2_  _pp_
+	semiotic=CARDINAL PLAIN CARDINAL CARDINAL PLAIN DATE DATE PLAIN CARDINAL CARDINAL CARDINAL CARDINAL PLAIN DATE DATE DATE PLAIN DIGIT DIGIT DIGIT LETTERS LETTERS LETTERS DATE DATE DATE PLAIN DIGIT DIGIT LETTERS LETTERS LETTERS DATE DATE DATE PLAIN DIGIT DIGIT LETTERS LETTERS LETTERS DATE DATE DATE VERBATIM VERBATIM
+	ref=2 p 83 calic 2012 p 121 goldstein 1999 p 229 cia 2002 p 93 cia 2002 p 94 cia 2002 pp
+error: pred=o__-_ _1 5 6_; inp=o one five six; ref=DIGIT 1 5 | o one five six | 0156
+	input=t o one five six is a phosphodiesterase inhibitor
+	tags=_t o__-_ _1 5 6_ <SELF> <SELF> <SELF> <SELF>
+	pred=_t o__-_ _1 5 6_ is a phosphodiesterase inhibitor
+	semiotic=LETTERS LETTERS DIGIT DIGIT DIGIT PLAIN PLAIN PLAIN PLAIN
+	ref=t- 0156 is a phosphodiesterase inhibitor
+error: pred=_0 0's_; inp=o o; ref=DIGIT 1 3 | 0 0 | o o | 00- | 00
+	input=bestenlisten o o er single
+	tags=<SELF> _0 0's_ <SELF> <SELF>
+	pred=bestenlisten _0 0's_ er single
+	semiotic=PLAIN DATE DATE PLAIN PLAIN
+	ref=bestenlisten 00 er single
+error: pred=_0 6 1 2-_; inp=o six one two; ref=DIGIT 5 9 | 0612 | o six one two
+	input=planning application number thirteen t o six one two t p o
+	tags=<SELF> <SELF> <SELF> _13_ <SELF> _0 6 1 2-_ _t <SELF> o_
+	pred=planning application number _13_ t _0 6 1 2-_ _t p o_
+	semiotic=PLAIN PLAIN PLAIN CARDINAL PLAIN DIGIT DIGIT DIGIT DIGIT LETTERS LETTERS LETTERS
+	ref=planning application number 13 t 0612 tpo
+error: pred=_7 4 4 5-_; inp=seven four four five; ref=DIGIT 5 9 | seven four four five | 7445
+	input=university of toronto library n seven four four five c twenty five c point one roba online by s c r i b d dot c o m
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> _7 4 4 5-_ <SELF> _2 5_ <SELF> _. 1_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> d._ <DELETE> <SELF> <SELF> <SELF>
+	pred=university of toronto library n _7 4 4 5-_ c _2 5_ c _. 1_ roba online by s c r i b d._  c o m
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN DIGIT DIGIT DIGIT DIGIT PLAIN CARDINAL CARDINAL PLAIN DECIMAL DECIMAL PLAIN PLAIN PLAIN ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC
+	ref=university of toronto library n 7445 c 25 c .1 roba online by scribd.com
+error: pred=_1 9 3 8-_; inp=one nine three eight; ref=DIGIT 2 6 | 1938 | one nine three eight
+	input=ann arbor one nine three eight e de unger the origin of the mamluk carpet design
+	tags=<SELF> <SELF> _1 9 3 8-_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=ann arbor _1 9 3 8-_ e de unger the origin of the mamluk carpet design
+	semiotic=PLAIN PLAIN DIGIT DIGIT DIGIT DIGIT PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=ann arbor 1938 e de unger the origin of the mamluk carpet design
+error: pred=_1 1 4 5 7 4 8_; inp=one one four five seven four eight; ref=DIGIT 9 16 | one one four five seven four eight | 1145748,
+	input=lexis twelve thousand seventy one two thousand w l one one four five seven four eight copy
+	tags=<SELF> _12 0 7 1_ _2 000_ _w l_ _1 1 4 5 7 4 8_ <SELF>
+	pred=lexis _12 0 7 1_ _2 000_ _w l_ _1 1 4 5 7 4 8_ copy
+	semiotic=PLAIN CARDINAL CARDINAL CARDINAL CARDINAL DATE DATE LETTERS LETTERS DIGIT DIGIT DIGIT DIGIT DIGIT DIGIT DIGIT PLAIN
+	ref=lexis 12071 2000  wl 1145748, copy
+error: pred=_1 0 2 4 6 7-_; inp=one o two four six seven; ref=DIGIT 4 10 | one o two four six seven | 102467
+	input=report number e p one o two four six seven c s i r o hobart australia
+	tags=<SELF> <SELF> _e p_ _1 0 2 4 6 7-_ _c <SELF> <SELF> <SELF> o_ <SELF> <SELF>
+	pred=report number _e p_ _1 0 2 4 6 7-_ _c s i r o_ hobart australia
+	semiotic=PLAIN PLAIN LETTERS LETTERS DIGIT DIGIT DIGIT DIGIT DIGIT DIGIT LETTERS LETTERS LETTERS LETTERS LETTERS PLAIN PLAIN
+	ref=report number ep 102467 csiro hobart australia
+error: pred=_3 5 6 4-_; inp=three five six four; ref=DIGIT 3 7 | 3564 | three five six four
+	input=recorded document v three five six four d seven five five
+	tags=<SELF> <SELF> _v__-_ _3 5 6 4-_ _d__-_ _7 5 5_
+	pred=recorded document _v__-_ _3 5 6 4-_ _d__-_ _7 5 5_
+	semiotic=PLAIN PLAIN LETTERS DIGIT DIGIT DIGIT DIGIT LETTERS DIGIT DIGIT DIGIT
+	ref=recorded document v 3564 d 755
+error: pred=_8_ four; inp=eight four; ref=DIGIT 2 4 | 84- | 84 | eight four | 8 4
+	input=one q eight four books one and two
+	tags=_1_ <SELF> _8_ <SELF> <SELF> _1_ _&_ _2_
+	pred=_1_ q _8_ four books _1_ _&_ _2_
+	semiotic=CARDINAL PLAIN CARDINAL CARDINAL PLAIN CARDINAL PLAIN CARDINAL
+	ref=1 q 84 books 1 and 2
+error: pred=o _2_ _2_; inp=o two two; ref=DIGIT 6 9 | o two two | 022
+	input=this makes the birectified five simplex o two two
+	tags=<SELF> <SELF> <SELF> <SELF> _5_ <SELF> <SELF> _2_ _2_
+	pred=this makes the birectified _5_ simplex o _2_ _2_
+	semiotic=PLAIN PLAIN PLAIN PLAIN CARDINAL PLAIN PLAIN CARDINAL CARDINAL
+	ref=this makes the birectified 5 simplex 022
+error: pred=o_ _3_; inp=o three; ref=DIGIT 12 14 | 0 3 | 03- | 03, | 03 | o three
+	input=in essence the car followed the construction of the mercedes benz w o three
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> o_ _3_
+	pred=in essence the car followed the construction of the mercedes benz w o_ _3_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN LETTERS DIGIT
+	ref=in essence the car followed the construction of the mercedes benz w 03

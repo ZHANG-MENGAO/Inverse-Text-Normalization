@@ -1,0 +1,6 @@
+error: pred=_us__$ _3  9 2_; inp=three hundred ninety two billion; ref=DECIMAL 12 17 | 392 billion | three hundred ninety two billion
+	input=in n g h e an thirteen people killed by floods nearly three hundred ninety two billion vietnamese dong eighteen point six million dollars
+	tags=<SELF> _n <SELF> <SELF> e_ <SELF> _13_ <SELF> <SELF> <SELF> <SELF> <SELF> _us__$<< _3 <DELETE> 9 2_ <SELF> <DELETE> _vnd_ _18 . 6_ <SELF>
+	pred=in _n g h e_ an _13_ people killed by floods nearly _us__$ _3  9 2_ vietnamese  _vnd_ _18 . 6_ dollars
+	semiotic=PLAIN LETTERS LETTERS LETTERS LETTERS PLAIN CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN MONEY MONEY MONEY MONEY MONEY MONEY MONEY MONEY MONEY MONEY MONEY MONEY
+	ref=in nghe an 13 people killed by floods nearly 392 billion vietnamese dong $18.6 million

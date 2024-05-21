@@ -1,0 +1,25 @@
+body {
+    margin: 20px;
+    font-family: sans-serif;
+    background-color: lightblue;
+}
+
+/* .content {
+    margin: 0 auto;
+    width: 400px;
+} */
+
+.form {
+    margin-top: 20px;
+}
+
+#content::placeholder {
+    color: #ccc;
+    font-style: italic;
+}
+
+#content {
+    width: 80%; /* or whatever width you desire */
+    height: auto; /* optional, but allows the textarea to adjust height based on content */
+    resize: vertical; /* allows users to resize vertically but not horizontally */
+}

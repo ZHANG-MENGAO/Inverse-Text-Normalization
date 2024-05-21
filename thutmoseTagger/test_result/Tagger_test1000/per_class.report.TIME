@@ -1,0 +1,678 @@
+error: pred=_16 10_; inp=sixteen ten; ref=TIME 6 8 | 16:10 | sixteen ten | 16: 10
+	input=sixteen to nine material on a sixteen ten or four to three display will be letterboxed
+	tags=_16_ _-_ _9_ <SELF> <SELF> <SELF> _16 10_ <SELF> _4_ _-_ _3_ <SELF> <SELF> <SELF> <SELF>
+	pred=_16_ _-_ _9_ material on a _16 10_ or _4_ _-_ _3_ display will be letterboxed
+	semiotic=CARDINAL PLAIN CARDINAL PLAIN PLAIN PLAIN DATE DATE PLAIN CARDINAL PLAIN CARDINAL PLAIN PLAIN PLAIN PLAIN
+	ref=16 : 9 material on a 16:10 or 4 : 3 display will be letterboxed
+error: pred=_7: 30_ _p._ _m._ _u t c_; inp=seven thirty p m u t c; ref=TIME 12 19 | seven thirty p m u t c | 7:30pm utc
+	input=the program airs on sadurday and sunday nights at seven o'clock to seven thirty p m u t c eastern time on c b s
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _7:00_ <DELETE> _-_ _7: 30_ _p._ _m._ _u <SELF> c_ <SELF> <SELF> <SELF> _c <SELF> s_
+	pred=the program airs on sadurday and sunday nights at _7:00_  _-_ _7: 30_ _p._ _m._ _u t c_ eastern time on _c b s_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN TIME TIME PLAIN TIME TIME TIME TIME LETTERS LETTERS LETTERS PLAIN PLAIN PLAIN LETTERS LETTERS LETTERS
+	ref=the program airs on sadurday and sunday nights at 7:00 - 7:30pm utc eastern time on cbs
+error: pred=_5_ _pm_ _m._ _est_  ; inp=five p m e s t; ref=TIME 8 14 | 5 pm est | 5:00 pm est | 5pm est | 5 p.m. est | 5:00 p.m. est | 5:00pm est | five p m e s t
+	input=for the foreign exchange market this is until five p m e s t e d t for all currencies except the new zealand dollar
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _5_ _pm_ _m._ _est_ <DELETE> <DELETE> <DELETE> _edt_ <DELETE> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=for the foreign exchange market this is until _5_ _pm_ _m._ _est_    _edt_  for all currencies except the new zealand dollar
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN TIME TIME TIME TIME TIME TIME TIME TIME TIME PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=for the foreign exchange market this is until 5 p.m. est edt for all currencies except the new zealand dollar
+error: pred=_3:00_ _a._ _m._ _a._  ; inp=three a m a s t; ref=TIME 7 13 | three a m a s t | 3:00 am ast | 3:00 a.m. ast
+	input=o six hundred sil u t c three a m a s t tropical depression five strengthened into tropical storm dean
+	tags=_0 6 00_ <DELETE> <DELETE> _utc_ <DELETE> _3:00_ _a._ _m._ _a._ <DELETE> <DELETE> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=_0 6 00_   _utc_  _3:00_ _a._ _m._ _a._   tropical depression five strengthened into tropical storm dean
+	semiotic=TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TIME TIME TIME TIME TIME TIME PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=0600 utc 3:00 a.m. ast tropical depression five strengthened into tropical storm dean
+error: pred=_4 4: 0 1:   8 3_ ; inp=forty four minutes one second and eighty three milliseconds; ref=TIME 7 16 | 44:01.83 | forty four minutes one second and eighty three milliseconds
+	input=the aussie won in a time of forty four minutes one second and eighty three milliseconds minutes
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _4 4: 0 1: <DELETE> <DELETE> 8 3_ <DELETE> <SELF>
+	pred=the aussie won in a time of _4 4: 0 1:   8 3_  minutes
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN TIME TIME TIME TIME TIME TIME TIME TIME TIME PLAIN
+	ref=the aussie won in a time of 44:01.83 mins
+error: pred=_9_ _5 4_; inp=nine fifty four; ref=TIME 2 5 | nine fifty four | 09:54 | 9:54 | 9: 54
+	input=buitenzorg two nine fifty four nineteen thirteen
+	tags=<SELF> _2_ _9_ _5 4_ _19 13_
+	pred=buitenzorg _2_ _9_ _5 4_ _19 13_
+	semiotic=PLAIN CARDINAL CARDINAL CARDINAL CARDINAL DATE DATE
+	ref=buitenzorg ii 9: 54 1913
+error: pred=_05: 4 7_ _am_  _ist_  ; inp=five forty seven a m i s t; ref=TIME 8 16 | 05.47am ist | five forty seven a m i s t
+	input=t n n july sixth two thousand eight five forty seven a m i s t the sixth of july two thousand eight
+	tags=_t <SELF> n_ _jul_ _6 ,2 00 8_ _05: 4 7_ _am_ <DELETE> _ist_ <DELETE> <DELETE> <DELETE> _6_ <DELETE> <SELF> _2 00 8_
+	pred=_t n n_ _jul_ _6 ,2 00 8_ _05: 4 7_ _am_  _ist_    _6_  july _2 00 8_
+	semiotic=LETTERS LETTERS LETTERS DATE DATE DATE DATE DATE TIME TIME TIME TIME TIME TIME TIME TIME DATE DATE DATE DATE DATE DATE DATE
+	ref=tnn jul 6, 2008 05.47am ist 2008-07-06
+error: pred=_2:  5 5:   0_ ; inp=two minutes fifty five seconds and zero milliseconds; ref=TIME 20 28 | two minutes fifty five seconds and zero milliseconds | 2:55.0
+	input=jason miller appeared on g four s american ninja warrior making it through the qualifying round with a time of two minutes fifty five seconds and zero milliseconds
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> _4_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _2: <DELETE> 5 5: <DELETE> <DELETE> 0_ <DELETE>
+	pred=jason miller appeared on g _4_ s american ninja warrior making it through the qualifying round with a time of _2:  5 5:   0_ 
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN TIME TIME TIME TIME TIME TIME TIME TIME
+	ref=jason miller appeared on g 4 s american ninja warrior making it through the qualifying round with a time of 2:55.0
+error: pred=_1:  5 8:   15_ ; inp=one minute fifty eight seconds and fifteen milliseconds; ref=TIME 22 30 | 1:58.15 | one minute fifty eight seconds and fifteen milliseconds
+	input=in august twenty fourteen arzamasava won twenty fourteen european athletics championships in the eight hundred meters in a european leading time of one minute fifty eight seconds and fifteen milliseconds
+	tags=<SELF> <SELF> _20 14_ <SELF> <SELF> _20 14_ <SELF> <SELF> <SELF> <SELF> <SELF> _8 00_ _m_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _1: <DELETE> 5 8: <DELETE> <DELETE> 15_ <DELETE>
+	pred=in august _20 14_ arzamasava won _20 14_ european athletics championships in the _8 00_ _m_ in a european leading time of _1:  5 8:   15_ 
+	semiotic=PLAIN DATE DATE DATE PLAIN PLAIN DATE DATE PLAIN PLAIN PLAIN PLAIN PLAIN MEASURE MEASURE MEASURE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN TIME TIME TIME TIME TIME TIME TIME TIME
+	ref=in august 2014 arzamasava won 2014 european athletics championships in the 800 metres in a european leading time of 1:58.15
+error: pred=_19 2 5_; inp=nineteen twenty five; ref=TIME 15 18 | 19: 25 | 19:25 | nineteen twenty five
+	input=at the two thousand six asian games he lost the final to iranian ali mazaheri nineteen twenty five
+	tags=<SELF> <SELF> _2 00 6_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _19 2 5_
+	pred=at the _2 00 6_ asian games he lost the final to iranian ali mazaheri _19 2 5_
+	semiotic=PLAIN PLAIN DATE DATE DATE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN DATE DATE DATE
+	ref=at the 2006 asian games he lost the final to iranian ali mazaheri 19:25
+error: pred=_06: 2 1_ _am_  _ist_  ; inp=six twenty one a m i s t; ref=TIME 12 20 | six twenty one a m i s t | 06.21am ist
+	input=aman sharma e t bureau the twenty first of december twenty thirteen six twenty one a m i s t the twenty first of december twenty thirteen
+	tags=<SELF> <SELF> _e t_ <SELF> <DELETE> _2 1_ <DELETE> <SELF> _20 13_ _06: 2 1_ _am_ <DELETE> _ist_ <DELETE> <DELETE> <DELETE> _2 1_ <DELETE> <SELF> _20 13_
+	pred=aman sharma _e t_ bureau  _2 1_  december _20 13_ _06: 2 1_ _am_  _ist_    _2 1_  december _20 13_
+	semiotic=PLAIN PLAIN LETTERS LETTERS PLAIN DATE DATE DATE DATE DATE DATE DATE TIME TIME TIME TIME TIME TIME TIME TIME DATE DATE DATE DATE DATE DATE DATE
+	ref=aman sharma et bureau 21 december 2013 06.21am ist 21 december 2013
+error: pred=_16:  5 7:   4_ ; inp=sixteen minutes fifty seven seconds and four milliseconds; ref=TIME 10 18 | sixteen minutes fifty seven seconds and four milliseconds | 16:57.4
+	input=his ten thousand meters world record in nineteen forty nine sixteen minutes fifty seven seconds and four milliseconds was the first official world record below seventeen minutes for the distance
+	tags=<SELF> _10 ,000_ _m_ <SELF> <SELF> <SELF> _19 4 9_ _16: <DELETE> 5 7: <DELETE> <DELETE> 4_ <DELETE> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _17_ <SELF> <SELF> <SELF> <SELF>
+	pred=his _10 ,000_ _m_ world record in _19 4 9_ _16:  5 7:   4_  was the first official world record below _17_ minutes for the distance
+	semiotic=PLAIN MEASURE MEASURE MEASURE PLAIN PLAIN PLAIN DATE DATE DATE TIME TIME TIME TIME TIME TIME TIME TIME PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL PLAIN PLAIN PLAIN PLAIN
+	ref=his 10,000 m world record in 1949 16:57.4 was the first official world record below 17 minutes for the distance
+error: pred=_12: 5 5_ _a._ ; inp=twelve fifty five a m; ref=TIME 1 6 | 12:55 am | twelve fifty five a m | 12:55am | 12:55 a.m.
+	input=at twelve fifty five a m the crew of a united states navy aircraft discovered unidentified debris along the side of mount erebus
+	tags=<SELF> _12: 5 5_ _a._ <DELETE> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=at _12: 5 5_ _a._  the crew of a united states navy aircraft discovered unidentified debris along the side of mount erebus
+	semiotic=PLAIN TIME TIME TIME TIME TIME PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=at 12:55 am the crew of a united states navy aircraft discovered unidentified debris along the side of mount erebus
+error: pred=_12: 5 1_ _pm_  _ist_  ; inp=twelve fifty one p m i s t; ref=TIME 8 16 | twelve fifty one p m i s t | 12.51pm ist
+	input=the twenty first of may two thousand nine twelve fifty one p m i s t e t bureau the twenty first of may two thousand nine
+	tags=<DELETE> _2 1_ <DELETE> <SELF> _2 00 9_ _12: 5 1_ _pm_ <DELETE> _ist_ <DELETE> <DELETE> <DELETE> <DELETE> <SELF> <DELETE> _2 1_ <DELETE> <SELF> _2 00 9_
+	pred= _2 1_  may _2 00 9_ _12: 5 1_ _pm_  _ist_     bureau  _2 1_  may _2 00 9_
+	semiotic=DATE DATE DATE DATE DATE DATE DATE DATE TIME TIME TIME TIME TIME TIME TIME TIME TIME TIME PLAIN DATE DATE DATE DATE DATE DATE DATE DATE
+	ref=21 may 2009 12.51pm ist et bureau 2009-05-21
+error: pred=  2 0:  16_  _utc_  ; inp=one hour twenty minutes and sixteen seconds u t c; ref=TIME 8 18 | one hour twenty minutes and sixteen seconds u t c | 01:20:16 utc
+	input=tricia gilbride the nineteenth of december twenty fifteen one hour twenty minutes and sixteen seconds u t c the eighteenth of november twenty eleven
+	tags=<SELF> <SELF> <DELETE> _19_ <DELETE> <SELF> _20 15_ <DELETE> <DELETE> 2 0: <DELETE> 16_ <DELETE> _utc_ <DELETE> <DELETE> <DELETE> _18_ <DELETE> <SELF> _20 11_
+	pred=tricia gilbride  _19_  december _20 15_   2 0:  16_  _utc_    _18_  november _20 11_
+	semiotic=PLAIN PLAIN DATE DATE DATE DATE DATE DATE TIME TIME TIME TIME TIME TIME TIME TIME TIME TIME DATE DATE DATE DATE DATE DATE
+	ref=tricia gilbride 2015-12-19 01:20:16 utc 2011-11-18
+error: pred=_2: 2 3_ _pm_ _m._ _cet_  ; inp=two twenty three p m c e t; ref=TIME 12 20 | 2:23 pm cet | two twenty three p m c e t
+	input=the round table talks began on february sixth nineteen eighty nine at two twenty three p m c e t
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _6 ,19 8 9_ <SELF> _2: 2 3_ _pm_ _m._ _cet_ <DELETE> <DELETE>
+	pred=the round table talks began on february _6 ,19 8 9_ at _2: 2 3_ _pm_ _m._ _cet_  
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN DATE DATE DATE DATE DATE PLAIN TIME TIME TIME TIME TIME TIME TIME TIME
+	ref=the round table talks began on february 6, 1989 at 2:23 pm cet
+error: pred=_3:  2 6:   12_ ; inp=three minutes twenty six seconds and twelve milliseconds; ref=TIME 12 20 | three minutes twenty six seconds and twelve milliseconds | 3:26.12
+	input=lagat achieved this record when he finished second behind hicham el guerrouj three minutes twenty six seconds and twelve milliseconds
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _3: <DELETE> 2 6: <DELETE> <DELETE> 12_ <DELETE>
+	pred=lagat achieved this record when he finished second behind hicham el guerrouj _3:  2 6:   12_ 
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN TIME TIME TIME TIME TIME TIME TIME TIME
+	ref=lagat achieved this record when he finished 2nd behind hicham el guerrouj 3:26.12
+error: pred=_15_ 3 4_; inp=fifteen thirty four; ref=TIME 13 16 | fifteen thirty four | 15: 34 | 15:34
+	input=the fortieth place team in a field of forty seven teams maintained a fifteen thirty four five k pace
+	tags=<SELF> _40th_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _4 7_ <SELF> <SELF> <SELF> _15_ 3 4_ _5_ <SELF> <SELF>
+	pred=the _40th_ place team in a field of _4 7_ teams maintained a _15_ 3 4_ _5_ k pace
+	semiotic=PLAIN ORDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL CARDINAL PLAIN PLAIN PLAIN DATE DATE DATE CARDINAL PLAIN PLAIN
+	ref=the 40th place team in a field of 47 teams maintained a 15:34 5 k pace
+error: pred=_6_ 17_; inp=six seventeen; ref=TIME 2 4 | 06:17 | 06.17 | 6:17 | 6: 17 | six seventeen
+	input=the victim six seventeen eleven
+	tags=<SELF> <SELF> _6_ 17_ _11_
+	pred=the victim _6_ 17_ _11_
+	semiotic=PLAIN PLAIN TIME TIME CARDINAL
+	ref=the victim 6:17 11
+error: pred=_15 00_; inp=fifteen hundred; ref=TIME 2 4 | fifteen hundred | 15:00
+	input=september um fifteen hundred uhr in der bayernliga sud
+	tags=<SELF> <SELF> _15 00_ <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=september um _15 00_ uhr in der bayernliga sud
+	semiotic=PLAIN PLAIN DATE DATE PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=september um 15:00 uhr in der bayernliga sud
+error: pred=_19 19_; inp=nineteen nineteen; ref=TIME 0 2 | 19: 19 | 19:19 | nineteen nineteen | 19 : 19
+	input=nineteen nineteen featured guest appearances by kristen cloke and christian hoff
+	tags=_19 19_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=_19 19_ featured guest appearances by kristen cloke and christian hoff
+	semiotic=DATE DATE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=19:19 featured guest appearances by kristen cloke and christian hoff
+error: pred=_2: 0 9:   07_ ; inp=two minutes nine seconds and seven milliseconds; ref=TIME 7 14 | 2:09.07 | two minutes nine seconds and seven milliseconds
+	input=he achieved a fina b cut of two minutes nine seconds and seven milliseconds from the akropolis grand prix in athens
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _2: 0 9: <DELETE> <DELETE> 07_ <DELETE> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=he achieved a fina b cut of _2: 0 9:   07_  from the akropolis grand prix in athens
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN TIME TIME TIME TIME TIME TIME TIME PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=he achieved a fina b cut of 2:09.07 from the akropolis grand prix in athens
+error: pred=_11:00_ _am_ _m._; inp=eleven a m; ref=TIME 4 7 | am11 | 11.00 a.m. | 11.00 am | 11:00am | 11a.m. | 11 am, | 11.00am | 11:00 a.m. | 11am | 11.00a.m. | 11 a.m. | eleven a m | 11 am | 11:00 am
+	input=they arrived at about eleven a m but it was very windy and the beach was closed
+	tags=<SELF> <SELF> <SELF> <SELF> _11:00_ _am_ _m._ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=they arrived at about _11:00_ _am_ _m._ but it was very windy and the beach was closed
+	semiotic=PLAIN PLAIN PLAIN PLAIN TIME TIME TIME PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=they arrived at about 11am but it was very windy and the beach was closed
+error: pred=_4:  2 8:   2 5_ ; inp=four minutes twenty eight seconds and twenty five milliseconds; ref=TIME 7 16 | four minutes twenty eight seconds and twenty five milliseconds | 4:28.25
+	input=cain later improved her own mark to four minutes twenty eight seconds and twenty five milliseconds also indoors at the millrose games
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _4: <DELETE> 2 8: <DELETE> <DELETE> 2 5_ <DELETE> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=cain later improved her own mark to _4:  2 8:   2 5_  also indoors at the millrose games
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN TIME TIME TIME TIME TIME TIME TIME TIME TIME PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=cain later improved her own mark to 4:28.25 also indoors at the millrose games
+error: pred=_1:00_ _p._ ; inp=one p m; ref=TIME 7 10 | 1pm | pm1 | 1.00pm | 1:00 p.m. | 13 pm | one p m | 01 pm | 1 pm, | 13.00pm | 13:00 pm | 13.00 pm | 1:00 pm | 1 p.m. | am13 | 1 pm | 1.00 pm | 1:00pm | 1p.m. | 01:00 pm
+	input=the airplanes were supposed to arrive about one p m the next day
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _1:00_ _p._ <DELETE> <SELF> <SELF> <SELF>
+	pred=the airplanes were supposed to arrive about _1:00_ _p._  the next day
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN TIME TIME TIME PLAIN PLAIN PLAIN
+	ref=the airplanes were supposed to arrive about 1 pm the next day
+error: pred=_5:00_ _pm_ _m._; inp=five p m; ref=TIME 8 11 | 5.00pm | 5 pm | 5.00 p.m. | 05:00pm | pm5 | 5:00 p.m. | 5pm | 05:00 pm | 5 p. m. | 5:00 pm | five p m | 17.00 pm | 5p.m. | 17.00pm | 5 pm, | 5 p.m. | 17:00pm | 05 pm | 5.00 pm | 5:00pm | 5 p m
+	input=the body was landed at westminster at about five p m and carried to the abbey in a grand procession
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _5:00_ _pm_ _m._ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=the body was landed at westminster at about _5:00_ _pm_ _m._ and carried to the abbey in a grand procession
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN TIME TIME TIME PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=the body was landed at westminster at about 5 pm and carried to the abbey in a grand procession
+error: pred=_12_ 11_; inp=twelve eleven; ref=TIME 12 14 | 12:11 | 12: 11 | twelve eleven
+	input=w maass on the computational power of winner take all neural computation twelve eleven two thousand
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _12_ 11_ _2 000_
+	pred=w maass on the computational power of winner take all neural computation _12_ 11_ _2 000_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL CARDINAL DATE DATE
+	ref=w maass on the computational power of winner take all neural computation 12:11 2000
+error: pred=_7:  14: 0  0:00_ ; inp=seven hours fourteen minutes and zero seconds; ref=TIME 32 39 | seven hours fourteen minutes and zero seconds | 7:14:00
+	input=c m u's sandstorm followed with seven hours four minutes and fifty seconds at twenty nine point nine kilometers per hour eighteen point six miles per hour and h one ghlander at seven hours fourteen minutes and zero seconds at twenty nine point three kilometers per hour eighteen point two miles per hour
+	tags=_c <SELF> u's_ <SELF> <SELF> <SELF> _7: 0 4: <DELETE> <DELETE> 5 0_ <SELF> _2 9 . 9_ _km_ _/_ _h_ _18 . 6_ <DELETE> <DELETE> _mph_ <SELF> <SELF> _1_ <SELF> <SELF> _7: <DELETE> 14: 0 <DELETE> 0:00_ <DELETE> <SELF> _2 9 . 3_ _km_ _/_ _h_ _18 . 2_ <DELETE> <DELETE> _mph_
+	pred=_c m u's_ sandstorm followed with _7: 0 4:   5 0_ at _2 9 . 9_ _km_ _/_ _h_ _18 . 6_   _mph_ and h _1_ ghlander at _7:  14: 0  0:00_  at _2 9 . 3_ _km_ _/_ _h_ _18 . 2_   _mph_
+	semiotic=LETTERS LETTERS LETTERS PLAIN PLAIN PLAIN TIME TIME TIME TIME TIME TIME TIME PLAIN MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE PLAIN PLAIN CARDINAL PLAIN PLAIN TIME TIME TIME TIME TIME TIME TIME PLAIN MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE
+	ref=cmu's sandstorm followed with 7:04:50 at 29.9 km/h 18.6 mph and h 1 ghlander at 7:14:00 at 29.3 km/h 18.2 mph
+error: pred=_1:  5 9:   3 0_; inp=one minute fifty nine seconds and thirty milliseconds; ref=TIME 9 17 | one minute fifty nine seconds and thirty milliseconds | 1:59.30
+	input=her personal best in the eight hundred meters is one minute fifty nine seconds and thirty milliseconds from twenty thirteen
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> _8 00_ _m_ <SELF> _1: <DELETE> 5 9: <DELETE> <DELETE> 3 0_ <SELF> _20 13_
+	pred=her personal best in the _8 00_ _m_ is _1:  5 9:   3 0_ from _20 13_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN MEASURE MEASURE MEASURE PLAIN TIME TIME TIME TIME TIME TIME TIME TIME PLAIN DATE DATE
+	ref=her personal best in the 800 metres is 1:59.30 from 2013
+error: pred=_8:00_ _a._ ; inp=eight a m; ref=TIME 8 11 | 08:00am | 8.00 am | 8:00 a.m. | 8a. m. | a m8 | 8: 00 a.m. | 08 a.m. | 8:00 a. m. | 08.00 am | 8.00 a.m. | 8:00am | 8 am | 8 am, | 8.00 a. m. | 8 a.m. | eight a m | 08.00am | 8a.m. | 8:00 am | 8.00am | 08:00 am | 8am | am8
+	input=they arrived to their execution in newgate around eight a m dressed finely in black suits presenting themselves as prideful men
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _8:00_ _a._ <DELETE> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=they arrived to their execution in newgate around _8:00_ _a._  dressed finely in black suits presenting themselves as prideful men
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN TIME TIME TIME PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=they arrived to their execution in newgate around 8 am dressed finely in black suits presenting themselves as prideful men
+error: pred=_13:  3 4:   5 5_ ; inp=thirteen minutes thirty four seconds and fifty five milliseconds; ref=TIME 10 19 | thirteen minutes thirty four seconds and fifty five milliseconds | 13:34.55
+	input=in may he set a five thousand meters best of thirteen minutes thirty four seconds and fifty five milliseconds minutes during a win at the noboeka golden games
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> _5 000_ _m_ <SELF> <SELF> _13: <DELETE> 3 4: <DELETE> <DELETE> 5 5_ <DELETE> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=in may he set a _5 000_ _m_ best of _13:  3 4:   5 5_  minutes during a win at the noboeka golden games
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN MEASURE MEASURE MEASURE PLAIN PLAIN TIME TIME TIME TIME TIME TIME TIME TIME TIME PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=in may he set a 5000 m best of 13:34.55 minutes during a win at the noboeka golden games
+error: pred=_01:  2 3:   4 0_; inp=one hour twenty three minutes and forty seconds; ref=TIME 1 9 | one hour twenty three minutes and forty seconds | 1:23:40
+	input=at one hour twenty three minutes and forty seconds akimov pressed the a z five button class five emergency
+	tags=<SELF> _01: <DELETE> 2 3: <DELETE> <DELETE> 4 0_ <SELF> <SELF> <SELF> _a z__-_ _5_ <SELF> <SELF> _5_ <SELF>
+	pred=at _01:  2 3:   4 0_ akimov pressed the _a z__-_ _5_ button class _5_ emergency
+	semiotic=PLAIN TIME TIME TIME TIME TIME TIME TIME TIME PLAIN PLAIN PLAIN LETTERS LETTERS CARDINAL PLAIN PLAIN CARDINAL PLAIN
+	ref=at 1:23:40 akimov pressed the az- 5 button class 5 emergency
+error: pred=_1:  4 8:   3 6_ ; inp=one minute forty eight seconds and thirty six milliseconds; ref=TIME 17 26 | one minute forty eight seconds and thirty six milliseconds | 1:48.36
+	input=the gold medal was won by eighteen year old mohammed aman of ethiopia in a time of one minute forty eight seconds and thirty six milliseconds seconds
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _18_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _1: <DELETE> 4 8: <DELETE> <DELETE> 3 6_ <DELETE> <SELF>
+	pred=the gold medal was won by _18_ year old mohammed aman of ethiopia in a time of _1:  4 8:   3 6_  seconds
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN TIME TIME TIME TIME TIME TIME TIME TIME TIME PLAIN
+	ref=the gold medal was won by 18 year old mohammed aman of ethiopia in a time of 1:48.36 seconds
+error: pred=_7_ _10_; inp=seven ten; ref=TIME 1 3 | 07:10 | 07: 10 | seven ten | 7: 10 | 07.10 | 7:10
+	input=tekken seven ten major characters that may not be returning
+	tags=<SELF> _7_ _10_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=tekken _7_ _10_ major characters that may not be returning
+	semiotic=PLAIN CARDINAL CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=tekken 7: 10 major characters that may not be returning
+error: pred=_7:00_ _am_ _m._; inp=seven a m; ref=TIME 2 5 | 7am | 7 am, | 07:00 am | 07 a.m. | 7 am | 7:00am | 7:00a.m. | am7 | 7a.m. | 7.00 am | 07:00am | 7:00 a.m. | 7:00 am | 7 a.m. | 7.00am | seven a m | 7.00 a.m.
+	input=at about seven a m just before sunrise the apache man adelnietze appeared
+	tags=<SELF> <SELF> _7:00_ _am_ _m._ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=at about _7:00_ _am_ _m._ just before sunrise the apache man adelnietze appeared
+	semiotic=PLAIN PLAIN TIME TIME TIME PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=at about 7:00 am just before sunrise the apache man adelnietze appeared
+error: pred=_5: 15_ _am_ _m._; inp=five fifteen a m; ref=TIME 6 10 | 05:15 am | 5:15am | 5:15 a.m. | 5.15 am | five fifteen a m | 5.15 a.m. | 5.15am | 5:15 am
+	input=the race would instead run from five fifteen a m to five fifteen p m with the final two hours televized by network ten
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _5: 15_ _am_ _m._ <SELF> _5: 15_ _p._ _m._ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=the race would instead run from _5: 15_ _am_ _m._ to _5: 15_ _p._ _m._ with the final two hours televized by network ten
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN TIME TIME TIME TIME PLAIN TIME TIME TIME TIME PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=the race would instead run from 5:15am to 5:15pm with the final two hours televised by network ten
+error: pred=_9:00_ _09:00_; inp=nine o'clock; ref=TIME 14 16 | 9:00 | 09:00 | nine o'clock | 09.00
+	input=the school serves the students grades one to three from monday to friday from nine o'clock to fifteen fifteen
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _1_ _-_ _3_ <SELF> <SELF> <SELF> <SELF> <SELF> _9:00_ _09:00_ <SELF> _15: 15_
+	pred=the school serves the students grades _1_ _-_ _3_ from monday to friday from _9:00_ _09:00_ to _15: 15_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL PLAIN CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN TIME TIME PLAIN TIME TIME
+	ref=the school serves the students grades 1 - 3 from monday to friday from 9:00 to 15:15
+error: pred=_1:  4 5:   11_ ; inp=one minute forty five seconds and eleven milliseconds; ref=TIME 5 13 | one minute forty five seconds and eleven milliseconds | 1:45.11
+	input=his personal best time is one minute forty five seconds and eleven milliseconds minutes achieved in august nineteen ninety nine in montauban
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> _1: <DELETE> 4 5: <DELETE> <DELETE> 11_ <DELETE> <SELF> <SELF> <SELF> <SELF> _19 9 9_ <SELF> <SELF>
+	pred=his personal best time is _1:  4 5:   11_  minutes achieved in august _19 9 9_ in montauban
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN TIME TIME TIME TIME TIME TIME TIME TIME PLAIN PLAIN PLAIN DATE DATE DATE DATE PLAIN PLAIN
+	ref=his personal best time is 1:45.11 minutes achieved in august 1999 in montauban
+error: pred=_4:00_ _p._ ; inp=four p m; ref=TIME 4 7 | 4:00pm | 16:00pm | 4p.m. | 16:00 p.m. | 04.00 pm | four p m | 16 pm | 4 pm | 4pm | 4.00 pm | 4:00 pm | 04:00 pm | 04 pm | 4.00 p.m. | 04:00 p.m. | 4.00pm | 4:00 p. m. | pm4 | 04:00pm | 16:00 pm | 4:00 p.m. | 4 pm, | 4:00p.m. | 4 p.m. | 4 p. m.
+	input=newport was launched at four p m in the afternoon of wednesday may twentieth nineteen o eight
+	tags=<SELF> <SELF> <SELF> <SELF> _4:00_ _p._ <DELETE> <SELF> <SELF> <SELF> <SELF> <SELF> _,__may_ _20 ,19 0 8_
+	pred=newport was launched at _4:00_ _p._  in the afternoon of wednesday _,__may_ _20 ,19 0 8_
+	semiotic=PLAIN PLAIN PLAIN PLAIN TIME TIME TIME PLAIN PLAIN PLAIN PLAIN DATE DATE DATE DATE DATE DATE
+	ref=newport was launched at 4:00 p.m. in the afternoon of wednesday, may 20, 1908
+error: pred=_2: 0 5:   2 5_ ; inp=two minutes five seconds and twenty five milliseconds; ref=TIME 21 29 | two minutes five seconds and twenty five milliseconds | 2:05.25
+	input=atasay edged out venezuela's leopoldo andara to take the sixth spot by nearly half a second zero point five o in two minutes five seconds and twenty five milliseconds
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _0 . 5 0_ <SELF> _2: 0 5: <DELETE> <DELETE> 2 5_ <DELETE>
+	pred=atasay edged out venezuela's leopoldo andara to take the sixth spot by nearly half a second _0 . 5 0_ in _2: 0 5:   2 5_ 
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN DECIMAL DECIMAL DECIMAL DECIMAL PLAIN TIME TIME TIME TIME TIME TIME TIME TIME
+	ref=atasay edged out venezuela's leopoldo andara to take the sixth spot by nearly half a second 0.50 in 2:05.25
+error: pred=_9:00_ _09:00_ _et_ ; inp=nine o'clock e t; ref=TIME 7 11 | 09:00 et | 9:00 et | nine o'clock e t
+	input=broadcast in the sunday night timeslot at nine o'clock e t the season aired twenty three regular episodes
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _9:00_ _09:00_ _et_ <DELETE> <SELF> <SELF> <SELF> _2 3_ <SELF> <SELF>
+	pred=broadcast in the sunday night timeslot at _9:00_ _09:00_ _et_  the season aired _2 3_ regular episodes
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN TIME TIME TIME TIME PLAIN PLAIN PLAIN CARDINAL CARDINAL PLAIN PLAIN
+	ref=broadcast in the sunday night timeslot at 9:00 et the season aired twenty three regular episodes
+error: pred=_4: 30_ _a._ ; inp=four thirty a m; ref=TIME 1 5 | 4:30 am | 4.30 a.m. | four thirty a m | 4:30 a.m. | 4:30am | 04:30 am | 4.30 am | 4.30am
+	input=about four thirty a m they were relieved and marched back about two miles to get breakfast v hungry and sleepy
+	tags=<SELF> _4: 30_ _a._ <DELETE> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=about _4: 30_ _a._  they were relieved and marched back about two miles to get breakfast v hungry and sleepy
+	semiotic=PLAIN TIME TIME TIME TIME PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=about 4.30 am they were relieved and marched back about two miles to get breakfast v hungry and sleepy
+error: pred=_7:00_ _am_ _m._; inp=seven a m; ref=TIME 6 9 | 7am | 7 am, | 07:00 am | 07 a.m. | 7 am | 7:00am | 7:00a.m. | am7 | 7a.m. | 7.00 am | 07:00am | 7:00 a.m. | 7:00 am | 7 a.m. | 7.00am | seven a m | 7.00 a.m.
+	input=the pastries are sold anywhere from seven a m to noon most vendors sell out by mid morning
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _7:00_ _am_ _m._ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=the pastries are sold anywhere from _7:00_ _am_ _m._ to noon most vendors sell out by mid morning
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN TIME TIME TIME PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=the pastries are sold anywhere from 7am to noon most vendors sell out by mid morning
+error: pred=_11: 2 8_ _am_ _m._; inp=eleven twenty eight a m; ref=TIME 10 15 | 11:28 a.m. | 11.28 am | eleven twenty eight a m | 11:28am | 11:28 am
+	input=on december ninth twenty twelve a shooting occurred at approximately eleven twenty eight a m in the riveredge employee parking lot
+	tags=<SELF> <SELF> _9 ,20 12_ <SELF> <SELF> <SELF> <SELF> <SELF> _11: 2 8_ _am_ _m._ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=on december _9 ,20 12_ a shooting occurred at approximately _11: 2 8_ _am_ _m._ in the riveredge employee parking lot
+	semiotic=PLAIN DATE DATE DATE DATE PLAIN PLAIN PLAIN PLAIN PLAIN TIME TIME TIME TIME TIME PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=on december 9, 2012 a shooting occurred at approximately 11:28 am in the riveredge employee parking lot
+error: pred=5_ _3 5_; inp=five thirty five; ref=TIME 4 7 | 5:35 | 5: 35 | five thirty five | 05:35
+	input=v point o two five thirty five lahra salem rev
+	tags=<SELF> _. 0 2 5_ _3 5_ <SELF> <SELF> <SELF>
+	pred=v _. 0 2 5_ _3 5_ lahra salem rev
+	semiotic=PLAIN DECIMAL DECIMAL DECIMAL DECIMAL CARDINAL CARDINAL PLAIN PLAIN PLAIN
+	ref=v .02 5:35 lahra salem rev
+error: pred=_1: 30_ _p._ ; inp=one thirty p m; ref=TIME 5 9 | 1:30 pm | 01:30 pm | 13:30 pm | 1.30 p.m. | 1:30 p.m. | 1.30 pm | 1:30pm | 13:30pm | 1.30pm | one thirty p m
+	input=the power failure occurred at one thirty p m local time
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> _1: 30_ _p._ <DELETE> <SELF> <SELF>
+	pred=the power failure occurred at _1: 30_ _p._  local time
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN TIME TIME TIME TIME PLAIN PLAIN
+	ref=the power failure occurred at 1:30 pm local time
+error: pred=_1_ _50; inp=one fifty; ref=TIME 2 4 | 1:50 | one fifty | 01.50 | 01:50 | 1: 50 | 1 : 50
+	input=formula hash one fifty percent k n o three potassium nitrate thirty percent s sulfur twenty percent bright al aluminum comments this is a relatively safe flash composition
+	tags=<SELF> _#_ _1_ _50 %_ _k <SELF> o_ _3_ <SELF> <SELF> _30 %_ <SELF> <SELF> _20 %_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=formula _#_ _1_ _50 %_ _k n o_ _3_ potassium nitrate _30 %_ s sulfur _20 %_ bright al aluminum comments this is a relatively safe flash composition
+	semiotic=PLAIN VERBATIM CARDINAL MEASURE MEASURE LETTERS LETTERS LETTERS CARDINAL PLAIN PLAIN MEASURE MEASURE PLAIN PLAIN MEASURE MEASURE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=formula # 1 : 50 % kno 3 potassium nitrate 30% s sulfur 20% bright al aluminum comments this is a relatively safe flash composition
+error: pred=7_ _2 2_; inp=seven twenty two; ref=TIME 11 14 | 07.22 | 07:22 | seven twenty two | 7: 22 | 7:22
+	input=tras clin s o c lond point one eight seven four seven twenty two r kevin grigsby et al
+	tags=<SELF> <SELF> _s <SELF> c_ <SELF> _. 1 8 7 4 7_ _2 2_ <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=tras clin _s o c_ lond _. 1 8 7 4 7_ _2 2_ r kevin grigsby et al
+	semiotic=PLAIN PLAIN LETTERS LETTERS LETTERS PLAIN DECIMAL DECIMAL DECIMAL DECIMAL DECIMAL TIME CARDINAL CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=tras clin soc lond .1874 7:22 r kevin grigsby et al
+error: pred=_7:00_ _am_ _m._; inp=seven a m; ref=TIME 14 17 | 7am | 7 am, | 07:00 am | 07 a.m. | 7 am | 7:00am | 7:00a.m. | am7 | 7a.m. | 7.00 am | 07:00am | 7:00 a.m. | 7:00 am | 7 a.m. | 7.00am | seven a m | 7.00 a.m.
+	input=the countdown ceased sometime in december two thousand nine but returned in its new seven a m time slot on january sixth twenty ten
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _2 00 9_ <SELF> <SELF> <SELF> <SELF> <SELF> _7:00_ _am_ _m._ <SELF> <SELF> <SELF> <SELF> _6 ,20 10_
+	pred=the countdown ceased sometime in december _2 00 9_ but returned in its new _7:00_ _am_ _m._ time slot on january _6 ,20 10_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN DATE DATE DATE DATE PLAIN PLAIN PLAIN PLAIN PLAIN TIME TIME TIME PLAIN PLAIN PLAIN DATE DATE DATE DATE
+	ref=the countdown ceased sometime in december 2009 but returned in its new 7am time slot on january 6, 2010
+error: pred=_13: 0 4:   3 5_ ; inp=thirteen minutes four seconds and thirty five milliseconds; ref=TIME 3 11 | thirteen minutes four seconds and thirty five milliseconds | 13:04.35
+	input=sam ran a thirteen minutes four seconds and thirty five milliseconds at boston university's bu multi team meet coming in second
+	tags=<SELF> <SELF> <SELF> _13: 0 4: <DELETE> <DELETE> 3 5_ <DELETE> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=sam ran a _13: 0 4:   3 5_  at boston university's bu multi team meet coming in second
+	semiotic=PLAIN PLAIN PLAIN TIME TIME TIME TIME TIME TIME TIME TIME PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=sam ran a 13:04.35 at boston university's bu multi team meet coming in second
+error: pred=_3:  16:   6_ ; inp=three minutes sixteen seconds and six milliseconds; ref=TIME 9 16 | 3:16.6 | three minutes sixteen seconds and six milliseconds
+	input=justin murdock and his meade teammates blow out a three minutes sixteen seconds and six milliseconds sixteen hundred relay time in orlando
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _3: <DELETE> 16: <DELETE> <DELETE> 6_ <DELETE> _16: 00_ <SELF> <SELF> <SELF> <SELF>
+	pred=justin murdock and his meade teammates blow out a _3:  16:   6_  _16: 00_ relay time in orlando
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN TIME TIME TIME TIME TIME TIME TIME TIME TIME PLAIN PLAIN PLAIN PLAIN
+	ref=justin murdock and his meade teammates blow out a 3:16.6 1600 relay time in orlando
+error: pred=_1:00_ _a._ ; inp=one a m; ref=TIME 12 15 | am01 | 01:00 am | 1 a.m. | 1 am, | 1.00am | 01:00 a.m. | 1 am | 01.00 a.m. | am1 | one a m | 1:00 am | a.m.1 | 1.00 a.m. | 01 am | 01:00am | 01.00 am | 1:00 a.m. | 1:00am | 1.00 am | 1am | 1a.m.
+	input=he avoided the crossroads as he closed in on the town at one a m on tuesday june eighth
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _1:00_ _a._ <DELETE> <SELF> <SELF> _,__june_ _8_
+	pred=he avoided the crossroads as he closed in on the town at _1:00_ _a._  on tuesday _,__june_ _8_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN TIME TIME TIME PLAIN DATE DATE DATE
+	ref=he avoided the crossroads as he closed in on the town at 1:00 am on tuesday, june 8
+error: pred=_10: 3 5_ _am_ _m._; inp=ten thirty five a m; ref=TIME 5 10 | 10:35am | 10.35am | 10:35 a.m. | 10:35 am | 10.35 am | ten thirty five a m
+	input=the last login was at ten thirty five a m on the day of the shooting
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> _10: 3 5_ _am_ _m._ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=the last login was at _10: 3 5_ _am_ _m._ on the day of the shooting
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN TIME TIME TIME TIME TIME PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=the last login was at 10:35 a.m. on the day of the shooting
+error: pred=_5: 4 3_ _am_ ; inp=five forty three a m; ref=TIME 4 9 | five forty three a m | 5.43am | 5:43 a.m.
+	input=it opens with the five forty three a m check in of two flight eleven hijackers at portland international jetport
+	tags=<SELF> <SELF> <SELF> <SELF> _5: 4 3_ _am_ <DELETE> <SELF> <SELF> <SELF> <SELF> <SELF> _11_ <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=it opens with the _5: 4 3_ _am_  check in of two flight _11_ hijackers at portland international jetport
+	semiotic=PLAIN PLAIN PLAIN PLAIN TIME TIME TIME TIME TIME PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=it opens with the 5:43 a.m. check in of two flight 11 hijackers at portland international jetport
+error: pred=_11: 15_ _am_ _m._; inp=eleven fifteen a m; ref=TIME 12 16 | 11:15am | eleven fifteen a m | 11.15 am | 11:15 a.m. | 11:15 am | 11.15am
+	input=he made the parachute jump from a helicopter near his home at eleven fifteen a m in kennebunkport maine
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _11: 15_ _am_ _m._ <SELF> <SELF> <SELF>
+	pred=he made the parachute jump from a helicopter near his home at _11: 15_ _am_ _m._ in kennebunkport maine
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN TIME TIME TIME TIME PLAIN PLAIN PLAIN
+	ref=he made the parachute jump from a helicopter near his home at 11:15 a.m. in kennebunkport maine
+error: pred=_4:  2 5:   11_ ; inp=four minutes twenty five seconds and eleven milliseconds; ref=TIME 15 23 | 4:25.11 | four minutes twenty five seconds and eleven milliseconds
+	input=as a junior he finished fourth in the penn relays high school boys mile in four minutes twenty five seconds and eleven milliseconds
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _4: <DELETE> 2 5: <DELETE> <DELETE> 11_ <DELETE>
+	pred=as a junior he finished fourth in the penn relays high school boys mile in _4:  2 5:   11_ 
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN TIME TIME TIME TIME TIME TIME TIME TIME
+	ref=as a junior he finished fourth in the penn relays high school boys mile in 4:25.11
+error: pred=_7:00_ _am_ _m._; inp=seven a m; ref=TIME 12 15 | 7am | 7 am, | 07:00 am | 07 a.m. | 7 am | 7:00am | 7:00a.m. | am7 | 7a.m. | 7.00 am | 07:00am | 7:00 a.m. | 7:00 am | 7 a.m. | 7.00am | seven a m | 7.00 a.m.
+	input=therefore advancing the clock in hawaii would make sunrise times close to seven a m even in june
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _7:00_ _am_ _m._ <SELF> <SELF> <SELF>
+	pred=therefore advancing the clock in hawaii would make sunrise times close to _7:00_ _am_ _m._ even in june
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN TIME TIME TIME PLAIN PLAIN PLAIN
+	ref=therefore advancing the clock in hawaii would make sunrise times close to 7:00 a.m. even in june
+error: pred=_4: 0 3:   1_ ; inp=four minutes three seconds and one millisecond; ref=TIME 21 28 | four minutes three seconds and one millisecond | 4:03.01
+	input=at the twenty twelve summer olympics in london adlington won bronze in the four hundred meter freestyle in a time of four minutes three seconds and one millisecond
+	tags=<SELF> <SELF> _20 12_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _4 00_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _4: 0 3: <DELETE> <DELETE> 1_ <DELETE>
+	pred=at the _20 12_ summer olympics in london adlington won bronze in the _4 00_ meter freestyle in a time of _4: 0 3:   1_ 
+	semiotic=PLAIN PLAIN DATE DATE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN TIME TIME TIME TIME TIME TIME TIME
+	ref=at the 2012 summer olympics in london adlington won bronze in the 400 metre freestyle in a time of 4:03.01
+error: pred=_10 14_; inp=ten fourteen; ref=TIME 4 6 | ten fourteen | 10: 14 | 10:14
+	input=names alteration act chapter ten fourteen census preliminary twenty twelve p d f
+	tags=<SELF> <SELF> <SELF> <SELF> _10 14_ <SELF> <SELF> _20 12_ _p <SELF> f_
+	pred=names alteration act chapter _10 14_ census preliminary _20 12_ _p d f_
+	semiotic=PLAIN PLAIN PLAIN PLAIN DATE DATE PLAIN PLAIN DATE DATE LETTERS LETTERS LETTERS
+	ref=names alteration act chapter 10:14 census preliminary 2012 pdf
+error: pred=_8_ _a._ ; inp=eight a m; ref=TIME 15 18 | 08:00am | 8.00 am | 8:00 a.m. | 8a. m. | a m8 | 8: 00 a.m. | 08 a.m. | 8:00 a. m. | 08.00 am | 8.00 a.m. | 8:00am | 8 am | 8 am, | 8.00 a. m. | 8 a.m. | eight a m | 08.00am | 8a.m. | 8:00 am | 8.00am | 08:00 am | 8am | am8
+	input=the ruling was issued immediately after the court hearing proceedings and went into effect on eight a m tuesday june ninth
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _8_ _a._ <DELETE> <SELF> _,__june_ _9_
+	pred=the ruling was issued immediately after the court hearing proceedings and went into effect on _8_ _a._  tuesday _,__june_ _9_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN TIME TIME TIME DATE DATE DATE
+	ref=the ruling was issued immediately after the court hearing proceedings and went into effect on 8am tuesday june 9
+error: pred=_9: 4 6_ _am_  _am_  ; inp=nine forty six a m a s t; ref=TIME 12 20 | 9:46 am ast | nine forty six a m a s t
+	input=goldman's silent board by richard teitelbaum bloomberg markets july seventh twenty ten nine forty six a m a s t
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _7 ,20 10_ _9: 4 6_ _am_ <DELETE> _am_ <DELETE> <DELETE>
+	pred=goldman's silent board by richard teitelbaum bloomberg markets july _7 ,20 10_ _9: 4 6_ _am_  _am_  
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN DATE DATE DATE DATE TIME TIME TIME TIME TIME TIME TIME TIME
+	ref=goldman's silent board by richard teitelbaum bloomberg markets july 7, 2010 9:46 am ast
+error: pred=_3_ _5 1_; inp=three fifty one; ref=TIME 3 6 | three fifty one | 03:51 | 3: 51 | 3:51
+	input=spaces of identity three fifty one
+	tags=<SELF> <SELF> <SELF> _3_ _5 1_
+	pred=spaces of identity _3_ _5 1_
+	semiotic=PLAIN PLAIN PLAIN CARDINAL CARDINAL CARDINAL
+	ref=spaces of identity 3: 51
+error: pred=_8:00_ _p._ ; inp=eight p m; ref=TIME 15 18 | 20:00 pm | 8:00 p.m. | 08.00 pm | eight p m | 08:00 pm | 8pm | 8p.m. | 8 pm | 8 p. m. | 08:00pm | 8: 00 pm | 8.00 p.m. | 8:00 pm | pm20 | 8 p.m. | 8.00 pm | 8.00pm | 8:00pm
+	input=the flood reached the south platte river and the metropolitan areas of denver by about eight p m on june sixteenth
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _8:00_ _p._ <DELETE> <SELF> <SELF> _16_
+	pred=the flood reached the south platte river and the metropolitan areas of denver by about _8:00_ _p._  on june _16_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN TIME TIME TIME PLAIN DATE DATE
+	ref=the flood reached the south platte river and the metropolitan areas of denver by about 8 p.m. on june 16
+error: pred=_3:  3 9:   6 0_; inp=three minutes thirty nine seconds and sixty milliseconds; ref=TIME 18 26 | 3:39.60 | three minutes thirty nine seconds and sixty milliseconds
+	input=in the final willis overtook south african johan cronje with his last three steps to win bronze in three minutes thirty nine seconds and sixty milliseconds
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _3: <DELETE> 3 9: <DELETE> <DELETE> 6 0_
+	pred=in the final willis overtook south african johan cronje with his last three steps to win bronze in _3:  3 9:   6 0_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN TIME TIME TIME TIME TIME TIME TIME TIME
+	ref=in the final willis overtook south african johan cronje with his last three steps to win bronze in 3:39.60
+error: pred=_02: 2 9_; inp=two twenty nine; ref=TIME 1 4 | two twenty nine | 02.29 | 2: 29 | 2:29
+	input=at two twenty nine two rulers samudrasena and chadrasena were mentioned
+	tags=<SELF> _02: 2 9_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=at _02: 2 9_ two rulers samudrasena and chadrasena were mentioned
+	semiotic=PLAIN TIME TIME TIME PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=at 2:29 two rulers samudrasena and chadrasena were mentioned
+error: pred=_2:00_ _pm_ _m._; inp=two p m; ref=TIME 1 4 | 14:00pm | 2p. m. | 2 p.m. | 02 pm | 02 p.m. | pm2 | 02:00 pm | 2 p. m. | 2pm | 2 pm, | 2:00 pm | 2 pm | two p m | 14.00pm | 2.00 pm | 2:00 p.m. | 02:00pm | 14 a.m. | 2p.m. | 14.00 pm | 2.00 p.m. | 14:00 pm | 2:00pm | 2.00pm
+	input=at two p m jubal early decided to attack barlow with henry heth's division
+	tags=<SELF> _2:00_ _pm_ _m._ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=at _2:00_ _pm_ _m._ jubal early decided to attack barlow with henry heth's division
+	semiotic=PLAIN TIME TIME TIME PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=at 2 p.m. jubal early decided to attack barlow with henry heth's division
+error: pred=_1:  4 9:   11_ ; inp=one minute forty nine seconds and eleven milliseconds; ref=TIME 17 25 | one minute forty nine seconds and eleven milliseconds | 1:49.11
+	input=at the finals he set a world record in the short course two hundred meter butterfly in one minute forty nine seconds and eleven milliseconds seconds
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _2 00_ <SELF> <SELF> <SELF> _1: <DELETE> 4 9: <DELETE> <DELETE> 11_ <DELETE> <SELF>
+	pred=at the finals he set a world record in the short course _2 00_ meter butterfly in _1:  4 9:   11_  seconds
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL CARDINAL PLAIN PLAIN PLAIN TIME TIME TIME TIME TIME TIME TIME TIME PLAIN
+	ref=at the finals he set a world record in the short course 200 meter butterfly in 1:49.11 seconds
+error: pred=_8:  5 5:   4_ ; inp=eight minutes fifty five seconds and four milliseconds; ref=TIME 20 28 | eight minutes fifty five seconds and four milliseconds | 8:55.4
+	input=he won the golden west invitational high school meet two mile race in nineteen sixty six in a time of eight minutes fifty five seconds and four milliseconds
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _2_ <SELF> <SELF> <SELF> _19 6 6_ <SELF> <SELF> <SELF> <SELF> _8: <DELETE> 5 5: <DELETE> <DELETE> 4_ <DELETE>
+	pred=he won the golden west invitational high school meet _2_ mile race in _19 6 6_ in a time of _8:  5 5:   4_ 
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL PLAIN PLAIN PLAIN DATE DATE DATE PLAIN PLAIN PLAIN PLAIN TIME TIME TIME TIME TIME TIME TIME TIME
+	ref=he won the golden west invitational high school meet two mile race in 1966 in a time of 8:55.4
+error: pred=_10: 30_ _am_ _m._; inp=ten thirty a m; ref=TIME 4 8 | 10.30 am | ten thirty a m | 10:30 a. m. | 10:30 am | 10:30am | 10:30 a.m. | 10.30am | 10.30 a.m.
+	input=it was still only ten thirty a m and the column had already been in action twice
+	tags=<SELF> <SELF> <SELF> <SELF> _10: 30_ _am_ _m._ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=it was still only _10: 30_ _am_ _m._ and the column had already been in action twice
+	semiotic=PLAIN PLAIN PLAIN PLAIN TIME TIME TIME TIME PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=it was still only 10.30 a.m. and the column had already been in action twice
+error: pred=_8_ _12_; inp=eight twelve; ref=TIME 0 2 | 08:12 | 8: 12 | eight twelve | 8:12 | 08.12
+	input=eight twelve fifteen twenty one and there only in its ordinary secular meaning
+	tags=_8_ _12_ _15 2 1_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=_8_ _12_ _15 2 1_ and there only in its ordinary secular meaning
+	semiotic=CARDINAL CARDINAL DATE DATE DATE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=8:12 15:21 and there only in its ordinary secular meaning
+error: pred=_15 2 1_; inp=fifteen twenty one; ref=TIME 2 5 | 15: 21 | fifteen twenty one | 15:21
+	input=eight twelve fifteen twenty one and there only in its ordinary secular meaning
+	tags=_8_ _12_ _15 2 1_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=_8_ _12_ _15 2 1_ and there only in its ordinary secular meaning
+	semiotic=CARDINAL CARDINAL DATE DATE DATE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=8:12 15:21 and there only in its ordinary secular meaning
+error: pred=_am_ _5:00_ ; inp=five a m; ref=TIME 12 15 | 5a.m. | 5am | 5.00 am | 05 am | a m5 | 5:00 am | five a m | 5 am, | 05.00 a.m. | 5:00am | 5 a.m. | 05:00 am | 5.00am | 05am | am5 | 5 am | 5:00 a.m. | 5.00 a.m.
+	input=todo listo para la guadalupe se correra el domingo eleven desde las five a m en ponce
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _11_ <SELF> <SELF> _am_<< _5:00_ <DELETE> <SELF> <SELF>
+	pred=todo listo para la guadalupe se correra el domingo _11_ desde las _am_ _5:00_  en ponce
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL PLAIN PLAIN TIME TIME TIME PLAIN PLAIN
+	ref=todo listo para la guadalupe se correra el domingo 11 desde las 5am en ponce
+error: pred=_8: 30_ _pm_ _m._; inp=eight thirty p m; ref=TIME 1 5 | 8:30p.m. | 08.30 p.m. | 8.30 p.m. | 20:30 pm | 08:30pm | 8.30pm | 8.30 pm | 20.30 pm | 8:30 p.m. | 8:30pm | 20:30pm | eight thirty p m | 08:30 pm | 8:30 pm | 08:30 p.m.
+	input=at eight thirty p m sage dillinger and polly hamilton strolled into the biograph theater to see clark gable in manhattan melodrama
+	tags=<SELF> _8: 30_ _pm_ _m._ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=at _8: 30_ _pm_ _m._ sage dillinger and polly hamilton strolled into the biograph theater to see clark gable in manhattan melodrama
+	semiotic=PLAIN TIME TIME TIME TIME PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=at 8:30 p.m. sage dillinger and polly hamilton strolled into the biograph theater to see clark gable in manhattan melodrama
+error: pred=_3:00_ _p._ ; inp=three p m; ref=TIME 9 12 | 3.00 p.m. | 3:00 p.m. | 15 am | 3.00p.m. | 3 pm, | 03:00 pm | 3 p.m. | 3 pm | p.m.3 | three p m | 03 p.m. | 3pm | 3.00 pm | 3p.m. | 3:00pm | 3.00pm | pm3 | 3:00 pm | 15:00 pm
+	input=the cricketers were forced to leave the field at three p m to accommodate the football match
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _3:00_ _p._ <DELETE> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=the cricketers were forced to leave the field at _3:00_ _p._  to accommodate the football match
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN TIME TIME TIME PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=the cricketers were forced to leave the field at 3pm to accommodate the football match
+error: pred=_10 3 5_; inp=ten thirty five; ref=TIME 0 3 | 10: 35 | 10:35 | ten thirty five
+	input=ten thirty five air force one carrying the president turns for barksdale air force base in bossier city louisiana
+	tags=_10 3 5_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=_10 3 5_ air force one carrying the president turns for barksdale air force base in bossier city louisiana
+	semiotic=DATE DATE DATE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=10:35 air force one carrying the president turns for barksdale air force base in bossier city louisiana
+error: pred=_4: 4 5_ _pm_ _m._; inp=four forty five p m; ref=TIME 12 17 | 04:45pm | 4:45pm | 4.45 p.m. | four forty five p m | 4.45pm | 4:45 pm | 4.45 pm | 4:45 p.m.
+	input=on the thirty first of december a small grassfire started at approximately four forty five p m a e d t at mount clear near ballarat
+	tags=<SELF> <DELETE> _3 1_ <DELETE> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _4: 4 5_ _pm_ _m._ _a <SELF> <SELF> t_ <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=on  _3 1_  december a small grassfire started at approximately _4: 4 5_ _pm_ _m._ _a e d t_ at mount clear near ballarat
+	semiotic=PLAIN DATE DATE DATE DATE DATE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN TIME TIME TIME TIME TIME LETTERS LETTERS LETTERS LETTERS PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=on 31 december a small grassfire started at approximately 4:45pm aedt at mount clear near ballarat
+error: pred=_19 3 5_; inp=nineteen thirty five; ref=TIME 0 3 | 19:35 | 19: 35 | nineteen thirty five
+	input=nineteen thirty five it does not befit god that he begets a son be he glorified
+	tags=_19 3 5_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=_19 3 5_ it does not befit god that he begets a son be he glorified
+	semiotic=DATE DATE DATE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=19:35 it does not befit god that he begets a son be he glorified
+error: pred=_15:  3 4:   3 1_ ; inp=fifteen minutes thirty four seconds and thirty one milliseconds; ref=TIME 10 19 | 15:34.31 | fifteen minutes thirty four seconds and thirty one milliseconds
+	input=her personal best times on the five thousand meters was fifteen minutes thirty four seconds and thirty one milliseconds minutes achieved in september nineteen ninety nine in xi'an
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _5 000_ _m_ <SELF> _15: <DELETE> 3 4: <DELETE> <DELETE> 3 1_ <DELETE> <SELF> <SELF> <SELF> <SELF> _19 9 9_ <SELF> <SELF>
+	pred=her personal best times on the _5 000_ _m_ was _15:  3 4:   3 1_  minutes achieved in september _19 9 9_ in xi'an
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN MEASURE MEASURE MEASURE PLAIN TIME TIME TIME TIME TIME TIME TIME TIME TIME PLAIN PLAIN PLAIN DATE DATE DATE DATE PLAIN PLAIN
+	ref=her personal best times on the 5000 metres was 15:34.31 minutes achieved in september 1999 in xi'an
+error: pred=_2:  19:   10_ ; inp=two minutes nineteen seconds and ten milliseconds; ref=TIME 7 14 | 2:19.10 | two minutes nineteen seconds and ten milliseconds
+	input=he achieved a fina b standard of two minutes nineteen seconds and ten milliseconds from the national university games in taipei
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _2: <DELETE> 19: <DELETE> <DELETE> 10_ <DELETE> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=he achieved a fina b standard of _2:  19:   10_  from the national university games in taipei
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN TIME TIME TIME TIME TIME TIME TIME PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=he achieved a fina b standard of 2:19.10 from the national university games in taipei
+error: pred=_2: 0 5:   0_ ; inp=two minutes five seconds and zero milliseconds; ref=TIME 4 11 | 2:05.0 | 2:05.00 | two minutes five seconds and zero milliseconds
+	input=the winning time of two minutes five seconds and zero milliseconds set a new derby record
+	tags=<SELF> <SELF> <SELF> <SELF> _2: 0 5: <DELETE> <DELETE> 0_ <DELETE> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=the winning time of _2: 0 5:   0_  set a new derby record
+	semiotic=PLAIN PLAIN PLAIN PLAIN TIME TIME TIME TIME TIME TIME TIME PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=the winning time of 2:05.00 set a new derby record
+error: pred=_7: 30_ _am_ _m._; inp=seven thirty a m; ref=TIME 8 12 | 7.30 a.m. | 7.30am | 7:30 am | 7:30am | 7.30 am | 7:30 a.m. | 07:30 am | 07:30am | seven thirty a m
+	input=the incident was reported to central command at seven thirty a m and the woman was transported to the elmhurst hospital center
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _7: 30_ _am_ _m._ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=the incident was reported to central command at _7: 30_ _am_ _m._ and the woman was transported to the elmhurst hospital center
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN TIME TIME TIME TIME PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=the incident was reported to central command at 7:30 a.m. and the woman was transported to the elmhurst hospital center
+error: pred=_7: 30_ _pm_ _m._; inp=seven thirty p m; ref=TIME 10 14 | 7:30pm | 19:30 pm | 7:30 p.m. | 7:30 pm | 07:30 pm | 07.30pm | 7.30pm | seven thirty p m | 07:30pm | 19:30pm | 7.30 pm | 19.30pm | 7.30 p.m.
+	input=the first station's newscast sent out the same day at seven thirty p m with main presenter journalist george karameros
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _7: 30_ _pm_ _m._ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=the first station's newscast sent out the same day at _7: 30_ _pm_ _m._ with main presenter journalist george karameros
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN TIME TIME TIME TIME PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=the first station's newscast sent out the same day at 19:30 pm with main presenter journalist george karameros
+error: pred=_12: 12_ _a._ _m._  _edt_ ; inp=twelve twelve a m e d t; ref=TIME 1 8 | twelve twelve a m e d t | 12:12 am edt
+	input=at twelve twelve a m e d t on october twenty seventh the u s informed its nato allies that the situation is growing shorter
+	tags=<SELF> _12: 12_ _a._ _m._ <DELETE> _edt_ <DELETE> <SELF> <SELF> _2 7_ <SELF> _u._ s_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=at _12: 12_ _a._ _m._  _edt_  on october _2 7_ the _u._ s_ informed its nato allies that the situation is growing shorter
+	semiotic=PLAIN TIME TIME TIME TIME TIME TIME TIME PLAIN DATE DATE DATE PLAIN LETTERS LETTERS PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=at 12:12 am edt on october 27 the u.s. informed its nato allies that the situation is growing shorter
+error: pred=_4: 2; inp=four twenty; ref=TIME 3 5 | 4: 20 | four twenty | 04:20 | 04.20 | 4:20
+	input=bomb shelter blues four twenty five
+	tags=<SELF> <SELF> <SELF> _4: 2 5_
+	pred=bomb shelter blues _4: 2 5_
+	semiotic=PLAIN PLAIN PLAIN TIME TIME TIME
+	ref=bomb shelter blues 4:20 5
+error: pred=_02: 5 1_ _pm_ ; inp=two fifty one p m; ref=TIME 6 11 | 2:51 p.m. | two fifty one p m | 2:51 pm | 2:51pm
+	input=retrieved november tenth twenty thirteen to two fifty one p m
+	tags=<SELF> <SELF> _10 ,20 13_ <SELF> _02: 5 1_ _pm_ <DELETE>
+	pred=retrieved november _10 ,20 13_ to _02: 5 1_ _pm_ 
+	semiotic=PLAIN DATE DATE DATE DATE PLAIN TIME TIME TIME TIME TIME
+	ref=retrieved november 10, 2013 to 2:51pm
+error: pred=_10:00_ _am_ _m._; inp=ten a m; ref=TIME 7 10 | 10.00 a.m. | 10.00am | 10:00a.m. | ten a m | 10am | 10 a. m. | 10 am | 10 am, | 10.00 am | 10a.m. | 10:00am | 10:00 a.m. | 10 a.m. | 10:00 am | am10
+	input=the fire and smaller explosions continued until ten a m the next morning
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _10:00_ _am_ _m._ <SELF> <SELF> <SELF>
+	pred=the fire and smaller explosions continued until _10:00_ _am_ _m._ the next morning
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN TIME TIME TIME PLAIN PLAIN PLAIN
+	ref=the fire and smaller explosions continued until 10 a.m. the next morning
+error: pred=_6: 20_ _pm_ _m._; inp=six twenty p m; ref=TIME 7 11 | 06:20 pm | 6:20 p.m. | 6:20 pm | six twenty p m | 6:20pm | 6.20pm | 6.20 pm | 6.20 p.m.
+	input=dean was pronounced dead on arrival at six twenty p m by the attending emergency room physician robert bossert
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _6: 20_ _pm_ _m._ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=dean was pronounced dead on arrival at _6: 20_ _pm_ _m._ by the attending emergency room physician robert bossert
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN TIME TIME TIME TIME PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=dean was pronounced dead on arrival at 6:20pm by the attending emergency room physician robert bossert
+error: pred=_1:  4 4:   2 4_ ; inp=one minute forty four seconds and twenty four milliseconds; ref=TIME 9 18 | 1:44.24 | one minute forty four seconds and twenty four milliseconds
+	input=his personal best time over eight hundred meters was one minute forty four seconds and twenty four milliseconds minutes achieved in nineteen ninety three
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> _8 00_ _m_ <SELF> _1: <DELETE> 4 4: <DELETE> <DELETE> 2 4_ <DELETE> <SELF> <SELF> <SELF> _19 9 3_
+	pred=his personal best time over _8 00_ _m_ was _1:  4 4:   2 4_  minutes achieved in _19 9 3_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN MEASURE MEASURE MEASURE PLAIN TIME TIME TIME TIME TIME TIME TIME TIME TIME PLAIN PLAIN PLAIN DATE DATE DATE
+	ref=his personal best time over 800 metres was 1:44.24 minutes achieved in 1993
+error: pred=_2 3:  2 9:   6_ ; inp=twenty three minutes twenty nine seconds and six milliseconds; ref=TIME 14 23 | twenty three minutes twenty nine seconds and six milliseconds | 23:29.6
+	input=at twenty ten in moscow she reached her personal five thousand meters walking record twenty three minutes twenty nine seconds and six milliseconds
+	tags=<SELF> _20 10_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _5 000_ _m_ <SELF> <SELF> _2 3: <DELETE> 2 9: <DELETE> <DELETE> 6_ <DELETE>
+	pred=at _20 10_ in moscow she reached her personal _5 000_ _m_ walking record _2 3:  2 9:   6_ 
+	semiotic=PLAIN DATE DATE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN MEASURE MEASURE MEASURE PLAIN PLAIN TIME TIME TIME TIME TIME TIME TIME TIME TIME
+	ref=at 2010 in moscow she reached her personal 5000 m walking record 23:29.6
+error: pred=_20 12_; inp=twenty twelve; ref=TIME 4 6 | 20:12 | 20: 12 | twenty twelve
+	input=fourteen to six seven twenty twelve fourteen twelve twenty two twelve
+	tags=_14_ _:_ _6_ _7_ _20 12_ _14: 12_ _2 2: 12_
+	pred=_14_ _:_ _6_ _7_ _20 12_ _14: 12_ _2 2: 12_
+	semiotic=CARDINAL PLAIN CARDINAL CARDINAL TIME DATE TIME TIME TIME TIME TIME
+	ref=14 : 6 7 20:12 14:12 22:12
+error: pred=_1:  5 8:   6 5_ ; inp=one minute fifty eight seconds and sixty five milliseconds; ref=TIME 18 27 | one minute fifty eight seconds and sixty five milliseconds | 1:58.65
+	input=on the fourteenth of july nineteen ninety she broke the english record in the eight hundred meters with one minute fifty eight seconds and sixty five milliseconds in oslo
+	tags=<SELF> <DELETE> _14_ <DELETE> <SELF> _19 90_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _8 00_ _m_ <SELF> _1: <DELETE> 5 8: <DELETE> <DELETE> 6 5_ <DELETE> <SELF> <SELF>
+	pred=on  _14_  july _19 90_ she broke the english record in the _8 00_ _m_ with _1:  5 8:   6 5_  in oslo
+	semiotic=PLAIN DATE DATE DATE DATE DATE DATE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN MEASURE MEASURE MEASURE PLAIN TIME TIME TIME TIME TIME TIME TIME TIME TIME PLAIN PLAIN
+	ref=on the 14th july 1990 she broke the english record in the 800m with 1:58.65 in oslo
+error: pred=_8:  12:   11_ ; inp=eight minutes twelve seconds and eleven milliseconds; ref=TIME 9 16 | eight minutes twelve seconds and eleven milliseconds | 8:12.11
+	input=he set his personal best in the steeplechase with eight minutes twelve seconds and eleven milliseconds on the fifth of september nineteen eighty six at a meet in brussels
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _8: <DELETE> 12: <DELETE> <DELETE> 11_ <DELETE> <SELF> <DELETE> _5_ <DELETE> <SELF> _19 8 6_ <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=he set his personal best in the steeplechase with _8:  12:   11_  on  _5_  september _19 8 6_ at a meet in brussels
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN TIME TIME TIME TIME TIME TIME TIME PLAIN DATE DATE DATE DATE DATE DATE DATE PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=he set his personal best in the steeplechase with 8:12.11 on 5 september 1986 at a meet in brussels
+error: pred=_12:00_ _pm_ _m._; inp=twelve p m; ref=TIME 13 16 | 0:00 pm | 12.00p.m. | 12p.m. | pm0 | 00:00 pm | 12 pm | 12.00pm | pm12:00 | 12.00 pm | 12.00 p.m. | am12:00 | 0p.m. | 12:00 p.m. | 12:00pm | 12 p.m. | 12pm | am12 | twelve p m | 12:00 pm
+	input=he used to host the patrick mcenroe show saturday mornings from ten to twelve p m on e s p n radio new york ninety eight point seven f m
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _10_ _-_ _12:00_ _pm_ _m._ <SELF> _e <SELF> <SELF> n_ <SELF> <SELF> <SELF> _9 8 . 7_ _f m_
+	pred=he used to host the patrick mcenroe show saturday mornings from _10_ _-_ _12:00_ _pm_ _m._ on _e s p n_ radio new york _9 8 . 7_ _f m_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL PLAIN TIME TIME TIME PLAIN LETTERS LETTERS LETTERS LETTERS PLAIN PLAIN PLAIN DECIMAL DECIMAL DECIMAL DECIMAL LETTERS LETTERS
+	ref=he used to host the patrick mcenroe show saturday mornings from 10 - 12pm on espn radio new york 98.7 fm
+error: pred=_5:00_ _pm_ _m._; inp=five p m; ref=TIME 8 11 | 5.00pm | 5 pm | 5.00 p.m. | 05:00pm | pm5 | 5:00 p.m. | 5pm | 05:00 pm | 5 p. m. | 5:00 pm | five p m | 17.00 pm | 5p.m. | 17.00pm | 5 pm, | 5 p.m. | 17:00pm | 05 pm | 5.00 pm | 5:00pm | 5 p m
+	input=fifteen minute episodes were broadcast on fridays at five p m from the first of april to the twenty fourth of june nineteen sixty
+	tags=_15_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _5:00_ _pm_ _m._ <SELF> <DELETE> _1_ <DELETE> <SELF> <SELF> <DELETE> _2 4_ <DELETE> <SELF> _19 60_
+	pred=_15_ minute episodes were broadcast on fridays at _5:00_ _pm_ _m._ from  _1_  april to  _2 4_  june _19 60_
+	semiotic=CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN TIME TIME TIME PLAIN DATE DATE DATE DATE PLAIN DATE DATE DATE DATE DATE DATE DATE
+	ref=15 minute episodes were broadcast on fridays at 5:00 p.m. from 1 april to 24 june 1960
+error: pred=_2 2_ twenty 3_; inp=twenty two twenty three; ref=TIME 9 13 | 22:23 | twenty two twenty three | 22: 23
+	input=thirty one to fifty five nineteen fifty five v twenty two twenty three sermons on john chaps
+	tags=_3 1_ _-_ _5 5_ _19 5 5_ <SELF> _2 2_ <SELF> 3_ <SELF> <SELF> <SELF> <SELF>
+	pred=_3 1_ _-_ _5 5_ _19 5 5_ v _2 2_ twenty 3_ sermons on john chaps
+	semiotic=CARDINAL CARDINAL PLAIN CARDINAL CARDINAL DATE DATE DATE PLAIN CARDINAL CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=31 - 55 1955 v 22:23 sermons on john chaps
+error: pred=_12 2 4_; inp=twelve twenty four; ref=TIME 4 7 | 12 : 24 | 12: 24 | 12:24 | twelve twenty four
+	input=lepindexdichomeris at funetinsecta koreana twelve twenty four exotic microlep
+	tags=<SELF> <SELF> <SELF> <SELF> _12 2 4_ <SELF> <SELF>
+	pred=lepindexdichomeris at funetinsecta koreana _12 2 4_ exotic microlep
+	semiotic=PLAIN PLAIN PLAIN PLAIN DATE DATE DATE PLAIN PLAIN
+	ref=lepindexdichomeris at funetinsecta koreana 12 : 24 exotic microlep
+error: pred=_10:  2 4:   0:00_ ; inp=ten hours twenty four minutes and zero seconds; ref=TIME 6 14 | ten hours twenty four minutes and zero seconds | 10:24:00
+	input=october twenty seventh two thousand nine ten hours twenty four minutes and zero seconds the twenty seventh of october two thousand nine
+	tags=<SELF> _2 7 ,2 00 9_ _10: <DELETE> 2 4: <DELETE> <DELETE> 0:00_ <DELETE> <DELETE> _2 7_ <DELETE> <SELF> _2 00 9_
+	pred=october _2 7 ,2 00 9_ _10:  2 4:   0:00_   _2 7_  october _2 00 9_
+	semiotic=DATE DATE DATE DATE DATE DATE TIME TIME TIME TIME TIME TIME TIME TIME DATE DATE DATE DATE DATE DATE DATE DATE
+	ref=10/27/2009 10:24:00 2009-10-27
+error: pred=_9:  3 7:   09_ ; inp=nine minutes thirty seven seconds and nine milliseconds; ref=TIME 4 12 | 9:37.09 | nine minutes thirty seven seconds and nine milliseconds
+	input=kipp finished sixth in nine minutes thirty seven seconds and nine milliseconds at twenty fifteen u s a outdoor track and field championships steeplechase
+	tags=<SELF> <SELF> _6th_ <SELF> _9: <DELETE> 3 7: <DELETE> <DELETE> 09_ <DELETE> <SELF> _20_ _15_ _u <SELF> a_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=kipp finished _6th_ in _9:  3 7:   09_  at _20_ _15_ _u s a_ outdoor track and field championships steeplechase
+	semiotic=PLAIN PLAIN ORDINAL PLAIN TIME TIME TIME TIME TIME TIME TIME TIME PLAIN CARDINAL CARDINAL LETTERS LETTERS LETTERS PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=kipp finished 6th in 9:37.09 at 20 15  usa outdoor track and field championships steeplechase
+error: pred=_11_ _11_; inp=eleven eleven; ref=TIME 12 14 | 11: 11 | 11:11 | eleven eleven
+	input=she sold self published c d's at her performances during this period eleven eleven two thousand one and songs two thousand two
+	tags=<SELF> <SELF> <SELF> <SELF> _c ds_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _11_ _11_ _2 00 1_ <SELF> <SELF> _2 00 2_
+	pred=she sold self published _c ds_ at her performances during this period _11_ _11_ _2 00 1_ and songs _2 00 2_
+	semiotic=PLAIN PLAIN PLAIN PLAIN LETTERS LETTERS PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL CARDINAL DATE DATE DATE PLAIN PLAIN DATE DATE DATE
+	ref=she sold self published cds at her performances during this period 11:11 2001 and songs 2002
+error: pred=_3:  4 3:   2_ ; inp=three minutes forty three seconds and two milliseconds; ref=TIME 15 23 | 3:43.2 | three minutes forty three seconds and two milliseconds
+	input=the team dominated the first round defeating the dutch team easily with a time of three minutes forty three seconds and two milliseconds
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _3: <DELETE> 4 3: <DELETE> <DELETE> 2_ <DELETE>
+	pred=the team dominated the first round defeating the dutch team easily with a time of _3:  4 3:   2_ 
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN TIME TIME TIME TIME TIME TIME TIME TIME
+	ref=the team dominated the first round defeating the dutch team easily with a time of 3:43.2
+error: pred=_6:00_ _p._ ; inp=six p m; ref=TIME 13 16 | 6.00 p.m. | 6p.m. | 6pm | 6 pm, | 6 pm | 18:00 pm | 6 p.m. | 6:00 p.m. | 18 pm | 6:00pm | 06:00pm | 06:00 pm | 06 pm | 6.00pm | six p m | pm6 | 06.00 p.m. | 6:00 pm | 06.00 pm | 6.00 pm | 18.00pm
+	input=n y c's major airports kennedy newark and laguardia were shut down until six p m monday evening
+	tags=_n <SELF> c's_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _6:00_ _p._ <DELETE> <SELF> <SELF>
+	pred=_n y c's_ major airports kennedy newark and laguardia were shut down until _6:00_ _p._  monday evening
+	semiotic=LETTERS LETTERS LETTERS PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN TIME TIME TIME PLAIN PLAIN
+	ref=nyc's major airports kennedy newark and laguardia were shut down until 6:00 p.m. monday evening
+error: pred=_12:00_ _am_ _m._; inp=twelve a m; ref=TIME 13 16 | 12am | 12.00am | 0:00am | 00.00 a.m. | 12 am | 12 a. m. | 0am | 00:00 am | twelve a m | 00.00am | 12.00 am | 12:00 a.m. | 12 a.m. | 12.00 a.m. | 12 am, | 00:00am | am0 | 12 a m | 00.00 am | 12:00am | 12:00 am
+	input=w m y x waited to air the all christmas music format until twelve a m on november twenty second
+	tags=_w <SELF> <SELF> x_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _12:00_ _am_ _m._ <SELF> <SELF> _2 2_
+	pred=_w m y x_ waited to air the all christmas music format until _12:00_ _am_ _m._ on november _2 2_
+	semiotic=LETTERS LETTERS LETTERS LETTERS PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN TIME TIME TIME PLAIN DATE DATE DATE
+	ref=wmyx waited to air the all christmas music format until 12:00 a.m. on november 22
+error: pred=_2: 5 1_ _p._ ; inp=two fifty one p m; ref=TIME 3 8 | 2:51 p.m. | two fifty one p m | 2:51 pm
+	input=event occurs at two fifty one p m n b c sports
+	tags=<SELF> <SELF> <SELF> _2: 5 1_ _p._ <DELETE> _n <SELF> c_ <SELF>
+	pred=event occurs at _2: 5 1_ _p._  _n b c_ sports
+	semiotic=PLAIN PLAIN PLAIN TIME TIME TIME TIME TIME LETTERS LETTERS LETTERS PLAIN
+	ref=event occurs at 2:51 p.m. nbc sports
+error: pred=_8:  5 0:  8_ ; inp=eight minutes fifty seconds and eight milliseconds; ref=TIME 8 15 | eight minutes fifty seconds and eight milliseconds | 8:50.08
+	input=revision the second of february two thousand seven eight minutes fifty seconds and eight milliseconds am
+	tags=<SELF> <DELETE> _2_ <DELETE> _feb_ _2 00 7_ _8: <DELETE> 5 0: <DELETE> 8_ <DELETE> <SELF>
+	pred=revision  _2_  _feb_ _2 00 7_ _8:  5 0:  8_  am
+	semiotic=PLAIN DATE DATE DATE DATE DATE DATE DATE TIME TIME TIME TIME TIME TIME TIME PLAIN
+	ref=revision 2/2/2007 8:50.08 am
+error: pred=_7:00_ _p._ ; inp=seven p m; ref=TIME 8 11 | 7pm | 7.00pm | 7:00 pm | 7 pm, | 7:00p.m. | pm7 | 7p.m. | 7p. m. | 7:00 p.m. | 7.00 p.m. | 19:00 pm | 7 p.m. | 07:00pm | 07.00 pm | 7.00 pm | seven p m | 07:00 pm | 7:00pm | 7 pm | 07.00 p.m.
+	input=news was broadcast for a full hour at seven p m until two thousand seven or two thousand eight
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _7:00_ _p._ <DELETE> <SELF> _2 00 7_ <SELF> _2 00 8_
+	pred=news was broadcast for a full hour at _7:00_ _p._  until _2 00 7_ or _2 00 8_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN TIME TIME TIME PLAIN DATE DATE DATE PLAIN DATE DATE DATE
+	ref=news was broadcast for a full hour at 7 pm until 2007 or 2008
+error: pred=_6:00_ _pm_ _m._; inp=six p m; ref=TIME 10 13 | 6.00 p.m. | 6p.m. | 6pm | 6 pm, | 6 pm | 18:00 pm | 6 p.m. | 6:00 p.m. | 18 pm | 6:00pm | 06:00pm | 06:00 pm | 06 pm | 6.00pm | six p m | pm6 | 06.00 p.m. | 6:00 pm | 06.00 pm | 6.00 pm | 18.00pm
+	input=aired every weekday at six ten p m after the six p m news bulletin it became a popular afternoon radio current affairs program
+	tags=<SELF> <SELF> <SELF> <SELF> _6: 10_ _pm_ <DELETE> <SELF> <SELF> _6:00_ _pm_ _m._ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=aired every weekday at _6: 10_ _pm_  after the _6:00_ _pm_ _m._ news bulletin it became a popular afternoon radio current affairs program
+	semiotic=PLAIN PLAIN PLAIN PLAIN TIME TIME TIME TIME PLAIN PLAIN TIME TIME TIME PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=aired every weekday at 6:10 pm after the 6:00 pm news bulletin it became a popular afternoon radio current affairs program
+error: pred=_10: 2 4_ _p._ _m._  _edt_ ; inp=ten twenty four p m e d t; ref=TIME 11 19 | ten twenty four p m e d t | 10:24 pm edt
+	input=for the first time ever the special ran overtime running until ten twenty four p m e d t two twenty four u t c april twenty second
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _10: 2 4_ _p._ _m._ <DELETE> _edt_ <DELETE> _2: 2 4_ _utc_ <DELETE> <DELETE> <SELF> _2 2_
+	pred=for the first time ever the special ran overtime running until _10: 2 4_ _p._ _m._  _edt_  _2: 2 4_ _utc_   april _2 2_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN TIME TIME TIME TIME TIME TIME TIME TIME TIME TIME TIME TIME TIME TIME DATE DATE DATE
+	ref=for the first time ever the special ran overtime running until 10:24 pm edt 02:24 utc april 22
+error: pred=_2: 2 4_ _utc_  ; inp=two twenty four u t c; ref=TIME 19 25 | two twenty four u t c | 02:24 utc
+	input=for the first time ever the special ran overtime running until ten twenty four p m e d t two twenty four u t c april twenty second
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _10: 2 4_ _p._ _m._ <DELETE> _edt_ <DELETE> _2: 2 4_ _utc_ <DELETE> <DELETE> <SELF> _2 2_
+	pred=for the first time ever the special ran overtime running until _10: 2 4_ _p._ _m._  _edt_  _2: 2 4_ _utc_   april _2 2_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN TIME TIME TIME TIME TIME TIME TIME TIME TIME TIME TIME TIME TIME TIME DATE DATE DATE
+	ref=for the first time ever the special ran overtime running until 10:24 pm edt 02:24 utc april 22
+error: pred=_8:  12:   6_ ; inp=eight minutes twelve seconds and six milliseconds; ref=TIME 9 16 | eight minutes twelve seconds and six milliseconds | 8:12.6
+	input=he won the five hundred with a time of eight minutes twelve seconds and six milliseconds benefitting from the withdrawal of alfréd hajos from the event
+	tags=<SELF> <SELF> <SELF> _5 00_ <SELF> <SELF> <SELF> <SELF> _8: <DELETE> 12: <DELETE> <DELETE> 6_ <DELETE> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=he won the _5 00_ with a time of _8:  12:   6_  benefitting from the withdrawal of alfréd hajos from the event
+	semiotic=PLAIN PLAIN PLAIN CARDINAL CARDINAL PLAIN PLAIN PLAIN PLAIN TIME TIME TIME TIME TIME TIME TIME PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=he won the 500 with a time of 8:12.6 benefitting from the withdrawal of alfréd hajos from the event
+error: pred=_4: 30_ _am_ _m._; inp=four thirty a m; ref=TIME 5 9 | 4:30 am | 4.30 a.m. | four thirty a m | 4:30 a.m. | 4:30am | 04:30 am | 4.30 am | 4.30am
+	input=w v u e joins four thirty a m news race parts ways with gerry vaillancourt the times picayune april sixteenth twenty fourteen
+	tags=_w <SELF> <SELF> e_ <SELF> _4: 30_ _am_ _m._ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _16 ,20 14_
+	pred=_w v u e_ joins _4: 30_ _am_ _m._ news race parts ways with gerry vaillancourt the times picayune april _16 ,20 14_
+	semiotic=LETTERS LETTERS LETTERS LETTERS PLAIN TIME TIME TIME TIME PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN DATE DATE DATE DATE
+	ref=wvue joins 4:30 a.m. news race parts ways with gerry vaillancourt the times picayune april 16, 2014
+error: pred=_12: 4 5_ _pm_ _m._; inp=twelve forty five p m; ref=TIME 1 6 | 12.45pm | twelve forty five p m | 12.45 p.m. | 12.45 pm | 12:45 p.m. | 12:45pm | 12:45 pm
+	input=at twelve forty five p m hélio castroneves' car stepped out in turn one
+	tags=<SELF> _12: 4 5_ _pm_ _m._ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=at _12: 4 5_ _pm_ _m._ hélio castroneves' car stepped out in turn one
+	semiotic=PLAIN TIME TIME TIME TIME TIME PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=at 12:45 p.m. hélio castroneves' car stepped out in turn one
+error: pred=_3:  3 9:   4 0_; inp=three minutes thirty nine seconds and forty milliseconds; ref=TIME 13 21 | three minutes thirty nine seconds and forty milliseconds | 3:39.40
+	input=in rome italy during the summer of nineteen ninety one clark also ran three minutes thirty nine seconds and forty milliseconds for one thousand five hundred meters
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _19 9 1_ <SELF> <SELF> <SELF> _3: <DELETE> 3 9: <DELETE> <DELETE> 4 0_ <SELF> _1 <DELETE> 5 00_ <SELF>
+	pred=in rome italy during the summer of _19 9 1_ clark also ran _3:  3 9:   4 0_ for _1  5 00_ meters
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN DATE DATE DATE PLAIN PLAIN PLAIN TIME TIME TIME TIME TIME TIME TIME TIME PLAIN CARDINAL CARDINAL CARDINAL CARDINAL PLAIN
+	ref=in rome italy during the summer of 1991 clark also ran 3:39.40 for 1500m
+error: pred=_4_ _2 1_; inp=four twenty one; ref=TIME 6 9 | 4: 21 | 04:21 | 04.21 | four twenty one | 4:21
+	input=cromwell and north nineteen eighty two four twenty one
+	tags=<SELF> _&_ <SELF> _19 8 2_ _4_ _2 1_
+	pred=cromwell _&_ north _19 8 2_ _4_ _2 1_
+	semiotic=PLAIN VERBATIM PLAIN DATE DATE DATE CARDINAL CARDINAL CARDINAL
+	ref=cromwell & north 1982 4:21

@@ -1,0 +1,84 @@
+error: pred=_€ _5  4 4 .; inp=five hundred forty four point zero; ref=DECIMAL 16 22 | 544.0 | five hundred forty four point zero
+	input=one hundred sixty five to one hundred sixty six mister bricolage f y revenue down to five hundred forty four point zero million euros press release
+	tags=_1 <DELETE> 6 5_ _-_ _1 <DELETE> 6 6_ <SELF> <SELF> _f y_ <SELF> <SELF> <SELF> _€<< _5 <DELETE> 4 4 . 0_ _m_ <SELF> <SELF>
+	pred=_1  6 5_ _-_ _1  6 6_ mister bricolage _f y_ revenue down to _€ _5  4 4 . 0_ _m_ press release
+	semiotic=CARDINAL CARDINAL CARDINAL CARDINAL PLAIN CARDINAL CARDINAL CARDINAL CARDINAL PLAIN PLAIN LETTERS LETTERS PLAIN PLAIN PLAIN MONEY MONEY MONEY MONEY MONEY MONEY MONEY MONEY PLAIN PLAIN
+	ref=165 - 166 mr bricolage fy revenue down to 544.0 million euros press release
+error: pred=_1 0 6 . 8 8_ _1 ,; inp=one hundred six point eight eight one million; ref=DECIMAL 14 22 | 106.881 million | one hundred six point eight eight one million
+	input=the nineteen sixty eight issue was also dated nineteen sixty six a total of one hundred six point eight eight one million five bani coins with the socialist arms were released
+	tags=<SELF> _19 6 8_ <SELF> <SELF> <SELF> <SELF> _19 6 6_ <SELF> <SELF> <SELF> _1 0 6 . 8 8_ _1 , 005_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=the _19 6 8_ issue was also dated _19 6 6_ a total of _1 0 6 . 8 8_ _1 , 005_ bani coins with the socialist arms were released
+	semiotic=PLAIN DATE DATE DATE PLAIN PLAIN PLAIN PLAIN DATE DATE DATE PLAIN PLAIN PLAIN DECIMAL DECIMAL DECIMAL DECIMAL DECIMAL DECIMAL CARDINAL CARDINAL CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=the 1968 issue was also dated 1966 a total of 106.881 million five bani coins with the socialist arms were released
+error: pred=_$ _6; inp=six million; ref=DECIMAL 3 5 | six million | 6million | 6 million
+	input=morocco sent mad six million seven hundred thousand dollars worth of humanitarian aid to lebanon
+	tags=<SELF> <SELF> <SELF> _$<< _6 , 7 00 ,000_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=morocco sent mad _$ _6 , 7 00 ,000_ worth of humanitarian aid to lebanon
+	semiotic=PLAIN PLAIN PLAIN MONEY MONEY MONEY MONEY MONEY MONEY PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=morocco sent mad 6 million $700,000 worth of humanitarian aid to lebanon
+error: pred=_2 ,000,000_; inp=two million; ref=DECIMAL 12 14 | two million | 2 million | 2million
+	input=by the time he died in nineteen fourteen his company owned over two million acres of pine forest
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _19 14_ <SELF> <SELF> <SELF> <SELF> _2 ,000,000_ <SELF> <SELF> <SELF> <SELF>
+	pred=by the time he died in _19 14_ his company owned over _2 ,000,000_ acres of pine forest
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN DATE DATE PLAIN PLAIN PLAIN PLAIN CARDINAL CARDINAL PLAIN PLAIN PLAIN PLAIN
+	ref=by the time he died in 1914 his company owned over 2 million acres of pine forest
+error: pred=_2_ ,000,000_; inp=two million; ref=DECIMAL 8 10 | two million | 2 million | 2million
+	input=nollywood watch also added that genevieve was paid two million naira for the role she played in the music video
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _2_ ,000,000_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=nollywood watch also added that genevieve was paid _2_ ,000,000_ naira for the role she played in the music video
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN DECIMAL CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=nollywood watch also added that genevieve was paid 2 million naira for the role she played in the music video
+error: pred=_3  6 00_ billion; inp=three thousand six hundred billion; ref=DECIMAL 0 5 | three thousand six hundred billion | 3,600 billion
+	input=three thousand six hundred billion sixty billion dollars
+	tags=_3 <DELETE> 6 00_ <SELF> _us__$<< _60_ _bn_
+	pred=_3  6 00_ billion _us__$ _60_ _bn_
+	semiotic=DECIMAL CARDINAL CARDINAL CARDINAL DECIMAL MONEY MONEY MONEY
+	ref=3,600 billion us$60 billion
+error: pred=_5_ ,000,000_; inp=five million; ref=DECIMAL 5 7 | 5million | five million | 5 million
+	input=currently the album has sold five million copies in the u s certifying it at five x platinum
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> _5_ ,000,000_ <SELF> <SELF> <SELF> _u s_ <SELF> <SELF> <SELF> _5_ <SELF> <SELF>
+	pred=currently the album has sold _5_ ,000,000_ copies in the _u s_ certifying it at _5_ x platinum
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN DECIMAL CARDINAL PLAIN PLAIN PLAIN LETTERS LETTERS PLAIN PLAIN PLAIN CARDINAL PLAIN PLAIN
+	ref=currently the album has sold 5 million copies in the us certifying it at 5 x platinum
+error: pred=_10 0. 5_; inp=ten point five; ref=DECIMAL 5 8 | 10.5 | ten point five
+	input=it had a diameter of ten point five meters thirty four feet with walls three point five meters eleven feet thick at the bottom
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> _10 0. 5_ _m_ _3 4_ _ft_ <SELF> <SELF> _3 . 5_ _m_ _11_ <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=it had a diameter of _10 0. 5_ _m_ _3 4_ _ft_ with walls _3 . 5_ _m_ _11_ feet thick at the bottom
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN DECIMAL MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE PLAIN PLAIN MEASURE MEASURE MEASURE MEASURE MEASURE PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=it had a diameter of 10.5 metres 34 ft with walls 3.5 metres 11 ft thick at the bottom
+error: pred=_1 ,000,000_; inp=one million; ref=DECIMAL 4 6 | 1 million | 1million | one million
+	input=this grew to over one million volumes by the end of world war two
+	tags=<SELF> <SELF> <SELF> <SELF> _1 ,000,000_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=this grew to over _1 ,000,000_ volumes by the end of world war two
+	semiotic=PLAIN PLAIN PLAIN PLAIN CARDINAL CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=this grew to over 1 million volumes by the end of world war ii
+error: pred=_2 ,000,000_; inp=two million; ref=DECIMAL 7 9 | two million | 2 million | 2million
+	input=the district has a population of about two million twenty eleven census
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _2 ,000,000_ _20 11_ <SELF>
+	pred=the district has a population of about _2 ,000,000_ _20 11_ census
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL CARDINAL DATE DATE PLAIN
+	ref=the district has a population of about 2 million 2011 census
+error: pred=_€ _80_; inp=eighty million; ref=DECIMAL 10 12 | 80 million | eighty million
+	input=the total cost of the investment has been estimated at eighty million euros
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _€<< _80_ <SELF>
+	pred=the total cost of the investment has been estimated at _€ _80_ euros
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN MONEY MONEY MONEY
+	ref=the total cost of the investment has been estimated at 80 million euros
+error: pred=_6 00_ ,000,000_; inp=six hundred million; ref=DECIMAL 7 10 | 600million | six hundred million | 600 million
+	input=the international genealogical index database contains approximately six hundred million names of deceased individuals
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _6 00_ ,000,000_ <SELF> <SELF> <SELF> <SELF>
+	pred=the international genealogical index database contains approximately _6 00_ ,000,000_ names of deceased individuals
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN DECIMAL DECIMAL DECIMAL PLAIN PLAIN PLAIN PLAIN
+	ref=the international genealogical index database contains approximately 600 million names of deceased individuals
+error: pred=_£ _6_; inp=six billion; ref=DECIMAL 2 4 | 6 billion | six billion | 6billion
+	input=britain signs six billion pounds saudi arms contract
+	tags=<SELF> <SELF> _£<< _6_ _bn_ <SELF> <SELF> <SELF>
+	pred=britain signs _£ _6_ _bn_ saudi arms contract
+	semiotic=PLAIN PLAIN MONEY MONEY MONEY PLAIN PLAIN PLAIN
+	ref=britain signs 6 billion pounds saudi arms contract
+error: pred=_3 3 , 4 0 4 . 1 1_; inp=thirty three thousand four hundred four point one one; ref=DECIMAL 2 11 | thirty three thousand four hundred four point one one | 33404.11
+	input=nine a thirty three thousand four hundred four point one one point o eight p four s two c five sixteen point o five p three seven eleven point o one s one c one dot o dot o n e o n e p four s three point o o point o three p four c s two doctober twelve twenty eleven initial release on iphone four s
+	tags=_9_ <SELF> _3 3 , 4 0 4 . 1 1_ _. 0 8_ <SELF> _4_ <SELF> _2_ <SELF> _5: 16_ _. 0 5_ <SELF> _3 _07: 11_ _. 0 1_ <SELF> _1_ <SELF> _1_ _. 0 . <DELETE> <DELETE> 1 <DELETE> 1_ <DELETE> <SELF> _4_ <SELF> _3 . 0 0_ _. 0 3_ <SELF> _4_ _c s_ _2_ <SELF> _12_ _20 11_ <SELF> <SELF> <SELF> <SELF> _4_ <SELF>
+	pred=_9_ a _3 3 , 4 0 4 . 1 1_ _. 0 8_ p _4_ s _2_ c _5: 16_ _. 0 5_ p _3 _07: 11_ _. 0 1_ s _1_ c _1_ _. 0 .   1  1_  p _4_ s _3 . 0 0_ _. 0 3_ p _4_ _c s_ _2_ doctober _12_ _20 11_ initial release on iphone _4_ s
+	semiotic=CARDINAL PLAIN DECIMAL DECIMAL DECIMAL DECIMAL DECIMAL DECIMAL DECIMAL DECIMAL DECIMAL DECIMAL DECIMAL DECIMAL PLAIN DIGIT PLAIN DIGIT PLAIN TIME TIME DECIMAL DECIMAL DECIMAL PLAIN DIGIT TIME DECIMAL DECIMAL DECIMAL DECIMAL PLAIN DIGIT PLAIN CARDINAL VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM PLAIN CARDINAL PLAIN DECIMAL DECIMAL DECIMAL DECIMAL DECIMAL DECIMAL DECIMAL PLAIN DIGIT LETTERS LETTERS DIGIT PLAIN CARDINAL DATE DATE PLAIN PLAIN PLAIN PLAIN CARDINAL PLAIN
+	ref=9 a 33404.11 .08 p 4 s 2 c 05.16 .05 p 3 07.11 .01 s 1 c 1 .0.11 p 4 s 3.00 .03 p 4 c s 2 doctober 12 2011 initial release on iphone 4 s

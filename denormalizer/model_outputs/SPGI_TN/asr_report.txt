@@ -1,0 +1,285 @@
+-------------------------------------------
+TYPE              ERRORS     TOTAL     RATE
+-------------------------------------------
+Sentence              37        37  100.00%
+Word                 301       489   61.55%
+-------------------------------------------
+Copy Word            134       433   30.95%
+Uppercase Word        76        11  690.91%
+Digit                 73        40  182.50%
+Punctuation           60         0    0.00%
+Symbol                 4         1  400.00%
+-------------------------------------------
+
+-------------------------------------------
+GENERATION TIME:
+-------------------------------------------
+Total:                                    0
+Avg:                                   0.01
+-------------------------------------------
+
+-------------------------------------------
+CHARACTER SETS:
+-------------------------------------------
+Copy chars:     abcdefghijklmnopqrstuvwxyz
+Punctuation:    ,;:.?!/-()"
+Symbols:        % & ° § + EUR CHF USD GBP m mm cm km m2 m3 km2 l dl ml g kg
+-------------------------------------------
+         S                      I 
+
+promenade siang cho  keong  temple and library at     *     chinatown 
+
+    |       |    |     |      |     |     |    |      |         |     
+
+promenade siang  *  chkeong temple and library at Chinatown     .     
+
+                 D     S                              I         S     
+
+jurong island terminal miller street and aljunied mrt station * 
+
+  |      |       |       |      |     |     |      |     |    | 
+
+jurong island terminal miller Street and Aljunied  MR station . 
+
+                                S           S      S          I 
+
+seletar teng tong road and * axa university asia pacific campus * 
+
+   |     |    |    |    |  |  |      |       |      |      |    | 
+
+seletar teng Tong road and a  X  University Asia Pacific campus . 
+
+              S            I  S      S       S      S           I 
+
+geylang lorong 8 bukit ho swee link and   *   jalan basong * 
+
+   |      |    |   |   |   |    |    |    |     |     |    | 
+
+geylang lorong 8 bukit *  Swee link and Jalan basan basong . 
+
+                       D   S              I     S          I 
+
+ *  *  *  *  250000  mm yes 
+
+ |  |  |  |    |     |   |  
+
+200 50 , 000   .    Yes  ,  
+
+ I  I  I  I    S     S   S  
+
+so the sort code is * * * * * 560018 
+
+|   |   |    |   |  | | | | |   |    
+
+So the sort code is 5 0 0 0 .  One   
+
+S                   I I I I I   S    
+
+think ah let me see how many bond holdings * we have   we   have around 55% 
+
+  |   |   |  |   |   |   |    |      |     | |   |     |     |     |     |  
+
+think *  let me see how many bond holdings , we have around  50    %     .  
+
+      D                                    I           S     S     S     S  
+
+is not like  *  100% or *  80% is not a very aggressive um as asset allocation in your yeah in your portfolio so um 
+
+|   |   |    |   |   |  |   |  |   |  |  |       |      |  |    |       |      |   |    |   |   |       |     |  |  
+
+is not like 100  %   or 80  %  is not a very aggressive *  as asset allocation in your  *   *   *   portfolio .  So 
+
+             I   S      I   S                           D                               D   D   D             S  S  
+
+ *  *  *  *  *  *  *  *  *   *  3472 
+
+ |  |  |  |  |  |  |  |  |   |   |   
+
+300 , 000 00 , 000 00 , 000 772  .   
+
+ I  I  I  I  I  I  I  I  I   I   S   
+
+oh oh so would you like to settle the  *    er   HK$   outstanding balance with your * * * *  US$   
+
+|  |  |    |    |   |   |    |     |   |    |     |         |         |     |    |   | | | |   |    
+
+*  *  So would you like to settle the Hong Kong dollar outstanding balance with your U . S . dollar 
+
+D  D  S                                I    S     S                                  I I I I   S    
+
+remit  *    *      *    HK$ 3500 
+
+  |    |    |      |     |   |   
+
+remit Hong Kong dollars  23  .   
+
+       I    I      I     S   S   
+
+so you prefer to come down * * i'll be there in 30 minutes is it ok * 
+
+|   |    |    |   |    |   | |  |   |    |   |  |     |    |  |  |  | 
+
+So you prefer to come down , I 'll  be there in 30 minutes is it ok . 
+
+S                          I I  S                                   I 
+
+yup the account number is * * 004 
+
+ |   |     |      |    |  | |  |  
+
+ up the account number is 0 4  .  
+
+ S                        I I  S  
+
+ *   *  *   £550 okay against *  US$ 
+
+ |   |  |    |    |      |    |   |  
+
+500 and 50 pound okay against UD  .  
+
+ I   I  I    S                I   S  
+
+then i was looking at the hong kong account ah that time * we sell er costco and then there is some cash there * so i trying to do some er cleanup * i put it to your sing account ah so whenever you want to do conversion is easier so i also will fax to you another instruction will be from your hong kong 
+
+ |   |  |     |    |   |   |    |      |    |   |    |   | |   |   |    |     |   |     |   |   |    |     |   | |  |   |    |  |   |   |     |    | |  |  |  |   |    |      |    |  |     |      |   |   |  |      |      |    |    |  |  |    |    |  |   |     |         |       |   |   |    |    |    |   
+
+Then I was looking at the Hong Kong account *  that time , we sell er costco and then there is some cash there . So I trying to do some er cleanup , I put it to your  *   account *  so whenever you want to do     *      *    *    *  *  *    *    *  *   *     *         n       't  be Hong Kong  .    So  
+
+ S   S                     S    S           D            I                                                     I S  S                              I S                 D           D                                 D      D    D    D  D  D    D    D  D   D     D         S       S       S    S    S    S   
+
+um hum the second one is     uh      AUD    38195  uh 
+
+|   |   |    |     |  |      |        |       |    |  
+
+*  Hum the second one is Australian dollar 3000009 .  
+
+D   S                        S        S       S    S  
+
+ *  860000    8    6  6  60000 
+
+ |    |       |    |  |    |   
+
+800  800   6666660 , 000   .   
+
+ I    S       S    S  S    S   
+
+mmmmm  or 2 weeks 2 weeks okay 2 weeks is fine and then eh and then umm  
+
+  |    |  |   |   |   |    |   |   |   |   |    |   |   |   |   |    |   
+
+Mmmmmm or 2 weeks .  Okay  ,   2 weeks is fine and then eh and then ummm 
+
+  S               S   S    S                                         S   
+
+and the bank will be bank of cyprus * the swift is *  * *  * bcypcy2n 
+
+ |   |   |    |   |   |   |    |    |  |    |   |  |  | |  |    |     
+
+and the bank will be bank of cyprus . The swift is BC C Cy 2    n     
+
+                                    I  S           I  I I  I    S     
+
+this is for service fees 17th of April to 16th of July * 
+
+ |   |   |     |     |    |   |    |   |   |   |   |   | 
+
+This is for service fees '17  of April to  16  of July . 
+
+ S                        S                S           I 
+
+all same amount  *  * 360000 yes i just i just pick that straight out 
+
+ |   |     |     |  |   |     |  |  |   |  |    |    |      |      |  
+
+All same amount 300 .  Yes    ,  I just I just pick that straight out 
+
+ S               I  I   S     S  S      S                             
+
+so we will remit *     *     *   *  * * US$ 203000 
+
+|  |   |     |   |     |     |   |  | |  |    |    
+
+So we will remit us dollars 200 and 3 , 000   .    
+
+S                I     I     I   I  I I  S    S    
+
+  *   0.93 usd * so so we’ll do that uh i mean the buy back the euros 
+
+  |    |    |  | |  |    |   |   |   |  |  |    |   |   |    |    |   
+
+point  93  usd . So we  'll  do that *  I mean the buy back the euros 
+
+  I    S       I S  S    S           D  S                             
+
+*  so we'll be doing this for value tomorrow * so the indicative spot rate right now is  1.   uh  3 
+
+|  |    |   |    |    |    |    |      |     | |   |      |       |    |     |    |  |   |    |   | 
+
+So we  'll  be doing this for value tomorrow . So the indicative spot rate right now is one point 3 
+
+I  S    S                                    I S                                         S    S     
+
+ *   okay good yeap and the second would be the    *       CAD   er    *        *    CAD 10000 
+
+ |    |    |    |    |   |    |      |   |   |     |        |    |     |        |     |    |   
+
+Okay  .   Good yeap and the second would be the Canadian dollars er Canadian dollars  10   .   
+
+ I    S    S                                       I        S          I        I     S    S   
+
+ *  yeah you would like to do it 1 week or 2 week * 
+
+ |   |    |    |    |   |  |  |  |  |   |  |  |   | 
+
+Yes  ,   you would like to do it 1 week or 2 week . 
+
+ I   S                                            I 
+
+ter the iban for this transfer is *   *  * * * * * * *  * * * fr 76300770489439 
+
+ |   |   |    |   |      |     |  |   |  | | | | | | |  | | | |        |        
+
+ter the Iban for this transfer is FR 776 0 0 7 7 7 , 49 9 4 9 9        .        
+
+         S                        I   I  I I I I I I I  I I I S        S        
+
+you need to remit US$   15000  to bank united new york branch * the beneficiary 
+
+ |   |   |    |    |      |    |   |     |     |   |     |    |  |       |      
+
+You need to remit 2015 dollars to bank United New York branch . The beneficiary 
+
+ S                 S      S              S     S   S          I  S              
+
+*   *    *  * 2.117 but this is like as of today * 
+
+|   |    |  |   |    |   |   |   |   |  |    |   | 
+
+2 point one 7   .   But this is like as of today , 
+
+I   I    I  I   S    S                           I 
+
+ya *   *   *  *  800350 
+
+|  |   |   |  |    |    
+
+ya 80 300 and 50   .    
+
+   I   I   I  I    S    
+
+* * * * * * * * * * * * * *  *  * * * * 01950000357023318879 and this reference will be service fee * 
+
+| | | | | | | | | | | | | |  |  | | | |          |            |   |       |      |   |     |     |  | 
+
+0 0 0 0 0 0 0 0 0 0 0 2 3 . One 8 8 8 ,          9           and this reference will be service fee . 
+
+I I I I I I I I I I I I I I  I  I I I I          S                                                  I 
+
+    um     apparently there were letters sent all they way back febuary saying we are going to be changing the system to all the clients * and i think clients get so much junk mail from the bank that they *  don't alway read the stuff they also put in that revise based on this and let me tell you that we still have outstanding matters that haven't been read my understanding is that all of the stuff from the 
+
+    |          |        |    |      |     |    |   |    |   |      |      |    |   |    |   |  |     |      |    |    |   |   |     |    |  |  |   |      |     |  |   |    |    |    |    |   |    |    |   |    |     |    |    |    |    |    |    |  |   |     |      |   |   |    |   |  |   |    |   |   |    |    |        |         |     |      |     |    |   |        |       |   |    |  |   |    |    |    |  
+
+apparently     ,      there were letters sent all they way back febuary saying we are going to be changing the system to all the clients . And I think clients get so much junk  *   from the bank that they do   n     't  read the stuff  is  also  *  *   *   revise   *   in this  *   *  *   *    *   *   *    *    *        *         *     *      *     *    *   *        *       *   *    *  *   *  stuff  *    .  
+
+    S          S                                                                                                                         I  S  S                                 D                           I    S     S                   S         D  D   D            D   S        D   D  D   D    D   D   D    D    D        D         D     D      D     D    D   D        D       D   D    D  D   D         D    S  
+

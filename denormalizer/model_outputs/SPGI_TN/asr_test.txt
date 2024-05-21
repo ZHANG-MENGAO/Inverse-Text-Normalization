@@ -1,0 +1,148 @@
+SRC: compassvale drive the chevrons and aljunied avenue five
+HYP: compassvale drive the chevons and Aljunied Avenue 5 .
+REF: compassvale drive the chevrons and aljunied avenue 5
+
+SRC: yishun street forty one appeals board and seletar green avenue
+HYP: Tanun Street 41 appeals board and seletar green avenue .
+REF: yishun street 41 appeals board and seletar green avenue
+
+SRC: are there food courts or restaurants near lorong nine geylang
+HYP: are there food courts or restaurants near lorong 9 geylang .
+REF: are there food courts or restaurants near lorong 9 geylang
+
+SRC: please show me the way to seletar lodge one
+HYP: Please show me the way to seletar lodge 1 .
+REF: please show me the way to seletar lodge 1
+
+SRC: gilstead road bedok north and one north link
+HYP: Gilstead road bedok North and one north link .
+REF: gilstead road bedok north and one north link
+
+SRC: promenade siang cho keong temple and library at chinatown
+HYP: promenade siang chkeong temple and library at Chinatown .
+REF: promenade siang cho keong temple and library at chinatown
+
+SRC: jurong island terminal miller street and aljunied m r t station
+HYP: jurong island terminal miller Street and Aljunied MR station .
+REF: jurong island terminal miller street and aljunied mrt station
+
+SRC: seletar teng tong road and a x a university asia pacific campus
+HYP: seletar teng Tong road and a X University Asia Pacific campus .
+REF: seletar teng tong road and axa university asia pacific campus
+
+SRC: geylang lorong eight bukit ho swee link and jalan basong
+HYP: geylang lorong 8 bukit Swee link and Jalan basan basong .
+REF: geylang lorong 8 bukit ho swee link and jalan basong
+
+SRC: two hundred fifty thousand mm yes
+HYP: 200 50 , 000 . Yes ,
+REF: 250000 mm yes
+
+SRC: so the sort code is five six zero zero one eight
+HYP: So the sort code is 5 0 0 0 . One
+REF: so the sort code is 560018
+
+SRC: think ah let me see how many bond holdings we have we have around fifty five percent
+HYP: think let me see how many bond holdings , we have around 50 % .
+REF: think ah let me see how many bond holdings we have we have around 55%
+
+SRC: is not like one hundred percent or eighty percent is not a very aggressive um as asset allocation in your yeah in your portfolio so um
+HYP: is not like 100 % or 80 % is not a very aggressive as asset allocation in your portfolio . So
+REF: is not like 100% or 80% is not a very aggressive um as asset allocation in your yeah in your portfolio so um
+
+SRC: three thousand four hundred seventy two
+HYP: 300 , 000 00 , 000 00 , 000 772 .
+REF: 3472
+
+SRC: oh oh so would you like to settle the er hong kong dollar outstanding balance with your us dollar
+HYP: So would you like to settle the Hong Kong dollar outstanding balance with your U . S . dollar
+REF: oh oh so would you like to settle the er HK$ outstanding balance with your US$
+
+SRC: remit hong kong dollars three thousand five hundred
+HYP: remit Hong Kong dollars 23 .
+REF: remit HK$ 3500
+
+SRC: so you prefer to come down i'll be there in thirty minutes is it ok
+HYP: So you prefer to come down , I 'll be there in 30 minutes is it ok .
+REF: so you prefer to come down i'll be there in 30 minutes is it ok
+
+SRC: yup the account number is zero zero four
+HYP: up the account number is 0 4 .
+REF: yup the account number is 004
+
+SRC: five hundred and fifty pound okay against usd
+HYP: 500 and 50 pound okay against UD .
+REF: £550 okay against US$
+
+SRC: then i was looking at the hong kong account ah that time we sell er costco and then there is some cash there so i trying to do some er cleanup i put it to your sing account ah so whenever you want to do conversion is easier so i also will fax to you another instruction will be from your hong kong
+HYP: Then I was looking at the Hong Kong account that time , we sell er costco and then there is some cash there . So I trying to do some er cleanup , I put it to your account so whenever you want to do n 't be Hong Kong . So
+REF: then i was looking at the hong kong account ah that time we sell er costco and then there is some cash there so i trying to do some er cleanup i put it to your sing account ah so whenever you want to do conversion is easier so i also will fax to you another instruction will be from your hong kong
+
+SRC: um hum the second one is uh australian dollar three eight one nine five uh
+HYP: Hum the second one is Australian dollar 3000009 .
+REF: um hum the second one is uh AUD 38195 uh
+
+SRC: eight hundred sixty thousand eight six six sixty thousand
+HYP: 800 800 6666660 , 000 .
+REF: 860000 8 6 6 60000
+
+SRC: mmmmm or two weeks two weeks okay two weeks is fine and then eh and then umm
+HYP: Mmmmmm or 2 weeks . Okay , 2 weeks is fine and then eh and then ummm
+REF: mmmmm or 2 weeks 2 weeks okay 2 weeks is fine and then eh and then umm
+
+SRC: and the bank will be bank of cyprus the swift is b c y p c y two n
+HYP: and the bank will be bank of cyprus . The swift is BC C Cy 2 n
+REF: and the bank will be bank of cyprus the swift is bcypcy2n
+
+SRC: this is for service fees seventeen of april to sixteen of july
+HYP: This is for service fees '17 of April to 16 of July .
+REF: this is for service fees 17th of April to 16th of July
+
+SRC: all same amount three hundred sixty thousand yes i just i just pick that straight out
+HYP: All same amount 300 . Yes , I just I just pick that straight out
+REF: all same amount 360000 yes i just i just pick that straight out
+
+SRC: so we will remit us dollars two hundred and three thousand
+HYP: So we will remit us dollars 200 and 3 , 000 .
+REF: so we will remit US$ 203000
+
+SRC: point ninety three usd so so we'll do that uh i mean the buy back the euros
+HYP: point 93 usd . So we 'll do that I mean the buy back the euros
+REF: 0.93 usd so so we’ll do that uh i mean the buy back the euros
+
+SRC: so we'll be doing this for value tomorrow so the indicative spot rate right now is one point uh three
+HYP: So we 'll be doing this for value tomorrow . So the indicative spot rate right now is one point 3
+REF: so we'll be doing this for value tomorrow so the indicative spot rate right now is 1. uh 3
+
+SRC: okay good yeap and the second would be the canadian dollars er canadian dollars ten thousand
+HYP: Okay . Good yeap and the second would be the Canadian dollars er Canadian dollars 10 .
+REF: okay good yeap and the second would be the CAD er CAD 10000
+
+SRC: yeah you would like to do it one week or two week
+HYP: Yes , you would like to do it 1 week or 2 week .
+REF: yeah you would like to do it 1 week or 2 week
+
+SRC: ter the iban for this transfer is fr seven six three zero zero seven seven zero four eight nine four three nine
+HYP: ter the Iban for this transfer is FR 776 0 0 7 7 7 , 49 9 4 9 9 .
+REF: ter the iban for this transfer is fr 76300770489439
+
+SRC: you need to remit fifteen thousand us dollars to bank united new york branch the beneficiary
+HYP: You need to remit 2015 dollars to bank United New York branch . The beneficiary
+REF: you need to remit US$ 15000 to bank united new york branch the beneficiary
+
+SRC: two point one one seven but this is like as of today
+HYP: 2 point one 7 . But this is like as of today ,
+REF: 2.117 but this is like as of today
+
+SRC: ya eighty thousand three hundred and fifty
+HYP: ya 80 300 and 50 .
+REF: ya 800350
+
+SRC: zero one nine five zero zero zero zero three five seven zero two three three one eight eight seven nine and this reference will be service fee
+HYP: 0 0 0 0 0 0 0 0 0 0 0 2 3 . One 8 8 8 , 9 and this reference will be service fee .
+REF: 01950000357023318879 and this reference will be service fee
+
+SRC: um apparently there were letters sent all they way back febuary saying we are going to be changing the system to all the clients and i think clients get so much junk mail from the bank that they don't alway read the stuff they also put in that revise based on this and let me tell you that we still have outstanding matters that haven't been read my understanding is that all of the stuff from the
+HYP: apparently , there were letters sent all they way back febuary saying we are going to be changing the system to all the clients . And I think clients get so much junk from the bank that they do n 't read the stuff is also revise in this stuff .
+REF: um apparently there were letters sent all they way back febuary saying we are going to be changing the system to all the clients and i think clients get so much junk mail from the bank that they don't alway read the stuff they also put in that revise based on this and let me tell you that we still have outstanding matters that haven't been read my understanding is that all of the stuff from the
+

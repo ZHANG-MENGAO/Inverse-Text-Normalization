@@ -1,0 +1,24 @@
+error: pred=_2 0 0 9 - 4 9_; inp=two o o nine sil four nine; ref=TELEPHONE 4 11 | (2009) 49 | two o o nine sil four nine
+	input=australian economic history review two o o nine sil four nine number one p p one to eighteen
+	tags=<SELF> <SELF> <SELF> <SELF> _2 0 0 9 - 4 9_ _#_ _1_ <DELETE> _pp_ _1_ _-_ _18_
+	pred=australian economic history review _2 0 0 9 - 4 9_ _#_ _1_  _pp_ _1_ _-_ _18_
+	semiotic=PLAIN PLAIN PLAIN PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE VERBATIM CARDINAL VERBATIM VERBATIM CARDINAL PLAIN CARDINAL
+	ref=australian economic history review (2009) 49 # 1 pp 1 - 18
+error: pred=_4 0 - 1 9 6 9 - 1 1 1 - 1 2 4_; inp=four o sil one nine six nine sil one one one sil one two four; ref=TELEPHONE 13 28 | four o sil one nine six nine sil one one one sil one two four | 40 (1969) 111-124
+	input=u pirl der mindestabstand von n in der einheitskreisscheibe gelegenen punkten mathematische nachrichten four o sil one nine six nine sil one one one sil one two four
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> _n._ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _4 0 - 1 9 6 9 - 1 1 1 - 1 2 4_
+	pred=u pirl der mindestabstand von _n._ in der einheitskreisscheibe gelegenen punkten mathematische nachrichten _4 0 - 1 9 6 9 - 1 1 1 - 1 2 4_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN LETTERS PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE
+	ref=u pirl der mindestabstand von n in der einheitskreisscheibe gelegenen punkten mathematische nachrichten 40 (1969) 111-124
+error: pred=_1 9 8 4 - 1 6 4_; inp=one nine eight four sil one six four; ref=TELEPHONE 8 16 | (1984) 164 | one nine eight four sil one six four
+	input=hillier's manual of trees and shrubs fifth edition one nine eight four sil one six four
+	tags=<SELF> <SELF> <SELF> <SELF> _&_ <SELF> _5th_ <SELF> _1 9 8 4 - 1 6 4_
+	pred=hillier's manual of trees _&_ shrubs _5th_ edition _1 9 8 4 - 1 6 4_
+	semiotic=PLAIN PLAIN PLAIN PLAIN VERBATIM PLAIN ORDINAL PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE
+	ref=hillier's manual of trees & shrubs 5th edition (1984) 164
+error: pred=_1 9 9 9 - 2 000_    _nba_; inp=one nine nine nine sil two thousand sil b c a; ref=TELEPHONE 6 17 | 1999-2000 bca | one nine nine nine sil two thousand sil b c a
+	input=one of the highlights of the one nine nine nine sil two thousand sil b c a season was an appearance by bill cosby
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _1 9 9 9 - 2 000_ <DELETE> <DELETE> <DELETE> _nba_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=one of the highlights of the _1 9 9 9 - 2 000_    _nba_ season was an appearance by bill cosby
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=one of the highlights of the 1999-2000 bca season was an appearance by bill cosby

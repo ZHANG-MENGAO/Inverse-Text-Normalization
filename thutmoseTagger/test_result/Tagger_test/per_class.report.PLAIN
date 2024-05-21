@@ -1,0 +1,60 @@
+error: pred=_m_; inp=meters; ref=PLAIN 10 11 | metres | meters
+	input=the village lies at an altitude of one hundred thirteen meters and covers an area of thirty eight point three six square kilometers
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _1 <DELETE> 13_ _m_ <SELF> <SELF> <SELF> <SELF> <SELF> _3 8 . 3 6_ _km_ _²_>
+	pred=the village lies at an altitude of _1  13_ _m_ and covers an area of _3 8 . 3 6_ _km_ _²_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN MEASURE MEASURE MEASURE MEASURE PLAIN PLAIN PLAIN PLAIN PLAIN MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE
+	ref=the village lies at an altitude of 113 metres and covers an area of 38.36 km²
+error: pred=tin _4_ oxide; inp=tin four oxide; ref=PLAIN 4 7 | sno2 | tin four oxide
+	input=tio two coated nanoporous tin four oxide electrodes for dye sensitized solar cells
+	tags=<SELF> _2_ <SELF> <SELF> <SELF> _4_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=tio _2_ coated nanoporous tin _4_ oxide electrodes for dye sensitized solar cells
+	semiotic=PLAIN CARDINAL PLAIN PLAIN PLAIN CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=tio 2 coated nanoporous sno2 electrodes for dye sensitized solar cells
+error: pred=_m_; inp=meters; ref=PLAIN 4 5 | metres | meters
+	input=in the eight hundred meters lee finished second in his semifinal heat and did not advance to the final
+	tags=<SELF> <SELF> _8 00_ _m_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=in the _8 00_ _m_ lee finished second in his semifinal heat and did not advance to the final
+	semiotic=PLAIN PLAIN MEASURE MEASURE MEASURE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=in the 800 metres lee finished second in his semifinal heat and did not advance to the final
+error: pred=_m_; inp=meters; ref=PLAIN 12 13 | metres | meters
+	input=meistersrute is part of the district appenzell innerrhoden c a nine hundred meters above sea level
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _c a_ _9 00_ _m_ <SELF> <SELF> <SELF>
+	pred=meistersrute is part of the district appenzell innerrhoden _c a_ _9 00_ _m_ above sea level
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN LETTERS LETTERS MEASURE MEASURE MEASURE PLAIN PLAIN PLAIN
+	ref=meistersrute is part of the district appenzell innerrhoden c a 900 metres above sea level
+error: pred=_m_; inp=meters; ref=PLAIN 3 4 | metres | meters
+	input=zero point nine meters three point zero feet wide inspection sidewalks are present in both of the tunnels
+	tags=_0 . 9_ _m_ _3 . 0_ _ft_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=_0 . 9_ _m_ _3 . 0_ _ft_ wide inspection sidewalks are present in both of the tunnels
+	semiotic=MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=0.9 metres 3.0 ft wide inspection sidewalks are present in both of the tunnels
+error: pred=_m_; inp=meters; ref=PLAIN 16 17 | metres | meters
+	input=it is larger than its counterpart in new york which is only about nine point eight meters thirty two feet tall
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _9 . 8_ _m_ _3 2_ _ft_ <SELF>
+	pred=it is larger than its counterpart in new york which is only about _9 . 8_ _m_ _3 2_ _ft_ tall
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE PLAIN
+	ref=it is larger than its counterpart in new york which is only about 9.8 metres 32 ft tall
+error: pred=_m_; inp=meters; ref=PLAIN 13 14 | metres | meters
+	input=overall the procession was three thousand five hundred yards three thousand two hundred meters in length and took forty minutes to pass any given point
+	tags=<SELF> <SELF> <SELF> <SELF> _3 , 5 00_ _yd_ _3 , 2 00_ _m_ <SELF> <SELF> <SELF> <SELF> _40_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=overall the procession was _3 , 5 00_ _yd_ _3 , 2 00_ _m_ in length and took _40_ minutes to pass any given point
+	semiotic=PLAIN PLAIN PLAIN PLAIN MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE PLAIN PLAIN PLAIN PLAIN CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=overall the procession was 3,500 yards 3,200 metres in length and took 40 minutes to pass any given point
+error: pred=_#_; inp=number; ref=PLAIN 1 2 | number | no
+	input=morgan number seventy three
+	tags=<SELF> _#_ _7 3_
+	pred=morgan _#_ _7 3_
+	semiotic=PLAIN VERBATIM CARDINAL CARDINAL
+	ref=morgan no 73
+error: pred=_m_; inp=meters; ref=PLAIN 12 13 | metres | meters
+	input=the average elevation of the settlement is two thousand one hundred sixty meters seven thousand ninety feet above sea level
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _2 , 1 <DELETE> 60_ _m_ _7 , 090_ _ft_ <SELF> <SELF> <SELF>
+	pred=the average elevation of the settlement is _2 , 1  60_ _m_ _7 , 090_ _ft_ above sea level
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE PLAIN PLAIN PLAIN
+	ref=the average elevation of the settlement is 2,160 metres 7,090 ft above sea level
+error: pred=_m_; inp=meters; ref=PLAIN 13 14 | metres | meters
+	input=it is situated at a height of about four thousand five hundred twelve meters fourteen thousand eight hundred three feet
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _4 , 5 <DELETE> 12_ _m_ _14 , 8 0 3_ _ft_
+	pred=it is situated at a height of about _4 , 5  12_ _m_ _14 , 8 0 3_ _ft_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE
+	ref=it is situated at a height of about 4,512 metres 14,803 ft

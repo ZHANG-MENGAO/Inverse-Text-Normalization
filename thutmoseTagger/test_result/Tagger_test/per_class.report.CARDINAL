@@ -1,0 +1,96 @@
+error: pred=_2; inp=twenty; ref=CARDINAL 0 1 | 20: | twenty | 20 - | 20, | xx | 20- | 200 | 20
+	input=twenty two miles northeast of clayton is mcnees crossing a reliable source of water on the santa fe trail
+	tags=_2 2_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=_2 2_ miles northeast of clayton is mcnees crossing a reliable source of water on the santa fe trail
+	semiotic=CARDINAL CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=twenty two miles northeast of clayton is mcnees crossing a reliable source of water on the santa fe trail
+error: pred=_pm_; inp=seven; ref=CARDINAL 20 21 | 7: | vii | 7 | 70 | vii, | 7- | seven | 07 | 7, | 007
+	input=to normalize n two should be reduced by about twenty five p p m v and o two by about seven p p m v
+	tags=<SELF> <SELF> <SELF> _2_ <SELF> <SELF> <SELF> <SELF> <SELF> _2 5_ _p <SELF> <SELF> <SELF> <SELF> <SELF> _2_ <SELF> <SELF> _pm_<< _7_ _pm_ <SELF> <SELF>
+	pred=to normalize n _2_ should be reduced by about _2 5_ _p p m v and o _2_ by about _pm_ _7_ _pm_ m v
+	semiotic=PLAIN PLAIN PLAIN CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL CARDINAL LETTERS LETTERS LETTERS PLAIN PLAIN PLAIN CARDINAL PLAIN PLAIN TIME TIME TIME LETTERS PLAIN
+	ref=to normalize n 2 should be reduced by about 25 ppmv and o 2 by about 7 ppmv
+error: pred=_4; inp=forty; ref=CARDINAL 4 5 | forty | 40 - | 40 | 400 | 40: | 40, | xl | 40-
+	input=the album reached number forty seven on the billboard two hundred and forty one on the u k albums chart
+	tags=<SELF> <SELF> <SELF> _#_ _4 7_ <SELF> <SELF> <SELF> _2 00_ <SELF> _4 1_ <SELF> <SELF> _u k_ <SELF> <SELF>
+	pred=the album reached _#_ _4 7_ on the billboard _2 00_ and _4 1_ on the _u k_ albums chart
+	semiotic=PLAIN PLAIN PLAIN VERBATIM CARDINAL CARDINAL PLAIN PLAIN PLAIN CARDINAL CARDINAL PLAIN CARDINAL CARDINAL PLAIN PLAIN LETTERS LETTERS PLAIN PLAIN
+	ref=the album reached number forty seven on the billboard 200 and forty one on the uk albums chart
+error: pred=_4; inp=forty; ref=CARDINAL 12 13 | forty | 40 - | 40 | 400 | 40: | 40, | xl | 40-
+	input=the album reached number forty seven on the billboard two hundred and forty one on the u k albums chart
+	tags=<SELF> <SELF> <SELF> _#_ _4 7_ <SELF> <SELF> <SELF> _2 00_ <SELF> _4 1_ <SELF> <SELF> _u k_ <SELF> <SELF>
+	pred=the album reached _#_ _4 7_ on the billboard _2 00_ and _4 1_ on the _u k_ albums chart
+	semiotic=PLAIN PLAIN PLAIN VERBATIM CARDINAL CARDINAL PLAIN PLAIN PLAIN CARDINAL CARDINAL PLAIN CARDINAL CARDINAL PLAIN PLAIN LETTERS LETTERS PLAIN PLAIN
+	ref=the album reached number forty seven on the billboard 200 and forty one on the uk albums chart
+error: pred=_3; inp=thirty; ref=CARDINAL 7 8 | xxx | 30, | thirty | 30: | 30- | 30 | 300
+	input=canadian parliamentary review ottawa commonwealth parliamentary association thirty four twenty three
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _3 4_ _2 3_
+	pred=canadian parliamentary review ottawa commonwealth parliamentary association _3 4_ _2 3_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL CARDINAL CARDINAL CARDINAL
+	ref=canadian parliamentary review ottawa commonwealth parliamentary association 30 4 23
+error: pred=_4; inp=forty; ref=CARDINAL 3 4 | forty | 40 - | 40 | 400 | 40: | 40, | xl | 40-
+	input=the buccaneers threw forty one times while rushing for a team low nine attempts
+	tags=<SELF> <SELF> <SELF> _4 1_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=the buccaneers threw _4 1_ times while rushing for a team low nine attempts
+	semiotic=PLAIN PLAIN PLAIN CARDINAL CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=the buccaneers threw forty one times while rushing for a team low nine attempts
+error: pred=_2; inp=twenty; ref=CARDINAL 13 14 | 20: | twenty | 20 - | 20, | xx | 20- | 200 | 20
+	input=in nineteen ninety one the pixies three performed for the first time in twenty five years at their high school reunion
+	tags=<SELF> _19 9 1_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _2 5_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=in _19 9 1_ the pixies three performed for the first time in _2 5_ years at their high school reunion
+	semiotic=PLAIN DATE DATE DATE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=in 1991 the pixies three performed for the first time in twenty five years at their high school reunion
+error: pred=_7; inp=seventy; ref=CARDINAL 17 18 | 70, | 070 | 70 | lxx | seventy | 70-
+	input=he declined to stand in nineteen o six due to age concerns he was then in his seventy sixth year
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> _19 0 6_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _7 6th_ <SELF>
+	pred=he declined to stand in _19 0 6_ due to age concerns he was then in his _7 6th_ year
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN DATE DATE DATE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN ORDINAL ORDINAL PLAIN
+	ref=he declined to stand in 1906 due to age concerns he was then in his seventy sixth year
+error: pred=_13 , 6 3_; inp=thirteen thousand sixty three; ref=CARDINAL 15 19 | 13,063 | 13063 | thirteen thousand sixty three
+	input=at the time of the nineteen ninety one nepal census it had a population of thirteen thousand sixty three people living in two thousand one hundred nineteen individual households
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> _19 9 1_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _13 , 6 3_ <SELF> <SELF> <SELF> _2 <DELETE> <DELETE> 1 19_ <SELF> <SELF>
+	pred=at the time of the _19 9 1_ nepal census it had a population of _13 , 6 3_ people living in _2   1 19_ individual households
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN DATE DATE DATE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL CARDINAL CARDINAL CARDINAL PLAIN PLAIN PLAIN CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL PLAIN PLAIN
+	ref=at the time of the 1991 nepal census it had a population of 13,063 people living in 2119 individual households
+error: pred=_200_ 4_; inp=twenty four; ref=CARDINAL 1 3 | xxiv | twenty four | 24: | xxiiii | 24, | 24 | 24-
+	input=volume twenty four p p
+	tags=<SELF> _200_ 4_ <DELETE> _pp_
+	pred=volume _200_ 4_  _pp_
+	semiotic=PLAIN CARDINAL CARDINAL VERBATIM VERBATIM
+	ref=volume 24 pp
+error: pred=,13_; inp=thirteen; ref=CARDINAL 4 5 | 13: | 13- | thirteen | 130 | xiii | 13 | 13 - | 13,
+	input=on march twenty seventh thirteen victims of the bombing some of them civilians were buried arousing intense anti hungarian sentiment
+	tags=<SELF> <SELF> _2 7 ,13_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=on march _2 7 ,13_ victims of the bombing some of them civilians were buried arousing intense anti hungarian sentiment
+	semiotic=PLAIN DATE DATE DATE DATE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=on march 27 thirteen victims of the bombing some of them civilians were buried arousing intense anti hungarian sentiment
+error: pred=_3  2 6 , 7  4 2_; inp=three hundred twenty six thousand seven hundred forty two; ref=CARDINAL 6 15 | three hundred twenty six thousand seven hundred forty two | 326742
+	input=the faithful of this eparchy numbering three hundred twenty six thousand seven hundred forty two belong to the ancient saint thomas christian community
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _3 <DELETE> 2 6 , 7 <DELETE> 4 2_ <SELF> <SELF> <SELF> <SELF> _st_ <SELF> <SELF> <SELF>
+	pred=the faithful of this eparchy numbering _3  2 6 , 7  4 2_ belong to the ancient _st_ thomas christian community
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=the faithful of this eparchy numbering 326742 belong to the ancient st thomas christian community
+error: pred=_4; inp=forty; ref=CARDINAL 8 9 | forty | 40 - | 40 | 400 | 40: | 40, | xl | 40-
+	input=crane became rather influential in the union and forty two union men were fired
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _4 2_ <SELF> <SELF> <SELF> <SELF>
+	pred=crane became rather influential in the union and _4 2_ union men were fired
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL CARDINAL PLAIN PLAIN PLAIN PLAIN
+	ref=crane became rather influential in the union and forty two union men were fired
+error: pred=_5; inp=fifty; ref=CARDINAL 9 10 | 50, | 50- | 50 | 50: | fifty
+	input=melody maker the tenth of october o o p fifty four stars out of five the metal album of the year so far
+	tags=<SELF> <SELF> <DELETE> _10_ <DELETE> <SELF> _o <SELF> p_ _5 4_ <SELF> <SELF> <SELF> _5_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=melody maker  _10_  october _o o p_ _5 4_ stars out of _5_ the metal album of the year so far
+	semiotic=PLAIN PLAIN DATE DATE DATE DATE LETTERS LETTERS LETTERS CARDINAL CARDINAL PLAIN PLAIN PLAIN CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=melody maker 10/10/00 p 50 4 stars out of 5 the metal album of the year so far
+error: pred=_2; inp=twenty; ref=CARDINAL 0 1 | 20: | twenty | 20 - | 20, | xx | 20- | 200 | 20
+	input=twenty one policemen were injured by demonstrators armed with gasoline bombs sticks stones and high powered slingshots
+	tags=_2 1_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=_2 1_ policemen were injured by demonstrators armed with gasoline bombs sticks stones and high powered slingshots
+	semiotic=CARDINAL CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=twenty one policemen were injured by demonstrators armed with gasoline bombs sticks stones and high powered slingshots
+error: pred=_2; inp=twenty; ref=CARDINAL 17 18 | 20: | twenty | 20 - | 20, | xx | 20- | 200 | 20
+	input=born in lieto finland kylander immigrated to the united states in nineteen fourteen at the age of twenty two
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _19 14_ <SELF> <SELF> <SELF> <SELF> _2 2_
+	pred=born in lieto finland kylander immigrated to the united states in _19 14_ at the age of _2 2_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN DATE DATE PLAIN PLAIN PLAIN PLAIN CARDINAL CARDINAL
+	ref=born in lieto finland kylander immigrated to the united states in 1914 at the age of twenty two

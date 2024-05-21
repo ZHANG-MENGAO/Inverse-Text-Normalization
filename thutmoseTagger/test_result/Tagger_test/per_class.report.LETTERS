@@ -1,0 +1,162 @@
+error: pred=_c h e k__-_; inp=c h e k; ref=LETTERS 0 4 | chek | c h e k
+	input=c h e k one likely acts as an integrator for a t m and a t r signals and in monitoring meiotic recombination
+	tags=_c <SELF> <SELF> k__-_ _1_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _a <SELF> m_ <SELF> _a <SELF> r_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=_c h e k__-_ _1_ likely acts as an integrator for _a t m_ and _a t r_ signals and in monitoring meiotic recombination
+	semiotic=LETTERS LETTERS LETTERS LETTERS CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN LETTERS LETTERS LETTERS PLAIN LETTERS LETTERS LETTERS PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=chek 1 likely acts as an integrator for atm and atr signals and in monitoring meiotic recombination
+error: pred=_o._ s f_; inp=o s f; ref=LETTERS 10 13 | osf- | o s f | osf | o.s.f. | o. s. f.
+	input=the brothers of the congregation use the postnominal initials of o s f
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _o._ <SELF> f_
+	pred=the brothers of the congregation use the postnominal initials of _o._ s f_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN LETTERS LETTERS LETTERS
+	ref=the brothers of the congregation use the postnominal initials of o.s.f.
+error: pred=_b__'_ l e__'_ _n e_; inp=b l e n e; ref=LETTERS 9 14 | blene | b l e n e
+	input=as a judge her first name is pronounced may b l e n e as in the chuck berry song maybellene
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _b__'_ <SELF> e__'_ _n e_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=as a judge her first name is pronounced may _b__'_ l e__'_ _n e_ as in the chuck berry song maybellene
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN LETTERS LETTERS LETTERS LETTERS LETTERS PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=as a judge her first name is pronounced may blene as in the chuck berry song maybellene
+error: pred=_u _s._; inp=u s; ref=LETTERS 16 18 | us- | us, | us | u.s. a | u.s. | u.s. high | u.s. m | u. s. | us i- | u.s. us | us b | u.s.a | us m | u s | us us | u.s.-
+	input=the covers for the novels were done by george wilson previously known for his work on u s phantom comic books
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _u _s._ <SELF> <SELF> <SELF>
+	pred=the covers for the novels were done by george wilson previously known for his work on _u _s._ phantom comic books
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN LETTERS LETTERS PLAIN PLAIN PLAIN
+	ref=the covers for the novels were done by george wilson previously known for his work on us phantom comic books
+error: pred=_u _s._; inp=u s; ref=LETTERS 4 6 | us- | us, | us | u.s. a | u.s. | u.s. high | u.s. m | u. s. | us i- | u.s. us | us b | u.s.a | us m | u s | us us | u.s.-
+	input=cornwell inn chester county u s h w y
+	tags=<SELF> <SELF> <SELF> <SELF> _u _s._ _h <SELF> y_
+	pred=cornwell inn chester county _u _s._ _h w y_
+	semiotic=PLAIN PLAIN PLAIN PLAIN LETTERS LETTERS LETTERS LETTERS LETTERS
+	ref=cornwell inn chester county u.s. hwy
+error: pred=_b g z__-_; inp=b g z; ref=LETTERS 5 8 | b g z | bgz
+	input=phantom girl is the only b g z ltian who can shift between her home reality and earth
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> _b <SELF> z__-_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=phantom girl is the only _b g z__-_ ltian who can shift between her home reality and earth
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN LETTERS LETTERS LETTERS PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=phantom girl is the only bgz ltian who can shift between her home reality and earth
+error: pred=_c._ _m._ _g; inp=c m g; ref=LETTERS 3 6 | c. m. g. | cmg- | cmg | c.m.g. | c m g
+	input=jeremy cashel thomas c m g h m ambassador athens
+	tags=<SELF> <SELF> <SELF> _c._ _m._ _g <SELF> m_ <SELF> <SELF>
+	pred=jeremy cashel thomas _c._ _m._ _g h m_ ambassador athens
+	semiotic=PLAIN PLAIN PLAIN LETTERS LETTERS LETTERS LETTERS LETTERS PLAIN PLAIN
+	ref=jeremy cashel thomas c.m.g. h.m. ambassador athens
+error: pred=_q p_ _m._; inp=q p m; ref=LETTERS 3 6 | q.p.m. | qpm | q p m
+	input=christopher frederick payne q p m d l chief constable cleveland constabulary
+	tags=<SELF> <SELF> <SELF> _q p_ _m._ _d._ l_ <SELF> <SELF> <SELF> <SELF>
+	pred=christopher frederick payne _q p_ _m._ _d._ l_ chief constable cleveland constabulary
+	semiotic=PLAIN PLAIN PLAIN LETTERS LETTERS LETTERS LETTERS LETTERS PLAIN PLAIN PLAIN PLAIN
+	ref=christopher frederick payne q.p.m. d.l. chief constable cleveland constabulary
+error: pred=_d._ l_; inp=d l; ref=LETTERS 6 8 | d.l. | d l | dl- | d. l. | dl, | dl
+	input=christopher frederick payne q p m d l chief constable cleveland constabulary
+	tags=<SELF> <SELF> <SELF> _q p_ _m._ _d._ l_ <SELF> <SELF> <SELF> <SELF>
+	pred=christopher frederick payne _q p_ _m._ _d._ l_ chief constable cleveland constabulary
+	semiotic=PLAIN PLAIN PLAIN LETTERS LETTERS LETTERS LETTERS LETTERS PLAIN PLAIN PLAIN PLAIN
+	ref=christopher frederick payne q.p.m. d.l. chief constable cleveland constabulary
+error: pred=_d._ c_; inp=d c; ref=LETTERS 6 8 | d.c. | dc, | dc | d. c. | dc- | d c
+	input=her appointment was confirmed by the d c district council on april thirtieth two thousand nine
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _d._ c_ <SELF> <SELF> <SELF> <SELF> _30 ,2 00 9_
+	pred=her appointment was confirmed by the _d._ c_ district council on april _30 ,2 00 9_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN LETTERS LETTERS PLAIN PLAIN PLAIN DATE DATE DATE DATE DATE
+	ref=her appointment was confirmed by the d.c. district council on april 30, 2009
+error: pred=h o l c _h._; inp=h o l c h; ref=LETTERS 2 7 | holch | h o l c h
+	input=arthur e h o l c h junior
+	tags=<SELF> _e <SELF> <SELF> <SELF> <SELF> _h._ <SELF>
+	pred=arthur _e h o l c _h._ junior
+	semiotic=PLAIN LETTERS LETTERS LETTERS LETTERS LETTERS LETTERS PLAIN
+	ref=arthur e. holch jr
+error: pred=_d._ c_; inp=d c; ref=LETTERS 4 6 | d.c. | dc, | dc | d. c. | dc- | d c
+	input=williams touts vouchers for d c schools
+	tags=<SELF> <SELF> <SELF> <SELF> _d._ c_ <SELF>
+	pred=williams touts vouchers for _d._ c_ schools
+	semiotic=PLAIN PLAIN PLAIN PLAIN LETTERS LETTERS PLAIN
+	ref=williams touts vouchers for d.c. schools
+error: pred=0_ _v__-_; inp=o v; ref=LETTERS 1 3 | o v | o.v. | ov- | o. v. | ov
+	input=three o v two spacecraft flew on titan i i i c test flights
+	tags=<SELF> 0_ _v__-_ _2_ <SELF> <SELF> <SELF> <SELF> _i <SELF> <SELF> c_ <SELF> <SELF>
+	pred=three 0_ _v__-_ _2_ spacecraft flew on titan _i i i c_ test flights
+	semiotic=PLAIN DIGIT LETTERS CARDINAL PLAIN PLAIN PLAIN PLAIN LETTERS LETTERS LETTERS LETTERS PLAIN PLAIN
+	ref=three ov 2 spacecraft flew on titan iiic test flights
+error: pred=_h _m._ _c._; inp=h m c; ref=LETTERS 0 3 | hmc- | hmc | h.m.c. | hmc m | h. m. c. | h m c
+	input=h m c w m molyneux e s q
+	tags=_h _m._ _c._ _w._ _m._ <SELF> _e <SELF> q_
+	pred=_h _m._ _c._ _w._ _m._ molyneux _e s q_
+	semiotic=LETTERS LETTERS LETTERS LETTERS LETTERS PLAIN LETTERS LETTERS LETTERS
+	ref=hmc w. m. molyneux esq
+error: pred=_u _y._; inp=u y; ref=LETTERS 6 8 | u y | uy- | uy
+	input=lane w j westhoff c m u y j m aguad m smeland wagman r kaufman r m rehm h l green r c silberstein l e twenty fifteen
+	tags=<SELF> _w._ _j._ <SELF> _c._ _m._ _u _y._ _j._ _m._ <SELF> _m._ <SELF> <SELF> _r._ <SELF> _r._ _m._ <SELF> _h._ _l._ <SELF> _r _c._ <SELF> _l._ _e._ _20 15_
+	pred=lane _w._ _j._ westhoff _c._ _m._ _u _y._ _j._ _m._ aguad _m._ smeland wagman _r._ kaufman _r._ _m._ rehm _h._ _l._ green _r _c._ silberstein _l._ _e._ _20 15_
+	semiotic=PLAIN LETTERS LETTERS PLAIN LETTERS LETTERS LETTERS LETTERS LETTERS LETTERS PLAIN LETTERS PLAIN PLAIN LETTERS PLAIN LETTERS LETTERS PLAIN LETTERS LETTERS PLAIN LETTERS LETTERS PLAIN LETTERS LETTERS DATE DATE
+	ref=lane w.j. westhoff c.m. uy j.m. aguad m. smeland wagman r. kaufman r.m. rehm h.l. green r.c. silberstein l.e. 2015
+error: pred=_r _c._; inp=r c; ref=LETTERS 22 24 | r. c. | rc- | rc | r.c. | r c | rc,
+	input=lane w j westhoff c m u y j m aguad m smeland wagman r kaufman r m rehm h l green r c silberstein l e twenty fifteen
+	tags=<SELF> _w._ _j._ <SELF> _c._ _m._ _u _y._ _j._ _m._ <SELF> _m._ <SELF> <SELF> _r._ <SELF> _r._ _m._ <SELF> _h._ _l._ <SELF> _r _c._ <SELF> _l._ _e._ _20 15_
+	pred=lane _w._ _j._ westhoff _c._ _m._ _u _y._ _j._ _m._ aguad _m._ smeland wagman _r._ kaufman _r._ _m._ rehm _h._ _l._ green _r _c._ silberstein _l._ _e._ _20 15_
+	semiotic=PLAIN LETTERS LETTERS PLAIN LETTERS LETTERS LETTERS LETTERS LETTERS LETTERS PLAIN LETTERS PLAIN PLAIN LETTERS PLAIN LETTERS LETTERS PLAIN LETTERS LETTERS PLAIN LETTERS LETTERS PLAIN LETTERS LETTERS DATE DATE
+	ref=lane w.j. westhoff c.m. uy j.m. aguad m. smeland wagman r. kaufman r.m. rehm h.l. green r.c. silberstein l.e. 2015
+error: pred=_a _f._; inp=a f; ref=LETTERS 7 9 | a. f. | af, | a f | af | a.f. | af-
+	input=in gibbs r s karlan by haney a f nygaard i e d s
+	tags=<SELF> <SELF> _r._ _s._ <SELF> <SELF> <SELF> _a _f._ <SELF> _i._ _e <SELF> s_
+	pred=in gibbs _r._ _s._ karlan by haney _a _f._ nygaard _i._ _e d s_
+	semiotic=PLAIN PLAIN LETTERS LETTERS PLAIN PLAIN PLAIN LETTERS LETTERS PLAIN LETTERS LETTERS LETTERS LETTERS
+	ref=in gibbs rs karlan by haney af nygaard i eds
+error: pred=_a._ s; inp=a s; ref=LETTERS 0 2 | as- | a. s. | as | a.s. | a s
+	input=a s dhaliwal had represented the ward from two thousand until the slough council election two thousand four
+	tags=_a._ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _2 000_ <SELF> <SELF> <SELF> <SELF> <SELF> _2 00 4_
+	pred=_a._ s dhaliwal had represented the ward from _2 000_ until the slough council election _2 00 4_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN DATE DATE PLAIN PLAIN PLAIN PLAIN PLAIN DATE DATE DATE
+	ref=a.s. dhaliwal had represented the ward from 2000 until the slough council election 2004
+error: pred=_t._ m_; inp=t m; ref=LETTERS 8 10 | t. m. | tm- | tm | t m | t.m.
+	input=blann a d woywodt a bertolini f bull t m buyon j p clancy r m
+	tags=<SELF> _a._ _d._ <SELF> _a._ <SELF> _f._ <SELF> _t._ m_ <SELF> _j _p._ <SELF> _r m_
+	pred=blann _a._ _d._ woywodt _a._ bertolini _f._ bull _t._ m_ buyon _j _p._ clancy _r m_
+	semiotic=PLAIN LETTERS LETTERS PLAIN LETTERS PLAIN LETTERS PLAIN LETTERS LETTERS PLAIN LETTERS LETTERS PLAIN LETTERS LETTERS
+	ref=blann a. d. woywodt a. bertolini f. bull t. m. buyon j. p. clancy r. m.
+error: pred=_j _p._; inp=j p; ref=LETTERS 11 13 | jp- | jp | jp us | j p | j.p. | j. p.
+	input=blann a d woywodt a bertolini f bull t m buyon j p clancy r m
+	tags=<SELF> _a._ _d._ <SELF> _a._ <SELF> _f._ <SELF> _t._ m_ <SELF> _j _p._ <SELF> _r m_
+	pred=blann _a._ _d._ woywodt _a._ bertolini _f._ bull _t._ m_ buyon _j _p._ clancy _r m_
+	semiotic=PLAIN LETTERS LETTERS PLAIN LETTERS PLAIN LETTERS PLAIN LETTERS LETTERS PLAIN LETTERS LETTERS PLAIN LETTERS LETTERS
+	ref=blann a. d. woywodt a. bertolini f. bull t. m. buyon j. p. clancy r. m.
+error: pred=_n i t__'_ _l e_; inp=n i t l e; ref=LETTERS 0 5 | n i t l e | nitle
+	input=n i t l e arab world project
+	tags=_n <SELF> t__'_ _l e_ <SELF> <SELF> <SELF>
+	pred=_n i t__'_ _l e_ arab world project
+	semiotic=LETTERS LETTERS LETTERS LETTERS LETTERS PLAIN PLAIN PLAIN
+	ref=nitle arab world project
+error: pred=_t o__'_ _u_; inp=t o u; ref=LETTERS 1 4 | t o u | tou
+	input=chang t o u liang
+	tags=<SELF> _t o__'_ _u_ <SELF>
+	pred=chang _t o__'_ _u_ liang
+	semiotic=PLAIN LETTERS LETTERS LETTERS PLAIN
+	ref=chang tou liang
+error: pred=_u._ s_; inp=u s; ref=LETTERS 12 14 | us- | us, | us | u.s. a | u.s. | u.s. high | u.s. m | u. s. | us i- | u.s. us | us b | u.s.a | us m | u s | us us | u.s.-
+	input=pineapple dance studios was sold around the world and airs on the u s network ovation since the twenty eighth of september twenty fourteen
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _u._ s_ <SELF> <SELF> <SELF> <DELETE> _2 8_ <DELETE> <SELF> _20 14_
+	pred=pineapple dance studios was sold around the world and airs on the _u._ s_ network ovation since  _2 8_  september _20 14_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN LETTERS LETTERS PLAIN PLAIN PLAIN DATE DATE DATE DATE DATE DATE DATE
+	ref=pineapple dance studios was sold around the world and airs on the us network ovation since 28 september 2014
+error: pred=_d._ c_; inp=d c; ref=LETTERS 1 3 | d.c. | dc, | dc | d. c. | dc- | d c
+	input=washington d c transportation research board
+	tags=<SELF> _d._ c_ <SELF> <SELF> <SELF>
+	pred=washington _d._ c_ transportation research board
+	semiotic=PLAIN LETTERS LETTERS PLAIN PLAIN PLAIN
+	ref=washington d.c. transportation research board
+error: pred=_n._ k_; inp=n k; ref=LETTERS 5 7 | n k | n.k. | nk- | n. k. | nk
+	input=hall c manser e spurr n k lim l nineteen ninety three
+	tags=<SELF> _c._ <SELF> <SELF> <SELF> _n._ k_ <SELF> <SELF> _19 9 3_
+	pred=hall _c._ manser e spurr _n._ k_ lim l _19 9 3_
+	semiotic=PLAIN LETTERS PLAIN LETTERS PLAIN LETTERS LETTERS PLAIN PLAIN DATE DATE DATE
+	ref=hall c manser e spurr nk lim l 1993
+error: pred=_s u__'_ _a t_; inp=s u a t; ref=LETTERS 0 4 | s u a t | suat
+	input=s u a t gunsel'e azerbaycan'dan odul
+	tags=_s u__'_ _a t_ <SELF> <SELF> <SELF>
+	pred=_s u__'_ _a t_ gunsel'e azerbaycan'dan odul
+	semiotic=LETTERS LETTERS LETTERS LETTERS PLAIN PLAIN PLAIN
+	ref=suat gunsel'e azerbaycan'dan odul
+error: pred=_m__'_ _z e__'_ e_; inp=m z e e; ref=LETTERS 17 21 | mzee | m z e e
+	input=kanindo and ngengi muigai led delegation to nakuru state house to visit the then president of kenya m z e e jomo kenyatta
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _m__'_ _z e__'_ e_ <SELF> <SELF>
+	pred=kanindo and ngengi muigai led delegation to nakuru state house to visit the then president of kenya _m__'_ _z e__'_ e_ jomo kenyatta
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN LETTERS LETTERS LETTERS LETTERS PLAIN PLAIN
+	ref=kanindo and ngengi muigai led delegation to nakuru state house to visit the then president of kenya mzee jomo kenyatta

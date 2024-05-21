@@ -1,0 +1,6 @@
+error: pred=_c__-_ _2 1 2_; inp=c two one two; ref=ADDRESS 2 6 | c two one two | c212  | c212
+	input=crash buana c two one two near kutacane on september twenty ninth twenty eleven wreckage found no survivors
+	tags=<SELF> <SELF> _c__-_ _2 1 2_ <SELF> <SELF> <SELF> <SELF> _2 9 ,20 11_ <SELF> <SELF> <SELF> <SELF>
+	pred=crash buana _c__-_ _2 1 2_ near kutacane on september _2 9 ,20 11_ wreckage found no survivors
+	semiotic=PLAIN PLAIN LETTERS DIGIT DIGIT DIGIT PLAIN PLAIN PLAIN DATE DATE DATE DATE DATE PLAIN PLAIN PLAIN PLAIN
+	ref=crash buana c212  near kutacane on sep 29th 2011 wreckage found no survivors

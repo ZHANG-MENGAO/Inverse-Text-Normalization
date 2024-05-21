@@ -1,0 +1,19 @@
+[NeMo I 2023-09-13 10:45:33 helpers:63] Loading pretrained model neural_text_normalization_t5
+[NeMo I 2023-09-13 10:45:33 cloud:58] Found existing object /home/mazhang/.cache/torch/NeMo/NeMo_1.21.0rc0/neural_text_normalization_t5_tagger/e48ca3e94a215c727d6d325ad2fe0f99/neural_text_normalization_t5_tagger.nemo.
+[NeMo I 2023-09-13 10:45:33 cloud:64] Re-using file from: /home/mazhang/.cache/torch/NeMo/NeMo_1.21.0rc0/neural_text_normalization_t5_tagger/e48ca3e94a215c727d6d325ad2fe0f99/neural_text_normalization_t5_tagger.nemo
+[NeMo I 2023-09-13 10:45:33 common:913] Instantiating model from pre-trained checkpoint
+[NeMo I 2023-09-13 10:45:34 save_restore_connector:249] Model DuplexTaggerModel was successfully restored from /home/mazhang/.cache/torch/NeMo/NeMo_1.21.0rc0/neural_text_normalization_t5_tagger/e48ca3e94a215c727d6d325ad2fe0f99/neural_text_normalization_t5_tagger.nemo.
+[NeMo I 2023-09-13 10:45:34 helpers:99] Model tagger -- Device cpu
+[NeMo I 2023-09-13 10:45:34 helpers:63] Loading pretrained model neural_text_normalization_t5
+[NeMo I 2023-09-13 10:45:34 cloud:58] Found existing object /home/mazhang/.cache/torch/NeMo/NeMo_1.21.0rc0/neural_text_normalization_t5_decoder/9261ad441d44e228c624bda7cd6c94ac/neural_text_normalization_t5_decoder.nemo.
+[NeMo I 2023-09-13 10:45:34 cloud:64] Re-using file from: /home/mazhang/.cache/torch/NeMo/NeMo_1.21.0rc0/neural_text_normalization_t5_decoder/9261ad441d44e228c624bda7cd6c94ac/neural_text_normalization_t5_decoder.nemo
+[NeMo I 2023-09-13 10:45:34 common:913] Instantiating model from pre-trained checkpoint
+[NeMo I 2023-09-13 10:45:37 save_restore_connector:249] Model DuplexDecoderModel was successfully restored from /home/mazhang/.cache/torch/NeMo/NeMo_1.21.0rc0/neural_text_normalization_t5_decoder/9261ad441d44e228c624bda7cd6c94ac/neural_text_normalization_t5_decoder.nemo.
+[NeMo I 2023-09-13 10:45:37 helpers:99] Model decoder -- Device cpu
+Creating ClassifyFst grammars.
+[NeMo I 2023-09-13 10:45:53 tokenize_and_classify:62] Creating ClassifyFst grammars.
+Creating ClassifyFst grammars.
+[NeMo I 2023-09-13 10:46:12 tokenize_and_classify:70] Creating ClassifyFst grammars.
+[NeMo I 2023-09-13 10:46:15 duplex_text_normalization_infer:83] Running inference on /home/mazhang/inverse-text-normailzation/datasets/test.input...
+[NeMo I 2023-09-13 10:47:56 duplex_text_normalization_infer:115] Predictions for tn save to /home/mazhang/inverse-text-normailzation/datasets/test_tn.input.
+[NeMo I 2023-09-13 10:48:50 duplex_text_normalization_infer:115] Predictions for itn save to /home/mazhang/inverse-text-normailzation/datasets/test_itn.input.

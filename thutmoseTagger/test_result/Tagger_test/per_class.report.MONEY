@@ -1,0 +1,66 @@
+error: pred=_$ _90_ dollars; inp=ninety billion dollars; ref=MONEY 3 6 | $90bn | us$ 90 billion | $90 bn | a$90 billion | $90,000,000,000 | $90 billion | us$90 billion | ninety billion dollars | 90 billion dollars
+	input=primerevenue processes about ninety billion dollars u s d in transactions per year for about seventeen thousand clients
+	tags=<SELF> <SELF> <SELF> _$<< _90_ <SELF> _u <SELF> d_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _17 ,000_ <SELF>
+	pred=primerevenue processes about _$ _90_ dollars _u s d_ in transactions per year for about _17 ,000_ clients
+	semiotic=PLAIN PLAIN PLAIN MONEY MONEY MONEY LETTERS LETTERS LETTERS PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL CARDINAL PLAIN
+	ref=primerevenue processes about $90 billion usd in transactions per year for about 17,000 clients
+error: pred=_8 8 . 5_ million  _million__czk_; inp=eighty eight point five million croatian kunas; ref=MONEY 11 18 | 88.5 million hrk | eighty eight point five million croatian kunas
+	input=the total amount of budget funds allocated to carnet was over eighty eight point five million croatian kunas as of twenty eleven california
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _8 8 . 5_ <SELF> <DELETE> _million__czk_ <SELF> <SELF> _20 11_ <SELF>
+	pred=the total amount of budget funds allocated to carnet was over _8 8 . 5_ million  _million__czk_ as of _20 11_ california
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN MONEY MONEY MONEY MONEY MONEY MONEY MONEY PLAIN PLAIN DATE DATE PLAIN
+	ref=the total amount of budget funds allocated to carnet was over 88.5 million hrk as of 2011 california
+error: pred=_$ _6 . 5_ dollars; inp=six point five million dollars; ref=MONEY 6 11 | 6.5 million dollar | ec$6.5 million | 6.5 million dollars | us$6.5 million | $6.5m | a$6.5 million | us$ 6.5 million | nt$6.5 million | us$6.5m | $6.5 million | six point five million dollars
+	input=pirate bay trial appeal defendants face six point five million dollars fine and jail time
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _$<< _6 . 5_ <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=pirate bay trial appeal defendants face _$ _6 . 5_ dollars fine and jail time
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN MONEY MONEY MONEY MONEY MONEY PLAIN PLAIN PLAIN PLAIN
+	ref=pirate bay trial appeal defendants face $6.5m fine and jail time
+error: pred=_$ _30_ dollars; inp=thirty billion dollars; ref=MONEY 14 17 | $30bn | us$ 30 billion | $30 bn | nt$30 billion | a$30 billion | 30 billion dollars | $30b | $30 billion | 30 billion dollar | $30.00 billion | us$30billion | s$30 billion | us$30 billion | us$30bn | thirty billion dollars
+	input=saddam urged the kuwaitis to forgive the iraqi debt accumulated in the war some thirty billion dollars but they refused
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _$<< _30_ <SELF> <SELF> <SELF> <SELF>
+	pred=saddam urged the kuwaitis to forgive the iraqi debt accumulated in the war some _$ _30_ dollars but they refused
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN MONEY MONEY MONEY PLAIN PLAIN PLAIN
+	ref=saddam urged the kuwaitis to forgive the iraqi debt accumulated in the war some $30 billion but they refused
+error: pred=_s__$2 , 9 0 0_; inp=two thousand nine hundred dollars; ref=MONEY 6 11 | two thousand nine hundred dollars | $2,900 | hk$2,900 | $2900 | us$2,900
+	input=fees range from a minimum of two thousand nine hundred dollars to over one million dollars for a large project
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _s__$2 , 9 0 0_ <SELF> <SELF> _$<< _1_ <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=fees range from a minimum of _s__$2 , 9 0 0_ to over _$ _1_ dollars for a large project
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN MONEY MONEY MONEY MONEY MONEY PLAIN PLAIN MONEY MONEY MONEY PLAIN PLAIN PLAIN PLAIN
+	ref=fees range from a minimum of $2,900 to over $1 million for a large project
+error: pred=_$ _1_ dollars; inp=one million dollars; ref=MONEY 13 16 | $us1m | a$1 million | a$1m | a$ 1 million | $1 000 000 | $nz 1 million | ec$1 million | $ 1,000,000 | us$ 1m | nz$1 million | us$1m | 1,000,000 dollars | 1 million us$ | hk$1m | 1 million dollars | $1.00 million | nt$1 million | 1 m$ | $1000000 | us$1,000,000 | $1000,000 | us$1 m | us$ 1 million | b$1m | s$1 million | $us 1 million | us$1 million | $1m | hk$1 million | $1,000,000 | nz$1,000,000 | 1 million $ | 1 million dollar | 1000000 dollars | $1.0m | $1million | us$1million | s$1million | ca$1,000,000 | $us1 million | one million dollars | s$1,000,000 | us$1.0 million | 1million us$ | $1.0 million | a$1,000,000 | 1m$ | 1m dollar | $1,000,000.00 | $1 million | $ 1million | hk$1,000,000 | 1,000,000$ | au$1 million | $ 1 million | $1 m
+	input=fees range from a minimum of two thousand nine hundred dollars to over one million dollars for a large project
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _s__$2 , 9 0 0_ <SELF> <SELF> _$<< _1_ <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=fees range from a minimum of _s__$2 , 9 0 0_ to over _$ _1_ dollars for a large project
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN MONEY MONEY MONEY MONEY MONEY PLAIN PLAIN MONEY MONEY MONEY PLAIN PLAIN PLAIN PLAIN
+	ref=fees range from a minimum of $2,900 to over $1 million for a large project
+error: pred=_$ _1_ dollars; inp=one million dollars; ref=MONEY 11 14 | $us1m | a$1 million | a$1m | a$ 1 million | $1 000 000 | $nz 1 million | ec$1 million | $ 1,000,000 | us$ 1m | nz$1 million | us$1m | 1,000,000 dollars | 1 million us$ | hk$1m | 1 million dollars | $1.00 million | nt$1 million | 1 m$ | $1000000 | us$1,000,000 | $1000,000 | us$1 m | us$ 1 million | b$1m | s$1 million | $us 1 million | us$1 million | $1m | hk$1 million | $1,000,000 | nz$1,000,000 | 1 million $ | 1 million dollar | 1000000 dollars | $1.0m | $1million | us$1million | s$1million | ca$1,000,000 | $us1 million | one million dollars | s$1,000,000 | us$1.0 million | 1million us$ | $1.0 million | a$1,000,000 | 1m$ | 1m dollar | $1,000,000.00 | $1 million | $ 1million | hk$1,000,000 | 1,000,000$ | au$1 million | $ 1 million | $1 m
+	input=water damage occurring during the shut down required remediation work adding one million dollars in cost to the county
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _$<< _1_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=water damage occurring during the shut down required remediation work adding _$ _1_ dollars in cost to the county
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN MONEY MONEY MONEY PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=water damage occurring during the shut down required remediation work adding $1 million in cost to the county
+error: pred=_$ _7 00_ dollars; inp=seven hundred million dollars; ref=MONEY 8 12 | au$700 million | nz$700 million | 700 million dollars | $700 million | nt$700 million | a$700 million | us$700m | 700 million dollar | us$700,000,000 | $700,000,000 | us$ 700 million | $ 700 million | $700m | 700 m$us | seven hundred million dollars | hk$700 million | us$700 million | s$700 million
+	input=modafinil has a market share of more than seven hundred million dollars a year indicating a high degree of off label use
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _$<< _7 00_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=modafinil has a market share of more than _$ _7 00_ dollars a year indicating a high degree of off label use
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN MONEY MONEY MONEY MONEY PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=modafinil has a market share of more than $700 million a year indicating a high degree of off label use
+error: pred=_vnd_ _18 . 6_ dollars; inp=eighteen point six million dollars; ref=MONEY 19 24 | nz$18.6 million | eighteen point six million dollars | $18.6 million | $18.6m | us$18.6 million
+	input=in n g h e an thirteen people killed by floods nearly three hundred ninety two billion vietnamese dong eighteen point six million dollars
+	tags=<SELF> _n <SELF> <SELF> e_ <SELF> _13_ <SELF> <SELF> <SELF> <SELF> <SELF> _us__$<< _3 <DELETE> 9 2_ <SELF> <DELETE> _vnd_ _18 . 6_ <SELF>
+	pred=in _n g h e_ an _13_ people killed by floods nearly _us__$ _3  9 2_ vietnamese  _vnd_ _18 . 6_ dollars
+	semiotic=PLAIN LETTERS LETTERS LETTERS LETTERS PLAIN CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN MONEY MONEY MONEY MONEY MONEY MONEY MONEY MONEY MONEY MONEY MONEY MONEY
+	ref=in nghe an 13 people killed by floods nearly 392 billion vietnamese dong $18.6 million
+error: pred=_£ _9 00_ pounds; inp=nine hundred million pounds; ref=MONEY 13 17 | £900million | £900m | nine hundred million pounds | £900 million
+	input=since two thousand five the annual costs of operating sellafield had increased from nine hundred million pounds to about one point six billion pounds
+	tags=<SELF> _2 00 5_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _£<< _9 00_ <SELF> <SELF> <SELF> _£<< _1 . 6_ <SELF>
+	pred=since _2 00 5_ the annual costs of operating sellafield had increased from _£ _9 00_ pounds to about _£ _1 . 6_ pounds
+	semiotic=PLAIN DATE DATE DATE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN MONEY MONEY MONEY MONEY PLAIN PLAIN MONEY MONEY MONEY MONEY MONEY
+	ref=since 2005 the annual costs of operating sellafield had increased from £900 million to about £1.6 billion
+error: pred=_£ _1 . 6_ pounds; inp=one point six billion pounds; ref=MONEY 19 24 | £1.6bn | one point six billion pounds | £1.6 billion
+	input=since two thousand five the annual costs of operating sellafield had increased from nine hundred million pounds to about one point six billion pounds
+	tags=<SELF> _2 00 5_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _£<< _9 00_ <SELF> <SELF> <SELF> _£<< _1 . 6_ <SELF>
+	pred=since _2 00 5_ the annual costs of operating sellafield had increased from _£ _9 00_ pounds to about _£ _1 . 6_ pounds
+	semiotic=PLAIN DATE DATE DATE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN MONEY MONEY MONEY MONEY PLAIN PLAIN MONEY MONEY MONEY MONEY MONEY
+	ref=since 2005 the annual costs of operating sellafield had increased from £900 million to about £1.6 billion

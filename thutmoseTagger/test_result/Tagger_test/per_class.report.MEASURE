@@ -1,0 +1,36 @@
+error: pred=_0 . 0 0 1 2 5 1_ _g_ _/_ _cm_ _³_; inp=zero point o o one two five one grams per c c; ref=MEASURE 3 15 | 0.001251 g/cm3 | zero point o o one two five one grams per c c
+	input=nitrogen's density is zero point o o one two five one grams per c c at s t p
+	tags=<SELF> <SELF> <SELF> _0 . 0 0 1 2 5 1_ _g_ _/_ _cm_ _³_> <SELF> _s <SELF> p_
+	pred=nitrogen's density is _0 . 0 0 1 2 5 1_ _g_ _/_ _cm_ _³_ at _s t p_
+	semiotic=PLAIN PLAIN PLAIN MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE PLAIN LETTERS LETTERS LETTERS
+	ref=nitrogen's density is 0.001251 g/cm3 at stp
+error: pred=five %_; inp=five percent; ref=MEASURE 0 2 | 5% | five percent | 5 pc | 5 percent | 5pc | 5 %
+	input=five percent of seats are reserved for students from underprivileged backgrounds and another five percent are reserved for the college's governing body
+	tags=<SELF> %_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _5 %_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=five %_ of seats are reserved for students from underprivileged backgrounds and another _5 %_ are reserved for the college's governing body
+	semiotic=PLAIN MEASURE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN MEASURE MEASURE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=5% of seats are reserved for students from underprivileged backgrounds and another 5% are reserved for the college's governing body
+error: pred=_4 0. 2 8 5_ _2_ _²_; inp=forty point two eight five square kilometers; ref=MEASURE 8 15 | forty point two eight five square kilometers | 40.285 km2
+	input=the community of kipoureio covers an area of forty point two eight five square kilometers
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _4 0. 2 8 5_ _2_ _²_>
+	pred=the community of kipoureio covers an area of _4 0. 2 8 5_ _2_ _²_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE
+	ref=the community of kipoureio covers an area of 40.285 km2
+error: pred=_5 , 013_ _cc_ _³_; inp=five thousand thirteen c c; ref=MEASURE 2 7 | five thousand thirteen c c | 5013 cc | 5,013 cc
+	input=displacement is five thousand thirteen c c three hundred five point nine cubic inches
+	tags=<SELF> <SELF> _5 , 013_ _cc_ _³_> _3 0 5 . 9_ <SELF> <SELF>
+	pred=displacement is _5 , 013_ _cc_ _³_ _3 0 5 . 9_ cubic inches
+	semiotic=PLAIN PLAIN MEASURE MEASURE MEASURE MEASURE MEASURE DECIMAL DECIMAL DECIMAL DECIMAL DECIMAL PLAIN PLAIN
+	ref=displacement is 5,013 cc 305.9 cubic inches
+error: pred=_1 , 2  20_ meters; inp=one thousand two hundred twenty meters; ref=MEASURE 22 28 | 1,220 m | 1220 m | one thousand two hundred twenty meters | 1220m | 1,220m
+	input=found in the wet tropical montane cloud forests of the knuckles mountains in sri lanka at elevations of seven hundred sixty to one thousand two hundred twenty meters
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _7 <DELETE> 60_ <SELF> _1 , 2 <DELETE> 20_ <SELF>
+	pred=found in the wet tropical montane cloud forests of the knuckles mountains in sri lanka at elevations of _7  60_ to _1 , 2  20_ meters
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL CARDINAL CARDINAL PLAIN CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL PLAIN
+	ref=found in the wet tropical montane cloud forests of the knuckles mountains in sri lanka at elevations of 760 - 1220m
+error: pred=_2  50_ miles; inp=two hundred fifty miles; ref=MEASURE 8 12 | two hundred fifty miles | 250 mi
+	input=at this time the system was situated roughly two hundred fifty miles four hundred kilometers southeast of brownsville texas
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _2 <DELETE> 50_ <SELF> _4 00_ _km_ <SELF> <SELF> <SELF> <SELF>
+	pred=at this time the system was situated roughly _2  50_ miles _4 00_ _km_ southeast of brownsville texas
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL CARDINAL CARDINAL PLAIN MEASURE MEASURE MEASURE PLAIN PLAIN PLAIN PLAIN
+	ref=at this time the system was situated roughly 250 mi 400 km southeast of brownsville texas

@@ -1,0 +1,234 @@
+error: pred=_.   7    -_   _in_   ; inp=dot s e v e n d a s h i n c h; ref=VERBATIM 9 23 | .7-inch |  dot s e v e n   d a s h   i   n   c   h
+	input=hussar as built mounted only one q f four dot s e v e n d a s h i n c h gun two twelve pounders and one six pounder
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _q f_ _4_ _. <DELETE> <DELETE> 7 <DELETE> <DELETE> <DELETE> -_ <DELETE> <DELETE> _in_ <DELETE> <DELETE> <DELETE> <SELF> <SELF> _12_ <SELF> <SELF> <SELF> _6_ <SELF>
+	pred=hussar as built mounted only one _q f_ _4_ _.   7    -_   _in_    gun two _12_ pounders and one _6_ pounder
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN LETTERS LETTERS CARDINAL VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM PLAIN PLAIN CARDINAL PLAIN PLAIN PLAIN CARDINAL PLAIN
+	ref=hussar as built mounted only one qf 4 .7-inch gun two 12 pounders and one 6 pounder
+error: pred=_b c l__-_; inp=b c l; ref=VERBATIM 8 11 | bcl | b c l
+	input=carma one a card containing binding partner of b c l ten induces b c l ten phosphorylation and n f kappab activation
+	tags=<SELF> _1_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _b <SELF> l__-_ _10_ <SELF> _b <SELF> l_ _10_ <SELF> <SELF> _n f__-_ <SELF> <SELF>
+	pred=carma _1_ a card containing binding partner of _b c l__-_ _10_ induces _b c l_ _10_ phosphorylation and _n f__-_ kappab activation
+	semiotic=PLAIN CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN LETTERS LETTERS LETTERS CARDINAL PLAIN LETTERS LETTERS LETTERS CARDINAL PLAIN PLAIN LETTERS LETTERS PLAIN PLAIN
+	ref=carma 1 a card containing binding partner of bcl 10 induces bcl 10 phosphorylation and nf- kappab activation
+error: pred=_w._ _m._; inp=w m; ref=VERBATIM 8 10 | wm | w m
+	input=f purviance john jarvis robert mcmahan jiesse reniro w m
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _w._ _m._
+	pred=f purviance john jarvis robert mcmahan jiesse reniro _w._ _m._
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN LETTERS LETTERS
+	ref=f purviance john jarvis robert mcmahan jiesse reniro wm
+error: pred=_f._ _r._; inp=f r; ref=VERBATIM 2 4 | fr | f r
+	input=bull biol f r belg one hundred three four hundred thirty five to fifty two
+	tags=<SELF> <SELF> _f._ _r._ <SELF> _1 0 3_ _4 <DELETE> 3 5_ _-_ _5 2_
+	pred=bull biol _f._ _r._ belg _1 0 3_ _4  3 5_ _-_ _5 2_
+	semiotic=PLAIN PLAIN LETTERS LETTERS PLAIN CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL PLAIN CARDINAL CARDINAL
+	ref=bull biol fr belg 103 435 - 52
+error: pred=_b  ; inp=b h p; ref=VERBATIM 7 10 | b h p | bhp
+	input=nineteen seventy two saw two hundred net b h p and two hundred seventy net pound feet of torque
+	tags=_19 7 2_ <SELF> _2 00_ <SELF> _b <DELETE> <DELETE> <SELF> _2 <DELETE> 70_ <SELF> _lb_ <SELF> <SELF> <SELF>
+	pred=_19 7 2_ saw _2 00_ net _b   and _2  70_ net _lb_ feet of torque
+	semiotic=DATE DATE DATE PLAIN CARDINAL CARDINAL PLAIN VERBATIM VERBATIM VERBATIM PLAIN CARDINAL CARDINAL CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=1972 saw 200 net bhp and 270 net lb feet of torque
+error: pred=_.   8    -_       _meter_    ; inp=dot e i g h t d a s h k i l o m e t r e; ref=VERBATIM 16 35 |  dot e i g h t   d a s h   k   i   l   o   m   e   t   r   e | .8-kilometre
+	input=stanley park in particular is four hundred hectares nine hundred ninety acres and features an eight dot e i g h t d a s h k i l o m e t r e five point five miles seawall
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> _4 00_ <SELF> _9 <DELETE> 90_ <SELF> <SELF> <SELF> <SELF> _8_ _. <DELETE> <DELETE> 8 <DELETE> <DELETE> <DELETE> -_ <DELETE> <DELETE> <DELETE> <DELETE> <DELETE> <DELETE> _meter_ <DELETE> <DELETE> <DELETE> <DELETE> _5 . 5_ _mi_ <SELF>
+	pred=stanley park in particular is _4 00_ hectares _9  90_ acres and features an _8_ _.   8    -_       _meter_     _5 . 5_ _mi_ seawall
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL CARDINAL PLAIN CARDINAL CARDINAL CARDINAL PLAIN PLAIN PLAIN PLAIN CARDINAL VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM MEASURE MEASURE MEASURE PLAIN PLAIN
+	ref=stanley park in particular is 400 hectares 990 acres and features an 8 .8-kilometre 5.5 mi seawall
+error: pred=_m d_ _ph_; inp=m d p; ref=VERBATIM 7 10 | m d p | mdp
+	input=adapters are available for u s b m d p h d m i and v g a
+	tags=<SELF> <SELF> <SELF> <SELF> _u <SELF> b_ _m d_ _ph_ <DELETE> <SELF> <SELF> i_ <SELF> _v <SELF> a_
+	pred=adapters are available for _u s b_ _m d_ _ph_  d m i_ and _v g a_
+	semiotic=PLAIN PLAIN PLAIN PLAIN LETTERS LETTERS LETTERS LETTERS LETTERS VERBATIM VERBATIM LETTERS LETTERS LETTERS PLAIN LETTERS LETTERS LETTERS
+	ref=adapters are available for usb mdp hdmi and vga
+error: pred=_f ; inp=f n; ref=VERBATIM 6 8 | f n | fn
+	input=macdonald p two hundred forty four f n
+	tags=<SELF> <SELF> _2 <DELETE> 4 4_ _f <DELETE>
+	pred=macdonald p _2  4 4_ _f 
+	semiotic=PLAIN PLAIN CARDINAL CARDINAL CARDINAL CARDINAL VERBATIM VERBATIM
+	ref=macdonald p 244 fn
+error: pred=_c h__'_ _n g_; inp=c h n g; ref=VERBATIM 0 4 | chng | c h n g
+	input=c h n g suan t z e p p
+	tags=_c h__'_ _n g_ <SELF> _t _z e_ <DELETE> _pp_
+	pred=_c h__'_ _n g_ suan _t _z e_  _pp_
+	semiotic=LETTERS LETTERS LETTERS LETTERS PLAIN LETTERS LETTERS LETTERS VERBATIM VERBATIM
+	ref=chng suan tze pp
+error: pred=_phd_ ; inp=p h; ref=VERBATIM 14 16 | p h | ph
+	input=while there he met his first mentor historian charles s sydnor who held a p h d from johns hopkins university
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _s._ <SELF> <SELF> <SELF> <SELF> _phd_ <DELETE> <DELETE> <SELF> <SELF> <SELF> <SELF>
+	pred=while there he met his first mentor historian charles _s._ sydnor who held a _phd_   from johns hopkins university
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN LETTERS PLAIN PLAIN PLAIN PLAIN VERBATIM VERBATIM VERBATIM PLAIN PLAIN PLAIN PLAIN
+	ref=while there he met his first mentor historian charles s. sydnor who held a ph d from johns hopkins university
+error: pred=_phd_ ; inp=p h; ref=VERBATIM 4 6 | p h | ph
+	input=van oorschot received his p h d in nineteen eighty eight from the university of waterloo
+	tags=<SELF> <SELF> <SELF> <SELF> _phd_ <DELETE> <DELETE> <SELF> _19 8 8_ <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=van oorschot received his _phd_   in _19 8 8_ from the university of waterloo
+	semiotic=PLAIN PLAIN PLAIN PLAIN VERBATIM VERBATIM VERBATIM PLAIN DATE DATE DATE PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=van oorschot received his ph d in 1988 from the university of waterloo
+error: pred=_phd_ ; inp=p h; ref=VERBATIM 7 9 | p h | ph
+	input=in nineteen thirty seven milgram received his p h d from the university of pennsylvania
+	tags=<SELF> _19 3 7_ <SELF> <SELF> <SELF> _phd_ <DELETE> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=in _19 3 7_ milgram received his _phd_  d from the university of pennsylvania
+	semiotic=PLAIN DATE DATE DATE PLAIN PLAIN PLAIN VERBATIM VERBATIM PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=in 1937 milgram received his ph d from the university of pennsylvania
+error: pred=_phd_ ; inp=p h; ref=VERBATIM 3 5 | p h | ph
+	input=cairns william b p h d nineteen o five
+	tags=<SELF> <SELF> _b._ _phd_ <DELETE> <DELETE> _19 0 5_
+	pred=cairns william _b._ _phd_   _19 0 5_
+	semiotic=PLAIN PLAIN LETTERS VERBATIM VERBATIM PLAIN DATE DATE DATE
+	ref=cairns william b. ph d 1905
+error: pred=_pdf_ d f_; inp=p d f; ref=VERBATIM 11 14 | p d f | pdf
+	input=an exploration towards a production theory and its application to construction p d f p h d
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _pdf_ <SELF> f_ _ph_ <DELETE> <SELF>
+	pred=an exploration towards a production theory and its application to construction _pdf_ d f_ _ph_  d
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN LETTERS LETTERS LETTERS VERBATIM VERBATIM VERBATIM
+	ref=an exploration towards a production theory and its application to construction pdf ph d
+error: pred=_p ; inp=p r; ref=VERBATIM 16 18 | pr | p r
+	input=on the eighteenth of january nineteen eleven a new branch was opened from louis blanc to p r e acute saint gervais
+	tags=<SELF> <DELETE> _18_ <DELETE> <SELF> _19 11_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _p <DELETE> <DELETE> _é_ <SELF> <SELF>
+	pred=on  _18_  january _19 11_ a new branch was opened from louis blanc to _p   _é_ saint gervais
+	semiotic=PLAIN DATE DATE DATE DATE DATE DATE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN LETTERS VERBATIM LETTERS LETTERS PLAIN PLAIN
+	ref=on 18 january 1911 a new branch was opened from louis blanc to pr é saint gervais
+error: pred=  _pp_; inp=s p p; ref=VERBATIM 3 6 | s p p | spp
+	input=shield bugs scaptocoris s p p
+	tags=<SELF> <SELF> <SELF> <DELETE> <DELETE> _pp_
+	pred=shield bugs scaptocoris   _pp_
+	semiotic=PLAIN PLAIN PLAIN VERBATIM VERBATIM VERBATIM
+	ref=shield bugs scaptocoris spp
+error: pred=  _pp_; inp=s p p; ref=VERBATIM 5 8 | s p p | spp
+	input=bumble bees hymenoptera apidae bombus s p p
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <DELETE> <DELETE> _pp_
+	pred=bumble bees hymenoptera apidae bombus   _pp_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN VERBATIM VERBATIM VERBATIM
+	ref=bumble bees hymenoptera apidae bombus spp
+error: pred=_phd_ ; inp=p h; ref=VERBATIM 19 21 | p h | ph
+	input=cultural exchange imperialist violence and pious missions local perspectives from tanjavur and lenape country seventeen twenty to seventeen sixty p h d thesis
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _17 20_ _-_ _17 60_ _phd_ <DELETE> <DELETE> <SELF>
+	pred=cultural exchange imperialist violence and pious missions local perspectives from tanjavur and lenape country _17 20_ _-_ _17 60_ _phd_   thesis
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN DATE DATE PLAIN DATE DATE VERBATIM VERBATIM VERBATIM PLAIN
+	ref=cultural exchange imperialist violence and pious missions local perspectives from tanjavur and lenape country 1720 - 1760 ph d thesis
+error: pred=  _pp_; inp=s p p; ref=VERBATIM 14 17 | s p p | spp
+	input=analysis of pan genome to identify the core genes and essential genes of brucella s p p
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <DELETE> <DELETE> _pp_
+	pred=analysis of pan genome to identify the core genes and essential genes of brucella   _pp_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN VERBATIM VERBATIM VERBATIM
+	ref=analysis of pan genome to identify the core genes and essential genes of brucella spp
+error: pred=_phd_ ; inp=p h; ref=VERBATIM 0 2 | p h | ph
+	input=p h d dissertation institute of botany academy of science leningrad u s s r p two hundred five
+	tags=_phd_ <DELETE> <DELETE> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _u <SELF> <SELF> r_ <SELF> _2 0 5_
+	pred=_phd_   dissertation institute of botany academy of science leningrad _u s s r_ p _2 0 5_
+	semiotic=VERBATIM VERBATIM VERBATIM PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN LETTERS LETTERS LETTERS LETTERS PLAIN CARDINAL CARDINAL CARDINAL
+	ref=ph d dissertation institute of botany academy of science leningrad ussr p 205
+error: pred=_s c v__-_; inp=s c v; ref=VERBATIM 4 7 | s c v | scv
+	input=science and public policy s c v o three four
+	tags=<SELF> _&_ <SELF> <SELF> _s <SELF> v__-_ _0 3 4_
+	pred=science _&_ public policy _s c v__-_ _0 3 4_
+	semiotic=PLAIN VERBATIM PLAIN PLAIN LETTERS LETTERS LETTERS DIGIT DIGIT DIGIT
+	ref=science and public policy scv 034
+error: pred=_phd_ ; inp=p h; ref=VERBATIM 11 13 | p h | ph
+	input=shvarts currently attends new york university where she is pursuing a p h d in performance studies
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _phd_ <DELETE> <DELETE> <SELF> <SELF> <SELF>
+	pred=shvarts currently attends new york university where she is pursuing a _phd_   in performance studies
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN VERBATIM VERBATIM VERBATIM PLAIN PLAIN PLAIN
+	ref=shvarts currently attends new york university where she is pursuing a ph d in performance studies
+error: pred=_θ_; inp=zeta; ref=VERBATIM 14 15 | zeta | ζ
+	input=on folio one verso there is a cross with greek inscription phi omega sigma zeta omega eta
+	tags=<SELF> <SELF> _1_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _φ_ _ω_ _σ_ _θ_ _ω_ _η_
+	pred=on folio _1_ verso there is a cross with greek inscription _φ_ _ω_ _σ_ _θ_ _ω_ _η_
+	semiotic=PLAIN PLAIN CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM
+	ref=on folio 1 verso there is a cross with greek inscription φ ω σ ζ ω η
+error: pred=_p._ _g._; inp=p g; ref=VERBATIM 11 13 | p g | pg | pg a | pg b
+	input=changing india bourgeois revolution on the subcontinent by robert w stern p g twenty pereira andrew february twelfth twenty twelve
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _w._ <SELF> _p._ _g._ _20_ <SELF> <SELF> <SELF> _12 ,20 12_
+	pred=changing india bourgeois revolution on the subcontinent by robert _w._ stern _p._ _g._ _20_ pereira andrew february _12 ,20 12_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN LETTERS PLAIN LETTERS LETTERS CARDINAL PLAIN PLAIN DATE DATE DATE DATE
+	ref=changing india bourgeois revolution on the subcontinent by robert w. stern pg 20 pereira andrew feb 12, 2012
+error: pred=_b h _hp_; inp=b h p; ref=VERBATIM 7 10 | b h p | bhp
+	input=standard world market models produced ninety one b h p sixty eight kilowatts compared to about seventy six b h p fifty seven kilowatts for e x u p equipped versions
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> _9 1_ _b <SELF> _hp_ _6 8_ _kw_ <SELF> <SELF> <SELF> _7 6_ _b <SELF> p_ _5 7_ _kw_ <SELF> _e <SELF> <SELF> p_ <SELF> <SELF>
+	pred=standard world market models produced _9 1_ _b h _hp_ _6 8_ _kw_ compared to about _7 6_ _b h p_ _5 7_ _kw_ for _e x u p_ equipped versions
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL CARDINAL LETTERS LETTERS LETTERS MEASURE MEASURE MEASURE PLAIN PLAIN PLAIN CARDINAL CARDINAL LETTERS LETTERS LETTERS MEASURE MEASURE MEASURE PLAIN LETTERS LETTERS LETTERS LETTERS PLAIN PLAIN
+	ref=standard world market models produced 91 bhp 68 kw compared to about 76 bhp 57 kw for exup equipped versions
+error: pred=_.   7    -_   -_   ; inp=dot s e v e n d a s h a c r e; ref=VERBATIM 8 22 | .7-acre |  dot s e v e n   d a s h   a   c   r   e
+	input=the cemetery is located on a twenty four dot s e v e n d a s h a c r e ten point zero hectares parcel near the northern boundary of the village of le roy
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _2 4_ _. <DELETE> <DELETE> 7 <DELETE> <DELETE> <DELETE> -_ <DELETE> <DELETE> -_ <DELETE> <DELETE> <DELETE> _1 0. 0_ _ha_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=the cemetery is located on a _2 4_ _.   7    -_   -_    _1 0. 0_ _ha_ parcel near the northern boundary of the village of le roy
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL CARDINAL VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM MEASURE MEASURE MEASURE MEASURE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=the cemetery is located on a 24 .7-acre 10.0 ha parcel near the northern boundary of the village of le roy
+error: pred=_.   8    -_   _million_    ; inp=dot e i g h t d a s h l i t r e; ref=VERBATIM 1 16 | .8-litre |  dot e i g h t   d a s h   l   i   t   r   e
+	input=nine dot e i g h t d a s h l i t r e six hundred c u in one hundred twenty five b h p ninety three kilowatts leyland
+	tags=_9_ _. <DELETE> <DELETE> 8 <DELETE> <DELETE> <DELETE> -_ <DELETE> <DELETE> _million_ <DELETE> <DELETE> <DELETE> <DELETE> _6 00_ _c u_ <SELF> _1 <DELETE> 2 5_ _b <SELF> p_ _9 3_ _kw_ <SELF>
+	pred=_9_ _.   8    -_   _million_     _6 00_ _c u_ in _1  2 5_ _b h p_ _9 3_ _kw_ leyland
+	semiotic=CARDINAL VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM CARDINAL CARDINAL LETTERS LETTERS PLAIN CARDINAL CARDINAL CARDINAL CARDINAL LETTERS LETTERS LETTERS MEASURE MEASURE MEASURE PLAIN
+	ref=9 .8-litre 600 cu in 125 bhp 93 kw leyland
+error: pred=_.  2   -_       _meter_    ; inp=dot t w o d a s h k i l o m e t e r; ref=VERBATIM 8 25 | .2-kilometer |  dot t w o   d a s h   k   i   l   o   m   e   t   e   r
+	input=the flam line norwegian flamsbana is a twenty dot t w o d a s h k i l o m e t e r twelve point six miles long railway line between myrdal and flam in aurland norway
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _20_ _. <DELETE> 2 <DELETE> <DELETE> -_ <DELETE> <DELETE> <DELETE> <DELETE> <DELETE> <DELETE> _meter_ <DELETE> <DELETE> <DELETE> <DELETE> _12 . 6_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=the flam line norwegian flamsbana is a _20_ _.  2   -_       _meter_     _12 . 6_ miles long railway line between myrdal and flam in aurland norway
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM MEASURE MEASURE MEASURE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=the flam line norwegian flamsbana is a 20 .2-kilometer 12.6 mi long railway line between myrdal and flam in aurland norway
+error: pred=_.   5   -_   -_   ; inp=dot f i v e d a s h a c r e; ref=VERBATIM 8 21 | .5-acre |  dot f i v e   d a s h   a   c   r   e
+	input=the development is also slated for a four dot f i v e d a s h a c r e eighteen thousand square meters park in addition to its many walking trails and playgrounds
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _4_ _. <DELETE> <DELETE> 5 <DELETE> <DELETE> -_ <DELETE> <DELETE> -_ <DELETE> <DELETE> <DELETE> _18 ,000_ _m_ _²_> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=the development is also slated for a _4_ _.   5   -_   -_    _18 ,000_ _m_ _²_ park in addition to its many walking trails and playgrounds
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM MEASURE MEASURE MEASURE MEASURE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=the development is also slated for a 4 .5-acre 18,000 m2 park in addition to its many walking trails and playgrounds
+error: pred= _ps_ ; inp=p p s; ref=VERBATIM 4 7 | pps | p p s
+	input=backbeat san francisco california p p s point one two to thirteen fifteen prévert jacques nineteen forty seven contes pour enfants pas sages illustrations de elsa henriquez
+	tags=<SELF> <SELF> <SELF> <SELF> <DELETE> _ps_ <DELETE> _. 1 2_ _-_ _13 15_ <SELF> <SELF> _19 4 7_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=backbeat san francisco california  _ps_  _. 1 2_ _-_ _13 15_ prévert jacques _19 4 7_ contes pour enfants pas sages illustrations de elsa henriquez
+	semiotic=PLAIN PLAIN PLAIN PLAIN VERBATIM VERBATIM VERBATIM DECIMAL DECIMAL DECIMAL PLAIN DECIMAL DATE PLAIN PLAIN DATE DATE DATE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=backbeat san francisco california pps .12 - 13 15 prévert jacques 1947 contes pour enfants pas sages illustrations de elsa henriquez
+error: pred=_.   9   -_   -_   ; inp=dot n i n e d a s h a c r e; ref=VERBATIM 17 30 |  dot n i n e   d a s h   a   c   r   e | .9-acre
+	input=wimberry quarries grid reference s o five nine four one two one is a two hectare four dot n i n e d a s h a c r e nature reserve in gloucestershire in the forest of dean
+	tags=<SELF> <SELF> <SELF> <SELF> _s _0 5 9 4 1 2 1_ <SELF> <SELF> _2_ <SELF> _4_ _. <DELETE> <DELETE> 9 <DELETE> <DELETE> -_ <DELETE> <DELETE> -_ <DELETE> <DELETE> <DELETE> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=wimberry quarries grid reference _s _0 5 9 4 1 2 1_ is a _2_ hectare _4_ _.   9   -_   -_    nature reserve in gloucestershire in the forest of dean
+	semiotic=PLAIN PLAIN PLAIN PLAIN LETTERS DIGIT DIGIT DIGIT DIGIT DIGIT DIGIT DIGIT PLAIN PLAIN CARDINAL PLAIN CARDINAL VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=wimberry quarries grid reference so 594121 is a 2 hectare 4 .9-acre nature reserve in gloucestershire in the forest of dean
+error: pred=c ; inp=c h; ref=VERBATIM 5 7 | c h | ch
+	input=suryasiddhanta commentary by e burgess c h dot i i i verses nine to twelve
+	tags=<SELF> <SELF> <SELF> _e._ <SELF> <SELF> <DELETE> <DELETE> s.__i <SELF> <SELF> <SELF> _9_ _-_ _12_
+	pred=suryasiddhanta commentary by _e._ burgess c   s.__i i i verses _9_ _-_ _12_
+	semiotic=PLAIN PLAIN PLAIN LETTERS PLAIN ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC PLAIN CARDINAL PLAIN CARDINAL
+	ref=suryasiddhanta commentary by e. burgess ch .iii verses 9 - 12
+error: pred=_.   8    -_   _million_    ; inp=dot e i g h t d a s h l i t r e; ref=VERBATIM 3 18 | .8-litre |  dot e i g h t   d a s h   l   i   t   r   e
+	input=available with three dot e i g h t d a s h l i t r e one hundred fifty two kilowatts two hundred four horsepower ecotec v six s based on commodore s specification
+	tags=<SELF> <SELF> _3_ _. <DELETE> <DELETE> 8 <DELETE> <DELETE> <DELETE> -_ <DELETE> <DELETE> _million_ <DELETE> <DELETE> <DELETE> <DELETE> _1 <DELETE> 5 2_ _kw_ _2 0 4_ _hp_ <SELF> <SELF> _6_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=available with _3_ _.   8    -_   _million_     _1  5 2_ _kw_ _2 0 4_ _hp_ ecotec v _6_ s based on commodore s specification
+	semiotic=PLAIN PLAIN CARDINAL VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE PLAIN PLAIN CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=available with 3 .8-litre 152 kw 204 hp ecotec v 6 s based on commodore s specification
+error: pred=_w n t__-_; inp=w n t; ref=VERBATIM 16 19 | w n t | wnt
+	input=structural insights into the inhibition of w n t signaling by cancer antigen five t four w n t activated inhibitory factor one
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _w <SELF> t_ <SELF> <SELF> <SELF> <SELF> _5_ <SELF> _4_ _w <SELF> t__-_ <SELF> <SELF> <SELF> _1_
+	pred=structural insights into the inhibition of _w n t_ signaling by cancer antigen _5_ t _4_ _w n t__-_ activated inhibitory factor _1_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN LETTERS LETTERS LETTERS PLAIN PLAIN PLAIN PLAIN DIGIT PLAIN DIGIT LETTERS LETTERS LETTERS PLAIN PLAIN PLAIN CARDINAL
+	ref=structural insights into the inhibition of wnt signaling by cancer antigen 5 t 4 wnt activated inhibitory factor 1
+error: pred=_.   9   -_   _million_    ; inp=dot n i n e d a s h l i t r e; ref=VERBATIM 16 30 | .9-litre |  dot n i n e   d a s h   l   i   t   r   e
+	input=the end of the run was marked by the limited edition twenty five examples only three dot n i n e d a s h l i t r e t v r three five o s e of one thousand nine hundred ninety ninety one
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _2 5_ <SELF> <SELF> _3_ _. <DELETE> <DELETE> 9 <DELETE> <DELETE> -_ <DELETE> <DELETE> _million_ <DELETE> <DELETE> <DELETE> <DELETE> <DELETE> <SELF> <DELETE> _3 5 0_ _s <DELETE> <SELF> _1 <DELETE> 9 <DELETE> 90_ _9 1_
+	pred=the end of the run was marked by the limited edition _2 5_ examples only _3_ _.   9   -_   _million_      v  _3 5 0_ _s  of _1  9  90_ _9 1_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL CARDINAL PLAIN PLAIN CARDINAL VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM LETTERS VERBATIM DIGIT DIGIT DIGIT LETTERS LETTERS PLAIN CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL
+	ref=the end of the run was marked by the limited edition 25 examples only 3 .9-litre tvr 350 se of 1990 91
+error: pred=b ; inp=b c; ref=VERBATIM 3 5 | b c | bc
+	input=the c five b c six complex is bound by c seven
+	tags=<SELF> <SELF> _5_ <SELF> <DELETE> _6_ <SELF> <SELF> <SELF> <SELF> <SELF> _7_
+	pred=the c _5_ b  _6_ complex is bound by c _7_
+	semiotic=PLAIN ADDRESS ADDRESS PLAIN ADDRESS ADDRESS PLAIN PLAIN PLAIN PLAIN ADDRESS ADDRESS
+	ref=the c5 bc 6 complex is bound by c7
+error: pred=_ph_ h_; inp=p h; ref=VERBATIM 6 8 | p h | ph
+	input=use of the fe c five p h five group in asymmetric catalysis
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> _5_ _ph_ h_ _5_ <SELF> <SELF> <SELF> <SELF>
+	pred=use of the fe c _5_ _ph_ h_ _5_ group in asymmetric catalysis
+	semiotic=PLAIN PLAIN PLAIN PLAIN ADDRESS ADDRESS LETTERS VERBATIM CARDINAL PLAIN PLAIN PLAIN PLAIN
+	ref=use of the fe c5 ph 5 group in asymmetric catalysis
+error: pred=_ι_; inp=chi; ref=VERBATIM 8 9 | chi | χ
+	input=michael damaskenos or michail damaskenos greek mu iota chi alpha eta lambda delta alpha mu alpha sigma kappa eta nu omicron sigma one thousand five hundred thirty thirty fifths to one thousand five hundred ninety two ninety thirds was a leading post byzantine cretan painter
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _μ_ _ι_ _ι_ _α_ _η_ _λ_ _δ_ _α_ _μ_ _α_ _σ_ _κ_ _η_ _ν_ _ο_ _σ_ _1 <DELETE> 5 <DELETE> 30 /3 5_ _-_ _1 <DELETE> 5 <DELETE> 9 2 /9 3_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=michael damaskenos or michail damaskenos greek _μ_ _ι_ _ι_ _α_ _η_ _λ_ _δ_ _α_ _μ_ _α_ _σ_ _κ_ _η_ _ν_ _ο_ _σ_ _1  5  30 /3 5_ _-_ _1  5  9 2 /9 3_ was a leading post byzantine cretan painter
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM FRACTION FRACTION FRACTION FRACTION FRACTION FRACTION FRACTION PLAIN FRACTION FRACTION FRACTION FRACTION FRACTION FRACTION FRACTION FRACTION PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=michael damaskenos or michail damaskenos greek μ ι χ α η λ δ α μ α σ κ η ν ο σ 1530/35 - 1592/93 was a leading post byzantine cretan painter
+error: pred=_b f__-_; inp=b f; ref=VERBATIM 17 19 | bf | b f
+	input=he scored thirteen and a quarter of his victories with p thirty six hawks and nineteen with b f one hundred nines
+	tags=<SELF> <SELF> _13 <DELETE> <DELETE> ¼_ <SELF> <SELF> <SELF> <SELF> _p__-_ _3 6_ <SELF> <SELF> _19_ <SELF> _b f__-_ _1 <DELETE> 09s_
+	pred=he scored _13   ¼_ of his victories with _p__-_ _3 6_ hawks and _19_ with _b f__-_ _1  09s_
+	semiotic=PLAIN PLAIN FRACTION FRACTION FRACTION FRACTION PLAIN PLAIN PLAIN PLAIN LETTERS CARDINAL CARDINAL PLAIN PLAIN CARDINAL PLAIN LETTERS LETTERS DATE DATE DATE
+	ref=he scored 13¼ of his victories with p- 36 hawks and 19 with bf 109s

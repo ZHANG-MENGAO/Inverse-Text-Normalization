@@ -1,0 +1,264 @@
+error: pred=_2 and  ½_; inp=two and a half; ref=FRACTION 11 15 | 2½ | two and a half | 2 ½ | 2 1/2
+	input=it houses men convicted of crimes who have been sentenced to two and a half years or less
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _2 <SELF> <DELETE> ½_ <SELF> <SELF> <SELF>
+	pred=it houses men convicted of crimes who have been sentenced to _2 and  ½_ years or less
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN FRACTION FRACTION FRACTION FRACTION PLAIN PLAIN PLAIN
+	ref=it houses men convicted of crimes who have been sentenced to 2 1/2 years or less
+error: pred=_1 _½_; inp=one half; ref=FRACTION 0 2 | 1/ 2 | 1 /2 | 1 / 2 | 1/2 | one half | ½
+	input=one half les fantaisies du voyageur
+	tags=_1 _½_ <SELF> <SELF> <SELF> <SELF>
+	pred=_1 _½_ les fantaisies du voyageur
+	semiotic=FRACTION FRACTION PLAIN PLAIN PLAIN PLAIN
+	ref=1/2 les fantaisies du voyageur
+error: pred=/2 00 /3 00_; inp=two hundred three hundredths; ref=FRACTION 11 15 | two hundred three hundredths | 200/300
+	input=jenkins dennis r boeing seven hundred forty seven to one hundred two hundred three hundredths s p airlinertech series volume six
+	tags=<SELF> <SELF> _r._ <SELF> _7 <DELETE> 4 7_ _-_ _1 00_ /2 00 /3 00_ _s p_ <SELF> <SELF> <SELF> _6_
+	pred=jenkins dennis _r._ boeing _7  4 7_ _-_ _1 00_ /2 00 /3 00_ _s p_ airlinertech series volume _6_
+	semiotic=PLAIN PLAIN LETTERS PLAIN CARDINAL CARDINAL CARDINAL CARDINAL PLAIN CARDINAL CARDINAL FRACTION FRACTION FRACTION FRACTION LETTERS LETTERS PLAIN PLAIN PLAIN CARDINAL
+	ref=jenkins dennis r. boeing 747 - 100 200/300 sp airlinertech series vol 6
+error: pred=_8 1_ _&_ _3  5  16 /20_; inp=eighty one and three thousand five hundred sixteen twentieths; ref=FRACTION 6 15 | eighty one and three thousand five hundred sixteen twentieths | 81 3516/20
+	input=three thousand four hundred one seventeenths eighty one and three thousand five hundred sixteen twentieths thirty six seventy sixths and three thousand eight hundred eleven
+	tags=_3 <DELETE> 4 0 1 /17_ _8 1_ _&_ _3 <DELETE> 5 <DELETE> 16 /20_ _3 6 /7 6_ <SELF> _3 <DELETE> 8 <DELETE> 11_
+	pred=_3  4 0 1 /17_ _8 1_ _&_ _3  5  16 /20_ _3 6 /7 6_ and _3  8  11_
+	semiotic=FRACTION FRACTION FRACTION FRACTION FRACTION FRACTION CARDINAL CARDINAL VERBATIM FRACTION FRACTION FRACTION FRACTION FRACTION FRACTION FRACTION FRACTION FRACTION FRACTION PLAIN CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL
+	ref=3401/17 81 3516/20 36/76 and 3811
+error: pred=_1 _½_; inp=one half; ref=FRACTION 2 4 | 1/ 2 | 1 /2 | 1 / 2 | 1/2 | one half | ½
+	input=for example one half page one quarter page one eighth page etcetera
+	tags=<SELF> <SELF> _1 _½_ <SELF> _1 _¼_ <SELF> _1 /8_ <SELF> <SELF>
+	pred=for example _1 _½_ page _1 _¼_ page _1 /8_ page etcetera
+	semiotic=PLAIN PLAIN FRACTION FRACTION PLAIN FRACTION FRACTION PLAIN FRACTION FRACTION PLAIN PLAIN
+	ref=for example 1/2 page 1/4 page 1/8 page etc
+error: pred=_1 _¼_; inp=one quarter; ref=FRACTION 5 7 | 1/4 | ¼ | 1 / 4 | one quarter
+	input=for example one half page one quarter page one eighth page etcetera
+	tags=<SELF> <SELF> _1 _½_ <SELF> _1 _¼_ <SELF> _1 /8_ <SELF> <SELF>
+	pred=for example _1 _½_ page _1 _¼_ page _1 /8_ page etcetera
+	semiotic=PLAIN PLAIN FRACTION FRACTION PLAIN FRACTION FRACTION PLAIN FRACTION FRACTION PLAIN PLAIN
+	ref=for example 1/2 page 1/4 page 1/8 page etc
+error: pred= /3_; inp=one third; ref=FRACTION 9 11 | 1/ 3 | 1/3 | ⅓ | 1 / 3 | one third
+	input=stumpies have a short tail stump up to about one third of a normal tail length
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <DELETE> /3_ <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=stumpies have a short tail stump up to about  /3_ of a normal tail length
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN FRACTION FRACTION PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=stumpies have a short tail stump up to about 1/3 of a normal tail length
+error: pred=_11 /12 1 2  8 4_; inp=eleven twelve thousand two hundred eighty fourths; ref=FRACTION 4 11 | 11/12,284 | eleven twelve thousand two hundred eighty fourths
+	input=western literary messenger volume eleven twelve thousand two hundred eighty fourths family history the literary sources do not mention the specific illness
+	tags=<SELF> <SELF> <SELF> <SELF> _11 /12 1 2 <DELETE> 8 4_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=western literary messenger volume _11 /12 1 2  8 4_ family history the literary sources do not mention the specific illness
+	semiotic=PLAIN PLAIN PLAIN PLAIN FRACTION FRACTION FRACTION FRACTION FRACTION FRACTION FRACTION PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=western literary messenger vol 11/12,284 family history the literary sources do not mention the specific illness
+error: pred=_1  5 00 /1  00,000_; inp=one thousand five hundred one hundred thousandths; ref=FRACTION 19 26 | 1,500/100,000 | one thousand five hundred one hundred thousandths
+	input=where nothing effective is done to avert maternal death natural mortality is probably of the order of magnitude of one thousand five hundred one hundred thousandths
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _1 <DELETE> 5 00 /1 <DELETE> 00,000_
+	pred=where nothing effective is done to avert maternal death natural mortality is probably of the order of magnitude of _1  5 00 /1  00,000_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN FRACTION FRACTION FRACTION FRACTION FRACTION FRACTION FRACTION
+	ref=where nothing effective is done to avert maternal death natural mortality is probably of the order of magnitude of 1,500/100,000
+error: pred=_2 /9  7 0 5_; inp=two thirteen thousand seven hundred fifths; ref=FRACTION 1 7 | two thirteen thousand seven hundred fifths | 2/13705
+	input=air two thirteen thousand seven hundred fifths e five nine a p r o
+	tags=<SELF> _2 /9 <DELETE> 7 0 5_ _e__-_ _5 9_ <SELF> _p <SELF> o_
+	pred=air _2 /9  7 0 5_ _e__-_ _5 9_ a _p r o_
+	semiotic=PLAIN FRACTION FRACTION FRACTION FRACTION FRACTION FRACTION LETTERS DIGIT DIGIT PLAIN LETTERS LETTERS LETTERS
+	ref=air 2/13705 e 59 apro
+error: pred=_12  7 0 01 /12  7  02_; inp=twelve thousand seven hundred one twelve thousand seven hundred seconds; ref=FRACTION 11 21 | twelve thousand seven hundred one twelve thousand seven hundred seconds | 12701/12702
+	input=currently it operates as a daily superfast train with train no twelve thousand seven hundred one twelve thousand seven hundred seconds
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _12 <DELETE> 7 0 01 /12 <DELETE> 7 <DELETE> 02_
+	pred=currently it operates as a daily superfast train with train no _12  7 0 01 /12  7  02_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN FRACTION FRACTION FRACTION FRACTION FRACTION FRACTION FRACTION FRACTION FRACTION FRACTION
+	ref=currently it operates as a daily superfast train with train no 12701/12702
+error: pred=one and a ½_; inp=one and a half; ref=FRACTION 7 11 | 1½ | one and a half | 1 ½ | 1 1/2
+	input=the summit of chaldon hill is about one and a half miles west of durdle door above the dorset coast
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> ½_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=the summit of chaldon hill is about one and a ½_ miles west of durdle door above the dorset coast
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=the summit of chaldon hill is about 1½ miles west of durdle door above the dorset coast
+error: pred= /4_; inp=one quarter; ref=FRACTION 6 8 | 1/4 | ¼ | 1 / 4 | one quarter
+	input=winner of each heat qualified to one quarter finals losers went to the repechage
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <DELETE> /4_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=winner of each heat qualified to  /4_ finals losers went to the repechage
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN FRACTION FRACTION PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=winner of each heat qualified to 1/4 finals losers went to the repechage
+error: pred=_16   3_; inp=sixteen and a third; ref=FRACTION 1 5 | 16⅓ | sixteen and a third | 16 1/3
+	input=in sixteen and a third innings he allowed eighteen hits walked seven batters and struck out four
+	tags=<SELF> _16 <DELETE> <DELETE> 3_ <SELF> <SELF> <SELF> _18_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=in _16   3_ innings he allowed _18_ hits walked seven batters and struck out four
+	semiotic=PLAIN FRACTION FRACTION FRACTION FRACTION PLAIN PLAIN PLAIN CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=in 16 1/3 innings he allowed 18 hits walked seven batters and struck out four
+error: pred=_1 /5 ,000th_; inp=one fifty thousandth; ref=FRACTION 7 10 | 1/50,000 | 1/50000 | one fifty thousandth | 1/50 000
+	input=in carte géologique de la france a one fifty thousandth
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _1 /5 ,000th_
+	pred=in carte géologique de la france a _1 /5 ,000th_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN FRACTION FRACTION ORDINAL
+	ref=in carte géologique de la france a 1/50 000
+error: pred=/1  9 8_; inp=one hundred ninety eighths; ref=FRACTION 21 25 | one hundred ninety eighths | 190/8
+	input=in what seemed like forever india crawled from one hundred twenty four eighths to one hundred seventy one hundred eighty and one hundred ninety eighths
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _1 <DELETE> 2 4 /8_ <SELF> _1 <DELETE> 70_ _1 <DELETE> 8 <DELETE> /1 <DELETE> 9 8_
+	pred=in what seemed like forever india crawled from _1  2 4 /8_ to _1  70_ _1  8  /1  9 8_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN FRACTION FRACTION FRACTION FRACTION FRACTION PLAIN CARDINAL CARDINAL CARDINAL FRACTION FRACTION FRACTION FRACTION FRACTION FRACTION FRACTION FRACTION
+	ref=in what seemed like forever india crawled from 124/8 to 170 180 and 190/8
+error: pred=_1 _¼_; inp=one quarter; ref=FRACTION 3 5 | 1/4 | ¼ | 1 / 4 | one quarter
+	input=volume fourteen issue one quarter eighty one to one hundred fifteen
+	tags=<SELF> _14_ <SELF> _1 _¼_ _8 1_ _-_ _1 <DELETE> 15_
+	pred=volume _14_ issue _1 _¼_ _8 1_ _-_ _1  15_
+	semiotic=PLAIN CARDINAL PLAIN FRACTION FRACTION CARDINAL CARDINAL PLAIN CARDINAL CARDINAL CARDINAL
+	ref=vol 14 issue 1/4 81 - 115
+error: pred=three ; inp=three quarters; ref=FRACTION 2 4 | three quarters | 3/4 | 3 /4 | 3 / 4 | ¾
+	input=overall about three quarters of all south vietnamese army soldiers were killed wounded deserted or missing
+	tags=<SELF> <SELF> <SELF> <DELETE> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=overall about three  of all south vietnamese army soldiers were killed wounded deserted or missing
+	semiotic=PLAIN PLAIN PLAIN FRACTION PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=overall about 3/4 of all south vietnamese army soldiers were killed wounded deserted or missing
+error: pred=_4 3 ; inp=forty three quarters; ref=FRACTION 20 23 | forty three quarters | 43/4
+	input=kosmos two thousand four hundred forty one was launched by a soyuz two one b carrier rocket flying from site forty three quarters of the plesetsk cosmodrome
+	tags=<SELF> _2 <DELETE> 4 <DELETE> 4 1_ <SELF> <SELF> <SELF> <SELF> <SELF> _2 1_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _4 3 <DELETE> <SELF> <SELF> <SELF> <SELF>
+	pred=kosmos _2  4  4 1_ was launched by a soyuz _2 1_ b carrier rocket flying from site _4 3  of the plesetsk cosmodrome
+	semiotic=PLAIN CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN DIGIT DIGIT PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN FRACTION FRACTION FRACTION PLAIN PLAIN PLAIN PLAIN
+	ref=kosmos 2441 was launched by a soyuz 2 1 b carrier rocket flying from site 43/4 of the plesetsk cosmodrome
+error: pred=_5  1/ ⅓_; inp=five and a third; ref=FRACTION 12 16 | 5 ⅓ | five and a third | 5⅓ | 5 1/3
+	input=stephen fife was the second straight spot starter allowing one run in five and a third innings
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _5 <DELETE> 1/ ⅓_ <SELF>
+	pred=stephen fife was the second straight spot starter allowing one run in _5  1/ ⅓_ innings
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN FRACTION FRACTION FRACTION FRACTION PLAIN
+	ref=stephen fife was the second straight spot starter allowing one run in 5 1/3 innings
+error: pred= /11_; inp=one eleventh; ref=FRACTION 2 4 | one eleventh | 1/11
+	input=the housing one eleventh is a duplex measuring sixty square meters
+	tags=<SELF> <SELF> <DELETE> /11_ <SELF> <SELF> <SELF> <SELF> _60_ <DELETE> _m__2_
+	pred=the housing  /11_ is a duplex measuring _60_  _m__2_
+	semiotic=PLAIN PLAIN FRACTION FRACTION PLAIN PLAIN PLAIN PLAIN MEASURE MEASURE MEASURE
+	ref=the housing 1/11 is a duplex measuring 60 square meters
+error: pred= quarter; inp=one quarter; ref=FRACTION 2 4 | 1/4 | ¼ | 1 / 4 | one quarter
+	input=the basal one quarter of the costa is brownish grey
+	tags=<SELF> <SELF> <DELETE> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=the basal  quarter of the costa is brownish grey
+	semiotic=PLAIN PLAIN FRACTION FRACTION PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=the basal 1/4 of the costa is brownish grey
+error: pred=_1 _¼_; inp=one quarter; ref=FRACTION 12 14 | 1/4 | ¼ | 1 / 4 | one quarter
+	input=in nineteen eighty five zakspeed once again began to use the c one quarter
+	tags=<SELF> _19 8 5_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _1 _¼_
+	pred=in _19 8 5_ zakspeed once again began to use the c _1 _¼_
+	semiotic=PLAIN DATE DATE DATE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN FRACTION FRACTION
+	ref=in 1985 zakspeed once again began to use the c 1/4
+error: pred= /2_; inp=one half; ref=FRACTION 9 11 | 1/ 2 | 1 /2 | 1 / 2 | 1/2 | one half | ½
+	input=bane of the white worm blade vampire hunter hash one half nineteen ninety nine united states marvel comicsultimate avengers versus
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _#_ <DELETE> /2_ _19 9 9_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=bane of the white worm blade vampire hunter _#_  /2_ _19 9 9_ united states marvel comicsultimate avengers versus
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN VERBATIM FRACTION FRACTION DATE DATE DATE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=bane of the white worm blade vampire hunter # ½ 1999 united states marvel comicsultimate avengers vs
+error: pred=one  a ½_; inp=one and a half; ref=FRACTION 5 9 | 1½ | one and a half | 1 ½ | 1 1/2
+	input=the train travelled a further one and a half miles before more wagons derailed a little distance north of the village playing field
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <DELETE> <SELF> ½_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=the train travelled a further one  a ½_ miles before more wagons derailed a little distance north of the village playing field
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN FRACTION FRACTION PLAIN FRACTION PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=the train travelled a further 1½ miles before more wagons derailed a little distance north of the village playing field
+error: pred= /18_; inp=one eighteenth; ref=FRACTION 0 2 | one eighteenth | 1/18
+	input=one eighteenth men's basketball players of the week
+	tags=<DELETE> /18_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred= /18_ men's basketball players of the week
+	semiotic=FRACTION FRACTION PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=1/18 men's basketball players of the week
+error: pred=one _⅓_; inp=one third; ref=FRACTION 6 8 | 1/ 3 | 1/3 | ⅓ | 1 / 3 | one third
+	input=her beak is curved and about one third longer
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _⅓_ <SELF>
+	pred=her beak is curved and about one _⅓_ longer
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN FRACTION FRACTION PLAIN
+	ref=her beak is curved and about 1/3 longer
+error: pred= /2_; inp=one half; ref=FRACTION 3 5 | 1/ 2 | 1 /2 | 1 / 2 | 1/2 | one half | ½
+	input=dunhaupt o o one half one and a half one half one half x zero and a half one o one and a half one seven forty one point five nine
+	tags=<SELF> _0 0_ <DELETE> /2_ _1 <DELETE> <DELETE> ½_ <DELETE> _½_ <DELETE> _½_ <SELF> _0 <DELETE> <DELETE> ½_ _1_ _0 _1 <DELETE> <DELETE> ½_ _1_ 7_ _4 1 . 5 9_
+	pred=dunhaupt _0 0_  /2_ _1   ½_  _½_  _½_ x _0   ½_ _1_ _0 _1   ½_ _1_ 7_ _4 1 . 5 9_
+	semiotic=PLAIN DIGIT DIGIT FRACTION FRACTION FRACTION FRACTION FRACTION FRACTION FRACTION FRACTION FRACTION FRACTION PLAIN FRACTION FRACTION FRACTION FRACTION CARDINAL DIGIT FRACTION FRACTION FRACTION FRACTION DIGIT DIGIT DECIMAL DECIMAL DECIMAL DECIMAL DECIMAL
+	ref=dunhaupt 0 0 ½ 1 ½ ½ ½ x 0 ½ 1 0 1 ½ 1 7 41.59
+error: pred=_9  2 0 2 /2_; inp=nine and two thousand two halves; ref=FRACTION 1 7 | 9 2002/2 | nine and two thousand two halves
+	input=volume nine and two thousand two halves p p
+	tags=<SELF> _9 <DELETE> 2 0 2 /2_ <DELETE> _pp_
+	pred=volume _9  2 0 2 /2_  _pp_
+	semiotic=PLAIN FRACTION FRACTION FRACTION FRACTION FRACTION FRACTION VERBATIM VERBATIM
+	ref=volume 9 2002/2 pp
+error: pred=_9 1   ½_; inp=ninety one and a half; ref=FRACTION 6 11 | ninety one and a half | 91 1/2
+	input=tune up on swan song for ninety one and a half motors superchargers and also single seaters
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _9 1 <DELETE> <DELETE> ½_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=tune up on swan song for _9 1   ½_ motors superchargers and also single seaters
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN FRACTION FRACTION FRACTION FRACTION FRACTION PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=tune up on swan song for 91 1/2 motors superchargers and also single seaters
+error: pred=_2   3_; inp=two and a third; ref=FRACTION 12 16 | 2 1/3 | 2⅓ | two and a third
+	input=he allowed five hits four walks and three runs to score in two and a third innings and was replaced by dubuc
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _2 <DELETE> <DELETE> 3_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=he allowed five hits four walks and three runs to score in _2   3_ innings and was replaced by dubuc
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN FRACTION FRACTION FRACTION FRACTION PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=he allowed five hits four walks and three runs to score in 2 1/3 innings and was replaced by dubuc
+error: pred=1_ _5 6th_; inp=one fifty sixth; ref=FRACTION 3 6 | one fifty sixth | 1/56
+	input=after nineteen ninety one fifty sixth dropped basic training that mission assumed by fort sill
+	tags=<SELF> _19 9 1_ _5 6th_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=after _19 9 1_ _5 6th_ dropped basic training that mission assumed by fort sill
+	semiotic=PLAIN DATE DATE DATE ORDINAL ORDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=after 1990 1/56 dropped basic training that mission assumed by fort sill
+error: pred=_7 6_ and _3  1 00 /3  2 00_; inp=seventy six and three thousand one hundred three thousand two hundredths; ref=FRACTION 11 22 | seventy six and three thousand one hundred three thousand two hundredths | 76 3100/3200
+	input=in july nineteen eighty four comeng were awarded a contract for seventy six and three thousand one hundred three thousand two hundredths class locomotives
+	tags=<SELF> <SELF> _19 8 4_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _7 6_ <SELF> _3 <DELETE> 1 00 /3 <DELETE> 2 00_ <SELF> <SELF>
+	pred=in july _19 8 4_ comeng were awarded a contract for _7 6_ and _3  1 00 /3  2 00_ class locomotives
+	semiotic=PLAIN DATE DATE DATE DATE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL CARDINAL PLAIN FRACTION FRACTION FRACTION FRACTION FRACTION FRACTION FRACTION FRACTION PLAIN PLAIN
+	ref=in july 1984 comeng were awarded a contract for 76 3100/3200 class locomotives
+error: pred=_1 _¼_; inp=one quarter; ref=FRACTION 14 16 | 1/4 | ¼ | 1 / 4 | one quarter
+	input=bryan operated bryan's mines on hazel run north of big river in s w one quarter of sec
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _s w_ _1 _¼_ <SELF> <SELF>
+	pred=bryan operated bryan's mines on hazel run north of big river in _s w_ _1 _¼_ of sec
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN LETTERS LETTERS FRACTION FRACTION PLAIN PLAIN
+	ref=bryan operated bryan's mines on hazel run north of big river in sw 1/4 of sec
+error: pred= /14_; inp=one fourteenth; ref=FRACTION 4 6 | 1/14 | 1 / 14 | one fourteenth
+	input=t w c announces one fourteenth d v d blu ray combo pack and v o d release of fruitvale station details
+	tags=_t <SELF> c_ <SELF> <DELETE> /14_ _d <SELF> d_ <SELF> <SELF> <SELF> <SELF> <SELF> _v <SELF> d_ <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=_t w c_ announces  /14_ _d v d_ blu ray combo pack and _v o d_ release of fruitvale station details
+	semiotic=LETTERS LETTERS LETTERS PLAIN FRACTION FRACTION LETTERS LETTERS LETTERS PLAIN PLAIN PLAIN PLAIN PLAIN LETTERS LETTERS LETTERS PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=twc announces 1/14 dvd blu ray combo pack & vod release of fruitvale station details
+error: pred=_1 /5 ,000th_; inp=one fifty thousandth; ref=FRACTION 6 9 | 1/50,000 | 1/50000 | one fifty thousandth | 1/50 000
+	input=carte géologique de la france a one fifty thousandth
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _1 /5 ,000th_
+	pred=carte géologique de la france a _1 /5 ,000th_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN FRACTION FRACTION ORDINAL
+	ref=carte géologique de la france a 1/50 000
+error: pred=two /3_; inp=two thirds; ref=FRACTION 13 15 | 2 /3 | ⅔ | 2/ 3 | 2/3 | 2 / 3 | two thirds
+	input=he then commented that this implies the mean speed of scattered particles is two thirds of their incident speed
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> /3_ <SELF> <SELF> <SELF> <SELF>
+	pred=he then commented that this implies the mean speed of scattered particles is two /3_ of their incident speed
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN FRACTION PLAIN PLAIN PLAIN PLAIN
+	ref=he then commented that this implies the mean speed of scattered particles is 2/3 of their incident speed
+error: pred=_1 _½_; inp=one half; ref=FRACTION 13 15 | 1/ 2 | 1 /2 | 1 / 2 | 1/2 | one half | ½
+	input=he reviewed the film on his own site and scored it three and one half stars out of four
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _1 _½_ <SELF> <SELF> <SELF> <SELF>
+	pred=he reviewed the film on his own site and scored it three and _1 _½_ stars out of four
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN FRACTION FRACTION PLAIN PLAIN PLAIN PLAIN
+	ref=he reviewed the film on his own site and scored it 3 and 1/2 stars out of four
+error: pred=_1 _¼_; inp=one quarter; ref=FRACTION 17 19 | 1/4 | ¼ | 1 / 4 | one quarter
+	input=he was buried in philadelphia's laurel hill cemetery section k lot two one four sil s w one quarter
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _2 1 4_ <DELETE> <DELETE> <SELF> _1 _¼_
+	pred=he was buried in philadelphia's laurel hill cemetery section k lot _2 1 4_   w _1 _¼_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE FRACTION FRACTION
+	ref=he was buried in philadelphia's laurel hill cemetery section k lot 214-sw 1/4
+error: pred=_3 ; inp=three quarters; ref=FRACTION 6 8 | three quarters | 3/4 | 3 /4 | 3 / 4 | ¾
+	input=it was sung ahistorically in waltz three quarters time
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _3 <DELETE> <SELF>
+	pred=it was sung ahistorically in waltz _3  time
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN FRACTION FRACTION PLAIN
+	ref=it was sung ahistorically in waltz 3/4 time
+error: pred=_4 11  7  7 8_; inp=four eleven thousand seven hundred seventy eighths; ref=FRACTION 24 31 | four eleven thousand seven hundred seventy eighths | 4/11778
+	input=electron transfer properties of n a d h ubiquinone reductase in the n d one three thousand four hundred sixtieth and the n d four eleven thousand seven hundred seventy eighths mutations of the leber hereditary optic neuroretinopathy l h o n
+	tags=<SELF> <SELF> <SELF> <SELF> _n <SELF> <SELF> h_ <SELF> <SELF> <SELF> <SELF> _n d_ _1 /3 <DELETE> 4 <DELETE> 60_ <SELF> <SELF> _n d_ _4 11 <DELETE> 7 <DELETE> 7 8_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _l <SELF> <SELF> n_
+	pred=electron transfer properties of _n a d h_ ubiquinone reductase in the _n d_ _1 /3  4  60_ and the _n d_ _4 11  7  7 8_ mutations of the leber hereditary optic neuroretinopathy _l h o n_
+	semiotic=PLAIN PLAIN PLAIN PLAIN LETTERS LETTERS LETTERS LETTERS PLAIN PLAIN PLAIN PLAIN LETTERS LETTERS FRACTION FRACTION FRACTION FRACTION FRACTION FRACTION PLAIN PLAIN LETTERS LETTERS FRACTION FRACTION FRACTION FRACTION FRACTION FRACTION FRACTION PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN LETTERS LETTERS LETTERS LETTERS
+	ref=electron transfer properties of nadh ubiquinone reductase in the nd 1/3460 and the nd 4/11778 mutations of the leber hereditary optic neuroretinopathy lhon
+error: pred=_2  6  90 /5 , 8  40_; inp=two thousand six hundred ninety five thousand eight hundred fortieths; ref=FRACTION 2 12 | two thousand six hundred ninety five thousand eight hundred fortieths | 2690/5840
+	input=sara thompson two thousand six hundred ninety five thousand eight hundred fortieths tons was also british built in eighteen eighty eight as the s s gut heil and was purchased in nineteen seventeen
+	tags=<SELF> <SELF> _2 <DELETE> 6 <DELETE> 90 /5 , 8 <DELETE> 40_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _18 8 8_ <SELF> <SELF> _s s_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _19 17_
+	pred=sara thompson _2  6  90 /5 , 8  40_ tons was also british built in _18 8 8_ as the _s s_ gut heil and was purchased in _19 17_
+	semiotic=PLAIN PLAIN FRACTION FRACTION FRACTION FRACTION FRACTION FRACTION FRACTION FRACTION FRACTION FRACTION PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN DATE DATE DATE PLAIN PLAIN LETTERS LETTERS PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN DATE DATE
+	ref=sara thompson 2690/5840 tons was also british built in 1888 as the ss gut heil and was purchased in 1917
+error: pred= /4_; inp=one quarter; ref=FRACTION 8 10 | 1/4 | ¼ | 1 / 4 | one quarter
+	input=the group winners and runners up of the one quarter final round qualify for one half finals
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <DELETE> /4_ <SELF> <SELF> <SELF> <SELF> <DELETE> _½_ <SELF>
+	pred=the group winners and runners up of the  /4_ final round qualify for  _½_ finals
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN FRACTION FRACTION PLAIN PLAIN PLAIN PLAIN FRACTION FRACTION PLAIN
+	ref=the group winners and runners up of the 1/4 final round qualify for 1/2 finals
+error: pred=_6 1   9 4_; inp=sixty one one hundred ninety fourths; ref=FRACTION 2 8 | 61/194 | sixty one one hundred ninety fourths
+	input=a res sixty one one hundred ninety fourths page two
+	tags=<SELF> <SELF> _6 1 <DELETE> <DELETE> 9 4_ <SELF> _2_
+	pred=a res _6 1   9 4_ page _2_
+	semiotic=PLAIN PLAIN FRACTION FRACTION FRACTION FRACTION FRACTION FRACTION PLAIN CARDINAL
+	ref=a res 61/194 page 2

@@ -1,0 +1,810 @@
+error: pred=_c__-_ _8_; inp=c eight; ref=ADDRESS 2 4 | c eight | c8
+	input=the original c eight s were built by colt as the model seven hundred twenty five
+	tags=<SELF> <SELF> _c__-_ _8_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _7 <DELETE> 2 5_
+	pred=the original _c__-_ _8_ s were built by colt as the model _7  2 5_
+	semiotic=PLAIN PLAIN ADDRESS CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL CARDINAL CARDINAL CARDINAL
+	ref=the original c8 s were built by colt as the model 725
+error: pred=a _7-_; inp=a seven; ref=ADDRESS 22 24 | a seven | a7
+	input=colin revue d'histoire rédigée a l'etat major de l a r m e acute e section historique nineteen o five o one a seven v o l seventeen n forty nine minus one thousand nine hundred five o three a seven v o l seventeen n fifty one letter to the count of langeron p point four nine seven
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _l__'_ _a <SELF> <SELF> <DELETE> é e_ <SELF> <SELF> _19 0 5_ _0 1_ <SELF> _7-_ _v <SELF> l_ _17_ <SELF> _4 9_ _- 1 <DELETE> 9 0 5_ _0 3_ <SELF> _7-_ _v <SELF> l_ _17_ <SELF> _5 1_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _. 4 9 7_
+	pred=colin revue d'histoire rédigée a l'etat major de _l__'_ _a r m  é e_ section historique _19 0 5_ _0 1_ a _7-_ _v o l_ _17_ n _4 9_ _- 1  9 0 5_ _0 3_ a _7-_ _v o l_ _17_ n _5 1_ letter to the count of langeron p _. 4 9 7_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN LETTERS LETTERS LETTERS LETTERS LETTERS LETTERS LETTERS PLAIN PLAIN DATE DATE DATE DIGIT DIGIT PLAIN DIGIT LETTERS LETTERS LETTERS CARDINAL PLAIN CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL DIGIT DIGIT PLAIN DIGIT LETTERS LETTERS LETTERS CARDINAL PLAIN CARDINAL CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN DECIMAL DECIMAL DECIMAL DECIMAL
+	ref=colin revue d'histoire rédigée a l'etat major de l'armée section historique 1905 01 a7 vol 17 n 49 -1905 03 a7 vol 17 n 51 letter to the count of langeron p .497
+error: pred=a _7-_; inp=a seven; ref=ADDRESS 39 41 | a seven | a7
+	input=colin revue d'histoire rédigée a l'etat major de l a r m e acute e section historique nineteen o five o one a seven v o l seventeen n forty nine minus one thousand nine hundred five o three a seven v o l seventeen n fifty one letter to the count of langeron p point four nine seven
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _l__'_ _a <SELF> <SELF> <DELETE> é e_ <SELF> <SELF> _19 0 5_ _0 1_ <SELF> _7-_ _v <SELF> l_ _17_ <SELF> _4 9_ _- 1 <DELETE> 9 0 5_ _0 3_ <SELF> _7-_ _v <SELF> l_ _17_ <SELF> _5 1_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _. 4 9 7_
+	pred=colin revue d'histoire rédigée a l'etat major de _l__'_ _a r m  é e_ section historique _19 0 5_ _0 1_ a _7-_ _v o l_ _17_ n _4 9_ _- 1  9 0 5_ _0 3_ a _7-_ _v o l_ _17_ n _5 1_ letter to the count of langeron p _. 4 9 7_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN LETTERS LETTERS LETTERS LETTERS LETTERS LETTERS LETTERS PLAIN PLAIN DATE DATE DATE DIGIT DIGIT PLAIN DIGIT LETTERS LETTERS LETTERS CARDINAL PLAIN CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL DIGIT DIGIT PLAIN DIGIT LETTERS LETTERS LETTERS CARDINAL PLAIN CARDINAL CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN DECIMAL DECIMAL DECIMAL DECIMAL
+	ref=colin revue d'histoire rédigée a l'etat major de l'armée section historique 1905 01 a7 vol 17 n 49 -1905 03 a7 vol 17 n 51 letter to the count of langeron p .497
+error: pred=_c__-_ _1_; inp=c one; ref=ADDRESS 1 3 | c1  | c one | c1
+	input=the c one also sported four way hazard flashers which were not fitted to the one
+	tags=<SELF> _c__-_ _1_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _1_
+	pred=the _c__-_ _1_ also sported four way hazard flashers which were not fitted to the _1_
+	semiotic=PLAIN ADDRESS CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL
+	ref=the c1  also sported four way hazard flashers which were not fitted to the 1
+error: pred=_a__-_ _17_; inp=a seventeen; ref=ADDRESS 2 4 | a17 | a seventeen
+	input=tiger moth a seventeen minus one hundred sixty nine with a seventeen minus one hundred eighty one
+	tags=<SELF> <SELF> _a__-_ _17_ _- 1 <DELETE> 6 9_ <SELF> _a__-_ _17_ _- 1 <DELETE> 8 1_
+	pred=tiger moth _a__-_ _17_ _- 1  6 9_ with _a__-_ _17_ _- 1  8 1_
+	semiotic=PLAIN PLAIN LETTERS ADDRESS CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL PLAIN LETTERS CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL
+	ref=tiger moth a17 -169 with a17 -181
+error: pred=_a__-_ _17_; inp=a seventeen; ref=ADDRESS 10 12 | a17 | a seventeen
+	input=tiger moth a seventeen minus one hundred sixty nine with a seventeen minus one hundred eighty one
+	tags=<SELF> <SELF> _a__-_ _17_ _- 1 <DELETE> 6 9_ <SELF> _a__-_ _17_ _- 1 <DELETE> 8 1_
+	pred=tiger moth _a__-_ _17_ _- 1  6 9_ with _a__-_ _17_ _- 1  8 1_
+	semiotic=PLAIN PLAIN LETTERS ADDRESS CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL PLAIN LETTERS CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL
+	ref=tiger moth a17 -169 with a17 -181
+error: pred=c__-_ _1_; inp=c one; ref=ADDRESS 3 5 | c one | c1
+	input=cincinnati enquirerbrammer p c one leightty k one fortune p b one u s lawsuit against actress somers dismissed
+	tags=<SELF> <SELF> _p c__-_ _1_ <SELF> _k__-_ _1_ <SELF> <DELETE> _pb_ _1_ _u._ _s._ <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=cincinnati enquirerbrammer _p c__-_ _1_ leightty _k__-_ _1_ fortune  _pb_ _1_ _u._ _s._ lawsuit against actress somers dismissed
+	semiotic=PLAIN PLAIN LETTERS LETTERS CARDINAL PLAIN PLAIN CARDINAL PLAIN VERBATIM ADDRESS ADDRESS LETTERS LETTERS PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=cincinnati enquirerbrammer p c1 leightty k 1 fortune p b1 us lawsuit against actress somers dismissed
+error: pred=_pb_ _1_; inp=b one; ref=ADDRESS 10 12 | b1, | b one | b1
+	input=cincinnati enquirerbrammer p c one leightty k one fortune p b one u s lawsuit against actress somers dismissed
+	tags=<SELF> <SELF> _p c__-_ _1_ <SELF> _k__-_ _1_ <SELF> <DELETE> _pb_ _1_ _u._ _s._ <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=cincinnati enquirerbrammer _p c__-_ _1_ leightty _k__-_ _1_ fortune  _pb_ _1_ _u._ _s._ lawsuit against actress somers dismissed
+	semiotic=PLAIN PLAIN LETTERS LETTERS CARDINAL PLAIN PLAIN CARDINAL PLAIN VERBATIM ADDRESS ADDRESS LETTERS LETTERS PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=cincinnati enquirerbrammer p c1 leightty k 1 fortune p b1 us lawsuit against actress somers dismissed
+error: pred=_c__-_ _4_; inp=c four; ref=ADDRESS 9 11 | c four | c4 | c4
+	input=broad peak update cristina castagna lost on descent from c four no summits confirmed yet
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _c__-_ _4_ <SELF> <SELF> <SELF> <SELF>
+	pred=broad peak update cristina castagna lost on descent from _c__-_ _4_ no summits confirmed yet
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN ADDRESS ADDRESS PLAIN PLAIN PLAIN PLAIN
+	ref=broad peak update cristina castagna lost on descent from c4  no summits confirmed yet
+error: pred=_c__-_ _2_; inp=c two; ref=ADDRESS 6 8 | c2 | c2  | c two
+	input=london twenty twelve canoe sprint men's c two one thousand meters
+	tags=<SELF> _20 12_ <SELF> <SELF> <SELF> _c__-_ _2_ _1 000_ _m_
+	pred=london _20 12_ canoe sprint men's _c__-_ _2_ _1 000_ _m_
+	semiotic=PLAIN DATE DATE PLAIN PLAIN PLAIN LETTERS CARDINAL MEASURE MEASURE MEASURE
+	ref=london 2012 canoe sprint men's c2  1000m
+error: pred=_m__-_ _8_; inp=m eight; ref=ADDRESS 5 7 | m8 m | m8 | m eight
+	input=the infrared hourglass cluster in m eight
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> _m__-_ _8_
+	pred=the infrared hourglass cluster in _m__-_ _8_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN LETTERS CARDINAL
+	ref=the infrared hourglass cluster in m8
+error: pred=_c__-_ _2_; inp=c two; ref=ADDRESS 3 5 | c2 | c2  | c two
+	input=variants produced were c two and c two a ninety horsepower liquid cooled curtiss ox five enginec two b two hundred twenty horsepower wright j five air cooled radial engine
+	tags=<SELF> <SELF> <SELF> _c__-_ _2_ <SELF> _c__-_ _2_ <SELF> _90_ _hp_ <SELF> <SELF> <SELF> <SELF> _5_ <SELF> _2_ <SELF> _2 <DELETE> 20_ _hp_ <SELF> _j__-_ _5_ <SELF> <SELF> <SELF> <SELF>
+	pred=variants produced were _c__-_ _2_ and _c__-_ _2_ a _90_ _hp_ liquid cooled curtiss ox _5_ enginec _2_ b _2  20_ _hp_ wright _j__-_ _5_ air cooled radial engine
+	semiotic=PLAIN PLAIN PLAIN LETTERS CARDINAL PLAIN LETTERS DIGIT PLAIN MEASURE MEASURE PLAIN PLAIN PLAIN PLAIN CARDINAL PLAIN DIGIT PLAIN MEASURE MEASURE MEASURE MEASURE PLAIN LETTERS CARDINAL PLAIN PLAIN PLAIN PLAIN
+	ref=variants produced were c2  and c 2 a 90 hp liquid cooled curtiss ox 5 enginec 2 b 220 hp wright j 5 air cooled radial engine
+error: pred=_cc_ _1_; inp=c one; ref=ADDRESS 12 14 | c one | c1
+	input=the network currently comprises two lines red line line a one c c one the point resp
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _1_ _c _cc_ _1_ <SELF> <SELF> <SELF>
+	pred=the network currently comprises two lines red line line a _1_ _c _cc_ _1_ the point resp
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN ADDRESS LETTERS VERBATIM CARDINAL PLAIN PLAIN PLAIN
+	ref=the network currently comprises two lines red line line a 1 c c1 the point resp
+error: pred=_m__-_ _6_; inp=m six; ref=ADDRESS 3 5 | m6 | m six
+	input=total wipeout on m six in french
+	tags=<SELF> <SELF> <SELF> _m__-_ _6_ <SELF> <SELF>
+	pred=total wipeout on _m__-_ _6_ in french
+	semiotic=PLAIN PLAIN PLAIN LETTERS CARDINAL PLAIN PLAIN
+	ref=total wipeout on m6 in french
+error: pred=_m__-_ _2_; inp=m two; ref=ADDRESS 11 13 | m two | m2
+	input=these express routes operated via the two and were known as m two city express services
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _2_ <SELF> <SELF> <SELF> <SELF> _m__-_ _2_ <SELF> <SELF> <SELF>
+	pred=these express routes operated via the _2_ and were known as _m__-_ _2_ city express services
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL PLAIN PLAIN PLAIN PLAIN LETTERS CARDINAL PLAIN PLAIN PLAIN
+	ref=these express routes operated via the 2  and were known as m2 city express services
+error: pred=_a__-_ _1_; inp=a one; ref=ADDRESS 11 13 | a1, | a1 | a one
+	input=the synthesis and characterization of one one four four butanetetracarboxylic acid a one carboxyglutamic acid g l a analog
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> _1_ _1_ _4_ _4_ <SELF> <SELF> _a__-_ _1_ <SELF> <SELF> _g <SELF> a_ <SELF>
+	pred=the synthesis and characterization of _1_ _1_ _4_ _4_ butanetetracarboxylic acid _a__-_ _1_ carboxyglutamic acid _g l a_ analog
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL CARDINAL CARDINAL CARDINAL PLAIN PLAIN LETTERS CARDINAL PLAIN PLAIN LETTERS LETTERS LETTERS PLAIN
+	ref=the synthesis and characterization of 1 1 4 4 butanetetracarboxylic acid a1 carboxyglutamic acid gla analogue
+error: pred=_m__-_ _2_; inp=m two; ref=ADDRESS 8 10 | m two | m2
+	input=effectively continued under the designation mig twenty nine m two
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _2 9_ _m__-_ _2_
+	pred=effectively continued under the designation mig _2 9_ _m__-_ _2_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL CARDINAL LETTERS CARDINAL
+	ref=effectively continued under the designation mig 29 m2
+error: pred=a _9 2 3-_; inp=a nine two three; ref=ADDRESS 4 8 | a923 | a nine two three
+	input=ten twenty seven aesculapia a nine two three y o eleven
+	tags=_10 2 7_ <SELF> <SELF> _9 2 3-_ <SELF> o_ _11_
+	pred=_10 2 7_ aesculapia a _9 2 3-_ y o_ _11_
+	semiotic=DATE DATE DATE PLAIN PLAIN DIGIT DIGIT DIGIT LETTERS LETTERS CARDINAL
+	ref=1027 aesculapia a923 yo 11
+error: pred=s _- _1 5 4_; inp=s r one fifty four; ref=ADDRESS 3 8 | s r one fifty four | sr 154 | sr-154
+	input=a r l s r one fifty four u s army research lab
+	tags=_a <SELF> <SELF> <SELF> _- _1 5 4_ _u._ _s._ <SELF> <SELF> <SELF>
+	pred=_a r l s _- _1 5 4_ _u._ _s._ army research lab
+	semiotic=LETTERS LETTERS LETTERS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS LETTERS LETTERS PLAIN PLAIN PLAIN
+	ref=arl- sr-154 u.s. army research lab
+error: pred=_u._  _6 4_; inp=u s sixty four; ref=ADDRESS 0 4 | u.s. 64 | u.s. 64, | u s sixty four | us 64, | us 64
+	input=u s sixty four corridor k project
+	tags=_u._ <DELETE> _6 4_ <SELF> <SELF> <SELF>
+	pred=_u._  _6 4_ corridor k project
+	semiotic=ADDRESS ADDRESS ADDRESS ADDRESS PLAIN PLAIN PLAIN
+	ref=us 64 corridor k project
+error: pred=_b__-_ _2_; inp=b two; ref=ADDRESS 21 23 | b two | b2
+	input=it was constructed by alcatel space and is based on the s p a c e b u s three thousand b two satellite bus
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _s <SELF> <SELF> <SELF> <SELF> b_ _u s_ _3 000_ _b__-_ _2_ <SELF> <SELF>
+	pred=it was constructed by alcatel space and is based on the _s p a c e b_ _u s_ _3 000_ _b__-_ _2_ satellite bus
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN LETTERS LETTERS LETTERS LETTERS LETTERS LETTERS LETTERS LETTERS CARDINAL CARDINAL LETTERS ADDRESS PLAIN PLAIN
+	ref=it was constructed by alcatel space and is based on the spacebus- 3000 b2 satellite bus
+error: pred=_m__-_ _0 6_; inp=m o six; ref=ADDRESS 6 9 | m06 | m o six
+	input=the crossing is situated on highway m o six
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _m__-_ _0 6_
+	pred=the crossing is situated on highway _m__-_ _0 6_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN LETTERS ADDRESS DIGIT
+	ref=the crossing is situated on highway m06
+error: pred=i _10 6 8_; inp=i ten sixty eight; ref=ADDRESS 4 8 | i ten sixty eight | i-1068
+	input=washington state democrats endorse i ten sixty eight
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> _10 6 8_
+	pred=washington state democrats endorse i _10 6 8_
+	semiotic=PLAIN PLAIN PLAIN PLAIN LETTERS ADDRESS DATE DATE
+	ref=washington state democrats endorse i-1068
+error: pred=_m__-_ _4_; inp=m four; ref=ADDRESS 7 9 | m4 | m four
+	input=i e n t currently operates warbirds m four tankbrigade bowhunter twenty fifteen outdoors unlimited and the i a m g a m e dot c o m
+	tags=_i <SELF> <SELF> t_ <SELF> <SELF> <SELF> _m__-_ _4_ <SELF> <SELF> _20 15_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <DELETE> <DELETE> e.__c <SELF> <SELF>
+	pred=_i e n t_ currently operates warbirds _m__-_ _4_ tankbrigade bowhunter _20 15_ outdoors unlimited and the i a m g a m   e.__c o m
+	semiotic=LETTERS LETTERS LETTERS LETTERS PLAIN PLAIN PLAIN LETTERS CARDINAL PLAIN PLAIN DATE DATE PLAIN PLAIN PLAIN PLAIN ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC
+	ref=ient currently operates warbirds m4 tankbrigade bowhunter 2015 outdoors unlimited and the iamgame.com
+error: pred=_a__-_ _2 7_; inp=a twenty seven; ref=ADDRESS 17 20 | a twenty seven | a000027 | a27
+	input=on the fifth of july nineteen forty three a r a a f vultee vengeance serial number a twenty seven minus two hundred seventeen crash landed on the beach near port douglas
+	tags=<SELF> <DELETE> _5_ <DELETE> <SELF> _19 4 3_ <SELF> _r <SELF> <SELF> f_ <SELF> <SELF> <SELF> <SELF> _a__-_ _2 7_ _- 2 <DELETE> 17_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=on  _5_  july _19 4 3_ a _r a a f_ vultee vengeance serial number _a__-_ _2 7_ _- 2  17_ crash landed on the beach near port douglas
+	semiotic=PLAIN DATE DATE DATE DATE DATE DATE DATE PLAIN LETTERS LETTERS LETTERS LETTERS PLAIN PLAIN PLAIN PLAIN ADDRESS ADDRESS ADDRESS CARDINAL CARDINAL CARDINAL CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=on 5 july 1943 a raaf vultee vengeance serial number a27 -217 crash landed on the beach near port douglas
+error: pred=_a__-_ _11_; inp=a eleven; ref=ADDRESS 0 2 | a eleven | a011 | a11
+	input=a eleven todd douglas two thousand eight
+	tags=_a__-_ _11_ <SELF> <SELF> _2 00 8_
+	pred=_a__-_ _11_ todd douglas _2 00 8_
+	semiotic=LETTERS CARDINAL PLAIN PLAIN DATE DATE DATE
+	ref=a11 todd douglas 2008
+error: pred=i _-9 5_ _0 8_; inp=i ninety five o eight; ref=ADDRESS 0 5 | i ninety five o eight | i9508
+	input=i ninety five o eight samsung galaxy s four in chinese
+	tags=<SELF> _-9 5_ _0 8_ <SELF> <SELF> <SELF> _4_ <SELF> <SELF>
+	pred=i _-9 5_ _0 8_ samsung galaxy s _4_ in chinese
+	semiotic=PLAIN ADDRESS ADDRESS DIGIT DIGIT PLAIN PLAIN PLAIN CARDINAL PLAIN PLAIN
+	ref=i9508 samsung galaxy s 4 in chinese
+error: pred=c _5-_; inp=c five; ref=ADDRESS 7 9 | c five | c5  | c5
+	input=traditionally the sarangi is tuned g four c five c five g five pa sa sa pa
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _4_ <SELF> _5-_ <SELF> _5-_ <SELF> _5_ <SELF> <SELF> <SELF> <SELF>
+	pred=traditionally the sarangi is tuned g _4_ c _5-_ c _5-_ g _5_ pa sa sa pa
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL PLAIN DIGIT PLAIN DIGIT PLAIN CARDINAL PLAIN PLAIN PLAIN PLAIN
+	ref=traditionally the sarangi is tuned g 4  c5  c5  g 5 pa sa sa pa
+error: pred=c _5-_; inp=c five; ref=ADDRESS 9 11 | c five | c5  | c5
+	input=traditionally the sarangi is tuned g four c five c five g five pa sa sa pa
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _4_ <SELF> _5-_ <SELF> _5-_ <SELF> _5_ <SELF> <SELF> <SELF> <SELF>
+	pred=traditionally the sarangi is tuned g _4_ c _5-_ c _5-_ g _5_ pa sa sa pa
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL PLAIN DIGIT PLAIN DIGIT PLAIN CARDINAL PLAIN PLAIN PLAIN PLAIN
+	ref=traditionally the sarangi is tuned g 4  c5  c5  g 5 pa sa sa pa
+error: pred=_m__-_ _1_; inp=m one; ref=ADDRESS 4 6 | m one | m1
+	input=galgenberg has a small m one main magazine compared to other gros ouvrages
+	tags=<SELF> <SELF> <SELF> <SELF> _m__-_ _1_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=galgenberg has a small _m__-_ _1_ main magazine compared to other gros ouvrages
+	semiotic=PLAIN PLAIN PLAIN PLAIN LETTERS CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=galgenberg has a small m1 main magazine compared to other gros ouvrages
+error: pred=_a__-_ _2 2_; inp=a twenty two; ref=ADDRESS 0 3 | a000022 | a22 | a twenty two
+	input=a twenty two fausee tourelle
+	tags=_a__-_ _2 2_ <SELF> <SELF>
+	pred=_a__-_ _2 2_ fausee tourelle
+	semiotic=LETTERS CARDINAL CARDINAL PLAIN PLAIN
+	ref=a22 fausee tourelle
+error: pred= _3 0 3 4_; inp=c three o three four; ref=ADDRESS 30 35 | c3034 | c three o three four
+	input=shimizu koichi twenty fourteen advertizing theory and strategies japanese eighteenth edition souseisha book company i s b n four sil seven nine four four sil two one three two x c three o three four p p
+	tags=<SELF> <SELF> _20 14_ <SELF> <SELF> <SELF> <SELF> <SELF> _18th_ <SELF> <SELF> <SELF> <SELF> _i <SELF> <SELF> n_ _4 - 7 9 4 4 - 2 1 3 2_ _x <DELETE> _3 0 3 4_ <DELETE> _pp_
+	pred=shimizu koichi _20 14_ advertizing theory and strategies japanese _18th_ edition souseisha book company _i s b n_ _4 - 7 9 4 4 - 2 1 3 2_ _x  _3 0 3 4_  _pp_
+	semiotic=PLAIN PLAIN DATE DATE PLAIN PLAIN PLAIN PLAIN PLAIN ORDINAL PLAIN PLAIN PLAIN PLAIN LETTERS LETTERS LETTERS LETTERS TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE LETTERS VERBATIM DIGIT DIGIT DIGIT DIGIT VERBATIM VERBATIM
+	ref=shimizu koichi 2014 advertising theory and strategies japanese 18th edition souseisha book company isbn 4-7944-2132 x c3034 pp
+error: pred=_u._  _50_; inp=u s fifty; ref=ADDRESS 3 6 | u.s. 50 | u s fifty | us 50 | u.s. 50, | us 50,
+	input=storm restoration of u s fifty
+	tags=<SELF> <SELF> <SELF> _u._ <DELETE> _50_
+	pred=storm restoration of _u._  _50_
+	semiotic=PLAIN PLAIN PLAIN ADDRESS ADDRESS ADDRESS
+	ref=storm restoration of us 50
+error: pred=_i__-_ _80_ _w_; inp=i eighty north; ref=ADDRESS 16 19 | i-80n | i eighty north
+	input=in idaho fifteen had a western branch near pocatello that connected fifteen and eighty four then i eighty north
+	tags=<SELF> <SELF> _15_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _15_ <SELF> _8 4_ <SELF> _i__-_ _80_ _w_
+	pred=in idaho _15_ had a western branch near pocatello that connected _15_ and _8 4_ then _i__-_ _80_ _w_
+	semiotic=PLAIN PLAIN CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL PLAIN CARDINAL CARDINAL PLAIN LETTERS CARDINAL ADDRESS
+	ref=in idaho 15  had a western branch near pocatello that connected 15  and 84  then i-80n
+error: pred=interstate _3 5_ east; inp=interstate thirty five east; ref=ADDRESS 0 4 | interstate thirty five east | interstate 35e
+	input=interstate thirty five east project tracker p d f
+	tags=<SELF> _3 5_ <SELF> <SELF> <SELF> _p <SELF> f_
+	pred=interstate _3 5_ east project tracker _p d f_
+	semiotic=ADDRESS ADDRESS ADDRESS ADDRESS PLAIN PLAIN LETTERS LETTERS LETTERS
+	ref=interstate 35e project tracker pdf
+error: pred=_b__-_ _2 6_; inp=b twenty six; ref=ADDRESS 12 15 | b twenty six | b0026 | b26
+	input=aerolineas argentinas will lease four c f m fifty six minus seven b twenty six powered boeing seven hundred thirty seven to eight hundred s from c i t aerospace
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> _c <SELF> m__-_ _5 6_ _- 7_ _b__-_ _2 6_ <SELF> <SELF> _7 <DELETE> 3 7_ _-_ _8 00_ <SELF> <SELF> _c <SELF> t_ <SELF>
+	pred=aerolineas argentinas will lease four _c f m__-_ _5 6_ _- 7_ _b__-_ _2 6_ powered boeing _7  3 7_ _-_ _8 00_ s from _c i t_ aerospace
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN LETTERS LETTERS LETTERS CARDINAL CARDINAL CARDINAL CARDINAL LETTERS CARDINAL CARDINAL PLAIN PLAIN CARDINAL CARDINAL CARDINAL CARDINAL PLAIN CARDINAL CARDINAL PLAIN PLAIN LETTERS LETTERS LETTERS PLAIN
+	ref=aerolineas argentinas will lease four cfm 56 -7 b26 powered boeing 737 - 800 s from cit aerospace
+error: pred=_m__-_ _4_; inp=m four; ref=ADDRESS 20 22 | m4 | m four
+	input=the most common arrowheads in military use were the short bodkin jessop m ten and a small barbed arrow jessop m four
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _m__-_ _10_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _m__-_ _4_
+	pred=the most common arrowheads in military use were the short bodkin jessop _m__-_ _10_ and a small barbed arrow jessop _m__-_ _4_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN LETTERS CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN LETTERS CARDINAL
+	ref=the most common arrowheads in military use were the short bodkin jessop m 10 and a small barbed arrow jessop m4
+error: pred=_c__-_ _3_; inp=c three; ref=ADDRESS 18 20 | c3 | c three | c3,
+	input=almost seven minutes into the flight the crew received warnings of smoke in the plane's aft cargo compartment c three
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _c__-_ _3_
+	pred=almost seven minutes into the flight the crew received warnings of smoke in the plane's aft cargo compartment _c__-_ _3_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN LETTERS CARDINAL
+	ref=almost seven minutes into the flight the crew received warnings of smoke in the plane's aft cargo compartment c3
+error: pred=_a__-_ _3_; inp=a three; ref=ADDRESS 16 18 | a three | a3
+	input=pasztor andy brake problems eyed in delta crash wall street journal march ninth twenty fifteen p a three world airliner census p d f
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _9 ,20 15_ <SELF> _a__-_ _3_ <SELF> <SELF> <SELF> _p <SELF> f_
+	pred=pasztor andy brake problems eyed in delta crash wall street journal march _9 ,20 15_ p _a__-_ _3_ world airliner census _p d f_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN DATE DATE DATE DATE PLAIN ADDRESS ADDRESS PLAIN PLAIN PLAIN LETTERS LETTERS LETTERS
+	ref=pasztor andy brake problems eyed in delta crash wall street journal march 9, 2015 p a3 world airliner census pdf
+error: pred=interstate _4_ _7 6,_; inp=interstate four seventy six; ref=ADDRESS 11 15 | interstate 476 | interstate four seventy six
+	input=its numbered routes are u s route eleven interstate eighty one interstate four seventy six route three hundred fifteen and route five hundred two
+	tags=<SELF> <SELF> <SELF> <SELF> _u._ _s._ <SELF> _11,_ <SELF> _8 1,_ <SELF> _4_ _7 6,_ <SELF> _3 <DELETE> 15_ <SELF> <SELF> _5 0 2_
+	pred=its numbered routes are _u._ _s._ route _11,_ interstate _8 1,_ interstate _4_ _7 6,_ route _3  15_ and route _5 0 2_
+	semiotic=PLAIN PLAIN PLAIN PLAIN LETTERS LETTERS PLAIN CARDINAL ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS CARDINAL ADDRESS PLAIN CARDINAL CARDINAL CARDINAL PLAIN PLAIN CARDINAL CARDINAL CARDINAL
+	ref=its numbered routes are u.s. route 11,  interstate 81, interstate 476 route 315 and route 502
+error: pred=_c__-_ _4_; inp=c four; ref=ADDRESS 5 7 | c four | c4 | c4 
+	input=the beginner's guide to the c four engine second ed
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> _c__-_ _4_ <SELF> _2nd_ <SELF>
+	pred=the beginner's guide to the _c__-_ _4_ engine _2nd_ ed
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN LETTERS CARDINAL PLAIN ORDINAL PLAIN
+	ref=the beginner's guide to the c4  engine 2nd ed
+error: pred=_m__-_ _2 5_; inp=m twenty five; ref=ADDRESS 15 18 | m25 | m025 | m twenty five
+	input=t m nine sil seven six seven sil four o ton tank transporter truck trailer m twenty five
+	tags=_t m_ _9 - 7 6 7 - 4 0_ <SELF> <SELF> <SELF> <SELF> <SELF> _m__-_ _2 5_
+	pred=_t m_ _9 - 7 6 7 - 4 0_ ton tank transporter truck trailer _m__-_ _2 5_
+	semiotic=LETTERS LETTERS TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE PLAIN PLAIN PLAIN PLAIN PLAIN ADDRESS ADDRESS ADDRESS
+	ref=tm 9-767 40 ton tank transporter truck trailer m25
+error: pred=_a__-_ _16_; inp=a sixteen; ref=ADDRESS 11 13 | a016 | a016  | a16 | a sixteen
+	input=on december twenty fourth two thousand eight r t c streetcar a sixteen arrived appropriately on christmas eve
+	tags=<SELF> <SELF> _2 4 ,2 00 8_ _r <SELF> c_ <SELF> _a__-_ _16_ <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=on december _2 4 ,2 00 8_ _r t c_ streetcar _a__-_ _16_ arrived appropriately on christmas eve
+	semiotic=PLAIN DATE DATE DATE DATE DATE DATE LETTERS LETTERS LETTERS PLAIN LETTERS ADDRESS PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=on december 24, 2008 rtc streetcar a016  arrived appropriately on christmas eve
+error: pred=c _9: 30_; inp=c nine thirty; ref=ADDRESS 18 21 | c930 | c nine thirty
+	input=registration of sugarbeet germplasm lines c nine two seven minus four c nine two nine minus sixty two c nine thirty minus nineteen and c nine thirty minus thirty five with resistance to rhizomania virus yellows and bolting
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _9 2 7_ _- 4_ <SELF> _9 2 9_ _- 6 2_ <SELF> _9: 30_ _- 19_ <SELF> <SELF> _9 30_ _- 3 5_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=registration of sugarbeet germplasm lines c _9 2 7_ _- 4_ c _9 2 9_ _- 6 2_ c _9: 30_ _- 19_ and c _9 30_ _- 3 5_ with resistance to rhizomania virus yellows and bolting
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN ADDRESS ADDRESS ADDRESS ADDRESS CARDINAL CARDINAL ADDRESS ADDRESS ADDRESS ADDRESS CARDINAL CARDINAL CARDINAL ADDRESS ADDRESS ADDRESS CARDINAL CARDINAL PLAIN ADDRESS ADDRESS ADDRESS CARDINAL CARDINAL CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=registration of sugarbeet germplasm lines c927 -4 c929 -62 c930 -19 and c930 -35 with resistance to rhizomania virus yellows and bolting
+error: pred=_c__-_ _1_; inp=c one; ref=ADDRESS 3 5 | c one | c1
+	input=handley page hastings c one t g five hundred thirty four royal air force
+	tags=<SELF> <SELF> <SELF> _c__-_ _1_ _t _tg_ _5 <DELETE> 3 4_ <SELF> <SELF> <SELF>
+	pred=handley page hastings _c__-_ _1_ _t _tg_ _5  3 4_ royal air force
+	semiotic=PLAIN PLAIN PLAIN LETTERS CARDINAL LETTERS VERBATIM CARDINAL CARDINAL CARDINAL CARDINAL PLAIN PLAIN PLAIN
+	ref=handley page hastings c1 tg 534 royal air force
+error: pred=_a__-_ _6 5_; inp=a sixty five; ref=ADDRESS 17 20 | a65, | a065 | a sixty five | a65
+	input=l two b l two a with modifications for artillery spotting with a sixty five horsepower continental a sixty five minus eight engine and tandem seating four hundred ninety built
+	tags=_l__-_ _2_ _b l__-_ _2_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _6 5_ _hp_ <SELF> _a__-_ _6 5_ _- 8_ <SELF> <SELF> <SELF> <SELF> _4 <DELETE> 90_ <SELF>
+	pred=_l__-_ _2_ _b l__-_ _2_ a with modifications for artillery spotting with a _6 5_ _hp_ continental _a__-_ _6 5_ _- 8_ engine and tandem seating _4  90_ built
+	semiotic=LETTERS DIGIT LETTERS LETTERS DIGIT PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN MEASURE MEASURE MEASURE PLAIN LETTERS CARDINAL CARDINAL CARDINAL CARDINAL PLAIN PLAIN PLAIN PLAIN CARDINAL CARDINAL CARDINAL PLAIN
+	ref=l- 2 bl- 2 a with modifications for artillery spotting with a 65hp continental a65 -8 engine and tandem seating 490 built
+error: pred=i _-6 2_ _0 8_; inp=i sixty two o eight; ref=ADDRESS 13 18 | i sixty two o eight | i6208
+	input=the aircraft involved was an ilyushin i l six two m registered up i sixty two o eight
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _i l__-_ _6 2_ <SELF> <SELF> <SELF> <SELF> _-6 2_ _0 8_
+	pred=the aircraft involved was an ilyushin _i l__-_ _6 2_ m registered up i _-6 2_ _0 8_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN LETTERS LETTERS DIGIT DIGIT PLAIN PLAIN PLAIN ADDRESS ADDRESS ADDRESS DIGIT DIGIT
+	ref=the aircraft involved was an ilyushin il- 62 m registered up i6208
+error: pred=_a__-_ _9_; inp=a nine; ref=ADDRESS 6 8 | a9 | a nine
+	input=from the suez canal to the a nine
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _a__-_ _9_
+	pred=from the suez canal to the _a__-_ _9_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN LETTERS CARDINAL
+	ref=from the suez canal to the a9
+error: pred=_c__-_ _3_; inp=c three; ref=ADDRESS 21 23 | c3 | c three | c3, | c3 
+	input=galt escorted six trans atlantic convoys without loss before being assigned to mid ocean escort force m o e f group c three in june nineteen forty two
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _m <SELF> <SELF> f_ <SELF> _c__-_ _3_ <SELF> <SELF> _19 4 2_
+	pred=galt escorted six trans atlantic convoys without loss before being assigned to mid ocean escort force _m o e f_ group _c__-_ _3_ in june _19 4 2_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN LETTERS LETTERS LETTERS LETTERS PLAIN LETTERS CARDINAL PLAIN DATE DATE DATE DATE
+	ref=galt escorted 6 trans atlantic convoys without loss before being assigned to mid ocean escort force moef group c3  in june 1942
+error: pred=_b__-_ _7 2 7_; inp=b seven two seven; ref=ADDRESS 4 8 | b727 | b seven two seven
+	input=circa nineteen eighty united b seven two seven one hundreds flew nonstop to chicago ord and denver den
+	tags=<SELF> _19 80_ <SELF> _b__-_ _7 2 7_ _1 00's_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=circa _19 80_ united _b__-_ _7 2 7_ _1 00's_ flew nonstop to chicago ord and denver den
+	semiotic=PLAIN DATE DATE PLAIN LETTERS DIGIT DIGIT DIGIT DATE DATE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=circa 1980 united b727 100s flew nonstop to chicago ord and denver den
+error: pred=_u._  _15_; inp=u s fifteen; ref=ADDRESS 11 14 | u.s. 15 | u.s. 15, | us15 | us 15 | us 0015 | u s fifteen
+	input=n c r o a d s dot c o m u s fifteen
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <DELETE> <DELETE> s.__c <SELF> <SELF> _u._ <DELETE> _15_
+	pred=n c r o a d   s.__c o m _u._  _15_
+	semiotic=ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ADDRESS ADDRESS ADDRESS
+	ref=ncroads.com u.s. 15
+error: pred=_a._ _o._; inp=a o; ref=ADDRESS 8 10 | a o | a0
+	input=also included is an all new fifth adventure a o danger at darkshelf quarry
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _a._ _o._ <SELF> <SELF> <SELF> <SELF>
+	pred=also included is an all new fifth adventure _a._ _o._ danger at darkshelf quarry
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN LETTERS LETTERS PLAIN PLAIN PLAIN PLAIN
+	ref=also included is an all new fifth adventure a0 danger at darkshelf quarry
+error: pred=_m__-_ _1 1 7 0 7_; inp=m one one seven o seven; ref=ADDRESS 13 19 | m one one seven o seven | m11707
+	input=the four is no longer sold today with the skeleton fixed stock model m one one seven o seven to civilians
+	tags=<SELF> _4_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _m__-_ _1 1 7 0 7_ <SELF> <SELF>
+	pred=the _4_ is no longer sold today with the skeleton fixed stock model _m__-_ _1 1 7 0 7_ to civilians
+	semiotic=PLAIN CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN LETTERS DIGIT DIGIT DIGIT DIGIT DIGIT PLAIN PLAIN
+	ref=the 4  is no longer sold today with the skeleton fixed stock model m11707 to civilians
+error: pred=_sr_  _4 6 1_; inp=s r four sixty one; ref=ADDRESS 6 11 | s r four sixty one | sr-461
+	input=state route four hundred sixty one s r four sixty one is state highway located entirely in stewart county tennessee
+	tags=<SELF> <SELF> _4 <DELETE> 6 1_ _sr_ <DELETE> _4 6 1_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=state route _4  6 1_ _sr_  _4 6 1_ is state highway located entirely in stewart county tennessee
+	semiotic=PLAIN PLAIN CARDINAL CARDINAL CARDINAL CARDINAL ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=state route 461 sr-461 is state highway located entirely in stewart county tennessee
+error: pred=_c__-_ _2 4_; inp=c twenty four; ref=ADDRESS 1 4 | c24  | c twenty four | c24
+	input=malvinas c twenty four argentina petitioners maria angelia vernet and alejandro betts
+	tags=<SELF> _c__-_ _2 4_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=malvinas _c__-_ _2 4_ argentina petitioners maria angelia vernet and alejandro betts
+	semiotic=PLAIN ADDRESS ADDRESS ADDRESS PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=malvinas c24  argentina petitioners maria angelia vernet and alejandro betts
+error: pred=_c__-_ _2_; inp=c two; ref=ADDRESS 3 5 | c2 | c2  | c two
+	input=selenium monochloride exhibits c two molecular symmetry similar to hydrogen peroxide
+	tags=<SELF> <SELF> <SELF> _c__-_ _2_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=selenium monochloride exhibits _c__-_ _2_ molecular symmetry similar to hydrogen peroxide
+	semiotic=PLAIN PLAIN PLAIN LETTERS CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=selenium monochloride exhibits c2  molecular symmetry similar to hydrogen peroxide
+error: pred=_c__-_ _4_; inp=c four; ref=ADDRESS 9 11 | c four | c4 | c4 
+	input=in two thousand six volkonsky finished fifth in the c four one thousand meters final at the world championships
+	tags=<SELF> _2 00 6_ <SELF> <SELF> <SELF> <SELF> <SELF> _c__-_ _4_ _1 000_ _m_ <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=in _2 00 6_ volkonsky finished fifth in the _c__-_ _4_ _1 000_ _m_ final at the world championships
+	semiotic=PLAIN DATE DATE DATE PLAIN PLAIN PLAIN PLAIN PLAIN LETTERS CARDINAL MEASURE MEASURE MEASURE PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=in 2006 volkonsky finished fifth in the c4  1000m final at the world championships
+error: pred=_m__-_ _1_; inp=m one; ref=ADDRESS 0 2 | m one | m1
+	input=m one x men's single sculls final
+	tags=_m__-_ _1_ <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=_m__-_ _1_ x men's single sculls final
+	semiotic=ADDRESS ADDRESS PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=m1 x men's single sculls final
+error: pred=_b__-_ _3_; inp=b three; ref=ADDRESS 1 3 | b3 | b three
+	input=subject b three what names have been retired in the atlantic and east pacific basin
+	tags=<SELF> _b__-_ _3_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=subject _b__-_ _3_ what names have been retired in the atlantic and east pacific basin
+	semiotic=PLAIN LETTERS ADDRESS PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=subject b3 what names have been retired in the atlantic and east pacific basin
+error: pred=i _2 0 4_; inp=i two o four; ref=ADDRESS 10 14 | i-204 | i two o four
+	input=three were built two one two two and two three i two o four to two eight were not completed
+	tags=<SELF> <SELF> <SELF> _2 1 2 2_ <SELF> _2 3-_ <SELF> _2 0 4_ _-_ _2 8_ <SELF> <SELF> <SELF>
+	pred=three were built _2 1 2 2_ and _2 3-_ i _2 0 4_ _-_ _2 8_ were not completed
+	semiotic=PLAIN PLAIN PLAIN DIGIT DIGIT DIGIT DIGIT PLAIN DIGIT DIGIT ADDRESS DIGIT DIGIT DIGIT PLAIN DIGIT DIGIT PLAIN PLAIN PLAIN
+	ref=three were built 20 1 20 2 and 20 3  i-204 to 20 8  were not completed
+error: pred=a__-_ _4_; inp=a four; ref=ADDRESS 11 13 | a four | a4, | a4
+	input=the p l s one and h e m t t a four has a visually similar but slightly larger revised cab
+	tags=<SELF> _p <SELF> s_ _1_ <SELF> _h <SELF> <SELF> t__-_ _t a__-_ _4_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=the _p l s_ _1_ and _h e m t__-_ _t a__-_ _4_ has a visually similar but slightly larger revised cab
+	semiotic=PLAIN LETTERS LETTERS LETTERS CARDINAL PLAIN LETTERS LETTERS LETTERS LETTERS LETTERS LETTERS CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=the pls a 1  and hemtt a4 has a visually similar but slightly larger revised cab
+error: pred=_b__-_ _2_; inp=b two; ref=ADDRESS 11 13 | b two | b2
+	input=the citroen ten was in many respects similar to the manufacturer's b two model
+	tags=<SELF> <SELF> _10_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _b__-_ _2_ <SELF>
+	pred=the citroen _10_ was in many respects similar to the manufacturer's _b__-_ _2_ model
+	semiotic=PLAIN PLAIN CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN LETTERS CARDINAL PLAIN
+	ref=the citroen 10  was in many respects similar to the manufacturer's b2 model
+error: pred=_c__-_ _4_; inp=c four; ref=ADDRESS 15 17 | c four | c4 | c4
+	input=quantification of soil carbon inputs under elevated c o two c three plants in a c four soil
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _c o_ _2_ <SELF> _3_ <SELF> <SELF> <SELF> _c__-_ _4_ <SELF>
+	pred=quantification of soil carbon inputs under elevated _c o_ _2_ c _3_ plants in a _c__-_ _4_ soil
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN LETTERS LETTERS DIGIT PLAIN DIGIT PLAIN PLAIN PLAIN LETTERS ADDRESS PLAIN
+	ref=quantification of soil carbon inputs under elevated co 2 c3  plants in a c4  soil
+error: pred=_c__-_ _17_; inp=c seventeen; ref=ADDRESS 2 4 | c17  | c seventeen | c17 | c017
+	input=mali raf c seventeen cargo plane to help french operation
+	tags=<SELF> <SELF> _c__-_ _17_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=mali raf _c__-_ _17_ cargo plane to help french operation
+	semiotic=PLAIN PLAIN LETTERS CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=mali raf c17  cargo plane to help french operation
+error: pred=_c__-_ _9 1 9_; inp=c nine one nine; ref=ADDRESS 5 9 | c nine one nine | c919
+	input=china names first jumbo jet c nine one nine to take off in eight years
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> _c__-_ _9 1 9_ <SELF> <SELF> <SELF> <SELF> _8_ <SELF>
+	pred=china names first jumbo jet _c__-_ _9 1 9_ to take off in _8_ years
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN ADDRESS ADDRESS ADDRESS ADDRESS PLAIN PLAIN PLAIN PLAIN CARDINAL PLAIN
+	ref=china names first jumbo jet c919 to take off in 8 years
+error: pred=_c__-_ _5 1_; inp=c fifty one; ref=ADDRESS 9 12 | c fifty one | c51
+	input=length is thirteen point five c m siquijor site c fifty one this is located in barrio samang siquijor
+	tags=<SELF> <SELF> _13 . 5_ _cm_ <DELETE> <SELF> <SELF> _c__-_ _5 1_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=length is _13 . 5_ _cm_  siquijor site _c__-_ _5 1_ this is located in barrio samang siquijor
+	semiotic=PLAIN PLAIN DECIMAL DECIMAL DECIMAL VERBATIM VERBATIM PLAIN PLAIN LETTERS CARDINAL CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=length is 13.5 cm siquijor site c51 this is located in barrio samang siquijor
+error: pred=_c._ _o._; inp=c o; ref=ADDRESS 2 4 | c o | c0
+	input=doubleday and c o garden city new york nineteen fifty nine p one hundred eighty three f f bennett russell and watson james philatelic terms illustrated stanley gibbons publications london nineteen seventy eight
+	tags=<SELF> _&_ _c._ _o._ <SELF> <SELF> <SELF> <SELF> _19 5 9_ <SELF> _1 <DELETE> 8 3_ _f._ _f._ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _19 7 8_
+	pred=doubleday _&_ _c._ _o._ garden city new york _19 5 9_ p _1  8 3_ _f._ _f._ bennett russell and watson james philatelic terms illustrated stanley gibbons publications london _19 7 8_
+	semiotic=PLAIN VERBATIM LETTERS LETTERS PLAIN PLAIN PLAIN PLAIN DATE DATE DATE PLAIN CARDINAL CARDINAL CARDINAL CARDINAL LETTERS LETTERS PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN DATE DATE DATE
+	ref=doubleday & c0 garden city new york 1959 p 183 ff bennett russell and watson james philatelic terms illustrated stanley gibbons publications london 1978
+error: pred=_c__-_ _9 9_; inp=c ninety nine; ref=ADDRESS 8 11 | c ninety nine | c99 | c99 
+	input=the air vegas fleet consisted of nine beechcraft c ninety nine aircraft in september two thousand four
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _c__-_ _9 9_ <SELF> <SELF> <SELF> _2 00 4_
+	pred=the air vegas fleet consisted of nine beechcraft _c__-_ _9 9_ aircraft in september _2 00 4_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN LETTERS CARDINAL CARDINAL PLAIN PLAIN DATE DATE DATE DATE
+	ref=the air vegas fleet consisted of nine beechcraft c99  aircraft in september 2004
+error: pred=_c__-_ _5_; inp=c five; ref=ADDRESS 14 16 | c five | c5  | c5
+	input=she has since won several paracycling world championship and world cup medals in the c five classification
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _c__-_ _5_ <SELF>
+	pred=she has since won several paracycling world championship and world cup medals in the _c__-_ _5_ classification
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN LETTERS CARDINAL PLAIN
+	ref=she has since won several paracycling world championship and world cup medals in the c5  classification
+error: pred=_c__-_ _0 1_; inp=c o one; ref=ADDRESS 3 6 | c01 | c o one
+	input=deoli tangail table c o one p fourteen p d f
+	tags=<SELF> <SELF> <SELF> _c__-_ _0 1_ <SELF> _14_ _p <SELF> f_
+	pred=deoli tangail table _c__-_ _0 1_ p _14_ _p d f_
+	semiotic=PLAIN PLAIN PLAIN LETTERS DIGIT ADDRESS PLAIN CARDINAL LETTERS LETTERS LETTERS
+	ref=deoli tangail table c01 p- 14 pdf
+error: pred=_m__-_ _1_; inp=m one; ref=ADDRESS 8 10 | m one | m1
+	input=progress m forty three was deorbited after progress m one minus five docked successfully
+	tags=<SELF> _m__-_ _4 3_ <SELF> <SELF> <SELF> <SELF> _m__-_ _1_ _- 5_ <SELF> <SELF>
+	pred=progress _m__-_ _4 3_ was deorbited after progress _m__-_ _1_ _- 5_ docked successfully
+	semiotic=PLAIN LETTERS CARDINAL CARDINAL PLAIN PLAIN PLAIN PLAIN ADDRESS ADDRESS CARDINAL CARDINAL PLAIN PLAIN
+	ref=progress m- 43 was deorbited after progress m1 -5 docked successfully
+error: pred=_b__-_ _1 9 2 9 4_; inp=b one nine two nine four; ref=ADDRESS 0 6 | b19294 | b one nine two nine four
+	input=b one nine two nine four judge joan kujava presiding frazier ian the new yorker february twenty sixth nineteen ninety p forty two to forty four satire
+	tags=_b__-_ _1 9 2 9 4_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _2 6 ,19 90_ <SELF> _4 2_ _-_ _4 4_ <SELF>
+	pred=_b__-_ _1 9 2 9 4_ judge joan kujava presiding frazier ian the new yorker february _2 6 ,19 90_ p _4 2_ _-_ _4 4_ satire
+	semiotic=LETTERS DIGIT DIGIT DIGIT DIGIT DIGIT PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN DATE DATE DATE DATE DATE PLAIN CARDINAL CARDINAL PLAIN CARDINAL CARDINAL PLAIN
+	ref=b19294 judge joan kujava presiding frazier ian the new yorker february 26, 1990 p 42 - 44 satire
+error: pred=_c__-_ _0 1_; inp=c o one; ref=ADDRESS 3 6 | c01 | c o one
+	input=hadira tangail table c o one p forty five p d f
+	tags=<SELF> <SELF> <SELF> _c__-_ _0 1_ _p__-_ _4 5_ _p <SELF> f_
+	pred=hadira tangail table _c__-_ _0 1_ _p__-_ _4 5_ _p d f_
+	semiotic=PLAIN PLAIN PLAIN LETTERS DIGIT DIGIT LETTERS CARDINAL CARDINAL LETTERS LETTERS LETTERS
+	ref=hadira tangail table c01 p- 45 pdf
+error: pred=_c__-_ _11_; inp=c eleven; ref=ADDRESS 6 8 | c11 | c11  | c eleven | c011
+	input=however for the second race the c eleven did race and was able to successfully come home with first and second
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _c__-_ _11_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=however for the second race the _c__-_ _11_ did race and was able to successfully come home with first and second
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN LETTERS CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=however for the 2nd race the c11  did race and was able to successfully come home with first and second
+error: pred=_m o__-_ _5_; inp=m o five; ref=ADDRESS 3 6 | m05 | m o five | m05 
+	input=later he joined m o five forerunner to m i six
+	tags=<SELF> <SELF> <SELF> _m o__-_ _5_ <SELF> <SELF> _m i_ _6_
+	pred=later he joined _m o__-_ _5_ forerunner to _m i_ _6_
+	semiotic=PLAIN PLAIN PLAIN LETTERS LETTERS CARDINAL PLAIN PLAIN LETTERS LETTERS CARDINAL
+	ref=later he joined m05  forerunner to mi 6
+error: pred=_m__-_ _2 1 6_; inp=m two one six; ref=ADDRESS 0 4 | m216 | m two one six
+	input=m two one six proposed version with retractable gear
+	tags=_m__-_ _2 1 6_ <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=_m__-_ _2 1 6_ proposed version with retractable gear
+	semiotic=LETTERS DIGIT DIGIT DIGIT PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=m216 proposed version with retractable gear
+error: pred=_m__-_ _15_; inp=m fifteen; ref=ADDRESS 1 3 | m fifteen | m15
+	input=the m fifteen series push through links were used in the eighty five machine gun
+	tags=<SELF> _m__-_ _15_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _8 5_ <SELF> <SELF>
+	pred=the _m__-_ _15_ series push through links were used in the _8 5_ machine gun
+	semiotic=PLAIN LETTERS CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL CARDINAL PLAIN PLAIN
+	ref=the m15 series push through links were used in the 85  machine gun
+error: pred=_c__-_ _2_; inp=c two; ref=ADDRESS 13 15 | c2 | c2  | c two
+	input=aryl and bulky alkyl groups such as isopropyl are good at blocking the c two position from being activated
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _c__-_ _2_ <SELF> <SELF> <SELF> <SELF>
+	pred=aryl and bulky alkyl groups such as isopropyl are good at blocking the _c__-_ _2_ position from being activated
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN ADDRESS CARDINAL PLAIN PLAIN PLAIN PLAIN
+	ref=aryl and bulky alkyl groups such as isopropyl are good at blocking the c2  position from being activated
+error: pred=_m__-_ _2_; inp=m two; ref=ADDRESS 18 20 | m two | m2
+	input=the three b a o u zakerugas fly into the cloud successfully closing the hole and leaving doctor m two s fate unknown
+	tags=<SELF> <SELF> _b <SELF> <SELF> u_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _m__-_ _2_ <SELF> <SELF> <SELF>
+	pred=the three _b a o u_ zakerugas fly into the cloud successfully closing the hole and leaving doctor _m__-_ _2_ s fate unknown
+	semiotic=PLAIN PLAIN LETTERS LETTERS LETTERS LETTERS PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN LETTERS CARDINAL PLAIN PLAIN PLAIN
+	ref=the three baou zakerugas fly into the cloud successfully closing the hole and leaving dr m2 s fate unknown
+error: pred=_a__-_ _1_; inp=a one; ref=ADDRESS 4 6 | a1, | a1 | a one
+	input=other remixes include the a one bassline remix cookie monsta remix roska remix and the bass slammers remix
+	tags=<SELF> <SELF> <SELF> <SELF> _a__-_ _1_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=other remixes include the _a__-_ _1_ bassline remix cookie monsta remix roska remix and the bass slammers remix
+	semiotic=PLAIN PLAIN PLAIN PLAIN LETTERS CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=other remixes include the a1 bassline remix cookie monsta remix roska remix & the bass slammers remix
+error: pred=_c__-_ _1 8 9 6 8_; inp=c one eight nine six eight; ref=ADDRESS 5 11 | c one eight nine six eight | c18968
+	input=agricultural communications documentation center document c one eight nine six eight
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> _c__-_ _1 8 9 6 8_
+	pred=agricultural communications documentation center document _c__-_ _1 8 9 6 8_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN LETTERS DIGIT DIGIT DIGIT DIGIT DIGIT
+	ref=agricultural communications documentation center document c18968
+error: pred=_b__-_ _12_; inp=b twelve; ref=ADDRESS 5 7 | b012 | b0012 | b twelve | b12
+	input=the biosynthesis of adenosylcobalamin vitamin b twelve
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> _b__-_ _12_
+	pred=the biosynthesis of adenosylcobalamin vitamin _b__-_ _12_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN LETTERS CARDINAL
+	ref=the biosynthesis of adenosylcobalamin vitamin b12
+error: pred=i _2-_; inp=i two; ref=ADDRESS 1 3 | i-02 | i 2 | i-2 | i02 | i2 | i two | i 2,
+	input=dihalogens i two b r two etcetera
+	tags=<SELF> <SELF> _2-_ _b r_ _2_ <SELF>
+	pred=dihalogens i _2-_ _b r_ _2_ etcetera
+	semiotic=PLAIN PLAIN CARDINAL LETTERS LETTERS CARDINAL PLAIN
+	ref=dihalogens i2 br 2 etc
+error: pred=_c__-_ _3_; inp=c three; ref=ADDRESS 11 13 | c3 | c three | c3, | c3 
+	input=the d b six o five a m running initially on c three and m w fifty saw power improved to one thousand eight hundred p s one thousand seven hundred seventy five horsepower for takeoff
+	tags=<SELF> _d b_ _6 0 5_ _am_<< <DELETE> <SELF> <SELF> <SELF> _c__-_ _3_ <SELF> _m w_ _50_ <SELF> <SELF> <SELF> <SELF> _1 , 8 00_ _p s_ _1 , 7 <DELETE> 7 5_ _hp_ <SELF> <SELF>
+	pred=the _d b_ _6 0 5_ _am_  running initially on _c__-_ _3_ and _m w_ _50_ saw power improved to _1 , 8 00_ _p s_ _1 , 7  7 5_ _hp_ for takeoff
+	semiotic=PLAIN LETTERS LETTERS DIGIT DIGIT TIME LETTERS TIME PLAIN PLAIN PLAIN LETTERS CARDINAL PLAIN LETTERS LETTERS CARDINAL PLAIN PLAIN PLAIN PLAIN CARDINAL CARDINAL CARDINAL CARDINAL LETTERS LETTERS MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE PLAIN PLAIN
+	ref=the db 605 am running initially on c3  and mw- 50 saw power improved to 1,800 ps 1775 hp for takeoff
+error: pred=_m__-_ _18_; inp=m eighteen; ref=ADDRESS 4 6 | m18 | m eighteen
+	input=for this purpose a m eighteen d messerschmidt is bought for aerial photography
+	tags=<SELF> <SELF> <SELF> <SELF> _m__-_ _18_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=for this purpose a _m__-_ _18_ d messerschmidt is bought for aerial photography
+	semiotic=PLAIN PLAIN PLAIN PLAIN LETTERS CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=for this purpose a m18 d messerschmidt is bought for aerial photography
+error: pred=_c__-_ _1-_; inp=c one; ref=ADDRESS 2 4 | c one | c1
+	input=classes include c one c two c four k one k two war canoe and guideboats
+	tags=<SELF> <SELF> _c__-_ _1-_ <SELF> _2-_ <SELF> _4_ <SELF> _1-_ <SELF> _2_ <SELF> <SELF> <SELF> <SELF>
+	pred=classes include _c__-_ _1-_ c _2-_ c _4_ k _1-_ k _2_ war canoe and guideboats
+	semiotic=PLAIN PLAIN PLAIN DIGIT PLAIN DIGIT PLAIN DIGIT PLAIN DIGIT PLAIN DIGIT PLAIN PLAIN PLAIN PLAIN
+	ref=classes include c1 c2 c4 k 1 k 2 war canoe and guideboats
+error: pred=c _2-_; inp=c two; ref=ADDRESS 4 6 | c2 | c two
+	input=classes include c one c two c four k one k two war canoe and guideboats
+	tags=<SELF> <SELF> _c__-_ _1-_ <SELF> _2-_ <SELF> _4_ <SELF> _1-_ <SELF> _2_ <SELF> <SELF> <SELF> <SELF>
+	pred=classes include _c__-_ _1-_ c _2-_ c _4_ k _1-_ k _2_ war canoe and guideboats
+	semiotic=PLAIN PLAIN PLAIN DIGIT PLAIN DIGIT PLAIN DIGIT PLAIN DIGIT PLAIN DIGIT PLAIN PLAIN PLAIN PLAIN
+	ref=classes include c1 c2 c4 k 1 k 2 war canoe and guideboats
+error: pred=_c__-_ _1_; inp=c one; ref=ADDRESS 4 6 | c one | c1
+	input=canada produced as the c one
+	tags=<SELF> <SELF> <SELF> <SELF> _c__-_ _1_
+	pred=canada produced as the _c__-_ _1_
+	semiotic=PLAIN PLAIN PLAIN PLAIN LETTERS CARDINAL
+	ref=canada produced as the c1
+error: pred=_u._  _2 000_; inp=u s two thousand; ref=ADDRESS 0 4 | u s two thousand | u.s. 2000 | us 2000
+	input=u s two thousand census ancestry new york northern new jersey long island n y n j c t p a c m s a s a
+	tags=_u._ <DELETE> _2 000_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _n y_ _n j__-_ _c <SELF> _p a_ _c m_ <SELF> a_ <SELF> a_
+	pred=_u._  _2 000_ census ancestry new york northern new jersey long island _n y_ _n j__-_ _c t _p a_ _c m_ s a_ s a_
+	semiotic=ADDRESS ADDRESS DATE DATE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN LETTERS LETTERS LETTERS LETTERS LETTERS LETTERS LETTERS LETTERS LETTERS LETTERS LETTERS LETTERS LETTERS LETTERS
+	ref=us 2000 census ancestry new york northern new jersey long island ny- nj- ct- pa cmsasa
+error: pred=_c__-_ _2 9 5_; inp=c two nine five; ref=ADDRESS 4 8 | c two nine five | c295  | c295
+	input=equatorial guinea orders two c two nine five transports
+	tags=<SELF> <SELF> <SELF> <SELF> _c__-_ _2 9 5_ <SELF>
+	pred=equatorial guinea orders two _c__-_ _2 9 5_ transports
+	semiotic=PLAIN PLAIN PLAIN PLAIN LETTERS DIGIT DIGIT DIGIT PLAIN
+	ref=equatorial guinea orders two c295  transports
+error: pred=_c__-_ _4_; inp=c four; ref=ADDRESS 1 3 | c four | c4
+	input=some c four s were built with a larger spread bell housing to use with three hundred fifty one m v eight s but these are rare
+	tags=<SELF> _c__-_ _4_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _3 <DELETE> 5 1_ _m v__-_ _8_ <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=some _c__-_ _4_ s were built with a larger spread bell housing to use with _3  5 1_ _m v__-_ _8_ s but these are rare
+	semiotic=PLAIN LETTERS CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL CARDINAL CARDINAL CARDINAL LETTERS LETTERS CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=some c4 s were built with a larger spread bell housing to use with 351 m v 8 s but these are rare
+error: pred=_c__-_ _0 1_; inp=c o one; ref=ADDRESS 3 6 | c01 | c o one
+	input=elashin tangail table c o one p fifteen p d f
+	tags=<SELF> <SELF> <SELF> _c__-_ _0 1_ <SELF> _15_ _p <SELF> f_
+	pred=elashin tangail table _c__-_ _0 1_ p _15_ _p d f_
+	semiotic=PLAIN PLAIN PLAIN LETTERS ADDRESS DIGIT PLAIN CARDINAL LETTERS LETTERS LETTERS
+	ref=elashin tangail table c01 p- 15 pdf
+error: pred=a _4-_; inp=a four; ref=ADDRESS 0 2 | a four | a4, | a4
+	input=a four e forced to repay public money five times after d w p found irregularities'
+	tags=<SELF> _4-_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _5_ <SELF> <SELF> _d <SELF> p_ <SELF> <SELF>
+	pred=a _4-_ e forced to repay public money _5_ times after _d w p_ found irregularities'
+	semiotic=PLAIN DIGIT PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN LETTERS LETTERS LETTERS PLAIN PLAIN
+	ref=a4 e forced to repay public money five times after dwp found irregularities'
+error: pred=_b__-_ _12_; inp=b twelve; ref=ADDRESS 0 2 | b012 | b0012 | b twelve | b12
+	input=b twelve trafficking in mammals a for coenzyme escort service
+	tags=_b__-_ _12_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=_b__-_ _12_ trafficking in mammals a for coenzyme escort service
+	semiotic=LETTERS ADDRESS PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=b12 trafficking in mammals a for coenzyme escort service
+error: pred=a _80_; inp=a eighty; ref=ADDRESS 98 100 | a eighty | a00080
+	input=dairy products three hundred forty five i a c eight sil two sil three manufacturing grade dairy farms construction operation sanitation page eleven h t t p c o l o n s l a s h s l a s h i n dot g o v s l a s h l e g i s l a t i v e s l a s h i a c s l a s h t o t h r e e f o u r f i v e o s l a s h a eighty p d f four
+	tags=<SELF> <SELF> _3 <DELETE> 4 5_ _i <SELF> c_ _8 - 2 - 3_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _11_ <SELF> <SELF> <SELF> <SELF> <DELETE> <DELETE> <DELETE> <DELETE> <DELETE> <DELETE> <DELETE> <DELETE> <DELETE> <DELETE> <DELETE> <DELETE> <DELETE> <DELETE> _://_ <SELF> n._ <DELETE> <SELF> <SELF> <SELF> _/_ <DELETE> <DELETE> <DELETE> <DELETE> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _/_ <DELETE> <DELETE> <DELETE> <DELETE> <SELF> <SELF> <SELF> _/_ <DELETE> <DELETE> <DELETE> <DELETE> <SELF> _0 <DELETE> <DELETE> <DELETE> <DELETE> <DELETE> 4 <DELETE> <DELETE> <DELETE> 5 <DELETE> <DELETE> <DELETE> 0 <DELETE> <DELETE> <DELETE> <DELETE> /_ <SELF> _80_ _p <SELF> f_ _4_
+	pred=dairy products _3  4 5_ _i a c_ _8 - 2 - 3_ manufacturing grade dairy farms construction operation sanitation page _11_ h t t p               _://_ i n._  g o v _/_     l e g i s l a t i v e _/_     i a c _/_     t _0      4    5    0     /_ a _80_ _p d f_ _4_
+	semiotic=PLAIN PLAIN CARDINAL CARDINAL CARDINAL CARDINAL LETTERS LETTERS LETTERS TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC CARDINAL LETTERS LETTERS LETTERS CARDINAL
+	ref=dairy products 345 iac 8-2-3 manufacturing grade dairy farms construction operation sanitation page 11 http://in.gov/legislative/iac/t03450/ a00080 pdf 4
+error: pred=_b__-_ _7 4 7_; inp=b seven four seven; ref=ADDRESS 13 17 | b seven four seven | b747
+	input=the current a b c fleet includes seventeen boeing seven four seven nine b seven four seven four hundred f e r f b c f and eight b seven hundred forty seven eight f
+	tags=<SELF> <SELF> _a <SELF> c_ <SELF> <SELF> _17_ <SELF> _7 4 7 9_ _b__-_ _7 4 7_ _4 00_ _f <SELF> _r f_ _b <SELF> f_ <SELF> <SELF> _b__-_ _7 <DELETE> 4 7_ _8_ <SELF>
+	pred=the current _a b c_ fleet includes _17_ boeing _7 4 7 9_ _b__-_ _7 4 7_ _4 00_ _f e _r f_ _b c f_ and eight _b__-_ _7  4 7_ _8_ f
+	semiotic=PLAIN PLAIN LETTERS LETTERS LETTERS PLAIN PLAIN CARDINAL PLAIN DIGIT DIGIT DIGIT DIGIT LETTERS DIGIT DIGIT DIGIT CARDINAL CARDINAL LETTERS LETTERS LETTERS LETTERS LETTERS LETTERS LETTERS PLAIN PLAIN PLAIN CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL PLAIN
+	ref=the current abc fleet includes 17 boeing 747 nine b747 400 f erf bcf and eight b- 747 8 f
+error: pred=_c__-_ _4_; inp=c four; ref=ADDRESS 15 17 | c four | c4
+	input=el salvador does not issue any stamps if coming from honduras nicaragua guatemala due to c four group regulations
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _c__-_ _4_ <SELF> <SELF>
+	pred=el salvador does not issue any stamps if coming from honduras nicaragua guatemala due to _c__-_ _4_ group regulations
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN LETTERS CARDINAL PLAIN PLAIN
+	ref=el salvador does not issue any stamps if coming from honduras nicaragua guatemala due to c4 group regulations
+error: pred=_us_   17_; inp=u s one seventeen; ref=ADDRESS 0 4 | u s one seventeen | us 117 | u.s. 117
+	input=u s one seventeen bus burgaw map
+	tags=_us_ <DELETE> <DELETE> 17_ <SELF> <SELF> <SELF>
+	pred=_us_   17_ bus burgaw map
+	semiotic=ADDRESS ADDRESS ADDRESS ADDRESS PLAIN PLAIN PLAIN
+	ref=us 117 bus burgaw map
+error: pred=_us_   17_; inp=u s one seventeen; ref=ADDRESS 0 4 | u s one seventeen | us 117 | u.s. 117
+	input=u s one seventeen business mount olive map
+	tags=_us_ <DELETE> <DELETE> 17_ <SELF> <SELF> <SELF> <SELF>
+	pred=_us_   17_ business mount olive map
+	semiotic=ADDRESS ADDRESS ADDRESS ADDRESS PLAIN PLAIN PLAIN PLAIN
+	ref=us 117 business mount olive map
+error: pred=_a__-_ _18_; inp=a eighteen; ref=ADDRESS 10 12 | a18 | a eighteen
+	input=antigua used barred obliterators a o two saint john's and a eighteen english harbor originally on the stamps of great britain
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> _0 _2_ _st_ <SELF> <SELF> _a__-_ _18_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=antigua used barred obliterators a _0 _2_ _st_ john's and _a__-_ _18_ english harbor originally on the stamps of great britain
+	semiotic=PLAIN PLAIN PLAIN PLAIN ADDRESS ADDRESS ADDRESS PLAIN PLAIN PLAIN ADDRESS CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=antigua used barred obliterators a02 st john's and a18 english harbour originally on the stamps of great britain
+error: pred=_c__-_ _3 5_; inp=c thirty five; ref=ADDRESS 19 22 | c35 | c35  | c thirty five
+	input=the collaboration of fiat and p s a had earlier produced the fiat two hundred forty two and citroen c thirty five from nineteen seventy four
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> _p <SELF> a_ <SELF> <SELF> <SELF> <SELF> <SELF> _2 <DELETE> 4 2_ <SELF> <SELF> _c__-_ _3 5_ <SELF> _19 7 4_
+	pred=the collaboration of fiat and _p s a_ had earlier produced the fiat _2  4 2_ and citroen _c__-_ _3 5_ from _19 7 4_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN LETTERS LETTERS LETTERS PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL CARDINAL CARDINAL CARDINAL PLAIN PLAIN LETTERS CARDINAL CARDINAL PLAIN DATE DATE DATE
+	ref=the collaboration of fiat and psa had earlier produced the fiat 242 and citroen c35  from 1974
+error: pred=_c__-_ _1_; inp=c one; ref=ADDRESS 9 11 | c1  | c one | c1
+	input=in twenty ten she finished first in the women's c one event at the junior world championships in foix france
+	tags=<SELF> _20 10_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _c__-_ _1_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=in _20 10_ she finished first in the women's _c__-_ _1_ event at the junior world championships in foix france
+	semiotic=PLAIN DATE DATE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN LETTERS CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=in 2010 she finished 1st in the women's c1  event at the junior world championships in foix france
+error: pred=_us_   12_; inp=u s one twelve; ref=ADDRESS 18 22 | u s one twelve | us 112
+	input=the routings of one thirty one and m one hundred three were swapped south of twelve successor to u s one twelve by nineteen sixty
+	tags=<SELF> <SELF> <SELF> _1_ _3 1_ <SELF> _m__-_ _1 0 3_ <SELF> <SELF> <SELF> <SELF> _12_ <SELF> <SELF> _us_ <DELETE> <DELETE> 12_ <SELF> _19 60_
+	pred=the routings of _1_ _3 1_ and _m__-_ _1 0 3_ were swapped south of _12_ successor to _us_   12_ by _19 60_
+	semiotic=PLAIN PLAIN PLAIN CARDINAL CARDINAL CARDINAL PLAIN LETTERS CARDINAL CARDINAL CARDINAL PLAIN PLAIN PLAIN PLAIN CARDINAL PLAIN PLAIN ADDRESS ADDRESS ADDRESS ADDRESS PLAIN DATE DATE
+	ref=the routings of 1 31  and m- 103 were swapped south of 12  successor to us 112 by 1960
+error: pred=_u._  _4_; inp=u s four; ref=ADDRESS 19 22 | u s four | u.s. 4 | us4 | us 4
+	input=two d four hundred four nineteen eighty four helicopteros nacionales de colombia s a v hall four sixty six u s four oh eight one oh four south connecticut
+	tags=_2_ <SELF> _4 0 4_ _19 8 4_ <SELF> <SELF> <SELF> <SELF> _s._ _a._ <SELF> <SELF> _4_ _6 6_ _u._ <DELETE> _4_ <SELF> _8_ _1_ <SELF> _4,_ <SELF> <SELF>
+	pred=_2_ d _4 0 4_ _19 8 4_ helicopteros nacionales de colombia _s._ _a._ v hall _4_ _6 6_ _u._  _4_ oh _8_ _1_ oh _4,_ south connecticut
+	semiotic=CARDINAL PLAIN CARDINAL CARDINAL CARDINAL DATE DATE DATE PLAIN PLAIN PLAIN PLAIN LETTERS LETTERS PLAIN PLAIN CARDINAL CARDINAL CARDINAL ADDRESS ADDRESS ADDRESS PLAIN CARDINAL CARDINAL PLAIN CARDINAL PLAIN PLAIN
+	ref=2 d 404 1984 helicopteros nacionales de colombia s.a. v hall 4 66  u.s. 4 oh 8, 1 oh 4 south connecticut
+error: pred=m__-_ _2_; inp=m two; ref=ADDRESS 3 5 | m two | m2
+	input=cooke gary w m two bradley fighting vehicle
+	tags=<SELF> <SELF> _w._ m__-_ _2_ <SELF> <SELF> <SELF>
+	pred=cooke gary _w._ m__-_ _2_ bradley fighting vehicle
+	semiotic=PLAIN PLAIN LETTERS LETTERS CARDINAL PLAIN PLAIN PLAIN
+	ref=cooke gary w. m2 bradley fighting vehicle
+error: pred=a__-_ _2_; inp=a two; ref=ADDRESS 12 14 | a two | a2
+	input=s s mission santa clara was a type t two s e a two tanker built for the united states maritime commission during world war two
+	tags=_s s_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _2_ _s <SELF> a__-_ _2_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=_s s_ mission santa clara was a type t _2_ _s e a__-_ _2_ tanker built for the united states maritime commission during world war two
+	semiotic=LETTERS LETTERS PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN DIGIT LETTERS LETTERS LETTERS CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=ss mission santa clara was a type t 2- se a2 tanker built for the united states maritime commission during world war ii
+error: pred=_a__-_ _2 5_; inp=a twenty five; ref=ADDRESS 13 16 | a25 | a twenty five
+	input=goode holds slim majority challenger rizzo refuses to concede the washington post page a twenty five west paul
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _a__-_ _2 5_ <SELF> <SELF>
+	pred=goode holds slim majority challenger rizzo refuses to concede the washington post page _a__-_ _2 5_ west paul
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN LETTERS ADDRESS ADDRESS PLAIN PLAIN
+	ref=goode holds slim majority challenger rizzo refuses to concede the washington post page a25 west paul
+error: pred=_c__-_ _4_; inp=c four; ref=ADDRESS 0 2 | c four | c4 | c4 
+	input=c four appears frequently on the b b c's digital radio station one xtra
+	tags=_c__-_ _4_ <SELF> <SELF> <SELF> <SELF> _b <SELF> c's_ <SELF> <SELF> <SELF> _1_ <SELF>
+	pred=_c__-_ _4_ appears frequently on the _b b c's_ digital radio station _1_ xtra
+	semiotic=LETTERS CARDINAL PLAIN PLAIN PLAIN PLAIN LETTERS LETTERS LETTERS PLAIN PLAIN PLAIN CARDINAL PLAIN
+	ref=c4  appears frequently on the bbc's digital radio station 1 xtra
+error: pred=_m__-_ _2_; inp=m two; ref=ADDRESS 4 6 | m two | m2
+	input=golden anniversary for the m two
+	tags=<SELF> <SELF> <SELF> <SELF> _m__-_ _2_
+	pred=golden anniversary for the _m__-_ _2_
+	semiotic=PLAIN PLAIN PLAIN PLAIN LETTERS CARDINAL
+	ref=golden anniversary for the m2
+error: pred=m _6-_; inp=m six; ref=ADDRESS 0 2 | m6 | m six
+	input=m six s current on air brand image suggests that it tailors its service to teenagers and young adult demographics
+	tags=<SELF> _6-_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=m _6-_ s current on air brand image suggests that it tailors its service to teenagers and young adult demographics
+	semiotic=PLAIN DIGIT PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=m6 s current on air brand image suggests that it tailors its service to teenagers and young adult demographics
+error: pred=m__-_ _1 0 5_; inp=m one o five; ref=ADDRESS 8 12 | m105 | m one o five
+	input=wynn previously worked at w w w m m one o five and at w g a r twelve twenty am back in the early nineteen eighties
+	tags=<SELF> <SELF> <SELF> <SELF> _w <SELF> <SELF> <SELF> m__-_ _1 0 5_ <SELF> <SELF> _w <SELF> <SELF> r_ _12 20_ <SELF> <SELF> <SELF> <SELF> <SELF> _19 80s_
+	pred=wynn previously worked at _w w w m m__-_ _1 0 5_ and at _w g a r_ _12 20_ am back in the early _19 80s_
+	semiotic=PLAIN PLAIN PLAIN PLAIN LETTERS LETTERS LETTERS LETTERS LETTERS DIGIT DIGIT DIGIT PLAIN PLAIN LETTERS LETTERS LETTERS LETTERS DATE DATE PLAIN PLAIN PLAIN PLAIN PLAIN DATE DATE
+	ref=wynn previously worked at wwwm m105 and at wgar 1220 am back in the early 1980s
+error: pred=i _-9 4 00_; inp=i ninety four hundred; ref=ADDRESS 5 9 | i ninety four hundred | i9400
+	input=the ninetology black pearl two i ninety four hundred is a smart mobile phone manufactured by ninetology with dual sim capabilities
+	tags=<SELF> <SELF> <SELF> <SELF> _2_ <SELF> _-9 4 00_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=the ninetology black pearl _2_ i _-9 4 00_ is a smart mobile phone manufactured by ninetology with dual sim capabilities
+	semiotic=PLAIN PLAIN PLAIN PLAIN CARDINAL PLAIN CARDINAL CARDINAL CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=the ninetology black pearl ii i9400 is a smart mobile phone manufactured by ninetology with dual sim capabilities
+error: pred=_c__-_ _7 8_; inp=c seventy eight; ref=ADDRESS 1 4 | c78  | c78 | c seventy eight
+	input=a c seventy eight fullerene precursor toward the direct synthesis of higher fullerenes
+	tags=<SELF> _c__-_ _7 8_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=a _c__-_ _7 8_ fullerene precursor toward the direct synthesis of higher fullerenes
+	semiotic=PLAIN LETTERS CARDINAL CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=a c78  fullerene precursor toward the direct synthesis of higher fullerenes
+error: pred=c__-_ _14_; inp=c fourteen; ref=ADDRESS 30 32 | c fourteen | c14
+	input=o c e a n s a t two was launched from satish dhawan space center on the twenty third of september two thousand nine using p s l v c fourteen
+	tags=_o <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> t__-_ _2_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <DELETE> _2 3_ <DELETE> <SELF> _2 00 9_ <SELF> _p <SELF> <SELF> <SELF> c__-_ _14_
+	pred=_o c e a n s a t__-_ _2_ was launched from satish dhawan space center on  _2 3_  september _2 00 9_ using _p s l v c__-_ _14_
+	semiotic=LETTERS LETTERS LETTERS LETTERS LETTERS LETTERS LETTERS LETTERS CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN DATE DATE DATE DATE DATE DATE DATE DATE PLAIN LETTERS LETTERS LETTERS LETTERS LETTERS ADDRESS
+	ref=oceansat- 2 was launched from satish dhawan space centre on 23 september 2009 using pslv- c14
+error: pred=_c__-_ _2_; inp=c two; ref=ADDRESS 0 2 | c2 | c two
+	input=c two cargo ships
+	tags=_c__-_ _2_ <SELF> <SELF>
+	pred=_c__-_ _2_ cargo ships
+	semiotic=LETTERS ADDRESS PLAIN PLAIN
+	ref=c2 cargo ships
+error: pred=_m__-_ _5_; inp=m five; ref=ADDRESS 3 5 | m five | m5
+	input=image mirage ford m five
+	tags=<SELF> <SELF> <SELF> _m__-_ _5_
+	pred=image mirage ford _m__-_ _5_
+	semiotic=PLAIN PLAIN PLAIN LETTERS CARDINAL
+	ref=image mirage ford m5
+error: pred=_m__-_ _13_; inp=m thirteen; ref=ADDRESS 5 7 | m thirteen | m013 | m13
+	input=the song was titled longsight m thirteen reflecting the postcode of the area which begins with thirteen
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> _m__-_ _13_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _13_
+	pred=the song was titled longsight _m__-_ _13_ reflecting the postcode of the area which begins with _13_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN LETTERS ADDRESS PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL
+	ref=the song was titled longsight m13 reflecting the postcode of the area which begins with 13
+error: pred=_c__-_ _2_; inp=c two; ref=ADDRESS 2 4 | c2 | c two
+	input=chiral and c two symmetrical bis oxazolinylpyridine rhodium three complexes effective catalysts for asymmetric hydrosilylation of ketones
+	tags=<SELF> <SELF> _c__-_ _2_ <SELF> <SELF> <SELF> <SELF> _3_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=chiral and _c__-_ _2_ symmetrical bis oxazolinylpyridine rhodium _3_ complexes effective catalysts for asymmetric hydrosilylation of ketones
+	semiotic=PLAIN PLAIN LETTERS ADDRESS PLAIN PLAIN PLAIN PLAIN CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=chiral and c2 symmetrical bis oxazolinylpyridine rhodium iii complexes effective catalysts for asymmetric hydrosilylation of ketones
+error: pred=c _3-_; inp=c three; ref=ADDRESS 8 10 | c3 | c three | c3,
+	input=for maximizing the overall gasoline yield the olefins c three c four have been oligomerised at sasol
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _3-_ <SELF> _4_ <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=for maximizing the overall gasoline yield the olefins c _3-_ c _4_ have been oligomerised at sasol
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN DIGIT PLAIN DIGIT PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=for maximising the overall gasoline yield the olefins c3 c4  have been oligomerised at sasol
+error: pred=a__-_ _0 2 0 1_; inp=a o two o one; ref=ADDRESS 6 11 | a0201 | a o two o one
+	input=comprehensive mapping of h l a a o two o one restricted c d eight t cell epitopes on p d c e two in primary biliary cirrhosis
+	tags=<SELF> <SELF> <SELF> _h <SELF> <SELF> a__-_ _0 2 0 1_ <SELF> _c d_ _8-_ <SELF> <SELF> <SELF> <SELF> _p <SELF> <SELF> e__-_ _2_ <SELF> <SELF> <SELF> <SELF>
+	pred=comprehensive mapping of _h l a a__-_ _0 2 0 1_ restricted _c d_ _8-_ t cell epitopes on _p d c e__-_ _2_ in primary biliary cirrhosis
+	semiotic=PLAIN PLAIN PLAIN LETTERS LETTERS LETTERS LETTERS DIGIT DIGIT DIGIT DIGIT PLAIN LETTERS LETTERS DIGIT PLAIN PLAIN PLAIN PLAIN LETTERS LETTERS LETTERS LETTERS CARDINAL PLAIN PLAIN PLAIN PLAIN
+	ref=comprehensive mapping of hla- a0201 restricted cd 8 t cell epitopes on pdc- e 2 in primary biliary cirrhosis
+error: pred=_b__-_ _1 9 2_; inp=b one nine two; ref=ADDRESS 9 13 | b one nine two | b192
+	input=youtube title brundle drives one nine nine two benetton b one nine two brundle martin
+	tags=<SELF> <SELF> <SELF> <SELF> _1 9 9 2_ <SELF> _b__-_ _1 9 2_ <SELF> <SELF>
+	pred=youtube title brundle drives _1 9 9 2_ benetton _b__-_ _1 9 2_ brundle martin
+	semiotic=PLAIN PLAIN PLAIN PLAIN DIGIT DIGIT DIGIT DIGIT PLAIN PLAIN DIGIT DIGIT DIGIT PLAIN PLAIN
+	ref=youtube title brundle drives 1992 benetton b192 brundle martin
+error: pred=a  10_; inp=a one ten; ref=ADDRESS 4 7 | a one ten | a110
+	input=r f a orangeleaf a one ten the current as of two thousand nine orangeleaf
+	tags=_r <SELF> a_ <SELF> <SELF> <DELETE> 10_ <SELF> <SELF> <SELF> <SELF> _2 00 9_ <SELF>
+	pred=_r f a_ orangeleaf a  10_ the current as of _2 00 9_ orangeleaf
+	semiotic=LETTERS LETTERS LETTERS PLAIN ADDRESS ADDRESS ADDRESS PLAIN PLAIN PLAIN PLAIN DATE DATE DATE PLAIN
+	ref=rfa orangeleaf a110 the current as of 2009 orangeleaf
+error: pred=_c__-_ _16_; inp=c sixteen; ref=ADDRESS 1 3 | c016 | c16 | c16  | c sixteen
+	input=late c sixteen or early c seventeen with c twenty renovations
+	tags=<SELF> _c__-_ _16_ <SELF> <SELF> _c__-_ _17_ <SELF> _c__-_ _20_ <SELF>
+	pred=late _c__-_ _16_ or early _c__-_ _17_ with _c__-_ _20_ renovations
+	semiotic=PLAIN ADDRESS ADDRESS PLAIN PLAIN ADDRESS ADDRESS PLAIN LETTERS CARDINAL PLAIN
+	ref=late c16  or early c17  with c 20  renovations
+error: pred=_c__-_ _17_; inp=c seventeen; ref=ADDRESS 5 7 | c17  | c seventeen | c17 | c017
+	input=late c sixteen or early c seventeen with c twenty renovations
+	tags=<SELF> _c__-_ _16_ <SELF> <SELF> _c__-_ _17_ <SELF> _c__-_ _20_ <SELF>
+	pred=late _c__-_ _16_ or early _c__-_ _17_ with _c__-_ _20_ renovations
+	semiotic=PLAIN ADDRESS ADDRESS PLAIN PLAIN ADDRESS ADDRESS PLAIN LETTERS CARDINAL PLAIN
+	ref=late c16  or early c17  with c 20  renovations
+error: pred=_c__-_ _3_; inp=c three; ref=ADDRESS 10 12 | c3 | c three | c3, | c3
+	input=the system design permits further expansion and upgrades beyond the c three level
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _c__-_ _3_ <SELF>
+	pred=the system design permits further expansion and upgrades beyond the _c__-_ _3_ level
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN LETTERS CARDINAL PLAIN
+	ref=the system design permits further expansion and upgrades beyond the c3  level
+error: pred=_m__-_ _1_; inp=m one; ref=ADDRESS 11 13 | m one | m1
+	input=nine m three one one m one used with the tunguska m one radar proximity fuse for improved capability against cruise missiles
+	tags=_9_ <SELF> _3 1 1_ _m__-_ _1_ <SELF> <SELF> <SELF> <SELF> _m__-_ _1_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=_9_ m _3 1 1_ _m__-_ _1_ used with the tunguska _m__-_ _1_ radar proximity fuse for improved capability against cruise missiles
+	semiotic=DIGIT LETTERS DIGIT DIGIT DIGIT LETTERS DIGIT PLAIN PLAIN PLAIN PLAIN LETTERS CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=9 m 311- m 1 used with the tunguska m1 radar proximity fuse for improved capability against cruise missiles
+error: pred=_c__-_ _3_; inp=c three; ref=ADDRESS 9 11 | c3 | c three | c3, | c3 
+	input=the regiment currently operates the one hundred five millimeters c three howitzer along with the eighty one millimeters mortar
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> _1 0 5_ _mm_ _c__-_ _3_ <SELF> <SELF> <SELF> <SELF> _8 1_ _mm_ <SELF>
+	pred=the regiment currently operates the _1 0 5_ _mm_ _c__-_ _3_ howitzer along with the _8 1_ _mm_ mortar
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN MEASURE MEASURE MEASURE MEASURE LETTERS CARDINAL PLAIN PLAIN PLAIN PLAIN MEASURE MEASURE MEASURE PLAIN
+	ref=the regiment currently operates the 105mm  c3  howitzer along with the 81mm mortar
+error: pred=_m__-_ _7 4_; inp=m seventy four; ref=ADDRESS 0 3 | m74 | m seventy four
+	input=m seventy four extension will the gap ever be filled
+	tags=_m__-_ _7 4_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=_m__-_ _7 4_ extension will the gap ever be filled
+	semiotic=LETTERS CARDINAL CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=m74 extension will the gap ever be filled
+error: pred=_a__-_ _5 1 2 0_; inp=a five one two o; ref=ADDRESS 2 7 | a5120 | a five one two o
+	input=computer robotron a five one two o
+	tags=<SELF> <SELF> _a__-_ _5 1 2 0_
+	pred=computer robotron _a__-_ _5 1 2 0_
+	semiotic=PLAIN PLAIN LETTERS ADDRESS DIGIT DIGIT DIGIT
+	ref=computer robotron a5120
+error: pred=_b__-_ _12_; inp=b twelve; ref=ADDRESS 4 6 | b012 | b0012 | b twelve | b12
+	input=biosynthesis of cobalamin vitamin b twelve a bacterial conundrum
+	tags=<SELF> <SELF> <SELF> <SELF> _b__-_ _12_ <SELF> <SELF> <SELF>
+	pred=biosynthesis of cobalamin vitamin _b__-_ _12_ a bacterial conundrum
+	semiotic=PLAIN PLAIN PLAIN PLAIN LETTERS CARDINAL PLAIN PLAIN PLAIN
+	ref=biosynthesis of cobalamin vitamin b12 a bacterial conundrum
+error: pred=_c__-_ _2_; inp=c two; ref=ADDRESS 15 17 | c2 | c2  | c two
+	input=in two thousand six u s a f c seventeen s flew fifteen canadian leopard c two tanks from kyrgyzstan into kandahar in support of nato's afghanistan mission
+	tags=<SELF> _2 00 6_ _u <SELF> <SELF> f_ _c__-_ _17_ <SELF> <SELF> _15_ <SELF> <SELF> _c__-_ _2_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=in _2 00 6_ _u s a f_ _c__-_ _17_ s flew _15_ canadian leopard _c__-_ _2_ tanks from kyrgyzstan into kandahar in support of nato's afghanistan mission
+	semiotic=PLAIN DATE DATE DATE LETTERS LETTERS LETTERS LETTERS LETTERS CARDINAL PLAIN PLAIN CARDINAL PLAIN PLAIN LETTERS CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=in 2006 usaf c- 17 s flew 15 canadian leopard c2  tanks from kyrgyzstan into kandahar in support of nato's afghanistan mission
+error: pred=_a__-_ _2_; inp=a two; ref=ADDRESS 9 11 | a two | a2
+	input=deneb is a bluish white star of spectral type a two ia with a surface temperature of eight thousand five hundred kelvin
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _a__-_ _2_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _8 <DELETE> 5 00_ <SELF>
+	pred=deneb is a bluish white star of spectral type _a__-_ _2_ ia with a surface temperature of _8  5 00_ kelvin
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN ADDRESS ADDRESS PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL CARDINAL CARDINAL CARDINAL PLAIN
+	ref=deneb is a bluish white star of spectral type a2 ia with a surface temperature of 8,500 kelvin
+error: pred=m__-_ _1_; inp=m one; ref=ADDRESS 8 10 | m one | m1
+	input=mission one introducing yamaha's awesome y z r m one
+	tags=<SELF> _1_ <SELF> <SELF> <SELF> _y <SELF> <SELF> m__-_ _1_
+	pred=mission _1_ introducing yamaha's awesome _y z r m__-_ _1_
+	semiotic=PLAIN CARDINAL PLAIN PLAIN PLAIN LETTERS LETTERS LETTERS LETTERS CARDINAL
+	ref=mission one introducing yamaha's awesome yzr- m1
+error: pred=_b__-_ _12_; inp=b twelve; ref=ADDRESS 13 15 | b012 | b0012 | b twelve | b12
+	input=succinyl coa can be formed from methylmalonyl coa through the utilization of deoxyadenosyl b twelve deoxyadenosylcobalamin by the enzyme methylmalonyl coa mutase
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _b__-_ _12_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=succinyl coa can be formed from methylmalonyl coa through the utilization of deoxyadenosyl _b__-_ _12_ deoxyadenosylcobalamin by the enzyme methylmalonyl coa mutase
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN LETTERS CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=succinyl coa can be formed from methylmalonyl coa through the utilization of deoxyadenosyl b12 deoxyadenosylcobalamin by the enzyme methylmalonyl coa mutase
+error: pred=_m__-_ _4 9_; inp=m forty nine; ref=ADDRESS 10 13 | m49 | m forty nine
+	input=united nations statistics division standard country and area codes classifications m forty nine
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _m__-_ _4 9_
+	pred=united nations statistics division standard country and area codes classifications _m__-_ _4 9_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN LETTERS CARDINAL ADDRESS
+	ref=united nations statistics division standard country and area codes classifications m49

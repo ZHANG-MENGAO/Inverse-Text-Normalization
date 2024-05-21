@@ -1,0 +1,60 @@
+error: pred= _16th_; inp=the sixteenth; ref=ORDINAL 2 4 | xvi | the sixteenth
+	input=pope benedict the sixteenth unfrocks medjugorje priest the telegraph the twenty seventh of july two thousand nine stefania caterina the eleventh of february twenty twelve
+	tags=<SELF> <SELF> <DELETE> _16th_ <SELF> <SELF> <SELF> <SELF> <SELF> <DELETE> _2 7_ <DELETE> <SELF> _2 00 9_ <SELF> <SELF> <DELETE> _11_ <DELETE> <SELF> _20 12_
+	pred=pope benedict  _16th_ unfrocks medjugorje priest the telegraph  _2 7_  july _2 00 9_ stefania caterina  _11_  february _20 12_
+	semiotic=PLAIN PLAIN ORDINAL ORDINAL PLAIN PLAIN PLAIN PLAIN PLAIN DATE DATE DATE DATE DATE DATE DATE DATE PLAIN PLAIN DATE DATE DATE DATE DATE DATE
+	ref=pope benedict xvi unfrocks medjugorje priest the telegraph 27 july 2009 stefania caterina 11 feb 2012
+error: pred=_1_; inp=first; ref=ORDINAL 72 73 | 1 st | i. | 1st | first | 1º | ist | 1st u.s. | i | 1ª
+	input=they also have a new website h t t p c o l o n s l a s h s l a s h w w w dot y a f c d a s h f t p dot c o m s l a s h t h e new team released y a f c one dot o n e dot t h r e e on the first of may twenty twelve
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <DELETE> <DELETE> <DELETE> <DELETE> <DELETE> <DELETE> <DELETE> <DELETE> <DELETE> <DELETE> <DELETE> <DELETE> <DELETE> <DELETE> _://_ <SELF> <SELF> w._ <DELETE> <SELF> <SELF> <SELF> <SELF> _-_ <DELETE> <DELETE> <DELETE> <SELF> <SELF> p._ <DELETE> <SELF> <SELF> <SELF> _/_ <DELETE> <DELETE> <DELETE> <DELETE> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _y <SELF> <SELF> c_ _1_ _. <DELETE> <DELETE> 1 . <DELETE> <DELETE> <DELETE> 3_ <DELETE> <SELF> <DELETE> _1_ <DELETE> <SELF> _20 12_
+	pred=they also have a new website h t t p               _://_ w w w._  y a f c _-_    f t p._  c o m _/_     t h e new team released _y a f c_ _1_ _.   1 .    3_  on  _1_  may _20 12_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC PLAIN PLAIN PLAIN LETTERS LETTERS LETTERS LETTERS CARDINAL VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM PLAIN DATE DATE DATE DATE DATE DATE
+	ref=they also have a new website http://www.yafc-ftp.com/the new team released yafc 1 .1.3 on the 1st of may 2012
+error: pred=/3 2_; inp=thirty second; ref=ORDINAL 4 6 | 32nd | 32ª | 32º | thirty second | 32 nd | xxxiind | xxxii
+	input=piero castricone won one thirty second f one and antonin vojtik won one twenty fourth eurosport
+	tags=<SELF> <SELF> <SELF> _1 /3 2_ <SELF> _1_ <SELF> <SELF> <SELF> <SELF> _1 /2 4_ <SELF>
+	pred=piero castricone won _1 /3 2_ f _1_ and antonin vojtik won _1 /2 4_ eurosport
+	semiotic=PLAIN PLAIN PLAIN FRACTION FRACTION FRACTION PLAIN CARDINAL PLAIN PLAIN PLAIN PLAIN FRACTION FRACTION FRACTION PLAIN
+	ref=piero castricone won 1 32nd f 1 and antonin vojtik won 1 24th eurosport
+error: pred=/2 4_; inp=twenty fourth; ref=ORDINAL 13 15 | xxivth | twenty fourth | 24th | 24º | 24 th | xxiv
+	input=piero castricone won one thirty second f one and antonin vojtik won one twenty fourth eurosport
+	tags=<SELF> <SELF> <SELF> _1 /3 2_ <SELF> _1_ <SELF> <SELF> <SELF> <SELF> _1 /2 4_ <SELF>
+	pred=piero castricone won _1 /3 2_ f _1_ and antonin vojtik won _1 /2 4_ eurosport
+	semiotic=PLAIN PLAIN PLAIN FRACTION FRACTION FRACTION PLAIN CARDINAL PLAIN PLAIN PLAIN PLAIN FRACTION FRACTION FRACTION PLAIN
+	ref=piero castricone won 1 32nd f 1 and antonin vojtik won 1 24th eurosport
+error: pred=_2 1_; inp=twenty first; ref=ORDINAL 2 4 | 21st | xxi | xxist | 21º | 21 st | 21ª | twenty first
+	input=on the twenty first of october two thousand six selina married timothy hornibrook
+	tags=<SELF> <DELETE> _2 1_ <DELETE> <SELF> _2 00 6,_ <SELF> <SELF> <SELF> <SELF>
+	pred=on  _2 1_  october _2 00 6,_ selina married timothy hornibrook
+	semiotic=PLAIN DATE DATE DATE DATE DATE DATE DATE DATE PLAIN PLAIN PLAIN PLAIN
+	ref=on the 21st of october 2006 selina married timothy hornibrook
+error: pred= _3rd_; inp=the third; ref=ORDINAL 9 11 | the third | iii
+	input=besides hugh and puiset he also served pope innocent the third
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <DELETE> _3rd_
+	pred=besides hugh and puiset he also served pope innocent  _3rd_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN ORDINAL ORDINAL
+	ref=besides hugh and puiset he also served pope innocent iii
+error: pred=/10_; inp=tenth; ref=ORDINAL 4 5 | 10 th | 10ª | x. | x | xth | 10th | 10º | tenth
+	input=not less than one tenth of electors has the right to initiate a national referendum regarding recalling of the saeima
+	tags=<SELF> <SELF> <SELF> _1 /10_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=not less than _1 /10_ of electors has the right to initiate a national referendum regarding recalling of the saeima
+	semiotic=PLAIN PLAIN PLAIN FRACTION FRACTION PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=not less than one tenth of electors has the right to initiate a national referendum regarding recalling of the saeima
+error: pred=_⅓_; inp=third; ref=ORDINAL 12 13 | 3rd | iiird | 3 rd | 3º | iii | third | 3ª | 3rd,
+	input=the sweetener sorbitol has the same benefit but is only about one third as effective as xylitol
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _1 _⅓_ <SELF> <SELF> <SELF> <SELF>
+	pred=the sweetener sorbitol has the same benefit but is only about _1 _⅓_ as effective as xylitol
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN FRACTION FRACTION PLAIN PLAIN PLAIN PLAIN
+	ref=the sweetener sorbitol has the same benefit but is only about one third as effective as xylitol
+error: pred= second; inp=the second; ref=ORDINAL 1 3 | ii | the second
+	input=amenhotep the second fourteen twenty five to fourteen hundred b c
+	tags=<SELF> <DELETE> <SELF> _14 2 5_ _-_ _14 00_ <DELETE> _bc._
+	pred=amenhotep  second _14 2 5_ _-_ _14 00_  _bc._
+	semiotic=PLAIN ORDINAL ORDINAL DATE DATE DATE PLAIN DATE DATE DATE DATE
+	ref=amenhotep ii 1425 - 1400 bc
+error: pred= _13th_; inp=the thirteenth; ref=ORDINAL 14 16 | xiii | the thirteenth
+	input=in fourteen twenty four he married jeanne d fourteen sixty eight daughter of guy the thirteenth count of laval at rennes
+	tags=<SELF> _14 2 4_ <SELF> <SELF> <SELF> <SELF> _14 6 8_ <SELF> <SELF> <SELF> <DELETE> _13th_ <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=in _14 2 4_ he married jeanne d _14 6 8_ daughter of guy  _13th_ count of laval at rennes
+	semiotic=PLAIN DATE DATE DATE PLAIN PLAIN PLAIN PLAIN DATE DATE DATE PLAIN PLAIN PLAIN ORDINAL ORDINAL PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=in 1424 he married jeanne d 1468 daughter of guy xiii count of laval at rennes

@@ -1,0 +1,287 @@
+-------------------------------------------
+TYPE              ERRORS     TOTAL     RATE
+-------------------------------------------
+Sentence              37        37  100.00%
+Word                 345       489   70.55%
+-------------------------------------------
+Copy Word            129       433   29.79%
+Uppercase Word        98        11  890.91%
+Digit                 31        40   77.50%
+Punctuation          189         0    0.00%
+Symbol                 3         1  300.00%
+-------------------------------------------
+
+-------------------------------------------
+GENERATION TIME:
+-------------------------------------------
+Total:                                    1
+Avg:                                   0.02
+-------------------------------------------
+
+-------------------------------------------
+CHARACTER SETS:
+-------------------------------------------
+Copy chars:     abcdefghijklmnopqrstuvwxyz
+Punctuation:    ,;:.?!/-()"
+Symbols:        % & ° § + EUR CHF USD GBP m mm cm km m2 m3 km2 l dl ml g kg
+-------------------------------------------
+h link . 
+
+   S      S                                  I 
+
+promenade siang cho keong temple and library at     *     chinatown 
+
+    |       |    |    |     |     |     |    |      |         |     
+
+Promenade siang cho keong temple and library at Chinatown     .     
+
+    S                                               I         S     
+
+jurong island terminal miller street and    *     aljunied   mrt   station 
+
+  |      |       |       |      |     |     |        |        |       |    
+
+Jurong Island Terminal Miller Street and Aljunied   MRT    Station    .    
+
+  S      S       S       S      S           I        S        S       S    
+
+seletar teng tong road and  *     axa     university   asia  pacific campus 
+
+   |     |    |    |    |   |      |          |         |       |      |    
+
+Seletar teng Tong Road and AXA University    Asia    Pacific  Campus   .    
+
+   S          S    S        I      S          S         S       S      S    
+
+geylang lorong 8 bukit ho swee link and   *   jalan  basong 
+
+   |      |    |   |   |   |    |    |    |     |      |    
+
+Geylang Lorong 8 Bukit ho Swee link and Jalan Basong   .    
+
+   S      S        S       S              I     S      S    
+
+ 250000 mm yes * 
+
+   |    |   |  | 
+
+250,000 mm yes . 
+
+   S           I 
+
+so the sort code is  *   560018 
+
+|   |   |    |   |   |     |    
+
+So the sort code is 5608   .    
+
+S                    I     S    
+
+think ah let me see how many bond holdings * we have we have around *  55% 
+
+  |   |   |  |   |   |   |    |      |     | |   |   |   |     |    |   |  
+
+think ah let me see how many bond holdings , we have we have around 55  %  
+
+                                           I                        I   S  
+
+is not like 100% or *  80% is not a very aggressive um as asset allocation in your yeah in your portfolio * so um 
+
+|   |   |    |   |  |   |  |   |  |  |       |      |  |    |       |      |   |    |   |   |       |     | |  |  
+
+is not like 10%  or 80  %  is not a very aggressive um as asset allocation in your yeah in your portfolio . So um 
+
+             S      I   S                                                                                 I S     
+
+  *   3472 
+
+  |    |   
+
+3,472  .   
+
+  I    S   
+
+oh oh so would you like to settle the *   *    er   HK$   outstanding balance with your  *  *  US$   
+
+|  |  |    |    |   |   |    |     |  |   |    |     |         |         |     |    |    |  |   |    
+
+0  .  So would you like to settle the ER Hong Kong dollar outstanding balance with your U.S . dollar 
+
+S  S  S                               I   I    S     S                                   I  I   S    
+
+  *    *   remit  HK$   3500 
+
+  |    |     |     |     |   
+
+Remit Hong  Kong $3,500  .   
+
+  I    I     S     S     S   
+
+so you prefer to come down * i'll be there in 30 minutes is it ok * 
+
+|   |    |    |   |    |   |  |   |    |   |  |     |    |  |  |  | 
+
+So you prefer to come down , I'll be there in 30 minutes is it ok . 
+
+S                          I  S                                   I 
+
+yup the account number is *  004 
+
+ |   |     |      |    |  |   |  
+
+Yup the account number is 04  .  
+
+ S                        I   S  
+
+ *   £550 okay against  *  US$ 
+
+ |    |    |      |     |   |  
+
+550 pound okay against USD  .  
+
+ I    S                 I   S  
+
+then i was looking at the hong kong account ah that time we sell er costco and then there is some cash there * so i trying to do some er cleanup * i put it to your sing account *  ah so whenever you want to do conversion is easier so i  also will fax to you another instruction will be from your hong kong 
+
+ |   |  |     |    |   |   |    |      |    |   |    |   |   |   |    |     |   |     |   |   |    |     |   | |  |   |    |  |   |   |     |    | |  |  |  |   |    |      |    |  |  |     |      |   |   |  |      |      |    |    |  |   |    |    |  |   |     |         |       |   |   |    |    |    |   
+
+Then I was looking at the Hong Kong account AH that time we sell er costco and then there is some cash there . So I trying to do some er cleanup . I put it to your sing account AH .  So whenever you want to do conversion is easier .  So  I   will  *  *   *     *         *       *   *   *    *    *    *   
+
+ S   S                     S    S           S                                                                I S  S                              I S                             I  S  S                                               S  S   S         D  D   D     D         D       D   D   D    D    D    D   
+
+ um hum the second one is *      *        uh   AUD  38195 uh 
+
+ |   |   |    |     |  |  |      |        |     |     |   |  
+
+Uum hum the second one is Uh Australian dollar 3815   Uh  .  
+
+ S                        I      I        S     S     S   S  
+
+860000 8   6      6    60000 
+
+  |    |   |      |      |   
+
+  *    * 86,086 60,000   .   
+
+  D    D   S      S      S   
+
+mmmmm or 2 weeks 2 weeks okay 2 weeks is fine and then eh and then umm * 
+
+  |   |  |   |   |   |    |   |   |   |   |    |   |   |   |   |    |  | 
+
+Mmmmm or 2 weeks 2 weeks okay 2 weeks is fine and then eh and then umm . 
+
+  S                                                                    I 
+
+and the bank will be bank of   *    cyprus the swift is  *   *  * * bcypcy2n 
+
+ |   |   |    |   |   |   |    |      |     |    |   |   |   |  | |    |     
+
+And the bank will be bank of Cyprus   ,    the swift is BCY PCY 2 N    .     
+
+ S                             I      S                  I   I  I I    S     
+
+this is for service fees 17th of April to 16th  of  July 
+
+ |   |   |     |     |    |   |    |   |   |    |    |   
+
+This is for service fees  *   17 April to  16  July  .   
+
+ S                        D   S            S    S    S   
+
+all same amount    *    * 360000 yes i just i just pick that straight out 
+
+ |   |     |       |    |   |     |  |  |   |  |    |    |      |      |  
+
+All same amount 360,000 .  Yes    ,  I just I just pick that straight out 
+
+ S                 I    I   S     S  S      S                             
+
+so we will remit *     *      US$   203000 
+
+|  |   |     |   |     |       |      |    
+
+So we will remit us dollars 203,000   .    
+
+S                I     I       S      S    
+
+0.93 usd so so we’ll do that uh  i  mean the buy back the euros 
+
+ |    |  |  |    |   |   |   |   |   |    |   |   |    |    |   
+
+0.93 usd .  So we'll do that *  UHI mean the buy back the euros 
+
+         S  S    S           D   S                              
+
+so we'll be doing this for value tomorrow * so the indicative spot rate right now is 1.  uh  3 
+
+|    |   |    |    |    |    |      |     | |   |      |       |    |     |    |  |  |   |   | 
+
+So we'll be doing this for value tomorrow . So the indicative spot rate right now is *  1.UH 3 
+
+S                                         I S                                        D   S     
+
+ *   okay good yeap and the second would be the    *       CAD   er    *        *     CAD   10000 
+
+ |    |    |    |    |   |    |      |   |   |     |        |    |     |        |      |      |   
+
+Okay  .   Good yeap and the second would be the Canadian dollars er Canadian dollars 10,000   .   
+
+ I    S    S                                       I        S          I        I      S      S   
+
+yeah you would like to do it  1  week or 2 week * 
+
+ |    |    |    |   |  |  |   |   |   |  |  |   | 
+
+Yeah you would like to do it one week or 2 week . 
+
+ S                            S                 I 
+
+ter the iban for this transfer is *        fr      76300770489439 
+
+ |   |   |    |   |      |     |  |        |             |        
+
+ter the iban for this transfer is FR 763077-489439       .        
+
+                                  I        S             S        
+
+you need to remit    *    US$  15000  to bank united new york branch the beneficiary * 
+
+ |   |   |    |      |     |     |    |   |     |     |   |     |     |       |      | 
+
+You need to remit $15,000  us dollars to bank United New York branch the beneficiary . 
+
+ S                   I     S     S              S     S   S                          I 
+
+ *   2.117 but this is like as of today * 
+
+ |     |    |   |   |   |   |  |    |   | 
+
+2.17   ,   but this is like as of today . 
+
+ I     S                                I 
+
+*    ya   800350 
+
+|    |      |    
+
+Ya 80,350   .    
+
+I    S      S    
+
+  *   *    *      *   01950000357023318879 and this reference will be service fee * 
+
+  |   |    |      |            |            |   |       |      |   |     |     |  | 
+
+01500 , 0357:023 1879          ,           and this reference will be service fee . 
+
+  I   I    I      I            S                                                  I 
+
+um apparently there were letters sent all they way back febuary saying we are going to be changing the system to all the clients * and i think clients get so much junk mail from the bank that they don't alway read the stuff they also put in that revise * * * * * based * * * * * * * * * *   *   * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * on this and let me tell you that we still have outstanding matters that haven't been read my understanding is that all of the stuff from the 
+
+|      |        |    |      |     |    |   |    |   |      |      |    |   |    |   |  |     |      |    |    |   |   |     |    |  |  |   |      |     |  |   |    |    |    |    |   |    |    |     |     |    |    |    |    |    |    |  |   |     |    | | | | |   |   | | | | | | | | | |   |   | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |   |    |   |  |   |    |   |   |    |    |        |         |     |      |     |    |   |        |       |   |    |  |   |    |    |    |  
+
+um apparently there were letters sent all they way back febuary saying we are going to be changing the system to all the clients . And I think clients get so much junk mail from the bank that they don't alway read the stuff they also put in that revise - - - - - based - - - - - - - - - - based - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -   -    -   -  -   -    -   -   -    -    -        -         -     -      -     -    -   -        -       -   -    -  -   -    -    -    -  
+
+                                                                                                                                 I  S  S                                                                                                                     I I I I I       I I I I I I I I I I   I   I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I S   S    S   S  S   S    S   S   S    S    S        S         S     S      S     S    S   S        S       S   S    S  S   S    S    S    S  
+

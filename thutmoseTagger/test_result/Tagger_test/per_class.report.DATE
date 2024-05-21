@@ -1,0 +1,150 @@
+error: pred=sunday _, 1_  march; inp=sunday the first of march; ref=DATE 6 11 | sunday the first of march | sunday 1 march
+	input=the new look show debuted on sunday the first of march presented by janika ter ellen
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _, 1_ <DELETE> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=the new look show debuted on sunday _, 1_  march presented by janika ter ellen
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN DATE DATE DATE DATE DATE PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=the new look show debuted on sunday 1 march presented by janika ter ellen
+error: pred=_1 5  july _,19 4 1_; inp=the fifteenth of july nineteen forty one; ref=DATE 16 23 | 15th july 1941 | 15 july 1941 | 15th july, 1941 | 15 jul 1941 | the fifteenth of july nineteen forty one
+	input=despatch on operations in the middle east from the seventh of february nineteen forty one to the fifteenth of july nineteen forty one
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <DELETE> _7th_ <DELETE> <SELF> _,19 4 1_ <SELF> _1 5 <DELETE> <SELF> _,19 4 1_
+	pred=despatch on operations in the middle east from  _7th_  february _,19 4 1_ to _1 5  july _,19 4 1_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN DATE DATE DATE DATE DATE DATE DATE PLAIN DATE DATE DATE DATE DATE DATE DATE
+	ref=despatch on operations in the middle east from 7th february, 1941 to 15th july 1941
+error: pred= 4  .06 .20 10_; inp=the fourteenth of june twenty ten; ref=DATE 6 12 | the fourteenth of june twenty ten | 14-06-2010 | 14 jun 2010 | 14 june 2010 | 14.06.2010 | 2010-06-14
+	input=karousis nikolaos tagmatarchis nikos tasis dimitrios the fourteenth of june twenty ten
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <DELETE> 4 <DELETE> .06 .20 10_
+	pred=karousis nikolaos tagmatarchis nikos tasis dimitrios  4  .06 .20 10_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN DATE DATE DATE DATE DATE DATE
+	ref=karousis nikolaos tagmatarchis nikos tasis dimitrios 2010-06-14
+error: pred=_sun._ _, 17_  may _19 7 4_; inp=sunday the seventeenth of may nineteen seventy four; ref=DATE 3 11 | sunday the seventeenth of may nineteen seventy four | sun. 17 may 1974
+	input=san bernardino county sunday the seventeenth of may nineteen seventy four
+	tags=<SELF> <SELF> <SELF> _sun._ _, 17_ <DELETE> <SELF> _19 7 4_
+	pred=san bernardino county _sun._ _, 17_  may _19 7 4_
+	semiotic=PLAIN PLAIN PLAIN DATE DATE DATE DATE DATE DATE DATE DATE
+	ref=san bernardino county sun. 17 may 1974
+error: pred=_1 ,000_; inp=one thousand; ref=DATE 7 9 | 1000, | one thousand | 1000/ | 1000
+	input=the only other asian group numbering over one thousand in the city was the seventeen twenty seven pakistanis
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _1 ,000_ <SELF> <SELF> <SELF> <SELF> <SELF> _17 2 7_ <SELF>
+	pred=the only other asian group numbering over _1 ,000_ in the city was the _17 2 7_ pakistanis
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN DATE DATE DATE PLAIN
+	ref=the only other asian group numbering over 1000 in the city was the 1727 pakistanis
+error: pred=monday _,__august_ _4 ,19 6 9_; inp=monday august fourth nineteen sixty nine; ref=DATE 2 8 | monday august fourth nineteen sixty nine | monday, aug. 4, 1969
+	input=latter days monday august fourth nineteen sixty nine nineteen seventy one
+	tags=<SELF> <SELF> <SELF> _,__august_ _4 ,19 6 9_ _19 7 1_
+	pred=latter days monday _,__august_ _4 ,19 6 9_ _19 7 1_
+	semiotic=PLAIN PLAIN DATE DATE DATE DATE DATE DATE DATE DATE DATE
+	ref=latter days monday, aug. 4, 1969 1971
+error: pred= _19_  .06 _20 11_; inp=the nineteenth of june twenty eleven; ref=DATE 2 8 | 2011-6-19 | the nineteenth of june twenty eleven | 19.06.2011 | 19-06-2011 | 2011-06-19 | 19 june 2011 | 19/06/2011 | 19 jun 2011
+	input=retrieved on the nineteenth of june twenty eleven
+	tags=<SELF> <SELF> <DELETE> _19_ <DELETE> .06 _20 11_
+	pred=retrieved on  _19_  .06 _20 11_
+	semiotic=PLAIN PLAIN DATE DATE DATE DATE DATE DATE
+	ref=retrieved on 2011-06-19
+error: pred= _1_  april _19_ _3 5,_; inp=the first of april nineteen thirty five; ref=DATE 2 9 | the first of april nineteen thirty five | the 1 april 1935 | 1 april 1935
+	input=finally on the first of april nineteen thirty five maclean was placed on the retired list on account of his ill health
+	tags=<SELF> <SELF> <DELETE> _1_ <DELETE> <SELF> _19_ _3 5,_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=finally on  _1_  april _19_ _3 5,_ maclean was placed on the retired list on account of his ill health
+	semiotic=PLAIN PLAIN DATE DATE DATE DATE CARDINAL CARDINAL CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=finally on 1 april 1935 maclean was placed on the retired list on account of his ill health
+error: pred=_2 ,000_; inp=two thousand; ref=DATE 7 9 | 2000/ | two thousand | 2000, | 2000
+	input=the circulation of the magazine is about two thousand
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _2 ,000_
+	pred=the circulation of the magazine is about _2 ,000_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL CARDINAL
+	ref=the circulation of the magazine is about 2000
+error: pred=_mar._ _19 3 3_; inp=march nineteen thirty three; ref=DATE 3 7 | march nineteen thirty three | march 1933 | mar 1933
+	input=five hundred seven march nineteen thirty three p p
+	tags=_5 0 7_ _mar._ _19 3 3_ <DELETE> _pp_
+	pred=_5 0 7_ _mar._ _19 3 3_  _pp_
+	semiotic=CARDINAL CARDINAL CARDINAL DATE DATE DATE DATE VERBATIM VERBATIM
+	ref=507 march 1933 pp
+error: pred=,18 30_; inp=eighteen thirty; ref=DATE 10 12 | 1830/ | eighteen thirty | 1830
+	input=carmichael was born in kings county ireland on october twelfth eighteen thirty and was educated in the irish national schools
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _12 ,18 30_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=carmichael was born in kings county ireland on october _12 ,18 30_ and was educated in the irish national schools
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN DATE DATE DATE DATE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=carmichael was born in kings county ireland on oct. 12 1830 and was educated in the irish national schools
+error: pred= _2  .04 .20 14_; inp=the twentieth of april twenty fourteen; ref=DATE 26 32 | 20 apr 2014 | 20 apr. 2014 | 20 april 2014 | 20.apr.2014 | 2014-04-20 | 20/04/2014 | 20-04-2014 | the twentieth of april twenty fourteen | 20.april.2014
+	input=p u n k n e w s dot o r g review artisti classifica settimanale week sixteen dal the fourteenth of april twenty fourteen al the twentieth of april twenty fourteen in italian
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <DELETE> <DELETE> s.__o <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _16_ <SELF> _1 4 <DELETE> .04 .20 14_ <SELF> <DELETE> _2 <DELETE> .04 .20 14_ <SELF> <SELF>
+	pred=p u n k n e w   s.__o r g review artisti classifica settimanale week _16_ dal _1 4  .04 .20 14_ al  _2  .04 .20 14_ in italian
+	semiotic=ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL PLAIN DATE DATE DATE DATE DATE DATE PLAIN DATE DATE DATE DATE DATE DATE PLAIN PLAIN
+	ref=punknews.org review artisti classifica settimanale wk 16 dal 14-04-2014 al 20-04-2014 in italian
+error: pred=december 18 ,17 3 9_; inp=december eighteenth seventeen thirty nine; ref=DATE 7 12 | dec. 18, 1739 | december eighteenth seventeen thirty nine
+	input=law to prevent purchase of indian lands december eighteenth seventeen thirty nine in sixteen vaughan and rosen at two hundred ninety five chains point two document seventy five
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> 18 ,17 3 9_ <SELF> _16_ <SELF> <SELF> <SELF> <SELF> _2 <DELETE> 9 5_ _ch_ _. 2_ <SELF> _7 5_
+	pred=law to prevent purchase of indian lands december 18 ,17 3 9_ in _16_ vaughan and rosen at _2  9 5_ _ch_ _. 2_ document _7 5_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN DATE DATE DATE DATE DATE PLAIN CARDINAL PLAIN PLAIN PLAIN PLAIN MEASURE MEASURE MEASURE MEASURE MEASURE DECIMAL DECIMAL PLAIN CARDINAL CARDINAL
+	ref=law to prevent purchase of indian lands dec. 18, 1739 in 16 vaughan and rosen at 295 ch .2 document 75
+error: pred=_2 ,000_; inp=two thousand; ref=DATE 0 2 | 2000/ | two thousand | 2000, | 2000
+	input=two thousand yagua people in peru were monolingual in two thousand and of these seventy five percent were women and twenty five percent were men
+	tags=_2 ,000_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _2 000_ <SELF> <SELF> <SELF> _7 5 %_ <SELF> <SELF> <SELF> _2 5 %_ <SELF> <SELF>
+	pred=_2 ,000_ yagua people in peru were monolingual in _2 000_ and of these _7 5 %_ were women and _2 5 %_ were men
+	semiotic=CARDINAL CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN DATE DATE PLAIN PLAIN PLAIN MEASURE MEASURE MEASURE PLAIN PLAIN PLAIN MEASURE MEASURE MEASURE PLAIN PLAIN
+	ref=2000 yagua people in peru were monolingual in 2000 and of these 75% were women and 25% were men
+error: pred=_10: 30_; inp=ten thirty; ref=DATE 6 8 | 1030/ | ten thirty | 1030
+	input=service operates from the courthouse at ten thirty am and twelve thirty p m
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _10: 30_ <SELF> <SELF> _12: 30_ _pm_ <DELETE>
+	pred=service operates from the courthouse at _10: 30_ am and _12: 30_ _pm_ 
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN TIME TIME PLAIN PLAIN TIME TIME TIME TIME
+	ref=service operates from the courthouse at 1030 am and 1230 pm
+error: pred=_12: 30_; inp=twelve thirty; ref=DATE 10 12 | 1230/ | 1230 | twelve thirty
+	input=service operates from the courthouse at ten thirty am and twelve thirty p m
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _10: 30_ <SELF> <SELF> _12: 30_ _pm_ <DELETE>
+	pred=service operates from the courthouse at _10: 30_ am and _12: 30_ _pm_ 
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN TIME TIME PLAIN PLAIN TIME TIME TIME TIME
+	ref=service operates from the courthouse at 1030 am and 1230 pm
+error: pred=the _15_ _may_ may; inp=the fifteenth of may; ref=DATE 5 9 | the 15th may | 15 may. | the fifteenth of may | the 15 may. | 15th may | the 15 may | 15th may. | 15 may | 15 may,
+	input=this fact was revealed in the fifteenth of may issue of t v times magazine
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _15_ _may_ <SELF> <SELF> <SELF> _t v_ <SELF> <SELF>
+	pred=this fact was revealed in the _15_ _may_ may issue of _t v_ times magazine
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN DATE DATE DATE DATE PLAIN PLAIN LETTERS LETTERS PLAIN PLAIN
+	ref=this fact was revealed in the 15 may issue of tv times magazine
+error: pred=_2 ,000_; inp=two thousand; ref=DATE 3 5 | 2000/ | two thousand | 2000, | 2000
+	input=police would demand two thousand to two thousand five hundred from each of the detained bengali speaking people for their release
+	tags=<SELF> <SELF> <SELF> _2 ,000_ <SELF> _2 , 5 00_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=police would demand _2 ,000_ to _2 , 5 00_ from each of the detained bengali speaking people for their release
+	semiotic=PLAIN PLAIN PLAIN CARDINAL CARDINAL PLAIN CARDINAL CARDINAL CARDINAL CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=police would demand 2000 - 2500 from each of the detained bengali speaking people for their release
+error: pred= _10_  october _o o; inp=the tenth of october o o; ref=DATE 2 8 | 10/10/00 | the tenth of october o o
+	input=melody maker the tenth of october o o p fifty four stars out of five the metal album of the year so far
+	tags=<SELF> <SELF> <DELETE> _10_ <DELETE> <SELF> _o <SELF> p_ _5 4_ <SELF> <SELF> <SELF> _5_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=melody maker  _10_  october _o o p_ _5 4_ stars out of _5_ the metal album of the year so far
+	semiotic=PLAIN PLAIN DATE DATE DATE DATE LETTERS LETTERS LETTERS CARDINAL CARDINAL PLAIN PLAIN PLAIN CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=melody maker 10/10/00 p 50 4 stars out of 5 the metal album of the year so far
+error: pred=_2 ,000_; inp=two thousand; ref=DATE 4 6 | 2000/ | two thousand | 2000, | 2000
+	input=now it has around two thousand inhabitants
+	tags=<SELF> <SELF> <SELF> <SELF> _2 ,000_ <SELF>
+	pred=now it has around _2 ,000_ inhabitants
+	semiotic=PLAIN PLAIN PLAIN PLAIN CARDINAL CARDINAL PLAIN
+	ref=now it has around 2000 inhabitants
+error: pred= _1_  january _17_ _8 8,_; inp=the first of january seventeen eighty eight; ref=DATE 1 8 | the first of january seventeen eighty eight | 1 january 1788
+	input=on the first of january seventeen eighty eight wakefield set up a bank in kendal
+	tags=<SELF> <DELETE> _1_ <DELETE> <SELF> _17_ _8 8,_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=on  _1_  january _17_ _8 8,_ wakefield set up a bank in kendal
+	semiotic=PLAIN DATE DATE DATE DATE CARDINAL CARDINAL CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=on 1 january 1788 wakefield set up a bank in kendal
+error: pred=_sun._ _,__april_ _9 ,2 00 6_; inp=sunday april ninth two thousand six; ref=DATE 1 7 | sunday april ninth two thousand six | sun, april 9, 2006 | sunday, april 9, 2006
+	input=ottawa sunday april ninth two thousand six
+	tags=<SELF> _sun._ _,__april_ _9 ,2 00 6_
+	pred=ottawa _sun._ _,__april_ _9 ,2 00 6_
+	semiotic=PLAIN DATE DATE DATE DATE DATE DATE
+	ref=ottawa sun, april 9, 2006
+error: pred=_sep._ 2 4 ,19 8 4_; inp=september twenty fourth nineteen eighty four; ref=DATE 9 15 | sept 24, 1984 | september 24, 1984 | september twenty fourth nineteen eighty four | 09/24/1984
+	input=three thousand three hundred fifty two minus seventy eight september twenty fourth nineteen eighty four
+	tags=_3 <DELETE> 3 <DELETE> 5 2_ _- 7 8_ _sep._ 2 4 ,19 8 4_
+	pred=_3  3  5 2_ _- 7 8_ _sep._ 2 4 ,19 8 4_
+	semiotic=CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL DATE DATE DATE DATE DATE DATE
+	ref=3352 -78 september 24, 1984
+error: pred= _3_  january _20_ _16,_; inp=the third of january twenty sixteen; ref=DATE 2 8 | 03 jan. 2016 | 2016-01-3 | 1-3-2016 | 01-03-2016 | 3 jan. 2016 | 01/03/2016 | 3 jan 2016 | 03 january 2016 | 3rd january 2016 | the third of january twenty sixteen | 2016-01-03 | 1.3.2016 | 3 january 2016 | 3rd jan 2016 | 03 jan 2016 | 3 jan, 2016
+	input=as of the third of january twenty sixteen yahoo
+	tags=<SELF> <SELF> <DELETE> _3_ <DELETE> <SELF> _20_ _16,_ <SELF>
+	pred=as of  _3_  january _20_ _16,_ yahoo
+	semiotic=PLAIN PLAIN DATE DATE DATE DATE CARDINAL CARDINAL PLAIN
+	ref=as of 3 january 2016 yahoo!
+error: pred=_jul._ 19 6 3_; inp=july nineteen sixty three; ref=DATE 6 10 | july nineteen sixty three | july 1963 | jul 1963
+	input=fury and his howling commandos two july nineteen sixty three marvel comicsmccoy paul brian
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> _2_ _jul._ 19 6 3_ <SELF> <SELF> <SELF> <SELF>
+	pred=fury and his howling commandos _2_ _jul._ 19 6 3_ marvel comicsmccoy paul brian
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL DATE DATE DATE DATE PLAIN PLAIN PLAIN PLAIN
+	ref=fury and his howling commandos 2 july 1963 marvel comicsmccoy paul brian

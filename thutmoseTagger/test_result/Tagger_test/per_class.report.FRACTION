@@ -1,0 +1,12 @@
+error: pred=_2 0 06 /1  18  2  5_; inp=two thousand six one hundred eighteen thousand two hundred fifths; ref=FRACTION 3 13 | 2006/118205 | two thousand six one hundred eighteen thousand two hundred fifths
+	input=j p wo two thousand six one hundred eighteen thousand two hundred fifths whispering windows p d f
+	tags=_j p_ <SELF> _2 0 06 /1 <DELETE> 18 <DELETE> 2 <DELETE> 5_ <SELF> <SELF> _p <SELF> f_
+	pred=_j p_ wo _2 0 06 /1  18  2  5_ whispering windows _p d f_
+	semiotic=LETTERS LETTERS PLAIN FRACTION FRACTION FRACTION FRACTION FRACTION FRACTION FRACTION FRACTION FRACTION FRACTION PLAIN PLAIN LETTERS LETTERS LETTERS
+	ref=jp wo 2006/118205 whispering windows pdf
+error: pred= /2_; inp=one half; ref=FRACTION 28 30 | one half | ½ | 1/ 2 | 1 /2 | 1/2 | 1 / 2
+	input=close up of b d half a c c syringes ultrafine thirty gauge one half ultrafine two short thirty one gauge five sixteenths and microfine twenty eight gauge one half
+	tags=<SELF> <SELF> <SELF> _b d_ <SELF> _a <SELF> c_ <SELF> <SELF> _30_ <SELF> <DELETE> _½_ <SELF> _2_ <SELF> _3 1_ <SELF> _5 /16_ <SELF> <SELF> _2 8_ <SELF> <DELETE> /2_
+	pred=close up of _b d_ half _a c c_ syringes ultrafine _30_ gauge  _½_ ultrafine _2_ short _3 1_ gauge _5 /16_ and microfine _2 8_ gauge  /2_
+	semiotic=PLAIN PLAIN PLAIN LETTERS LETTERS PLAIN LETTERS LETTERS LETTERS PLAIN PLAIN CARDINAL PLAIN FRACTION FRACTION PLAIN CARDINAL PLAIN CARDINAL CARDINAL PLAIN FRACTION FRACTION PLAIN PLAIN CARDINAL CARDINAL PLAIN FRACTION FRACTION
+	ref=close up of bd 1/2 cc syringes ultrafine 30 gauge 1/2 ultrafine ii short 31 gauge 5/16 & microfine 28 gauge 1/2

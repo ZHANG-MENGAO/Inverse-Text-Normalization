@@ -1,0 +1,258 @@
+error: pred=_4_ miles; inp=four miles; ref=MEASURE 10 12 | 4 mi | four miles
+	input=the aircraft then exploded after it crashed into a field four miles six kilometers short of don mueang international airport
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _4_ <SELF> _6_ _km_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=the aircraft then exploded after it crashed into a field _4_ miles _6_ _km_ short of don mueang international airport
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL PLAIN MEASURE MEASURE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=the aircraft then exploded after it crashed into a field 4 mi 6 km short of don mueang international airport
+error: pred=_8 ,000_ square meters; inp=eight thousand square meters; ref=MEASURE 2 6 | 8000m² | 8,000m² | 8,000 m² | eight thousand square meters | 8000m2 | 8 000 m 2 | 8,000 m 2 | 8,000 m2 | 8 000 m2 | 8, 000 m2 | 8000 m² | 8000m 2 | 8,000m2 | 8,000m 2 | 8000 m 2 | 8 000 m² | 8000 m2
+	input=with about eight thousand square meters of floorspace it became the largest bookstore chain in taiwan
+	tags=<SELF> <SELF> _8 ,000_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=with about _8 ,000_ square meters of floorspace it became the largest bookstore chain in taiwan
+	semiotic=PLAIN PLAIN CARDINAL CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=with about 8,000m² of floorspace it became the largest bookstore chain in taiwan
+error: pred=_6_ inches; inp=six inches; ref=MEASURE 14 16 | six inches | 6in | 6"
+	input=each clock face is five meters in diameter the hour hands are five f six inches and the minute hands are three meters long
+	tags=<SELF> <SELF> <SELF> <SELF> _5_ _m_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _5_ <SELF> _6_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _3_ _m_ <SELF>
+	pred=each clock face is _5_ _m_ in diameter the hour hands are _5_ f _6_ inches and the minute hands are _3_ _m_ long
+	semiotic=PLAIN PLAIN PLAIN PLAIN CARDINAL MEASURE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL PLAIN MEASURE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN MEASURE MEASURE PLAIN
+	ref=each clock face is 5m in diameter the hour hands are 5 f 6in and the minute hands are 3m long
+error: pred=_2 . 5_ meters; inp=two point five meters; ref=MEASURE 6 10 | two point five meters | 2.5 m | 2.5m
+	input=it has erect stems up to two point five meters tall
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _2 . 5_ <SELF> <SELF>
+	pred=it has erect stems up to _2 . 5_ meters tall
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN DECIMAL DECIMAL DECIMAL PLAIN PLAIN
+	ref=it has erect stems up to 2.5 m tall
+error: pred=_40_ miles per hour; inp=forty miles per hour; ref=MEASURE 8 12 | 40 mph | 40mph | forty miles per hour
+	input=in this area satellites found sustained winds around forty miles per hour sixty five kilometers per hour
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _40_ <SELF> <SELF> <SELF> _6 5_ _km_ _/_ _h_
+	pred=in this area satellites found sustained winds around _40_ miles per hour _6 5_ _km_ _/_ _h_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL PLAIN PLAIN PLAIN MEASURE MEASURE MEASURE MEASURE MEASURE
+	ref=in this area satellites found sustained winds around 40 mph 65 km/h
+error: pred=_90_ miles per hour; inp=ninety miles per hour; ref=MEASURE 13 17 | 90mph | ninety miles per hour | 90 mph
+	input=the hosts were able to clock the speed of his throws at about ninety miles per hour
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _90_ <SELF> <SELF> <SELF>
+	pred=the hosts were able to clock the speed of his throws at about _90_ miles per hour
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL PLAIN PLAIN PLAIN
+	ref=the hosts were able to clock the speed of his throws at about 90 mph
+error: pred=_50_ _mi_  _mph_; inp=fifty miles per hour; ref=MEASURE 22 26 | 50mph | fifty miles per hour | 50 miles/hour | 50 mph | 50 mi/h
+	input=the j t w c assessed the system to have been slightly weaker reporting peak winds of eighty five kilometers per hour fifty miles per hour
+	tags=<SELF> _j <SELF> <SELF> c_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _8 5_ _km_ _/_ _h_ _50_ _mi_ <DELETE> _mph_
+	pred=the _j t w c_ assessed the system to have been slightly weaker reporting peak winds of _8 5_ _km_ _/_ _h_ _50_ _mi_  _mph_
+	semiotic=PLAIN LETTERS LETTERS LETTERS LETTERS PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE
+	ref=the jtwc assessed the system to have been slightly weaker reporting peak winds of 85 km/h 50 mph
+error: pred=_10 ,000_ hectares; inp=ten thousand hectares; ref=MEASURE 8 11 | 10,000 ha | 10,000ha | ten thousand hectares
+	input=cynthia destroyed an irrigation canal in morondava flooding ten thousand hectares twenty five thousand acres of rice fields
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _10 ,000_ <SELF> _2 5 ,000_ <SELF> <SELF> <SELF> <SELF>
+	pred=cynthia destroyed an irrigation canal in morondava flooding _10 ,000_ hectares _2 5 ,000_ acres of rice fields
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL CARDINAL PLAIN CARDINAL CARDINAL CARDINAL PLAIN PLAIN PLAIN PLAIN
+	ref=cynthia destroyed an irrigation canal in morondava flooding 10,000 ha 25,000 acres of rice fields
+error: pred=_2  40 _m_ _m_ _³_; inp=two hundred forty million cubic meters; ref=MEASURE 11 17 | 240,000,000 m3 | two hundred forty million cubic meters
+	input=one example showed an estimated one billion five hundred million barrels two hundred forty million cubic meters of excess fuel oil being reinjected
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> _1 , 5 <DELETE> 00,000,000_ <SELF> _2 <DELETE> 40 _m_ _m_ _³_> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=one example showed an estimated _1 , 5  00,000,000_ barrels _2  40 _m_ _m_ _³_ of excess fuel oil being reinjected
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL PLAIN MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=one example showed an estimated 1,500,000,000 barrels 240,000,000 m3 of excess fuel oil being reinjected
+error: pred=_17_ miles; inp=seventeen miles; ref=MEASURE 6 8 | seventeen miles | 17 mi
+	input=the center of circulation approached within seventeen miles twenty seven kilometers of the coast of mexico on june twenty second
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _17_ <SELF> _2 7_ _km_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _2 2_
+	pred=the center of circulation approached within _17_ miles _2 7_ _km_ of the coast of mexico on june _2 2_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL PLAIN MEASURE MEASURE MEASURE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN DATE DATE DATE
+	ref=the center of circulation approached within 17 mi 27 km of the coast of mexico on june 22
+error: pred=_6  7 5 ,000_ square meters; inp=six hundred seventy five thousand square meters; ref=MEASURE 10 17 | six hundred seventy five thousand square meters | 675,000 m2
+	input=the total built up area of the concourse itself is six hundred seventy five thousand square meters seven million two hundred seventy thousand square feet
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _6 <DELETE> 7 5 ,000_ <SELF> <SELF> _7 , 2 <DELETE> 70 ,000_ _sq_ _ft_
+	pred=the total built up area of the concourse itself is _6  7 5 ,000_ square meters _7 , 2  70 ,000_ _sq_ _ft_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL PLAIN PLAIN MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE
+	ref=the total built up area of the concourse itself is 675,000 m2 7,270,000 sq ft
+error: pred=_1 00 ,000_ _m__2_ _²_; inp=one hundred thousand square meters; ref=MEASURE 10 15 | 100 000m² | 100,000 m 2 | 100,000 m2 | 100 000 m² | one hundred thousand square meters | 100,000 m² | 100 000m 2 | 100,000m2 | 100 000 m 2
+	input=the first phase of dubai marina covers twenty five acres one hundred thousand square meters which includes six freehold apartment buildings dubai marina towers
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _2 5_ <SELF> _1 00 ,000_ _m__2_ _²_> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=the first phase of dubai marina covers _2 5_ acres _1 00 ,000_ _m__2_ _²_ which includes six freehold apartment buildings dubai marina towers
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL CARDINAL PLAIN MEASURE MEASURE MEASURE MEASURE MEASURE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=the first phase of dubai marina covers 25 acres 100,000 m2 which includes six freehold apartment buildings dubai marina towers
+error: pred=_2 5_ _g_ _/_ _kg_; inp=twenty five grams per kilogram; ref=MEASURE 7 12 | twenty five grams per kilogram | 25 g per kg
+	input=the nettle dosage can be increased to twenty five grams per kilogram feed without impairing the performance
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _2 5_ _g_ _/_ _kg_ <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=the nettle dosage can be increased to _2 5_ _g_ _/_ _kg_ feed without impairing the performance
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN MEASURE MEASURE MEASURE MEASURE MEASURE PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=the nettle dosage can be increased to 25 g per kg feed without impairing the performance
+error: pred=_4 3 . 7 _pc_; inp=forty three point seven percent; ref=MEASURE 0 5 | 43.7 percent | forty three point seven percent | 43.7%
+	input=forty three point seven percent toll road fares too high
+	tags=_4 3 . 7 _pc_ <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=_4 3 . 7 _pc_ toll road fares too high
+	semiotic=MEASURE MEASURE MEASURE MEASURE MEASURE PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=43.7% toll road fares too high
+error: pred=_7 7 ,000_ _m__2_ _²_; inp=seventy seven thousand square meters; ref=MEASURE 7 12 | seventy seven thousand square meters | 77,000 m2 | 77,000 m² | 77,000 m 2
+	input=averett's main campus is a nineteen acre seventy seven thousand square meters campus located on west main street in danville
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> _19_ <SELF> _7 7 ,000_ _m__2_ _²_> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=averett's main campus is a _19_ acre _7 7 ,000_ _m__2_ _²_ campus located on west main street in danville
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL PLAIN MEASURE MEASURE MEASURE MEASURE MEASURE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=averett's main campus is a 19 acre 77,000 m2 campus located on west main street in danville
+error: pred=_1 , 3 00_ meters; inp=one thousand three hundred meters; ref=MEASURE 13 18 | 1,300m | 1,300 m | 1300m | one thousand three hundred meters | 1300 m | 1 300 m
+	input=boge is located in the prokletije mountain range on an altitude of about one thousand three hundred meters to one thousand four hundred meters
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _1 , 3 00_ <SELF> <SELF> _1 , 4 00_ <SELF>
+	pred=boge is located in the prokletije mountain range on an altitude of about _1 , 3 00_ meters to _1 , 4 00_ meters
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL CARDINAL CARDINAL CARDINAL PLAIN PLAIN CARDINAL CARDINAL CARDINAL CARDINAL PLAIN
+	ref=boge is located in the prokletije mountain range on an altitude of about 1,300m - 1,400m
+error: pred=_1 , 4 00_ meters; inp=one thousand four hundred meters; ref=MEASURE 19 24 | 1400 m | 1,400m | 1,400 m | one thousand four hundred meters | 1400m
+	input=boge is located in the prokletije mountain range on an altitude of about one thousand three hundred meters to one thousand four hundred meters
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _1 , 3 00_ <SELF> <SELF> _1 , 4 00_ <SELF>
+	pred=boge is located in the prokletije mountain range on an altitude of about _1 , 3 00_ meters to _1 , 4 00_ meters
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL CARDINAL CARDINAL CARDINAL PLAIN PLAIN CARDINAL CARDINAL CARDINAL CARDINAL PLAIN
+	ref=boge is located in the prokletije mountain range on an altitude of about 1,300m - 1,400m
+error: pred=_50_ _mi_  _mph_; inp=fifty miles per hour; ref=MEASURE 0 4 | 50mph | fifty miles per hour | 50 miles/hour | 50 mph | 50 mi/h
+	input=fifty miles per hour eighty kilometers per hour tropical storm thelma hit the central philippines on november fourth
+	tags=_50_ _mi_ <DELETE> _mph_ _80_ _km_ _/_ _h_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _4_
+	pred=_50_ _mi_  _mph_ _80_ _km_ _/_ _h_ tropical storm thelma hit the central philippines on november _4_
+	semiotic=MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN DATE DATE
+	ref=50 mph 80 km/h tropical storm thelma hit the central philippines on november 4
+error: pred=_16 000_  _m_; inp=sixteen thousand cubic meters; ref=MEASURE 23 27 | 16000 m³ | 16000 m 3 | 16,000 m3 | sixteen thousand cubic meters
+	input=the project which could cost as much as twenty seven dollars billion would be built in four one hundred thousand barrel per day sixteen thousand cubic meters d stages
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _$<< _2 7_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _1 00 ,000_ <SELF> _/_ <SELF> _16 000_ <DELETE> _m_ <SELF> <SELF>
+	pred=the project which could cost as much as _$ _2 7_ billion would be built in four _1 00 ,000_ barrel _/_ day _16 000_  _m_ d stages
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN MONEY MONEY MONEY PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL CARDINAL CARDINAL PLAIN MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE PLAIN PLAIN
+	ref=the project which could cost as much as $27 billion would be built in four 100,000 barrel per day 16,000 m3 d stages
+error: pred=_1  4 3 . 6 /_ _2_ _²_; inp=one hundred forty three point six per square kilometers; ref=MEASURE 23 32 | 143.6/km 2 | 143.6/km2 | one hundred forty three point six per square kilometers | 143.6/km²
+	input=there were eleven thousand eight hundred twelve housing units at an average density of three hundred seventy two point zero per square mile one hundred forty three point six per square kilometers
+	tags=<SELF> <SELF> _11 , 8 <DELETE> 12_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _3 <DELETE> 7 2 . 0_ <SELF> <SELF> <SELF> _1 <DELETE> 4 3 . 6 /_ _2_ _²_>
+	pred=there were _11 , 8  12_ housing units at an average density of _3  7 2 . 0_ per square mile _1  4 3 . 6 /_ _2_ _²_
+	semiotic=PLAIN PLAIN CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN DECIMAL DECIMAL DECIMAL DECIMAL DECIMAL DECIMAL PLAIN PLAIN PLAIN MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE
+	ref=there were 11,812 housing units at an average density of 372.0 per square mile 143.6/km²
+error: pred=_4  50_ meters; inp=four hundred fifty meters; ref=MEASURE 10 14 | 450m | four hundred fifty meters | 450 m
+	input=it occupies water at a range of four hundred and four hundred fifty meters one thousand three hundred ten and one thousand four hundred eighty feet
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _4 00_ <SELF> _4 <DELETE> 50_ <SELF> _1 , 3 <DELETE> 10_ <SELF> _1 , 4 <DELETE> 80_ _ft_
+	pred=it occupies water at a range of _4 00_ and _4  50_ meters _1 , 3  10_ and _1 , 4  80_ _ft_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL CARDINAL PLAIN CARDINAL CARDINAL CARDINAL PLAIN CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL PLAIN MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE
+	ref=it occupies water at a range of 400 and 450 m 1,310 and 1,480 ft
+error: pred=_15_ kilometers; inp=fifteen kilometers; ref=MEASURE 18 20 | 15 km | fifteen kilometers | 15km
+	input=it was the economic political and cultural center of an area with a radius of about ten to fifteen kilometers
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _10_ <SELF> _15_ <SELF>
+	pred=it was the economic political and cultural center of an area with a radius of about _10_ to _15_ kilometers
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL PLAIN CARDINAL PLAIN
+	ref=it was the economic political and cultural center of an area with a radius of about 10 to 15 km
+error: pred=_12 . 6_ miles; inp=twelve point six miles; ref=MEASURE 25 29 | twelve point six miles | 12.6 mi
+	input=the flam line norwegian flamsbana is a twenty dot t w o d a s h k i l o m e t e r twelve point six miles long railway line between myrdal and flam in aurland norway
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _20_ _. <DELETE> 2 <DELETE> <DELETE> -_ <DELETE> <DELETE> <DELETE> <DELETE> <DELETE> <DELETE> _meter_ <DELETE> <DELETE> <DELETE> <DELETE> _12 . 6_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=the flam line norwegian flamsbana is a _20_ _.  2   -_       _meter_     _12 . 6_ miles long railway line between myrdal and flam in aurland norway
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM MEASURE MEASURE MEASURE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=the flam line norwegian flamsbana is a 20 .2-kilometer 12.6 mi long railway line between myrdal and flam in aurland norway
+error: pred=_70_ miles per hour; inp=seventy miles per hour; ref=MEASURE 9 13 | seventy miles per hour | 70 mph | 70mph
+	input=around that time it reached its peak winds of seventy miles per hour one hundred ten kilometers per hour
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _70_ <SELF> <SELF> <SELF> _1 <DELETE> 10_ _km_ _/_ _h_
+	pred=around that time it reached its peak winds of _70_ miles per hour _1  10_ _km_ _/_ _h_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL PLAIN PLAIN PLAIN MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE
+	ref=around that time it reached its peak winds of 70 mph 110 km/h
+error: pred=_6 2 ,000_ square feet; inp=sixty two thousand square feet; ref=MEASURE 1 6 | sixty two thousand square feet | 62,000 sq ft
+	input=the sixty two thousand square feet five thousand eight hundred square meters artisphere facility was converted at a cost of six point seven million dollars
+	tags=<SELF> _6 2 ,000_ <SELF> <SELF> _5 , 8 00_ <DELETE> _m__2_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _$<< _6 . 7_ <SELF>
+	pred=the _6 2 ,000_ square feet _5 , 8 00_  _m__2_ artisphere facility was converted at a cost of _$ _6 . 7_ dollars
+	semiotic=PLAIN CARDINAL CARDINAL CARDINAL PLAIN PLAIN MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN MONEY MONEY MONEY MONEY MONEY
+	ref=the 62,000 sq ft 5,800 m2 artisphere facility was converted at a cost of $6.7 million
+error: pred=_3 , 7  4 7_ feet; inp=three thousand seven hundred forty seven feet; ref=MEASURE 3 10 | 3,747 ft | three thousand seven hundred forty seven feet
+	input=its elevation is three thousand seven hundred forty seven feet
+	tags=<SELF> <SELF> <SELF> _3 , 7 <DELETE> 4 7_ <SELF>
+	pred=its elevation is _3 , 7  4 7_ feet
+	semiotic=PLAIN PLAIN PLAIN CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL PLAIN
+	ref=its elevation is 3,747 ft
+error: pred=_8  3 1 000_ _km_ _³_; inp=eight hundred thirty one thousand cubic kilometers; ref=MEASURE 12 19 | eight hundred thirty one thousand cubic kilometers | 831,000 km3
+	input=as it reaches the dam the angara's river basin area accounts for eight hundred thirty one thousand cubic kilometers
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _8 <DELETE> 3 1 000_ _km_ _³_>
+	pred=as it reaches the dam the angara's river basin area accounts for _8  3 1 000_ _km_ _³_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE
+	ref=as it reaches the dam the angara's river basin area accounts for 831,000 km3
+error: pred=_1  4 7 ,000_ square feet; inp=one hundred forty seven thousand square feet; ref=MEASURE 7 14 | 147,000 sq ft | one hundred forty seven thousand square feet
+	input=the casino floor has an area of one hundred forty seven thousand square feet thirteen thousand seven hundred square meters with ninety nine gaming tables and four thousand two hundred slot machines
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _1 <DELETE> 4 7 ,000_ <SELF> <SELF> _13 , 7 00_ <DELETE> _m__2_ <SELF> _9 9_ <SELF> <SELF> <SELF> _4 , 2 00_ <SELF> <SELF>
+	pred=the casino floor has an area of _1  4 7 ,000_ square feet _13 , 7 00_  _m__2_ with _9 9_ gaming tables and _4 , 2 00_ slot machines
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL PLAIN PLAIN MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE PLAIN CARDINAL CARDINAL PLAIN PLAIN PLAIN CARDINAL CARDINAL CARDINAL CARDINAL PLAIN PLAIN
+	ref=the casino floor has an area of 147,000 sq ft 13,700 m2 with 99 gaming tables and 4,200 slot machines
+error: pred=_1  2 8 . 7 /_ _km_ _km_; inp=one hundred twenty eight point seven per square kilometers; ref=MEASURE 19 28 | 128.7/km 2 | 128.7/km2 | one hundred twenty eight point seven per square kilometers | 128.7/km²
+	input=the three thousand four hundred forty five housing units averaged three hundred thirty three point one per square mile one hundred twenty eight point seven per square kilometers
+	tags=<SELF> _3 , 4 <DELETE> 4 5_ <SELF> <SELF> <SELF> _3 <DELETE> 3 3 . 1_ <SELF> <SELF> <SELF> _1 <DELETE> 2 8 . 7 /_ _km_ _km_
+	pred=the _3 , 4  4 5_ housing units averaged _3  3 3 . 1_ per square mile _1  2 8 . 7 /_ _km_ _km_
+	semiotic=PLAIN CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL PLAIN PLAIN PLAIN DECIMAL DECIMAL DECIMAL DECIMAL DECIMAL DECIMAL PLAIN PLAIN PLAIN MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE
+	ref=the 3,445 housing units averaged 333.1 per square mile 128.7/km²
+error: pred=_1 , 5  3 6_ hectares; inp=one thousand five hundred thirty six hectares; ref=MEASURE 6 13 | one thousand five hundred thirty six hectares | 1,536 ha
+	input=of the total la selva property one thousand five hundred thirty six hectares fifty five percent is characterized as species rich multilayered communities of primary forest
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _1 , 5 <DELETE> 3 6_ <SELF> _5 5 %_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=of the total la selva property _1 , 5  3 6_ hectares _5 5 %_ is characterized as species rich multilayered communities of primary forest
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL PLAIN MEASURE MEASURE MEASURE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=of the total la selva property 1,536 ha 55% is characterized as species rich multilayered communities of primary forest
+error: pred=_6 5 , 2  4 6 ,000_ _m_ _³_; inp=sixty five million two hundred forty six thousand cubic meters; ref=MEASURE 14 24 | sixty five million two hundred forty six thousand cubic meters | 65,246,000 m3
+	input=over the year this constitutes fifty two thousand eight hundred ninety six acre feet sixty five million two hundred forty six thousand cubic meters of water
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> _5 2 , 8 <DELETE> 9 6_ <SELF> <SELF> _6 5 , 2 <DELETE> 4 6 ,000_ _m_ _³_> <SELF> <SELF>
+	pred=over the year this constitutes _5 2 , 8  9 6_ acre feet _6 5 , 2  4 6 ,000_ _m_ _³_ of water
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL PLAIN PLAIN MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE PLAIN PLAIN
+	ref=over the year this constitutes 52,896 acre feet 65,246,000 m3 of water
+error: pred=_9  90_ meters; inp=nine hundred ninety meters; ref=MEASURE 2 6 | nine hundred ninety meters | 990 m | 990m
+	input=cobanlar is nine hundred ninety meters high sea level
+	tags=<SELF> <SELF> _9 <DELETE> 90_ <SELF> <SELF> <SELF> <SELF>
+	pred=cobanlar is _9  90_ meters high sea level
+	semiotic=PLAIN PLAIN CARDINAL CARDINAL CARDINAL PLAIN PLAIN PLAIN PLAIN
+	ref=cobanlar is 990 m high sea level
+error: pred=_4 4 /1 00_   _pc_; inp=forty four one hundredths of a percent; ref=MEASURE 17 24 | 44/100% | forty four one hundredths of a percent | 44/100 percent
+	input=d v d savant blu ray review action double feature the nickel ride and ninety nine and forty four one hundredths of a percent dead
+	tags=_d <SELF> d_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _9 9_ <SELF> _4 4 /1 00_ <DELETE> <DELETE> _pc_ <SELF>
+	pred=_d v d_ savant blu ray review action double feature the nickel ride and _9 9_ and _4 4 /1 00_   _pc_ dead
+	semiotic=LETTERS LETTERS LETTERS PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL CARDINAL PLAIN MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE PLAIN
+	ref=dvd savant blu ray review action double feature the nickel ride and 99 and 44/100% dead
+error: pred=_20_ degrees celsius; inp=twenty degrees celsius; ref=MEASURE 11 14 | twenty degrees celsius | 20 degrees c
+	input=within just a few meters temperatures can range from fifteen to twenty degrees celsius what one would call a micro climate
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _15_ <SELF> _20_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=within just a few meters temperatures can range from _15_ to _20_ degrees celsius what one would call a micro climate
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL PLAIN CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=within just a few metres temperatures can range from 15 to 20 degrees c what one would call a micro climate
+error: pred=_11_ feet; inp=eleven feet; ref=MEASURE 18 20 | 11' | 11 ft | eleven feet
+	input=it had a diameter of ten point five meters thirty four feet with walls three point five meters eleven feet thick at the bottom
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> _10 0. 5_ _m_ _3 4_ _ft_ <SELF> <SELF> _3 . 5_ _m_ _11_ <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=it had a diameter of _10 0. 5_ _m_ _3 4_ _ft_ with walls _3 . 5_ _m_ _11_ feet thick at the bottom
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN DECIMAL MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE PLAIN PLAIN MEASURE MEASURE MEASURE MEASURE MEASURE PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=it had a diameter of 10.5 metres 34 ft with walls 3.5 metres 11 ft thick at the bottom
+error: pred=_4 . 3 2_ _2_ _²_; inp=four point three two square kilometers; ref=MEASURE 19 25 | four point three two square kilometers | 4.32 km2
+	input=the archipelago contains five uninhabited islands and three barren rocks ranging in size from eight hundred square meters to four point three two square kilometers
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _8 00_ <DELETE> _m__2_ <SELF> _4 . 3 2_ _2_ _²_>
+	pred=the archipelago contains five uninhabited islands and three barren rocks ranging in size from _8 00_  _m__2_ to _4 . 3 2_ _2_ _²_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN MEASURE MEASURE MEASURE MEASURE PLAIN MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE
+	ref=the archipelago contains five uninhabited islands and three barren rocks ranging in size from 800 m2 to 4.32 km2
+error: pred=_1 , 9  6 7 /_ _km_ _²_; inp=one thousand nine hundred sixty seven per square kilometers; ref=MEASURE 4 13 | one thousand nine hundred sixty seven per square kilometers | 1,967/km2
+	input=the population density was one thousand nine hundred sixty seven per square kilometers five thousand ninety square mi and for every one hundred females there were ninety three point five males
+	tags=<SELF> <SELF> <SELF> <SELF> _1 , 9 <DELETE> 6 7 /_ _km_ _²_> _5 , 090_ _sq_ <SELF> <SELF> <SELF> <SELF> _1 00_ <SELF> <SELF> <SELF> _9 3 . 5_ <SELF>
+	pred=the population density was _1 , 9  6 7 /_ _km_ _²_ _5 , 090_ _sq_ mi and for every _1 00_ females there were _9 3 . 5_ males
+	semiotic=PLAIN PLAIN PLAIN PLAIN MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE CARDINAL CARDINAL CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL CARDINAL PLAIN PLAIN PLAIN DECIMAL DECIMAL DECIMAL DECIMAL PLAIN
+	ref=the population density was 1,967/km2 5,090 sq mi and for every 100 females there were 93.5 males
+error: pred=_16 ,000_ pounds; inp=sixteen thousand pounds; ref=MEASURE 0 3 | sixteen thousand pounds | 16,000 lbs | 16,000 lb
+	input=sixteen thousand pounds thrust flight the fifteenth of february one nine five seven p two hundred laming two thousand two p sixty two
+	tags=_16 ,000_ <SELF> <SELF> <SELF> <DELETE> _15_ <DELETE> <SELF> _1 9 5 7_ <SELF> _2 00_ <SELF> _2 00 2_ <SELF> _6 2_
+	pred=_16 ,000_ pounds thrust flight  _15_  february _1 9 5 7_ p _2 00_ laming _2 00 2_ p _6 2_
+	semiotic=CARDINAL CARDINAL PLAIN PLAIN PLAIN DATE DATE DATE DATE DIGIT DIGIT DIGIT DIGIT PLAIN CARDINAL CARDINAL PLAIN DATE DATE DATE PLAIN CARDINAL CARDINAL
+	ref=16,000 lb thrust flight 15 february 1957 p 200 laming 2002 p 62
+error: pred=_3  6 9 . 7 /_ _2_ _²_; inp=three hundred sixty nine point seven per square kilometers; ref=MEASURE 20 29 | 369.7/km2 | 369.7/km 2 | 369.7/km² | three hundred sixty nine point seven per square kilometers
+	input=there were three hundred sixteen housing units at an average density of nine hundred fifty point four per square mile three hundred sixty nine point seven per square kilometers
+	tags=<SELF> <SELF> _3 <DELETE> 16_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _9 <DELETE> 5 0. 4_ <SELF> <SELF> <SELF> _3 <DELETE> 6 9 . 7 /_ _2_ _²_>
+	pred=there were _3  16_ housing units at an average density of _9  5 0. 4_ per square mile _3  6 9 . 7 /_ _2_ _²_
+	semiotic=PLAIN PLAIN CARDINAL CARDINAL CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN DECIMAL DECIMAL DECIMAL DECIMAL DECIMAL PLAIN PLAIN PLAIN MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE
+	ref=there were 316 housing units at an average density of 950.4 per square mile 369.7/km2
+error: pred=_6_ _cm_ _²_; inp=six square centimeters; ref=MEASURE 19 22 | 6 cm2 | six square centimeters
+	input=the turbocharger was a reverse rotation mitsubishi t d o four l r one five g k with a six square centimeters zero point nine three square in turbine inlet
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _t d_ _0 4_ <SELF> r__-_ _1 5_ _g k_ <SELF> <SELF> _6_ _cm_ _²_> _0 . 9 3_ _sq_ <SELF> <SELF> <SELF>
+	pred=the turbocharger was a reverse rotation mitsubishi _t d_ _0 4_ l r__-_ _1 5_ _g k_ with a _6_ _cm_ _²_ _0 . 9 3_ _sq_ in turbine inlet
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN LETTERS LETTERS DIGIT DIGIT PLAIN LETTERS DIGIT DIGIT LETTERS LETTERS PLAIN PLAIN MEASURE MEASURE MEASURE DECIMAL DECIMAL DECIMAL DECIMAL PLAIN PLAIN PLAIN PLAIN
+	ref=the turbocharger was a reverse rotation mitsubishi td 04 lr- 15 gk with a 6 cm2 0.93 sq in turbine inlet
+error: pred=_1  5 00_ meters; inp=one thousand five hundred meters; ref=MEASURE 22 27 | 1500m | 1500 m | 1,500m | one thousand five hundred meters | 1,500 m | 1 500 m
+	input=in rome italy during the summer of nineteen ninety one clark also ran three minutes thirty nine seconds and forty milliseconds for one thousand five hundred meters
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _19 9 1_ <SELF> <SELF> <SELF> _3: <DELETE> 3 9: <DELETE> <DELETE> 4 0_ <SELF> _1 <DELETE> 5 00_ <SELF>
+	pred=in rome italy during the summer of _19 9 1_ clark also ran _3:  3 9:   4 0_ for _1  5 00_ meters
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN DATE DATE DATE PLAIN PLAIN PLAIN TIME TIME TIME TIME TIME TIME TIME TIME PLAIN CARDINAL CARDINAL CARDINAL CARDINAL PLAIN
+	ref=in rome italy during the summer of 1991 clark also ran 3:39.40 for 1500m
+error: pred=_60_ feet; inp=sixty feet; ref=MEASURE 22 24 | sixty feet | 60 ft | 60ft | 60'
+	input=it covers one hundred sixty acres sixty five hectares its one runway eight twenty sixths is four thousand four hundred two by sixty feet one thousand three hundred forty two by eighteen meters asphalt
+	tags=<SELF> <SELF> _1 <DELETE> 60_ <SELF> _6 5_ _ha_ <SELF> <SELF> <SELF> _8 /2 6_ <SELF> _4 , 4 0 2_ <SELF> _60_ <SELF> _1 , 3 <DELETE> 4 2_ _x_ _18_ _m_ <SELF>
+	pred=it covers _1  60_ acres _6 5_ _ha_ its one runway _8 /2 6_ is _4 , 4 0 2_ by _60_ feet _1 , 3  4 2_ _x_ _18_ _m_ asphalt
+	semiotic=PLAIN PLAIN CARDINAL CARDINAL CARDINAL PLAIN MEASURE MEASURE MEASURE PLAIN PLAIN PLAIN FRACTION FRACTION FRACTION PLAIN CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL PLAIN CARDINAL PLAIN CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL PLAIN MEASURE MEASURE PLAIN
+	ref=it covers 160 acres 65 ha its one runway 8/26 is 4,402 x  60 ft 1,342 x  18 m asphalt
+error: pred=_80_ miles per hour; inp=eighty miles per hour; ref=MEASURE 18 22 | eighty miles per hour | 80 mph | 80mph
+	input=larger models were planned including the c fifteen a four seater car capable of speeds of up to eighty miles per hour one hundred thirty kilometers per hour
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _15_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _80_ <SELF> <SELF> <SELF> _1 <DELETE> 30_ _km_ _/_ _h_
+	pred=larger models were planned including the c _15_ a four seater car capable of speeds of up to _80_ miles per hour _1  30_ _km_ _/_ _h_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN ADDRESS ADDRESS PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL PLAIN PLAIN PLAIN MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE
+	ref=larger models were planned including the c15 a four seater car capable of speeds of up to 80 mph 130 km/h

@@ -1,0 +1,528 @@
+error: pred=_o _c._; inp=o c; ref=LETTERS 16 18 | oc a | o. c. | oc | o'c | o.c. | oc- | o c
+	input=the two albums also garnered best electronic nominations in the two thousand nine and twenty ten o c music awards
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _2 00 9_ <SELF> _20 10_ _o _c._ <SELF> <SELF>
+	pred=the two albums also garnered best electronic nominations in the _2 00 9_ and _20 10_ _o _c._ music awards
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN DATE DATE DATE PLAIN DATE DATE LETTERS LETTERS PLAIN PLAIN
+	ref=the two albums also garnered best electronic nominations in the 2009 and 2010 oc music awards
+error: pred=_u._ s_; inp=u s; ref=LETTERS 0 2 | us | us i- | us, | u.s.a | us m | u.s. us | us us | u.s.- | u.s. m | u.s. | u.s. high | us b | us- | u. s. | u s | u.s. a
+	input=u s e p a lead
+	tags=_u._ s_ _e <SELF> a_ <SELF>
+	pred=_u._ s_ _e p a_ lead
+	semiotic=LETTERS LETTERS LETTERS LETTERS LETTERS PLAIN
+	ref=us epa lead
+error: pred=_m _g._; inp=m g; ref=LETTERS 1 3 | mg a | m g | mg | m. g. | mg- | m.g.
+	input=morony m g two thousand five
+	tags=<SELF> _m _g._ _2 00 5_
+	pred=morony _m _g._ _2 00 5_
+	semiotic=PLAIN LETTERS LETTERS DATE DATE DATE
+	ref=morony m.g. 2005
+error: pred=_p._ c_; inp=p c; ref=LETTERS 1 3 | pc' | pc- | p c | p.c. | pc | pc, | p. c.
+	input=rasmussen p c and j c anderton two thousand five
+	tags=<SELF> _p._ c_ <SELF> _j._ _c._ <SELF> _2 00 5_
+	pred=rasmussen _p._ c_ and _j._ _c._ anderton _2 00 5_
+	semiotic=PLAIN LETTERS LETTERS PLAIN LETTERS LETTERS PLAIN DATE DATE DATE
+	ref=rasmussen pc & jc anderton 2005
+error: pred=e _y._ _b._; inp=e y b; ref=LETTERS 2 5 | e.y.b. | eyb | e y b
+	input=lin h e y b pun b j chen and y y zhang
+	tags=<SELF> _h._ <SELF> _y._ _b._ <SELF> _b._ _j._ <SELF> <SELF> _y._ _y._ <SELF>
+	pred=lin _h._ e _y._ _b._ pun _b._ _j._ chen and _y._ _y._ zhang
+	semiotic=PLAIN LETTERS LETTERS LETTERS LETTERS PLAIN LETTERS LETTERS PLAIN PLAIN LETTERS LETTERS PLAIN
+	ref=lin h. e.y.b. pun b.j. chen and y.y. zhang
+error: pred=_o._ k_; inp=o k; ref=LETTERS 6 8 | ok | o. k. | o'k | o k | o.k. | ok- | 'ok
+	input=hennings k arendt nielsen l andersen o k two thousand five
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _o._ k_ _2 00 5_
+	pred=hennings k arendt nielsen l andersen _o._ k_ _2 00 5_
+	semiotic=PLAIN PLAIN PLAIN PLAIN LETTERS PLAIN LETTERS LETTERS DATE DATE DATE
+	ref=hennings k. arendt nielsen l. andersen o. k. 2005
+error: pred=_l _t._ _t._; inp=l t t; ref=LETTERS 1 4 | l. t. t. | l t t | ltt | ltt-
+	input=dinh l t t guo y mannan m s two thousand nine
+	tags=<SELF> _l _t._ _t._ <SELF> <SELF> <SELF> _m._ s_ _2 00 9_
+	pred=dinh _l _t._ _t._ guo y mannan _m._ s_ _2 00 9_
+	semiotic=PLAIN LETTERS LETTERS LETTERS PLAIN PLAIN PLAIN LETTERS LETTERS DATE DATE DATE
+	ref=dinh l. t. t. guo y. mannan m. s. 2009
+error: pred=_m._ s_; inp=m s; ref=LETTERS 7 9 | ms, | ms- | m s | m. s. | ms | ms a | m.s.
+	input=dinh l t t guo y mannan m s two thousand nine
+	tags=<SELF> _l _t._ _t._ <SELF> <SELF> <SELF> _m._ s_ _2 00 9_
+	pred=dinh _l _t._ _t._ guo y mannan _m._ s_ _2 00 9_
+	semiotic=PLAIN LETTERS LETTERS LETTERS PLAIN PLAIN PLAIN LETTERS LETTERS DATE DATE DATE
+	ref=dinh l. t. t. guo y. mannan m. s. 2009
+error: pred=_o._ _c._ s_; inp=o c s; ref=LETTERS 11 14 | o c s | ocs- | o.c.s. | ocs
+	input=this was the first in a series of additions designed by o c s ziroli
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _o._ _c._ s_ <SELF>
+	pred=this was the first in a series of additions designed by _o._ _c._ s_ ziroli
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN LETTERS LETTERS LETTERS PLAIN
+	ref=this was the first in a series of additions designed by o.c.s. ziroli
+error: pred=_b _s._; inp=b s; ref=LETTERS 3 5 | b. s. | b s | bs i- | bs, | b.s. | bs- | bs
+	input=bailey holds a b s degree in psychology from the state university of new york
+	tags=<SELF> <SELF> <SELF> _b _s._ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=bailey holds a _b _s._ degree in psychology from the state university of new york
+	semiotic=PLAIN PLAIN PLAIN LETTERS LETTERS PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=bailey holds a b.s. degree in psychology from the state university of new york
+error: pred=_u _s._; inp=u s; ref=LETTERS 5 7 | us | us i- | us, | u.s.a | us m | u.s. us | us us | u.s.- | u.s. m | u.s. | u.s. high | us b | us- | u. s. | u s | u.s. a
+	input=in twenty nineteen a new u s asset is expected to become operational
+	tags=<SELF> _20 19_ <SELF> <SELF> _u _s._ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=in _20 19_ a new _u _s._ asset is expected to become operational
+	semiotic=PLAIN DATE DATE PLAIN PLAIN LETTERS LETTERS PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=in 2019 a new us asset is expected to become operational
+error: pred=_w _w._; inp=w w; ref=LETTERS 15 17 | w w | w. w. | ww | w.w. | ww-
+	input=one hundred sixty three sheet fourteen a page two ninety two a line forty seven w w pool book keeper
+	tags=_1 <DELETE> 6 3_ <SELF> _14_ <SELF> <SELF> _2_ _9 2,_ <SELF> <SELF> _4 7_ _w _w._ <SELF> <SELF> <SELF>
+	pred=_1  6 3_ sheet _14_ a page _2_ _9 2,_ a line _4 7_ _w _w._ pool book keeper
+	semiotic=CARDINAL CARDINAL CARDINAL CARDINAL PLAIN CARDINAL PLAIN PLAIN CARDINAL CARDINAL CARDINAL PLAIN PLAIN CARDINAL CARDINAL LETTERS LETTERS PLAIN PLAIN PLAIN
+	ref=163 sheet 14  a page 2 92  a line 47 w.w. pool book keeper
+error: pred=_p _r._; inp=p r; ref=LETTERS 4 6 | pr- | p. r. | pr | p r | p.r.
+	input=unesco consultant in beijing p r china nineteen eighty one
+	tags=<SELF> <SELF> <SELF> <SELF> _p _r._ <SELF> _19 8 1_
+	pred=unesco consultant in beijing _p _r._ china _19 8 1_
+	semiotic=PLAIN PLAIN PLAIN PLAIN LETTERS LETTERS PLAIN DATE DATE DATE
+	ref=unesco consultant in beijing pr china 1981
+error: pred=_b _a._; inp=b a; ref=LETTERS 3 5 | ba | b'a | 'ba | b. a. | b a | ba- | b.a.
+	input=bodine earned her b a in political science and asian studies magna cum laude from the university of california santa barbara
+	tags=<SELF> <SELF> <SELF> _b _a._ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=bodine earned her _b _a._ in political science and asian studies magna cum laude from the university of california santa barbara
+	semiotic=PLAIN PLAIN PLAIN LETTERS LETTERS PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=bodine earned her b.a. in political science and asian studies magna cum laude from the university of california santa barbara
+error: pred=_j _a._; inp=j a; ref=LETTERS 1 3 | j a | j. a. | 'ja | ja- | ja | j.a.
+	input=love j a yi e smith t g two thousand seven
+	tags=<SELF> _j _a._ <SELF> <SELF> <SELF> _t g_ _2 00 7_
+	pred=love _j _a._ yi e smith _t g_ _2 00 7_
+	semiotic=PLAIN LETTERS LETTERS PLAIN PLAIN PLAIN LETTERS LETTERS DATE DATE DATE
+	ref=love j. a. yi e. smith t. g. 2007
+error: pred=_f._ j_; inp=f j; ref=LETTERS 0 2 | f j | f.j. | fj | f. j. | fj-
+	input=f j varela ag palacios and t m goldsmith nineteen ninety three
+	tags=_f._ j_ <SELF> <SELF> <SELF> _&_ _t._ _m._ <SELF> _19 9 3_
+	pred=_f._ j_ varela ag palacios _&_ _t._ _m._ goldsmith _19 9 3_
+	semiotic=LETTERS LETTERS PLAIN PLAIN PLAIN VERBATIM LETTERS LETTERS PLAIN DATE DATE DATE
+	ref=fj varela ag palacios and tm goldsmith 1993
+error: pred= d m i_; inp=h d m i; ref=LETTERS 10 14 | hdmi | hdmi- | h d m i
+	input=adapters are available for u s b m d p h d m i and v g a
+	tags=<SELF> <SELF> <SELF> <SELF> _u <SELF> b_ _m d_ _ph_ <DELETE> <SELF> <SELF> i_ <SELF> _v <SELF> a_
+	pred=adapters are available for _u s b_ _m d_ _ph_  d m i_ and _v g a_
+	semiotic=PLAIN PLAIN PLAIN PLAIN LETTERS LETTERS LETTERS LETTERS LETTERS VERBATIM VERBATIM LETTERS LETTERS LETTERS PLAIN LETTERS LETTERS LETTERS
+	ref=adapters are available for usb mdp hdmi and vga
+error: pred=_r _n._; inp=r n; ref=LETTERS 12 14 | r.n. | r n | rn | r. n. | rn-
+	input=palmer was born in armagh ireland the son of lieutenant arthur palmer r n and his wife emily née hunter
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _r _n._ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=palmer was born in armagh ireland the son of lieutenant arthur palmer _r _n._ and his wife emily née hunter
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN LETTERS LETTERS PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=palmer was born in armagh ireland the son of lieutenant arthur palmer r.n. and his wife emily née hunter
+error: pred=_r._ j_; inp=r j; ref=LETTERS 3 5 | r.j. | r. j. | r j | rj | rj-
+	input=elliott r dolan r j frith c d two thousand
+	tags=<SELF> _r._ <SELF> _r._ j_ <SELF> _c d_ _2 000_
+	pred=elliott _r._ dolan _r._ j_ frith _c d_ _2 000_
+	semiotic=PLAIN LETTERS PLAIN LETTERS LETTERS PLAIN LETTERS LETTERS DATE DATE
+	ref=elliott r. dolan r. j. frith c. d. 2000
+error: pred=_z _o._ d_; inp=z o d; ref=LETTERS 0 3 | zod | z o d
+	input=z o d escapes from the phantom zone and seals superman in it
+	tags=_z _o._ d_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=_z _o._ d_ escapes from the phantom zone and seals superman in it
+	semiotic=LETTERS LETTERS LETTERS PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=zod escapes from the phantom zone and seals superman in it
+error: pred=_u._ ; inp=u s; ref=LETTERS 5 7 | us | us i- | us, | u.s.a | us m | u.s. us | us us | u.s.- | u.s. m | u.s. | u.s. high | us b | us- | u. s. | u s | u.s. a
+	input=johnson v m'intosh twenty one u s eight wheat
+	tags=<SELF> <SELF> <SELF> _2 1_ _u._ <DELETE> _8_ <SELF>
+	pred=johnson v m'intosh _2 1_ _u._  _8_ wheat
+	semiotic=PLAIN PLAIN PLAIN CARDINAL CARDINAL ADDRESS ADDRESS ADDRESS PLAIN
+	ref=johnson v m'intosh 21 u.s. 8 wheat
+error: pred=_u._ s_; inp=u s; ref=LETTERS 4 6 | us | us i- | us, | u.s.a | us m | u.s. us | us us | u.s.- | u.s. m | u.s. | u.s. high | us b | us- | u. s. | u s | u.s. a
+	input=twenty thousand demonstrate against u s military torture training center
+	tags=_20 ,000_ <SELF> <SELF> _u._ s_ <SELF> <SELF> <SELF> <SELF>
+	pred=_20 ,000_ demonstrate against _u._ s_ military torture training center
+	semiotic=CARDINAL CARDINAL PLAIN PLAIN LETTERS LETTERS PLAIN PLAIN PLAIN PLAIN
+	ref=20,000 demonstrate against us military torture training center
+error: pred=_kb_ b_; inp=k b; ref=LETTERS 9 11 | kb- | kb | k.b. | k. b. | k b
+	input=service pack three for sharepoint designer two thousand seven k b two five two six o eight nine
+	tags=<SELF> <SELF> _3_ <SELF> <SELF> <SELF> _2 00 7_ _kb_ b_ _2 5 2 6 0 8 9_
+	pred=service pack _3_ for sharepoint designer _2 00 7_ _kb_ b_ _2 5 2 6 0 8 9_
+	semiotic=PLAIN PLAIN CARDINAL PLAIN PLAIN PLAIN DATE DATE DATE LETTERS LETTERS DIGIT DIGIT DIGIT DIGIT DIGIT DIGIT DIGIT
+	ref=service pack 3 for sharepoint designer 2007 kb 2526089
+error: pred=_a _p._; inp=a p; ref=LETTERS 1 3 | ap, | a. p. | ap m | ap- | a p | ap | a.p.
+	input=mohtar a p abang mohd
+	tags=<SELF> _a _p._ <SELF> <SELF>
+	pred=mohtar _a _p._ abang mohd
+	semiotic=PLAIN LETTERS LETTERS PLAIN PLAIN
+	ref=mohtar a.p. abang mohd
+error: pred=_c._ s p_; inp=c s p; ref=LETTERS 4 7 | csp- | 'csp | c. s. p. | c.s. p. | c.s.p. | csp | c s p
+	input=six hundred thirty one c s p scotland volume
+	tags=_6 <DELETE> 3 1_ _c._ <SELF> p_ <SELF> <SELF>
+	pred=_6  3 1_ _c._ s p_ scotland volume
+	semiotic=CARDINAL CARDINAL CARDINAL CARDINAL LETTERS LETTERS LETTERS PLAIN PLAIN
+	ref=631 csp scotland vol
+error: pred=_l _a._; inp=l a; ref=LETTERS 4 6 | la | l. a. | 'la | la' | l.a. | l'a | l a | la-
+	input=the former won the l a drama critics award in nineteen ninety six
+	tags=<SELF> <SELF> <SELF> <SELF> _l _a._ <SELF> <SELF> <SELF> <SELF> _19 9 6_
+	pred=the former won the _l _a._ drama critics award in _19 9 6_
+	semiotic=PLAIN PLAIN PLAIN PLAIN LETTERS LETTERS PLAIN PLAIN PLAIN PLAIN DATE DATE DATE
+	ref=the former won the l.a. drama critics award in 1996
+error: pred=_l _e._ _f._; inp=l e f; ref=LETTERS 2 5 | lef | l.e.f. | l e f | lef-
+	input=richard davies l e f managing director
+	tags=<SELF> <SELF> _l _e._ _f._ <SELF> <SELF>
+	pred=richard davies _l _e._ _f._ managing director
+	semiotic=PLAIN PLAIN LETTERS LETTERS LETTERS PLAIN PLAIN
+	ref=richard davies lef managing director
+error: pred= k_; inp=m k; ref=LETTERS 21 23 | m. k. | mk, | mk | m.k. | m k | mk- | mk'
+	input=b seven a three proposed version with a one thousand six hundred forty one kilowatts two thousand two hundred horsepower mitsubishi m k nine a ha forty three
+	tags=<SELF> _7-_ <SELF> _3_ <SELF> <SELF> <SELF> <SELF> _1 , 6 <DELETE> 4 1_ _kw_ _2 , 2 00_ _hp_ <SELF> <DELETE> k_ _9_ <SELF> <SELF> _4 3_
+	pred=b _7-_ a _3_ proposed version with a _1 , 6  4 1_ _kw_ _2 , 2 00_ _hp_ mitsubishi  k_ _9_ a ha _4 3_
+	semiotic=PLAIN DIGIT PLAIN DIGIT PLAIN PLAIN PLAIN PLAIN MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE PLAIN VERBATIM LETTERS DIGIT PLAIN PLAIN CARDINAL CARDINAL
+	ref=b 7 a 3 proposed version with a 1641 kw 2,200 hp mitsubishi mk 9 a ha 43
+error: pred=_m _r._; inp=m r; ref=LETTERS 2 4 | m. r. | 'mr | mr | m r | mr- | m.r.
+	input=official website m r brainwash at the internet movie databasejackson candace schuker lauren a e mister brainwash for real
+	tags=<SELF> <SELF> _m _r._ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _a._ _e._ <SELF> <SELF> <SELF> <SELF>
+	pred=official website _m _r._ brainwash at the internet movie databasejackson candace schuker lauren _a._ _e._ mister brainwash for real
+	semiotic=PLAIN PLAIN LETTERS LETTERS PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN LETTERS LETTERS PLAIN PLAIN PLAIN PLAIN
+	ref=official website mr brainwash at the internet movie databasejackson candace schuker lauren a. e. mr brainwash for real
+error: pred=_pc_ c_; inp=p c; ref=LETTERS 25 27 | pc' | pc- | p c | p.c. | pc | pc, | p. c.
+	input=doi ten point one one o eight o three six eight four nine two nine five one o o eight nine three two one adams p c
+	tags=<SELF> _10 . 1 1 0 8_ _0 3 6 8 4 9 2 9 5 1 0 0 8 9 3 2 1_ <SELF> _pc_ c_
+	pred=doi _10 . 1 1 0 8_ _0 3 6 8 4 9 2 9 5 1 0 0 8 9 3 2 1_ adams _pc_ c_
+	semiotic=PLAIN DECIMAL DECIMAL DECIMAL DECIMAL DECIMAL DECIMAL TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE PLAIN VERBATIM VERBATIM
+	ref=doi 10.1108 03684929510089321 adams pc
+error: pred=_c y c__-_; inp=c y c; ref=LETTERS 9 12 | c. y. c. | c y c | c.y.c. | cyc
+	input=however activating heat shock genes before sleep deprivation rescued c y c o one flies from its lethal effects
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _c <SELF> c__-_ o_ _1_ <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=however activating heat shock genes before sleep deprivation rescued _c y c__-_ o_ _1_ flies from its lethal effects
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN LETTERS LETTERS LETTERS LETTERS CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=however activating heat shock genes before sleep deprivation rescued cyc 01 flies from its lethal effects
+error: pred=_u._ ; inp=u s; ref=LETTERS 2 4 | us | us i- | us, | u.s.a | us m | u.s. us | us us | u.s.- | u.s. m | u.s. | u.s. high | us b | us- | u. s. | u s | u.s. a
+	input=paul v u s twenty c l court
+	tags=<SELF> <SELF> _u._ <DELETE> _20_ <DELETE> _cl_ <SELF>
+	pred=paul v _u._  _20_  _cl_ court
+	semiotic=PLAIN PLAIN ADDRESS ADDRESS ADDRESS LETTERS LETTERS PLAIN
+	ref=paul v u.s. 20 cl ct
+error: pred=_m__'_ _l._ a_; inp=m l a; ref=LETTERS 5 8 | m l a | m.l.a. | m. l. a. | mla | mla-
+	input=mister t a l davy m l a
+	tags=<SELF> _t._ _a._ _l._ <SELF> _m__'_ _l._ a_
+	pred=mister _t._ _a._ _l._ davy _m__'_ _l._ a_
+	semiotic=PLAIN LETTERS LETTERS LETTERS PLAIN LETTERS LETTERS LETTERS
+	ref=mr t. a. l. davy m.l.a.
+error: pred=_u _s._; inp=u s; ref=LETTERS 0 2 | us | us i- | us, | u.s.a | us m | u.s. us | us us | u.s.- | u.s. m | u.s. | u.s. high | us b | us- | u. s. | u s | u.s. a
+	input=u s stocks may rally thirty percent on demark buy sign
+	tags=_u _s._ <SELF> <SELF> <SELF> _30_ _pc_ <SELF> <SELF> <SELF> <SELF>
+	pred=_u _s._ stocks may rally _30_ _pc_ on demark buy sign
+	semiotic=LETTERS LETTERS PLAIN PLAIN PLAIN MEASURE MEASURE PLAIN PLAIN PLAIN PLAIN
+	ref=u.s. stocks may rally 30% on demark buy sign
+error: pred=0_ _b s_; inp=o b s; ref=LETTERS 21 24 | obs | o. b. s. | obs- | o b s | o.b.s.
+	input=slandering campaign against mister nabeel rajab and ms maryam al khawaja b h r o o eight o six one one o b s o nine seven
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _b <SELF> r_ _0 0 8 0 6 1 1 0_ _b s_ _0 9 7_
+	pred=slandering campaign against mister nabeel rajab and ms maryam al khawaja _b h r_ _0 0 8 0 6 1 1 0_ _b s_ _0 9 7_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN LETTERS LETTERS LETTERS DIGIT DIGIT DIGIT DIGIT DIGIT DIGIT DIGIT DIGIT LETTERS LETTERS DIGIT DIGIT DIGIT
+	ref=slandering campaign against mr nabeel rajab and ms maryam al khawaja bhr 008 0611 obs 097
+error: pred=_j o__'_ a n_; inp=j o a n; ref=LETTERS 26 30 | joan | j o a n
+	input=marshall cavendish two thousand six i s b n o sil seven six one four sil seven six o one sil six p one eight two j o a n fleischman november thirteenth nineteen ninety six
+	tags=<SELF> <SELF> _2 00 6_ _i <SELF> <SELF> n_ _0 - 7 6 1 4 - 7 6 0 1 - 6_ <SELF> _1 8 2_ _j o__'_ <SELF> n_ <SELF> <SELF> _13 ,19 9 6_
+	pred=marshall cavendish _2 00 6_ _i s b n_ _0 - 7 6 1 4 - 7 6 0 1 - 6_ p _1 8 2_ _j o__'_ a n_ fleischman november _13 ,19 9 6_
+	semiotic=PLAIN PLAIN DATE DATE DATE LETTERS LETTERS LETTERS LETTERS TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE PLAIN DIGIT DIGIT DIGIT LETTERS LETTERS LETTERS LETTERS PLAIN DATE DATE DATE DATE DATE
+	ref=marshall cavendish 2006 isbn 0-7614-7601-6 p 182 joan fleischman november 13, 1996
+error: pred=_c _cc_ _c p__-_; inp=c c c p; ref=LETTERS 7 11 | cccp | c c c p | cccp-
+	input=a s n aircraft accident yakovlev forty c c c p eight seven five four nine nizhnevartovsk airport n j c
+	tags=_a <SELF> n_ <SELF> <SELF> <SELF> _40_ _c _cc_ _c p__-_ _8 7 5 4 9_ <SELF> <SELF> _n <SELF> c_
+	pred=_a s n_ aircraft accident yakovlev _40_ _c _cc_ _c p__-_ _8 7 5 4 9_ nizhnevartovsk airport _n j c_
+	semiotic=LETTERS LETTERS LETTERS PLAIN PLAIN PLAIN MEASURE MEASURE LETTERS LETTERS LETTERS DIGIT DIGIT DIGIT DIGIT DIGIT PLAIN PLAIN LETTERS LETTERS LETTERS
+	ref=asn aircraft accident yakovlev 40 cccp- 87549 nizhnevartovsk airport njc
+error: pred=_c  c_; inp=c r c; ref=LETTERS 4 7 | c. r. c. | c.r.c. | crc- | crc i- | crc | crc, | c r c
+	input=london chapman and hall c r c
+	tags=<SELF> <SELF> _&_ <SELF> _c <DELETE> c_
+	pred=london chapman _&_ hall _c  c_
+	semiotic=PLAIN PLAIN VERBATIM PLAIN VERBATIM LETTERS VERBATIM
+	ref=london chapman & hall crc
+error: pred=_u c _l._ a_; inp=u c l a; ref=LETTERS 0 4 | u c l a | ucla- | u.c.l.a. | ucla
+	input=u c l a p h d dissertation
+	tags=_u <SELF> _l._ a_ _ph_ <DELETE> <SELF> <SELF>
+	pred=_u c _l._ a_ _ph_  d dissertation
+	semiotic=LETTERS LETTERS LETTERS LETTERS VERBATIM VERBATIM PLAIN PLAIN
+	ref=ucla ph d dissertation
+error: pred=_p ; inp=p t; ref=LETTERS 8 10 | p.t. | p t | p. t. | pt | 'pt | pt-
+	input=february twenty sixth twenty eleven five p m p t the twenty sixth of february twenty eleven
+	tags=<SELF> _2 6 ,20 11_ _5:00_ _pm_ <DELETE> _p <DELETE> <DELETE> _2 6_ <DELETE> <SELF> _20 11_
+	pred=february _2 6 ,20 11_ _5:00_ _pm_  _p   _2 6_  february _20 11_
+	semiotic=DATE DATE DATE DATE DATE TIME TIME TIME TIME TIME DATE DATE DATE DATE DATE DATE DATE
+	ref=feb 26, 2011 5:00 pm pt 2011-02-26
+error: pred= _ad._; inp=a d; ref=LETTERS 27 29 | a. d. | a d | ad- | ad a | a'd | a.d. | ad | ad,
+	input=in the parthian and sassanid eras kirkuk was capital of the small assyrian state of beth garmai c point one six o b c two hundred fifty a d
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _. 1 6 0_ _b c_ _2 <DELETE> 50_ <DELETE> _ad._
+	pred=in the parthian and sassanid eras kirkuk was capital of the small assyrian state of beth garmai c _. 1 6 0_ _b c_ _2  50_  _ad._
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN DECIMAL DECIMAL DECIMAL DECIMAL LETTERS LETTERS DATE DATE CARDINAL DATE DATE
+	ref=in the parthian and sassanid eras kirkuk was capital of the small assyrian state of beth garmai c .160 bc- 250 ad
+error: pred=_c _cv_; inp=c v; ref=LETTERS 0 2 | cv- | cv | c. v. | 'cv | cv' | c v | c.v.
+	input=c v o nine sil o o three seven sil c w u s d c n d cal
+	tags=_c _cv_ _0 9 - 0 0 3 7_ <DELETE> <DELETE> _cv_ _u._ _s._ _d._ _c._ _n._ _d._ <SELF>
+	pred=_c _cv_ _0 9 - 0 0 3 7_   _cv_ _u._ _s._ _d._ _c._ _n._ _d._ cal
+	semiotic=LETTERS VERBATIM TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE LETTERS LETTERS LETTERS LETTERS LETTERS LETTERS PLAIN
+	ref=cv- 09-0037-cw u.s.d.c. n.d. cal
+error: pred=_mc_ c_; inp=m c; ref=LETTERS 4 6 | mc, | m. c. | m c | m.c. | 'mc | mc- | mc
+	input=genetic variation at the m c one r locus and the time since loss of human body hair
+	tags=<SELF> <SELF> <SELF> <SELF> _mc_ c_ _1_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=genetic variation at the _mc_ c_ _1_ r locus and the time since loss of human body hair
+	semiotic=PLAIN PLAIN PLAIN PLAIN VERBATIM VERBATIM DIGIT PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=genetic variation at the mc 1 r locus and the time since loss of human body hair
+error: pred=_h._ e_; inp=h e; ref=LETTERS 22 24 | h.e. | h. e. | h e | 'he | he
+	input=olms hildesheim nineteen seventy nine i s b n three sil four eight seven sil o eight one five seven sil one h e weinschenk schauspieler erzahlen wilhelm limpert verlag berlin nineteen thirty eight p p
+	tags=<SELF> <SELF> _19 7 9_ _i <SELF> <SELF> n_ _3 - 4 8 7 - 0 8 1 5 7 - 1_ _h._ e_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _19 3 8_ <DELETE> _pp_
+	pred=olms hildesheim _19 7 9_ _i s b n_ _3 - 4 8 7 - 0 8 1 5 7 - 1_ _h._ e_ weinschenk schauspieler erzahlen wilhelm limpert verlag berlin _19 3 8_  _pp_
+	semiotic=PLAIN PLAIN DATE DATE DATE LETTERS LETTERS LETTERS LETTERS TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE LETTERS LETTERS PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN DATE DATE DATE VERBATIM VERBATIM
+	ref=olms hildesheim 1979 isbn 3-487-08157-1 h. e. weinschenk schauspieler erzahlen wilhelm limpert verlag berlin 1938 pp
+error: pred=_j._ _a._ p_; inp=j a p; ref=LETTERS 4 7 | jap | j a p | j.a.p. | j. a. p.
+	input=eight to ten horsepower j a p water cooled steel body
+	tags=_8_ _-_ _10_ _hp_ _j._ _a._ p_ <SELF> <SELF> <SELF> <SELF>
+	pred=_8_ _-_ _10_ _hp_ _j._ _a._ p_ water cooled steel body
+	semiotic=CARDINAL PLAIN MEASURE MEASURE LETTERS LETTERS LETTERS PLAIN PLAIN PLAIN PLAIN
+	ref=8 - 10 hp j.a.p. water cooled steel body
+error: pred=_p p _pg_; inp=p p g; ref=LETTERS 8 11 | ppg- | p.p.g. | p. p. g. | p p g | ppg
+	input=uppal k u l editor professional practice guide p p g number eight contingency second edition a a c e international morgantown west virginia two thousand seven
+	tags=<SELF> _k <SELF> l_ <SELF> <SELF> <SELF> <SELF> _p <SELF> _pg_ _#_ _8_ <SELF> _2nd_ <SELF> _a <SELF> <SELF> e_ <SELF> <SELF> <SELF> <SELF> _2 00 7_
+	pred=uppal _k u l_ editor professional practice guide _p p _pg_ _#_ _8_ contingency _2nd_ edition _a a c e_ international morgantown west virginia _2 00 7_
+	semiotic=PLAIN LETTERS LETTERS LETTERS PLAIN PLAIN PLAIN PLAIN LETTERS LETTERS LETTERS VERBATIM CARDINAL PLAIN ORDINAL PLAIN LETTERS LETTERS LETTERS LETTERS PLAIN PLAIN PLAIN PLAIN DATE DATE DATE
+	ref=uppal kul editor professional practice guide ppg # 8 contingency 2nd edition aace international morgantown west virginia 2007
+error: pred= r_; inp=t r; ref=LETTERS 14 16 | t.r. | t. r. | tr- | tr | t r
+	input=feder tomas subi carlos two thousand six on barnette's conjecture e c c c t r o six sil o one five
+	tags=<SELF> <SELF> <SELF> <SELF> _2 00 6_ <SELF> <SELF> <SELF> _e <SELF> <SELF> c_ <DELETE> r_ _0 6 - 0 1 5_
+	pred=feder tomas subi carlos _2 00 6_ on barnette's conjecture _e c c c_  r_ _0 6 - 0 1 5_
+	semiotic=PLAIN PLAIN PLAIN PLAIN DATE DATE DATE PLAIN PLAIN PLAIN LETTERS LETTERS LETTERS LETTERS VERBATIM LETTERS TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE
+	ref=feder tomas subi carlos 2006 on barnette's conjecture eccc tr 06-015
+error: pred=_u _s._ a_; inp=u s a; ref=LETTERS 11 14 | usa- | u. s.a. | usa a | .usa | usa' | u.s.a- | .u.s.a. | u.s.a. | u.s.a.- | u s a | us'a | usa, | usa. | usa | u. s. a. | u.s.a.. | u.s.a | u.s. a. | .usa.
+	input=los angeles tenth olympiade committee of the games of los angeles u s a nineteen thirty two limited
+	tags=<SELF> <SELF> _xth_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _u _s._ a_ _19 3 2_ <SELF>
+	pred=los angeles _xth_ olympiade committee of the games of los angeles _u _s._ a_ _19 3 2_ limited
+	semiotic=PLAIN PLAIN ORDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN LETTERS LETTERS LETTERS DATE DATE DATE PLAIN
+	ref=los angeles xth olympiade committee of the games of los angeles u. s. a. 1932 ltd
+error: pred=_kt_  ; inp=k t h; ref=LETTERS 1 4 | k. t. h. | k t h | kth | kth-
+	input=at k t h student social life exact starting times are sometimes posted as two o two p m seven o seven p m etcetera
+	tags=<SELF> _kt_ <DELETE> <DELETE> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _2: 0 2_ _pm_ <DELETE> _7: 0 7_ _pm_ <DELETE> <SELF>
+	pred=at _kt_   student social life exact starting times are sometimes posted as _2: 0 2_ _pm_  _7: 0 7_ _pm_  etcetera
+	semiotic=PLAIN VERBATIM VERBATIM VERBATIM PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN TIME TIME TIME TIME TIME TIME TIME TIME TIME TIME PLAIN
+	ref=at kth student social life exact starting times are sometimes posted as 2:02 pm 7:07 pm etc
+error: pred=_t._ y_; inp=t y; ref=LETTERS 0 2 | ty' | t y | t.y. | ty | t. y. | t'y
+	input=t y hilton colts agree to five year sixty five million dollars extension
+	tags=_t._ y_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _$<< _6 5_ _m_ <SELF>
+	pred=_t._ y_ hilton colts agree to five year _$ _6 5_ _m_ extension
+	semiotic=LETTERS LETTERS PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN MONEY MONEY MONEY MONEY PLAIN
+	ref=t.y. hilton colts agree to five year $65 million extension
+error: pred= ; inp=e t; ref=LETTERS 16 18 | et, | e.t. | e. t. | et- | e't | e t | et
+	input=the twenty first of may two thousand nine twelve fifty one p m i s t e t bureau the twenty first of may two thousand nine
+	tags=<DELETE> _2 1_ <DELETE> <SELF> _2 00 9_ _12: 5 1_ _pm_ <DELETE> _ist_ <DELETE> <DELETE> <DELETE> <DELETE> <SELF> <DELETE> _2 1_ <DELETE> <SELF> _2 00 9_
+	pred= _2 1_  may _2 00 9_ _12: 5 1_ _pm_  _ist_     bureau  _2 1_  may _2 00 9_
+	semiotic=DATE DATE DATE DATE DATE DATE DATE DATE TIME TIME TIME TIME TIME TIME TIME TIME TIME TIME PLAIN DATE DATE DATE DATE DATE DATE DATE DATE
+	ref=21 may 2009 12.51pm ist et bureau 2009-05-21
+error: pred=_a u l__-_ i m p_; inp=a u l i m p; ref=LETTERS 20 26 | aulimp | a u l i m p
+	input=an ongoing retrospective project is underway to provide electronic access to the pre one nine eight seven versions of the a u l i m p
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _1 9 8 7_ <SELF> <SELF> <SELF> _a <SELF> l__-_ <SELF> <SELF> p_
+	pred=an ongoing retrospective project is underway to provide electronic access to the pre _1 9 8 7_ versions of the _a u l__-_ i m p_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN DIGIT DIGIT DIGIT DIGIT PLAIN PLAIN PLAIN LETTERS LETTERS LETTERS LETTERS LETTERS LETTERS
+	ref=an ongoing retrospective project is underway to provide electronic access to the pre 1987 versions of the aulimp
+error: pred=_s _0; inp=s o; ref=LETTERS 4 6 | so- | so | so' | s. o. | s o | s.o.
+	input=wimberry quarries grid reference s o five nine four one two one is a two hectare four dot n i n e d a s h a c r e nature reserve in gloucestershire in the forest of dean
+	tags=<SELF> <SELF> <SELF> <SELF> _s _0 5 9 4 1 2 1_ <SELF> <SELF> _2_ <SELF> _4_ _. <DELETE> <DELETE> 9 <DELETE> <DELETE> -_ <DELETE> <DELETE> -_ <DELETE> <DELETE> <DELETE> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=wimberry quarries grid reference _s _0 5 9 4 1 2 1_ is a _2_ hectare _4_ _.   9   -_   -_    nature reserve in gloucestershire in the forest of dean
+	semiotic=PLAIN PLAIN PLAIN PLAIN LETTERS DIGIT DIGIT DIGIT DIGIT DIGIT DIGIT DIGIT PLAIN PLAIN CARDINAL PLAIN CARDINAL VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=wimberry quarries grid reference so 594121 is a 2 hectare 4 .9-acre nature reserve in gloucestershire in the forest of dean
+error: pred=_p e f e o__-_; inp=p e f e o; ref=LETTERS 16 21 | p e f e o | pefeo
+	input=nineteen sixty nine le bornage rituel des temples bouddhiques au cambodge paris e f e o p e f e o sixty eight one five three p twenty nine place
+	tags=_19 6 9_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _e <SELF> <SELF> o_ _p <SELF> <SELF> <SELF> o__-_ _6 8_ _1 5 3_ <SELF> _2 9_ _pl_
+	pred=_19 6 9_ le bornage rituel des temples bouddhiques au cambodge paris _e f e o_ _p e f e o__-_ _6 8_ _1 5 3_ p _2 9_ _pl_
+	semiotic=DATE DATE DATE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN LETTERS LETTERS LETTERS LETTERS LETTERS LETTERS LETTERS LETTERS LETTERS CARDINAL CARDINAL DIGIT DIGIT DIGIT PLAIN CARDINAL CARDINAL PLAIN
+	ref=1969 le bornage rituel des temples bouddhiques au cambodge paris efeo pefeo 68 153 p 29 pl
+error: pred=_b _a._ _r._; inp=b a r; ref=LETTERS 1 4 | b'ar | b. a. r. | ba'r | b.a.r. | bar | b a r
+	input=oxford b a r i s b n o sil eight six o five four sil one three nine sil eight
+	tags=<SELF> _b _a._ _r._ _i <SELF> <SELF> n_ _0 - 8 6 0 5 4 - 1 3 9 - 8_
+	pred=oxford _b _a._ _r._ _i s b n_ _0 - 8 6 0 5 4 - 1 3 9 - 8_
+	semiotic=PLAIN LETTERS LETTERS LETTERS LETTERS LETTERS LETTERS LETTERS TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE
+	ref=oxford b.a.r. isbn 0-86054-139-8
+error: pred=_tn_ n_; inp=t n; ref=LETTERS 5 7 | t. n. | tn b | t n | tn- | t.n. | tn
+	input=the village center staplehurst kent t n twelve o b j u k spellmount limited
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> _tn_ n_ _12_ _o <SELF> j_ _u k_ <SELF> <SELF>
+	pred=the village center staplehurst kent _tn_ n_ _12_ _o b j_ _u k_ spellmount limited
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN VERBATIM VERBATIM CARDINAL LETTERS LETTERS LETTERS LETTERS LETTERS PLAIN PLAIN
+	ref=the village centre staplehurst kent tn 12 0 bj uk spellmount ltd
+error: pred=_w i _r._; inp=w i r; ref=LETTERS 0 3 | wir | wir, | w i r
+	input=w i r wollen l e r n e n h t t p c o l o n s l a s h s l a s h w w w dot d w d a s h w o r l d dot d e s l a s h d w s l a s h a r t i c l e s l a s h o c o m m a c o m m a f i v e e i g h t o n e f o u r t w o f i v e o c o m m a o o dot h t m l referendum voters reject hamburg school reforms
+	tags=_w <SELF> _r._ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <DELETE> <DELETE> <DELETE> <DELETE> <DELETE> <DELETE> <DELETE> <DELETE> <DELETE> <DELETE> <DELETE> <DELETE> <DELETE> <DELETE> _://_ <SELF> <SELF> w._ <DELETE> <SELF> <SELF> _-_ <DELETE> <DELETE> <DELETE> <SELF> <SELF> <SELF> <SELF> d._ <DELETE> <SELF> <SELF> _/_ <DELETE> <DELETE> <DELETE> <DELETE> <SELF> <SELF> _/_ <DELETE> <DELETE> <DELETE> <DELETE> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _/_ <DELETE> <DELETE> <DELETE> <DELETE> <SELF> <SELF> <DELETE> <SELF> <DELETE> <SELF> <DELETE> <DELETE> <DELETE> <DELETE> <DELETE> _5 <DELETE> <DELETE> <DELETE> <DELETE> 8 <DELETE> <DELETE> <DELETE> <DELETE> <DELETE> 1 4 <DELETE> <DELETE> <DELETE> 2 <DELETE> <DELETE> 5_ <DELETE> <DELETE> <DELETE> 0_ <SELF> <DELETE> <SELF> <SELF> <SELF> _0 0 ._ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=_w i _r._ wollen l e r n e n h t t p               _://_ w w w._  d w _-_    w o r l d._  d e _/_     d w _/_     a r t i c l e _/_     o c  m  a      _5     8      1 4    2   5_    0_ c  m m a _0 0 ._ h t m l referendum voters reject hamburg school reforms
+	semiotic=LETTERS LETTERS LETTERS PLAIN ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=wir wollen lernenhttp://www.dw-world.de/dw/article/0,,5814250,00.html referendum voters reject hamburg school reforms
+error: pred=_a._ _a l s t; inp=a a l s t; ref=LETTERS 3 8 | aalst | a a l s t
+	input=rozinat a and a a l s t w van der two o o six a
+	tags=<SELF> _a._ <SELF> _a._ _a <SELF> <SELF> <SELF> w_ <SELF> <SELF> _2 0 0 6_ <SELF>
+	pred=rozinat _a._ and _a._ _a l s t w_ van der _2 0 0 6_ a
+	semiotic=PLAIN LETTERS PLAIN LETTERS LETTERS LETTERS LETTERS LETTERS LETTERS PLAIN PLAIN DIGIT DIGIT DIGIT DIGIT PLAIN
+	ref=rozinat a. & aalst w. van der 2006 a
+error: pred=_f _fl_; inp=f l; ref=LETTERS 6 8 | f. l. | fl | f.l. | f l | fl-
+	input=national register of historical places florida f l duval county ribault inn club added two thousand number o o o o o four seven o f t
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _f _fl_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _2 000_ _#_ _0 0 0 0 0 4 7 0_ _'_ <DELETE>
+	pred=national register of historical places florida _f _fl_ duval county ribault inn club added _2 000_ _#_ _0 0 0 0 0 4 7 0_ _'_ 
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN VERBATIM LETTERS PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN DATE DATE VERBATIM TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE VERBATIM VERBATIM
+	ref=national register of historical places florida fl duval county ribault inn club added 2000 # 00000470 ft
+error: pred=_u._ s_; inp=u s; ref=LETTERS 16 18 | us | us i- | us, | u.s.a | us m | u.s. us | us us | u.s.- | u.s. m | u.s. | u.s. high | us b | us- | u. s. | u s | u.s. a
+	input=the u k and who recommendation is two h r e z four h r the u s recommendation is two h r e z seven hour
+	tags=<SELF> _u k_ <SELF> <SELF> <SELF> <SELF> _2_ _h <SELF> <SELF> z_ _4_ _h r_ <SELF> _u._ s_ <SELF> <SELF> _2_ _h <SELF> <SELF> z_ _7_ _hr_
+	pred=the _u k_ and who recommendation is _2_ _h r e z_ _4_ _h r_ the _u._ s_ recommendation is _2_ _h r e z_ _7_ _hr_
+	semiotic=PLAIN LETTERS LETTERS PLAIN PLAIN PLAIN PLAIN DIGIT LETTERS LETTERS LETTERS LETTERS DIGIT LETTERS LETTERS PLAIN LETTERS LETTERS PLAIN PLAIN DIGIT LETTERS LETTERS LETTERS LETTERS CARDINAL PLAIN
+	ref=the uk and who recommendation is 2 hrez 4 hr the us recommendation is 2 hrez 7 hr
+error: pred=g f g b__-_; inp=g f g b; ref=LETTERS 6 10 | gfgb | g f g b
+	input=b b c program number a g f g b two nine two s a
+	tags=_b <SELF> c_ <SELF> <SELF> _a <SELF> <SELF> <SELF> b__-_ _2 9 2_ _s a_
+	pred=_b b c_ program number _a g f g b__-_ _2 9 2_ _s a_
+	semiotic=LETTERS LETTERS LETTERS PLAIN PLAIN LETTERS LETTERS LETTERS LETTERS LETTERS DIGIT DIGIT DIGIT LETTERS LETTERS
+	ref=bbc programme number a gfgb 292 s a
+error: pred=_u._ s_; inp=u s; ref=LETTERS 0 2 | us | us i- | us, | u.s.a | us m | u.s. us | us us | u.s.- | u.s. m | u.s. | u.s. high | us b | us- | u. s. | u s | u.s. a
+	input=u s air force police are designated under the g s o o eight three series
+	tags=_u._ s_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _g s_ _0 0 8 3_ <SELF>
+	pred=_u._ s_ air force police are designated under the _g s_ _0 0 8 3_ series
+	semiotic=LETTERS LETTERS PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN LETTERS LETTERS DIGIT DIGIT DIGIT DIGIT PLAIN
+	ref=u.s. air force police are designated under the gs- 0083 series
+error: pred=_h._ r; inp=h r; ref=LETTERS 11 13 | h r | h. r. | hr | hr- | h.r.
+	input=g o v t r a c k dot u s h r six thousand two hundred thirty three agricultural disaster assistance act of twenty twelve
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> k._ <DELETE> <SELF> <SELF> _h._ <SELF> _6 <DELETE> 2 <DELETE> 3 3_ <SELF> <SELF> <SELF> <SELF> <SELF> _20 12_
+	pred=g o v t r a c k._  u s _h._ r _6  2  3 3_ agricultural disaster assistance act of _20 12_
+	semiotic=ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN DATE DATE
+	ref=govtrack.us hr 6233 agricultural disaster assistance act of 2012
+error: pred=0_ _f m_; inp=o f m; ref=LETTERS 21 24 | o f m | o.f.m. | o. f. m. | ofm- | ofm
+	input=unguided rocket launchers with two hundred forty millimeters s two four b rockets or three hundred forty millimeters s two five o f m rockets
+	tags=<SELF> <SELF> <SELF> <SELF> _2 <DELETE> 40_ _mm_ _s__-_ _2 4_ <SELF> <SELF> <SELF> _3 <DELETE> 40_ _mm_ _s__-_ _2 5 0_ _f m_ <SELF>
+	pred=unguided rocket launchers with _2  40_ _mm_ _s__-_ _2 4_ b rockets or _3  40_ _mm_ _s__-_ _2 5 0_ _f m_ rockets
+	semiotic=PLAIN PLAIN PLAIN PLAIN MEASURE MEASURE MEASURE MEASURE LETTERS DIGIT DIGIT PLAIN PLAIN PLAIN MEASURE MEASURE MEASURE MEASURE LETTERS DIGIT DIGIT DIGIT LETTERS LETTERS PLAIN
+	ref=unguided rocket launchers with 240 mm s- 24 b rockets or 340 mm s- 25- ofm rockets
+error: pred=_a _k._ a_; inp=a k a; ref=LETTERS 2 5 | a.k.a. | a.k.a. b | a.ka. | a k a | a.k.a.. | a.k.a. u.s. | a. k. a. | aka. | aka- | aka | a.k.a | ak.a.
+	input=wedel cemetery a k a blumenfeld cemetery located in section thirty one t two o s r one e
+	tags=<SELF> <SELF> _a _k._ a_ <SELF> <SELF> <SELF> <SELF> <SELF> _3 1_ <SELF> _2 0_ <SELF> <SELF> _1_ <SELF>
+	pred=wedel cemetery _a _k._ a_ blumenfeld cemetery located in section _3 1_ t _2 0_ s r _1_ e
+	semiotic=PLAIN PLAIN LETTERS LETTERS LETTERS PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL CARDINAL PLAIN DIGIT DIGIT PLAIN PLAIN DIGIT PLAIN
+	ref=wedel cemetery aka blumenfeld cemetery located in section 31 t 20 s r 1 e
+error: pred= v ; inp=t v r; ref=LETTERS 30 33 | t.v.r. | t. v. r. | tvr- | t v r | tvr
+	input=the end of the run was marked by the limited edition twenty five examples only three dot n i n e d a s h l i t r e t v r three five o s e of one thousand nine hundred ninety ninety one
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _2 5_ <SELF> <SELF> _3_ _. <DELETE> <DELETE> 9 <DELETE> <DELETE> -_ <DELETE> <DELETE> _million_ <DELETE> <DELETE> <DELETE> <DELETE> <DELETE> <SELF> <DELETE> _3 5 0_ _s <DELETE> <SELF> _1 <DELETE> 9 <DELETE> 90_ _9 1_
+	pred=the end of the run was marked by the limited edition _2 5_ examples only _3_ _.   9   -_   _million_      v  _3 5 0_ _s  of _1  9  90_ _9 1_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL CARDINAL PLAIN PLAIN CARDINAL VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM LETTERS VERBATIM DIGIT DIGIT DIGIT LETTERS LETTERS PLAIN CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL
+	ref=the end of the run was marked by the limited edition 25 examples only 3 .9-litre tvr 350 se of 1990 91
+error: pred=_s ; inp=s e; ref=LETTERS 36 38 | se | s.e. u.s. | 'se | s.e. | s e | se- | s. e.
+	input=the end of the run was marked by the limited edition twenty five examples only three dot n i n e d a s h l i t r e t v r three five o s e of one thousand nine hundred ninety ninety one
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _2 5_ <SELF> <SELF> _3_ _. <DELETE> <DELETE> 9 <DELETE> <DELETE> -_ <DELETE> <DELETE> _million_ <DELETE> <DELETE> <DELETE> <DELETE> <DELETE> <SELF> <DELETE> _3 5 0_ _s <DELETE> <SELF> _1 <DELETE> 9 <DELETE> 90_ _9 1_
+	pred=the end of the run was marked by the limited edition _2 5_ examples only _3_ _.   9   -_   _million_      v  _3 5 0_ _s  of _1  9  90_ _9 1_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL CARDINAL PLAIN PLAIN CARDINAL VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM VERBATIM LETTERS VERBATIM DIGIT DIGIT DIGIT LETTERS LETTERS PLAIN CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL
+	ref=the end of the run was marked by the limited edition 25 examples only 3 .9-litre tvr 350 se of 1990 91
+error: pred=_l._ b_; inp=l b; ref=LETTERS 2 4 | l. b. | l.b. | lb- | l b | lb
+	input=albright three l b gillette d d and titus a l two o o seven b
+	tags=<SELF> _3_ _l._ b_ <SELF> _d._ _d._ <SELF> <SELF> _a._ _l._ _2 0 0 7_ <SELF>
+	pred=albright _3_ _l._ b_ gillette _d._ _d._ and titus _a._ _l._ _2 0 0 7_ b
+	semiotic=PLAIN DIGIT LETTERS LETTERS PLAIN LETTERS LETTERS PLAIN PLAIN LETTERS LETTERS DIGIT DIGIT DIGIT DIGIT PLAIN
+	ref=albright iii l. b. gillette d. d. and titus a. l. 2007 b
+error: pred=_w p n n__-_; inp=w p n n; ref=LETTERS 9 13 | w p n n | wpnn
+	input=retrieved the tenth of june two o one four w p n n am f c c i n f o dot c o m
+	tags=<SELF> <DELETE> _10_ <DELETE> <SELF> _2 0 1 4_ _w <SELF> <SELF> n__-_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <DELETE> o._ <SELF> <SELF> <SELF>
+	pred=retrieved  _10_  june _2 0 1 4_ _w p n n__-_ am f c c i n f  o._ c o m
+	semiotic=PLAIN DATE DATE DATE DATE DIGIT DIGIT DIGIT DIGIT LETTERS LETTERS LETTERS LETTERS PLAIN ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC ELECTRONIC
+	ref=retrieved 10 june 2014 wpnn am fccinfo.com
+error: pred=_j._ n_; inp=j n; ref=LETTERS 1 3 | j.n. | jn- | j n | j. n. | jn
+	input=dixit j n assignment colombo i s b n eight one sil two two o sil o four nine nine sil seven
+	tags=<SELF> _j._ n_ <SELF> <SELF> _i <SELF> <SELF> n_ _8 1 - 2 2 0 - 0 4 9 9 - 7_
+	pred=dixit _j._ n_ assignment colombo _i s b n_ _8 1 - 2 2 0 - 0 4 9 9 - 7_
+	semiotic=PLAIN LETTERS LETTERS PLAIN PLAIN LETTERS LETTERS LETTERS LETTERS TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE
+	ref=dixit j.n. assignment colombo isbn 81-220-0499-7
+error: pred=_t g r__-_; inp=t g r; ref=LETTERS 0 3 | t.g.r. | tgr | t g r
+	input=t g r twelve o two oral p i three k delta inhibitor previously known as r p five two six four
+	tags=_t <SELF> r__-_ _12_ _0 2_ <SELF> _p i_ _3_ <SELF> _δ_ <SELF> <SELF> <SELF> <SELF> _r p__-_ _5 2 6 4_
+	pred=_t g r__-_ _12_ _0 2_ oral _p i_ _3_ k _δ_ inhibitor previously known as _r p__-_ _5 2 6 4_
+	semiotic=LETTERS LETTERS LETTERS CARDINAL DIGIT DIGIT PLAIN LETTERS LETTERS DIGIT PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN LETTERS LETTERS DIGIT DIGIT DIGIT DIGIT
+	ref=tgr 1202 oral pi 3 k delta inhibitor previously known as rp 5264
+error: pred=_a l t l j__-_; inp=a l t l j; ref=LETTERS 21 26 | a l t l j | altlj
+	input=paula o'brien changing public interest law overcoming the law's barriers to social change lawyering two o one one sil three two a l t l j eighty
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _2 0 1 1 - 3 2_ _a <SELF> <SELF> <SELF> j__-_ _80_
+	pred=paula o'brien changing public interest law overcoming the law's barriers to social change lawyering _2 0 1 1 - 3 2_ _a l t l j__-_ _80_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE LETTERS LETTERS LETTERS LETTERS LETTERS CARDINAL
+	ref=paula o'brien changing public interest law overcoming the law's barriers to social change lawyering (2011) 32 altlj 80
+error: pred=_g._ a_; inp=g a; ref=LETTERS 1 3 | 'ga | g.a. | g. a. | ga- | ga | g a
+	input=gloster g a one gloster e one forty fourth gloster ace fighter nineteen forty eight
+	tags=<SELF> _g._ a_ _1_ <SELF> _e._ _1 /4 4_ <SELF> <SELF> <SELF> _19 4 8_
+	pred=gloster _g._ a_ _1_ gloster _e._ _1 /4 4_ gloster ace fighter _19 4 8_
+	semiotic=PLAIN LETTERS LETTERS CARDINAL PLAIN LETTERS FRACTION ORDINAL ORDINAL PLAIN PLAIN PLAIN DATE DATE DATE
+	ref=gloster g.a. 1 gloster e. 1/44 gloster ace fighter 1948
+error: pred=_c _cl_ c_; inp=c l c; ref=LETTERS 2 5 | c.l.c. | clc | c l c | clc- | c. l. c.
+	input=part one c l c pounding love three fifty eight part two vanilla man vanilla acoustic feat
+	tags=<SELF> _1_ _c _cl_ c_ <SELF> <SELF> _3: 5 8_ <SELF> _2_ <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=part _1_ _c _cl_ c_ pounding love _3: 5 8_ part _2_ vanilla man vanilla acoustic feat
+	semiotic=PLAIN CARDINAL VERBATIM VERBATIM VERBATIM PLAIN PLAIN TIME TIME TIME PLAIN CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=part 1 clc pounding love 3:58 part 2 vanilla man vanilla acoustic feat
+error: pred=_u._ s_; inp=u s; ref=LETTERS 14 16 | us | us i- | us, | u.s.a | us m | u.s. us | us us | u.s.- | u.s. m | u.s. | u.s. high | us b | us- | u. s. | u s | u.s. a
+	input=document wo three hundred seventy three one hundred forty eight nineteenths legion of honor u s awardthe london gazette supplement no
+	tags=<SELF> <SELF> _3 <DELETE> 7 3_ _1 <DELETE> 4 8 /19_ <SELF> <SELF> <SELF> _u._ s_ <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=document wo _3  7 3_ _1  4 8 /19_ legion of honor _u._ s_ awardthe london gazette supplement no
+	semiotic=PLAIN PLAIN CARDINAL CARDINAL CARDINAL CARDINAL FRACTION FRACTION FRACTION FRACTION FRACTION PLAIN PLAIN PLAIN LETTERS LETTERS PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=document wo 373 148/19 legion of honor us awardthe london gazette supplement no
+error: pred=_c._ _c._ _s._ m_; inp=c c s m; ref=LETTERS 4 8 | c c s m | c.c.s.m. | ccsm
+	input=the municipal amalgamations act c c s m c m two three five municipality of shoal lake and rural municipality of strathclair amalgamation regulation p d f
+	tags=<SELF> <SELF> <SELF> <SELF> _c._ _c._ _s._ m_ <SELF> <SELF> _2 3 5_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _p <SELF> f_
+	pred=the municipal amalgamations act _c._ _c._ _s._ m_ c m _2 3 5_ municipality of shoal lake and rural municipality of strathclair amalgamation regulation _p d f_
+	semiotic=PLAIN PLAIN PLAIN PLAIN LETTERS LETTERS LETTERS LETTERS LETTERS ADDRESS ADDRESS ADDRESS ADDRESS PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN LETTERS LETTERS LETTERS
+	ref=the municipal amalgamations act c.c.s.m. c m235 municipality of shoal lake and rural municipality of strathclair amalgamation regulation pdf
+error: pred=_b _c._ e_; inp=b c e; ref=LETTERS 13 16 | bce, | b. c. e. | bce- | bce | b.c.e. | b c e
+	input=babylonian ration list king jehoiakhin in exile five hundred ninety two over one b c e
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _5 <DELETE> 9 2 / 1_ _b _c._ e_
+	pred=babylonian ration list king jehoiakhin in exile _5  9 2 / 1_ _b _c._ e_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN FRACTION FRACTION FRACTION FRACTION FRACTION FRACTION LETTERS LETTERS LETTERS
+	ref=babylonian ration list king jehoiakhin in exile 592/1 bce
+error: pred=_n _d._ _n._ y_; inp=n d n y; ref=LETTERS 9 13 | n d n y | n.d.n.y.
+	input=five o four c v one o five five n d n y sept
+	tags=_5: 0 4_ _c v__-_ _1 0 5 5_ _n _d._ _n._ y_ <SELF>
+	pred=_5: 0 4_ _c v__-_ _1 0 5 5_ _n _d._ _n._ y_ sept
+	semiotic=TIME TIME TIME LETTERS LETTERS DIGIT DIGIT DIGIT DIGIT LETTERS LETTERS LETTERS LETTERS PLAIN
+	ref=5:04 cv- 1055 n.d.n.y. sept
+error: pred=_u._ s_; inp=u s; ref=LETTERS 13 15 | us | us i- | us, | u.s.a | us m | u.s. us | us us | u.s.- | u.s. m | u.s. | u.s. high | us b | us- | u. s. | u s | u.s. a
+	input=at twelve twelve a m e d t on october twenty seventh the u s informed its nato allies that the situation is growing shorter
+	tags=<SELF> _12: 12_ _a._ _m._ <DELETE> _edt_ <DELETE> <SELF> <SELF> _2 7_ <SELF> _u._ s_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=at _12: 12_ _a._ _m._  _edt_  on october _2 7_ the _u._ s_ informed its nato allies that the situation is growing shorter
+	semiotic=PLAIN TIME TIME TIME TIME TIME TIME TIME PLAIN DATE DATE DATE PLAIN LETTERS LETTERS PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=at 12:12 am edt on october 27 the u.s. informed its nato allies that the situation is growing shorter
+error: pred=_t _tg_; inp=t g; ref=LETTERS 5 7 | t.g. | tg- | tg | t. g. | t g
+	input=handley page hastings c one t g five hundred thirty four royal air force
+	tags=<SELF> <SELF> <SELF> _c__-_ _1_ _t _tg_ _5 <DELETE> 3 4_ <SELF> <SELF> <SELF>
+	pred=handley page hastings _c__-_ _1_ _t _tg_ _5  3 4_ royal air force
+	semiotic=PLAIN PLAIN PLAIN LETTERS CARDINAL LETTERS VERBATIM CARDINAL CARDINAL CARDINAL CARDINAL PLAIN PLAIN PLAIN
+	ref=handley page hastings c1 tg 534 royal air force
+error: pred=_b a c e__-_; inp=b a c e; ref=LETTERS 5 9 | b a c e | bace
+	input=extracellular cleavage of app by b a c e one creates a soluble extracellular fragment and a cell membrane bound fragment referred to as c ninety nine
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> _b <SELF> <SELF> e__-_ _1_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _9 9_
+	pred=extracellular cleavage of app by _b a c e__-_ _1_ creates a soluble extracellular fragment and a cell membrane bound fragment referred to as c _9 9_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN LETTERS LETTERS LETTERS LETTERS CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN ADDRESS ADDRESS ADDRESS
+	ref=extracellular cleavage of app by bace 1 creates a soluble extracellular fragment and a cell membrane bound fragment referred to as c99
+error: pred=m e g a n l e_ e__-_; inp=m e g a n l e e; ref=LETTERS 7 15 | m e g a n l e e | meganlee
+	input=b two s t's junhyung m v m e g a n l e e eight dayz feat yong junhyung of beast m v m e g a n l e e eight dayz eng ver
+	tags=<SELF> _2_ _s ts_ <SELF> _m <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> e_ e__-_ _8_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _m <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> e_ e__-_ _8_ <SELF> <SELF> <SELF>
+	pred=b _2_ _s ts_ junhyung _m v m e g a n l e_ e__-_ _8_ dayz feat yong junhyung of beast _m v m e g a n l e_ e__-_ _8_ dayz eng ver
+	semiotic=ADDRESS ADDRESS LETTERS LETTERS PLAIN LETTERS LETTERS LETTERS LETTERS LETTERS LETTERS LETTERS LETTERS LETTERS LETTERS CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN LETTERS LETTERS LETTERS LETTERS LETTERS LETTERS LETTERS LETTERS LETTERS LETTERS CARDINAL PLAIN PLAIN PLAIN
+	ref=b2 st's junhyung mv meganlee 8 dayz feat yong junhyung of beast mv meganlee 8 dayz eng ver
+error: pred=m e g a n l e_ e__-_; inp=m e g a n l e e; ref=LETTERS 24 32 | m e g a n l e e | meganlee
+	input=b two s t's junhyung m v m e g a n l e e eight dayz feat yong junhyung of beast m v m e g a n l e e eight dayz eng ver
+	tags=<SELF> _2_ _s ts_ <SELF> _m <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> e_ e__-_ _8_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _m <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> e_ e__-_ _8_ <SELF> <SELF> <SELF>
+	pred=b _2_ _s ts_ junhyung _m v m e g a n l e_ e__-_ _8_ dayz feat yong junhyung of beast _m v m e g a n l e_ e__-_ _8_ dayz eng ver
+	semiotic=ADDRESS ADDRESS LETTERS LETTERS PLAIN LETTERS LETTERS LETTERS LETTERS LETTERS LETTERS LETTERS LETTERS LETTERS LETTERS CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN LETTERS LETTERS LETTERS LETTERS LETTERS LETTERS LETTERS LETTERS LETTERS LETTERS CARDINAL PLAIN PLAIN PLAIN
+	ref=b2 st's junhyung mv meganlee 8 dayz feat yong junhyung of beast mv meganlee 8 dayz eng ver
+error: pred=_h e m t__-_ _t; inp=h e m t t; ref=LETTERS 6 11 | h e m t t | hemtt- | hemtt | hemtt a
+	input=the p l s one and h e m t t a four has a visually similar but slightly larger revised cab
+	tags=<SELF> _p <SELF> s_ _1_ <SELF> _h <SELF> <SELF> t__-_ _t a__-_ _4_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=the _p l s_ _1_ and _h e m t__-_ _t a__-_ _4_ has a visually similar but slightly larger revised cab
+	semiotic=PLAIN LETTERS LETTERS LETTERS CARDINAL PLAIN LETTERS LETTERS LETTERS LETTERS LETTERS LETTERS CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=the pls a 1  and hemtt a4 has a visually similar but slightly larger revised cab
+error: pred=_u._ s_; inp=u s; ref=LETTERS 0 2 | us | us i- | us, | u.s.a | us m | u.s. us | us us | u.s.- | u.s. m | u.s. | u.s. high | us b | us- | u. s. | u s | u.s. a
+	input=u s patent application publication two thousand six o o seven five o three two a one
+	tags=_u._ s_ <SELF> <SELF> <SELF> _2 00 6_ _0 0 7 5 0 3 2_ <SELF> _1_
+	pred=_u._ s_ patent application publication _2 00 6_ _0 0 7 5 0 3 2_ a _1_
+	semiotic=LETTERS LETTERS PLAIN PLAIN PLAIN DATE DATE DATE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE PLAIN ADDRESS
+	ref=us patent application publication 2006 0075032 a1
+error: pred=_c _cc_; inp=c c; ref=LETTERS 4 6 | cc, | c. c. | cc | cc' | c c | cc- | c.c.
+	input=the manual compass was c c to c four sixty one notes
+	tags=<SELF> <SELF> <SELF> <SELF> _c _cc_ <SELF> <SELF> _4_ 6 1_ <SELF>
+	pred=the manual compass was _c _cc_ to c _4_ 6 1_ notes
+	semiotic=PLAIN PLAIN PLAIN PLAIN VERBATIM VERBATIM PLAIN ADDRESS ADDRESS ADDRESS ADDRESS PLAIN
+	ref=the manual compass was cc to c4  61 notes
+error: pred=_f l j__-_; inp=f l j; ref=LETTERS 10 13 | f l j | f. l. j. | flj | f.l.j.
+	input=it has several aliases including c sixteen orf twenty five f l j three four five one two c n m four and j f p ten
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _16_ <SELF> _2 5_ _f <SELF> j__-_ _3 4 5 1 2_ _c <SELF> m__-_ _4_ <SELF> _j <SELF> p_ _10_
+	pred=it has several aliases including c _16_ orf _2 5_ _f l j__-_ _3 4 5 1 2_ _c n m__-_ _4_ and _j f p_ _10_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN ADDRESS ADDRESS PLAIN CARDINAL CARDINAL LETTERS LETTERS LETTERS DIGIT DIGIT DIGIT DIGIT DIGIT LETTERS LETTERS LETTERS ADDRESS PLAIN LETTERS LETTERS LETTERS CARDINAL
+	ref=it has several aliases including c16 orf 25 flj 34512 cnm 4 and jfp 10
+error: pred=_c n m__-_; inp=c n m; ref=LETTERS 18 21 | c.n.m. | c. n. m. | cnm | c n m
+	input=it has several aliases including c sixteen orf twenty five f l j three four five one two c n m four and j f p ten
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _16_ <SELF> _2 5_ _f <SELF> j__-_ _3 4 5 1 2_ _c <SELF> m__-_ _4_ <SELF> _j <SELF> p_ _10_
+	pred=it has several aliases including c _16_ orf _2 5_ _f l j__-_ _3 4 5 1 2_ _c n m__-_ _4_ and _j f p_ _10_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN ADDRESS ADDRESS PLAIN CARDINAL CARDINAL LETTERS LETTERS LETTERS DIGIT DIGIT DIGIT DIGIT DIGIT LETTERS LETTERS LETTERS ADDRESS PLAIN LETTERS LETTERS LETTERS CARDINAL
+	ref=it has several aliases including c16 orf 25 flj 34512 cnm 4 and jfp 10

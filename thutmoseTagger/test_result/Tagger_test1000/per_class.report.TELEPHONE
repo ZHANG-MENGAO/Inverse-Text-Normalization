@@ -1,0 +1,696 @@
+error: pred=_1 9 9 2 - 9 6_; inp=one nine nine two sil nine six; ref=TELEPHONE 3 10 | one nine nine two sil nine six | (1992) 96
+	input=sone ki lanka one nine nine two sil nine six
+	tags=<SELF> <SELF> <SELF> _1 9 9 2 - 9 6_
+	pred=sone ki lanka _1 9 9 2 - 9 6_
+	semiotic=PLAIN PLAIN PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE
+	ref=sone ki lanka (1992) 96
+error: pred=_1 5 4 - 1 4 1 9_; inp=one five four sil one four one nine; ref=TELEPHONE 5 13 | (154) 1419 | one five four sil one four one nine
+	input=the genetics society of america one five four sil one four one nine fourteen twenty six andersson m nineteen ninety four sexual selection
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> _1 5 4 - 1 4 1 9_ _14 2 6_ <SELF> _m._ _19 9 4_ <SELF> <SELF>
+	pred=the genetics society of america _1 5 4 - 1 4 1 9_ _14 2 6_ andersson _m._ _19 9 4_ sexual selection
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE DATE DATE DATE PLAIN LETTERS DATE DATE DATE PLAIN PLAIN
+	ref=the genetics society of america (154) 1419 1426 andersson m. 1994 sexual selection
+error: pred=_0 0 0 2  4 3 4 1  9  4 8 9 4 9 4 5 6 5 1_; inp=o o o two sil four three four one sil nine sil four eight nine four nine four five six five one; ref=TELEPHONE 4 26 | 0002-4341 9-4894945651 | o o o two sil four three four one sil nine sil four eight nine four nine four five six five one
+	input=i s s n o o o two sil four three four one sil nine sil four eight nine four nine four five six five one
+	tags=_i <SELF> <SELF> n_ _0 0 0 2 <DELETE> 4 3 4 1 <DELETE> 9 <DELETE> 4 8 9 4 9 4 5 6 5 1_
+	pred=_i s s n_ _0 0 0 2  4 3 4 1  9  4 8 9 4 9 4 5 6 5 1_
+	semiotic=LETTERS LETTERS LETTERS LETTERS TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE
+	ref=issn 0002-4341 9-4894945651
+error: pred=_1 9 3 1 - 0 6  1 0  2 0 0 8 - 0 8 - 1 9_; inp=one nine three one sil o six sil one o sil two o o eight sil o eight sil one nine; ref=TELEPHONE 18 39 | 1931 06 10 - 2008 08 19 | one nine three one sil o six sil one o sil two o o eight sil o eight sil one nine
+	input=a l g i m a n t a s m a s i u l i s one nine three one sil o six sil one o sil two o o eight sil o eight sil one nine
+	tags=_a <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> s_ _1 9 3 1 - 0 6 <DELETE> 1 0 <DELETE> 2 0 0 8 - 0 8 - 1 9_
+	pred=_a l g i m a n t a s m a s i u l i s_ _1 9 3 1 - 0 6  1 0  2 0 0 8 - 0 8 - 1 9_
+	semiotic=LETTERS LETTERS LETTERS LETTERS LETTERS LETTERS LETTERS LETTERS LETTERS LETTERS LETTERS LETTERS LETTERS LETTERS LETTERS LETTERS LETTERS LETTERS TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE
+	ref=algimantas masiulis 1931 06 10 - 2008 08 19
+error: pred=_1 - 1 0_ -_ recap; inp=one sil one o sil recap; ref=TELEPHONE 4 10 | 1-10 recap | one sil one o sil recap
+	input=youtube spade episode number one sil one o sil recap part one
+	tags=<SELF> <SELF> <SELF> _#_ _1 - 1 0_ -_ <SELF> <SELF> _1_
+	pred=youtube spade episode _#_ _1 - 1 0_ -_ recap part _1_
+	semiotic=PLAIN PLAIN PLAIN VERBATIM TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE PLAIN CARDINAL
+	ref=youtube spade episode # 1-10 recap part 1
+error: pred=_8 9 - 2 0 0 7 - 3 0 - 4 6_; inp=eight nine sil two o o seven sil three o sil four six; ref=TELEPHONE 5 18 | eight nine sil two o o seven sil three o sil four six | 89 (2007) 30-46
+	input=archiv fur geschichte der philosophie eight nine sil two o o seven sil three o sil four six
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> _8 9 - 2 0 0 7 - 3 0 - 4 6_
+	pred=archiv fur geschichte der philosophie _8 9 - 2 0 0 7 - 3 0 - 4 6_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE
+	ref=archiv fur geschichte der philosophie 89 (2007) 30-46
+error: pred=_8 - 1 6 - 1 9_; inp=eight sil one six sil one nine; ref=TELEPHONE 4 11 | eight sil one six sil one nine | (8) 16-19
+	input=part one in vi eight sil one six sil one nine part two in vi nine
+	tags=<SELF> _1_ <SELF> <SELF> _8 - 1 6 - 1 9_ <SELF> _2_ <SELF> <SELF> _9_
+	pred=part _1_ in vi _8 - 1 6 - 1 9_ part _2_ in vi _9_
+	semiotic=PLAIN CARDINAL PLAIN PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE PLAIN CARDINAL PLAIN PLAIN CARDINAL
+	ref=part 1 in vi (8) 16-19 part 2 in vi 9
+error: pred=_1 9 8 8 - 1 5_    _wh_ _l   _1 3 0_; inp=one nine eight eight sil one five sil n s w l r sil one three o; ref=TELEPHONE 9 26 | one nine eight eight sil one five sil n s w l r sil one three o | (1988) 15 nswlr 130
+	input=kirby j in biotechnology australia pty limited v pace one nine eight eight sil one five sil n s w l r sil one three o see portland gasoline co
+	tags=<SELF> _j._ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _1 9 8 8 - 1 5_ <DELETE> <DELETE> <DELETE> _wh_ _l <DELETE> <DELETE> _1 3 0_ <SELF> <SELF> <SELF> <SELF>
+	pred=kirby _j._ in biotechnology australia pty limited v pace _1 9 8 8 - 1 5_    _wh_ _l   _1 3 0_ see portland gasoline co
+	semiotic=PLAIN LETTERS PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE PLAIN PLAIN PLAIN PLAIN
+	ref=kirby j in biotechnology australia pty ltd v pace (1988) 15 nswlr 130 see portland gasoline co
+error: pred=_1 - 4_   p__-_; inp=one sil four sil c p; ref=TELEPHONE 5 11 | one sil four sil c p | 1-4 cp
+	input=men's team sprint l c one sil four sil c p three quarters
+	tags=<SELF> <SELF> <SELF> _l c_ _1 - 4_ <DELETE> <DELETE> p__-_ _3 /4_
+	pred=men's team sprint _l c_ _1 - 4_   p__-_ _3 /4_
+	semiotic=PLAIN PLAIN PLAIN LETTERS LETTERS TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE FRACTION FRACTION
+	ref=men's team sprint lc 1-4 cp 3/4
+error: pred=_1 9 6 1 - 1 3_; inp=one nine six one sil one three; ref=TELEPHONE 3 10 | one nine six one sil one three | (1961) 13
+	input=economic history review one nine six one sil one three number three p p four hundred seventeen to four hundred thirty two
+	tags=<SELF> <SELF> <SELF> _1 9 6 1 - 1 3_ _#_ _3_ <DELETE> _pp_ _4 <DELETE> 17_ _-_ _4 <DELETE> 3 2_
+	pred=economic history review _1 9 6 1 - 1 3_ _#_ _3_  _pp_ _4  17_ _-_ _4  3 2_
+	semiotic=PLAIN PLAIN PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE VERBATIM CARDINAL VERBATIM VERBATIM CARDINAL CARDINAL CARDINAL PLAIN CARDINAL CARDINAL CARDINAL CARDINAL
+	ref=economic history review (1961) 13 # 3 pp 417 - 432
+error: pred=_1 5 - 0 8 - 0 8 - 0 9_; inp=one five sil o eight sil o eight sil o nine; ref=TELEPHONE 5 16 | one five sil o eight sil o eight sil o nine | 15-08-08 09
+	input=j t w c warning one five sil o eight sil o eight sil o nine z
+	tags=_j <SELF> <SELF> c_ <SELF> _1 5 - 0 8 - 0 8 - 0 9_ <SELF>
+	pred=_j t w c_ warning _1 5 - 0 8 - 0 8 - 0 9_ z
+	semiotic=LETTERS LETTERS LETTERS LETTERS PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE PLAIN
+	ref=jtwc warning 15-08-08 09 z
+error: pred=_2 0 1 0 - 2 0 1 1_    _nhl_; inp=two o one o sil two o one one sil s h l; ref=TELEPHONE 0 13 | 2010-2011 shl | two o one o sil two o one one sil s h l
+	input=two o one o sil two o one one sil s h l defenseman of the month february with team dynamo balashikha
+	tags=_2 0 1 0 - 2 0 1 1_ <DELETE> <DELETE> <DELETE> _nhl_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=_2 0 1 0 - 2 0 1 1_    _nhl_ defenseman of the month february with team dynamo balashikha
+	semiotic=TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=2010-2011 shl defenseman of the month february with team dynamo balashikha
+error: pred=_1 9 9 9 - 1 4_; inp=one nine nine nine sil one four; ref=TELEPHONE 9 16 | (1999) 14 | (1999)14 | one nine nine nine sil one four
+	input=inter war bucharest city in a garden planning perspectives one nine nine nine sil one four number three p p two hundred forty nine to two hundred seventy five innovative planning designs in romania well illustratedmeller helen
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _1 9 9 9 - 1 4_ _#_ _3_ <DELETE> _pp_ _2 <DELETE> 4 9_ _-_ _2 <DELETE> 7 5_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=inter war bucharest city in a garden planning perspectives _1 9 9 9 - 1 4_ _#_ _3_  _pp_ _2  4 9_ _-_ _2  7 5_ innovative planning designs in romania well illustratedmeller helen
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE VERBATIM CARDINAL VERBATIM VERBATIM CARDINAL CARDINAL CARDINAL CARDINAL PLAIN CARDINAL CARDINAL CARDINAL CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=inter war bucharest city in a garden planning perspectives (1999) 14 # 3 pp 249 - 275 innovative planning designs in romania well illustratedmeller helen
+error: pred=_2 0 00- 005 2_; inp=two thousand sil five two; ref=TELEPHONE 1 6 | two thousand sil five two | (2000) 52
+	input=geojournal two thousand sil five two number two p p three hundred thirty nine to three hundred forty four
+	tags=<SELF> _2 0 00- 005 2_ _#_ _2_ <DELETE> _pp_ _3 <DELETE> 3 9_ _-_ _3 <DELETE> 4 4_
+	pred=geojournal _2 0 00- 005 2_ _#_ _2_  _pp_ _3  3 9_ _-_ _3  4 4_
+	semiotic=PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE VERBATIM CARDINAL VERBATIM VERBATIM CARDINAL CARDINAL CARDINAL CARDINAL PLAIN CARDINAL CARDINAL CARDINAL CARDINAL
+	ref=geojournal (2000) 52 # 2 pp 339 - 344
+error: pred=_0 9 - 0 0 3 7_   _cv_; inp=o nine sil o o three seven sil c w; ref=TELEPHONE 2 12 | 09-0037-cw | o nine sil o o three seven sil c w
+	input=c v o nine sil o o three seven sil c w u s d c n d cal
+	tags=_c _cv_ _0 9 - 0 0 3 7_ <DELETE> <DELETE> _cv_ _u._ _s._ _d._ _c._ _n._ _d._ <SELF>
+	pred=_c _cv_ _0 9 - 0 0 3 7_   _cv_ _u._ _s._ _d._ _c._ _n._ _d._ cal
+	semiotic=LETTERS VERBATIM TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE LETTERS LETTERS LETTERS LETTERS LETTERS LETTERS PLAIN
+	ref=cv- 09-0037-cw u.s.d.c. n.d. cal
+error: pred=_1 0 7_  ii; inp=one o seven sil ii; ref=TELEPHONE 1 6 | one o seven sil ii | 107-ii
+	input=model one o seven sil ii commercial airline helicopter
+	tags=<SELF> _1 0 7_ <DELETE> <SELF> <SELF> <SELF> <SELF>
+	pred=model _1 0 7_  ii commercial airline helicopter
+	semiotic=PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE PLAIN PLAIN PLAIN
+	ref=model 107-ii commercial airline helicopter
+error: pred=_8 00_    0_; inp=eight hundred sil c e o; ref=TELEPHONE 6 12 | eight hundred sil c e o | 800-ceo
+	input=the book was shortlisted for the eight hundred sil c e o read awards and is an international bestseller
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _8 00_ <DELETE> <DELETE> <DELETE> 0_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=the book was shortlisted for the _8 00_    0_ read awards and is an international bestseller
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=the book was shortlisted for the 800-ceo read awards and is an international bestseller
+error: pred=_0 6 7 5 -_ somerset  avenue  ri; inp=o six seven five sil somerset sil avenue sil ri; ref=TELEPHONE 4 14 | 0675 somerset avenue ri | o six seven five sil somerset sil avenue sil ri
+	input=project information m d o six seven five sil somerset sil avenue sil ri at m d eight hundred twenty two to m d three hundred sixty two
+	tags=<SELF> <SELF> _m d_ _0 6 7 5 -_ <SELF> <DELETE> <SELF> <DELETE> <SELF> <SELF> _m d_ _8 <DELETE> 2 2_ <SELF> _m d_ _3 <DELETE> 6 2_
+	pred=project information _m d_ _0 6 7 5 -_ somerset  avenue  ri at _m d_ _8  2 2_ to _m d_ _3  6 2_
+	semiotic=PLAIN PLAIN LETTERS LETTERS TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE PLAIN LETTERS LETTERS CARDINAL CARDINAL CARDINAL CARDINAL PLAIN LETTERS LETTERS CARDINAL CARDINAL CARDINAL CARDINAL
+	ref=project information md 0675 somerset avenue ri at md 822 to md 362
+error: pred=_1 - 3; inp=one sil three; ref=TELEPHONE 2 5 | (1) 3 | one sil three | (1)3
+	input=jacksonville cyclones one sil three one zero toronto lynx
+	tags=<SELF> <SELF> _1 - 3 1_ _00_ <SELF> <SELF>
+	pred=jacksonville cyclones _1 - 3 1_ _00_ toronto lynx
+	semiotic=PLAIN PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE CARDINAL PLAIN PLAIN
+	ref=jacksonville cyclones (1) 3 1 0 toronto lynx
+error: pred=_1 9 6 2 - 1 9 8 4_     _isbn_  _0 - 8 0 1 4 - 9 2 9 3 - 9_; inp=one nine six two sil one nine eight four sil i s b n sil o sil eight o one four sil nine two nine three sil nine; ref=TELEPHONE 3 31 | one nine six two sil one nine eight four sil i s b n sil o sil eight o one four sil nine two nine three sil nine | (1962) 1984 isbn 0-8014-9293-9
+	input=cornell university press one nine six two sil one nine eight four sil i s b n sil o sil eight o one four sil nine two nine three sil nine wernick andrew
+	tags=<SELF> <SELF> <SELF> _1 9 6 2 - 1 9 8 4_ <DELETE> <DELETE> <DELETE> <DELETE> _isbn_ <DELETE> _0 - 8 0 1 4 - 9 2 9 3 - 9_ <SELF> <SELF>
+	pred=cornell university press _1 9 6 2 - 1 9 8 4_     _isbn_  _0 - 8 0 1 4 - 9 2 9 3 - 9_ wernick andrew
+	semiotic=PLAIN PLAIN PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE PLAIN PLAIN
+	ref=cornell university press (1962) 1984 isbn 0-8014-9293-9 wernick andrew
+error: pred=_3 0 - 1 9 9 2 - 5 8 7_; inp=three o sil one nine nine two sil five eight seven; ref=TELEPHONE 11 22 | 30 (1992) 587 | three o sil one nine nine two sil five eight seven
+	input=the tantalite tapiolite gap natural assemblages versus experimental data canadian mineralogist three o sil one nine nine two sil five eight seven free downloadp c rickwood nineteen eighty one
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _3 0 - 1 9 9 2 - 5 8 7_ <SELF> <SELF> _c._ <SELF> _19 8 1_
+	pred=the tantalite tapiolite gap natural assemblages versus experimental data canadian mineralogist _3 0 - 1 9 9 2 - 5 8 7_ free downloadp _c._ rickwood _19 8 1_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE PLAIN PLAIN LETTERS PLAIN DATE DATE DATE
+	ref=the tantalite tapiolite gap natural assemblages versus experimental data canadian mineralogist 30 (1992) 587 free downloadp c. rickwood 1981
+error: pred=_0 3 - 0 9 - 2 0 0 8 - 0 6_; inp=o three sil o nine sil two o o eight sil o six; ref=TELEPHONE 3 16 | 03-09-2008 06 | o three sil o nine sil two o o eight sil o six
+	input=tropical cyclone warning o three sil o nine sil two o o eight sil o six z
+	tags=<SELF> <SELF> <SELF> _0 3 - 0 9 - 2 0 0 8 - 0 6_ <SELF>
+	pred=tropical cyclone warning _0 3 - 0 9 - 2 0 0 8 - 0 6_ z
+	semiotic=PLAIN PLAIN PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE PLAIN
+	ref=tropical cyclone warning 03-09-2008 06 z
+error: pred=_2 0 0 9 - 2 00_; inp=two o o nine sil two hundred; ref=TELEPHONE 5 12 | two o o nine sil two hundred | 2009 200
+	input=w h p s c two o o nine sil two hundred meter results
+	tags=_w <SELF> <SELF> <SELF> c_ _2 0 0 9 - 2 00_ <SELF> <SELF>
+	pred=_w h p s c_ _2 0 0 9 - 2 00_ meter results
+	semiotic=LETTERS LETTERS LETTERS LETTERS LETTERS TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE PLAIN PLAIN
+	ref=whpsc 2009 200 meter results
+error: pred=_2 0 0 9 - 6 8_; inp=two o o nine sil six eight; ref=TELEPHONE 3 10 | (2009) 68 | two o o nine sil six eight
+	input=the russian review two o o nine sil six eight number two p p two hundred forty to two hundred sixty two
+	tags=<SELF> <SELF> <SELF> _2 0 0 9 - 6 8_ _#_ _2_ <DELETE> _pp_ _2 <DELETE> 40_ _-_ _2 <DELETE> 6 2_
+	pred=the russian review _2 0 0 9 - 6 8_ _#_ _2_  _pp_ _2  40_ _-_ _2  6 2_
+	semiotic=PLAIN PLAIN PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE VERBATIM CARDINAL VERBATIM VERBATIM CARDINAL CARDINAL CARDINAL PLAIN CARDINAL CARDINAL CARDINAL CARDINAL
+	ref=the russian review (2009) 68 # 2 pp 240 - 262
+error: pred=_0 0 2 3 - 0 0 7 0_; inp=o o two three sil o o seven o; ref=TELEPHONE 14 23 | 0023 0070 | o o two three sil o o seven o
+	input=also if you convert back number which is represented as hex representation in memory o o two three sil o o seven o
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _0 0 2 3 - 0 0 7 0_
+	pred=also if you convert back number which is represented as hex representation in memory _0 0 2 3 - 0 0 7 0_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE
+	ref=also if you convert back number which is represented as hex representation in memory 0023 0070
+error: pred=_3 6 - 2 - 1 0 - 4_; inp=three six sil two sil one o sil four; ref=TELEPHONE 6 15 | three six sil two sil one o sil four | 36 2-10-4
+	input=at the end of the decade three six sil two sil one o sil four steam locomotives were purchased from baldwin and the lima locomotive works
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _3 6 - 2 - 1 0 - 4_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=at the end of the decade _3 6 - 2 - 1 0 - 4_ steam locomotives were purchased from baldwin and the lima locomotive works
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=at the end of the decade 36 2-10-4 steam locomotives were purchased from baldwin and the lima locomotive works
+error: pred=_1 9 9 9 - 1_; inp=one nine nine nine sil one; ref=TELEPHONE 3 9 | one nine nine nine sil one | (1999)1 | (1999) 1
+	input=new american shame one nine nine nine sil one
+	tags=<SELF> <SELF> <SELF> _1 9 9 9 - 1_
+	pred=new american shame _1 9 9 9 - 1_
+	semiotic=PLAIN PLAIN PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE
+	ref=new american shame (1999)1
+error: pred=_1 9 4 2 - 7_; inp=one nine four two sil seven; ref=TELEPHONE 3 9 | one nine four two sil seven | (1942) 7
+	input=ding dog daddy one nine four two sil seven
+	tags=<SELF> <SELF> <SELF> _1 9 4 2 - 7_
+	pred=ding dog daddy _1 9 4 2 - 7_
+	semiotic=PLAIN PLAIN PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE
+	ref=ding dog daddy (1942) 7
+error: pred=_2 0 0 4 - 5 0_; inp=two o o four sil five o; ref=TELEPHONE 3 10 | (2004) 50 | two o o four sil five o
+	input=butler bowdon tom two o o four sil five o success classics nicholas brealey publishing i s b n nine seven eight sil one sil eight five seven eight eight sil three three three sil six p two hundred eighty seven
+	tags=<SELF> <SELF> <SELF> _2 0 0 4 - 5 0_ <SELF> <SELF> <SELF> <SELF> <SELF> _i <SELF> <SELF> n_ _9 7 8 - 1 - 8 5 7 8 8 - 3 3 3 - 6_ <SELF> _2 <DELETE> 8 7_
+	pred=butler bowdon tom _2 0 0 4 - 5 0_ success classics nicholas brealey publishing _i s b n_ _9 7 8 - 1 - 8 5 7 8 8 - 3 3 3 - 6_ p _2  8 7_
+	semiotic=PLAIN PLAIN PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE PLAIN PLAIN PLAIN PLAIN PLAIN LETTERS LETTERS LETTERS LETTERS TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE PLAIN CARDINAL CARDINAL CARDINAL CARDINAL
+	ref=butler bowdon tom (2004) 50 success classics nicholas brealey publishing isbn 978-1-85788-333-6 p 287
+error: pred=_1 - 3 5 5 - 8 5 - 8 6_; inp=one sil three five five sil eight five sil eight six; ref=TELEPHONE 11 22 | one sil three five five sil eight five sil eight six | 1-355 85-86
+	input=i n r a institut national de la recherche agronomique paris one sil three five five sil eight five sil eight six musgrave a nineteen thirty two bibliography of australian entomology seventeen seventy five to nineteen thirty
+	tags=_i <SELF> <SELF> a_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _1 - 3 5 5 - 8 5 - 8 6_ <SELF> _a._ _19 3 2_ <SELF> <SELF> <SELF> <SELF> _17 7 5_ _-_ _19 30_
+	pred=_i n r a_ institut national de la recherche agronomique paris _1 - 3 5 5 - 8 5 - 8 6_ musgrave _a._ _19 3 2_ bibliography of australian entomology _17 7 5_ _-_ _19 30_
+	semiotic=LETTERS LETTERS LETTERS LETTERS PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE PLAIN LETTERS DATE DATE DATE PLAIN PLAIN PLAIN PLAIN DATE DATE DATE PLAIN DATE DATE
+	ref=inra institut national de la recherche agronomique paris 1-355 85-86 musgrave a. 1932 bibliography of australian entomology 1775 - 1930
+error: pred=_1 9 8 7 - 8 8_    _nba_; inp=one nine eight seven sil eight eight sil c b a; ref=TELEPHONE 0 11 | 1987-88 cba | one nine eight seven sil eight eight sil c b a
+	input=one nine eight seven sil eight eight sil c b a official guide and register page two hundred sixty three utica individual career records p d f
+	tags=_1 9 8 7 - 8 8_ <DELETE> <DELETE> <DELETE> _nba_ <SELF> <SELF> <SELF> <SELF> <SELF> _2 <DELETE> 6 3_ <SELF> <SELF> <SELF> <SELF> _p <SELF> f_
+	pred=_1 9 8 7 - 8 8_    _nba_ official guide and register page _2  6 3_ utica individual career records _p d f_
+	semiotic=TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL CARDINAL CARDINAL CARDINAL PLAIN PLAIN PLAIN PLAIN LETTERS LETTERS LETTERS
+	ref=1987-88 cba official guide and register page 263 utica individual career records pdf
+error: pred=_1 8  1 2 7 5 - 1 2 7 9_; inp=one eight sil one two seven five sil one two seven nine; ref=TELEPHONE 2 14 | one eight sil one two seven five sil one two seven nine | (18) 1275-1279
+	input=transplant international one eight sil one two seven five sil one two seven nine
+	tags=<SELF> <SELF> _1 8 <DELETE> 1 2 7 5 - 1 2 7 9_
+	pred=transplant international _1 8  1 2 7 5 - 1 2 7 9_
+	semiotic=PLAIN PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE
+	ref=transplant international (18) 1275-1279
+error: pred=_2  1 9 5 1 - 6 0_; inp=two sil one nine five one sil six o; ref=TELEPHONE 2 11 | 2 - 1951-60 | two sil one nine five one sil six o
+	input=chronology part two sil one nine five one sil six o
+	tags=<SELF> <SELF> _2 <DELETE> 1 9 5 1 - 6 0_
+	pred=chronology part _2  1 9 5 1 - 6 0_
+	semiotic=PLAIN PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE
+	ref=chronology part 2 - 1951-60
+error: pred=_2 0 0 7 - 0 8_    _nba_; inp=two o o seven sil o eight sil p b a; ref=TELEPHONE 6 17 | two o o seven sil o eight sil p b a | 2007-08 pba
+	input=butel played three games in the two o o seven sil o eight sil p b a philippine cup and only scored two points
+	tags=<SELF> <SELF> _3_ <SELF> <SELF> <SELF> _2 0 0 7 - 0 8_ <DELETE> <DELETE> <DELETE> _nba_ <SELF> <SELF> <SELF> <SELF> <SELF> _2_ <SELF>
+	pred=butel played _3_ games in the _2 0 0 7 - 0 8_    _nba_ philippine cup and only scored _2_ points
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL PLAIN
+	ref=butel played 3 games in the 2007-08 pba philippine cup and only scored 2 points
+error: pred=_2 0 0 6 - 5 3 2 0 2 3_; inp=two o o six sil five three two o two three; ref=TELEPHONE 1 12 | 2006 532023 | two o o six sil five three two o two three
+	input=marz two o o six sil five three two o two three wetzlar saint hanno bender und marcelo crescenti in der handel o six two thousand eight die besten standorte
+	tags=<SELF> _2 0 0 6 - 5 3 2 0 2 3_ <SELF> _st_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _0 6_ _2 00 8_ <SELF> <SELF> <SELF>
+	pred=marz _2 0 0 6 - 5 3 2 0 2 3_ wetzlar _st_ hanno bender und marcelo crescenti in der handel _0 6_ _2 00 8_ die besten standorte
+	semiotic=PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN DIGIT DIGIT DATE DATE DATE PLAIN PLAIN PLAIN
+	ref=marz 2006 532023 wetzlar st hanno bender und marcelo crescenti in der handel 06 2008 die besten standorte
+error: pred=_1 3 8  1 9 8 1  3 5  4 5_; inp=one three eight sil one nine eight one sil three five sil four five; ref=TELEPHONE 2 16 | 138 (1981) 35-45 | one three eight sil one nine eight one sil three five sil four five
+	input=bibliotheca sacra one three eight sil one nine eight one sil three five sil four five
+	tags=<SELF> <SELF> _1 3 8 <DELETE> 1 9 8 1 <DELETE> 3 5 <DELETE> 4 5_
+	pred=bibliotheca sacra _1 3 8  1 9 8 1  3 5  4 5_
+	semiotic=PLAIN PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE
+	ref=bibliotheca sacra 138 (1981) 35-45
+error: pred=_4 - 0 6 - 3 2 4 5_ _0 8-_; inp=four sil o six sil three two four five o eight; ref=TELEPHONE 4 15 | four sil o six sil three two four five o eight | 4-06-324508
+	input=i s b n four sil o six sil three two four five o eight x takeuchi naoko september nineteen ninety six
+	tags=_i <SELF> <SELF> n_ _4 - 0 6 - 3 2 4 5_ _0 8-_ <SELF> <SELF> <SELF> <SELF> _19 9 6_
+	pred=_i s b n_ _4 - 0 6 - 3 2 4 5_ _0 8-_ x takeuchi naoko september _19 9 6_
+	semiotic=LETTERS LETTERS LETTERS LETTERS TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE DIGIT DIGIT PLAIN PLAIN PLAIN DATE DATE DATE DATE
+	ref=isbn 4-06-324508 x takeuchi naoko september 1996
+error: pred=_4 6 - 3_    _cd_; inp=four six sil three sil s w d; ref=TELEPHONE 6 14 | 46-3 swd | four six sil three sil s w d
+	input=e p kings u twenty one four six sil three sil s w d u twenty one
+	tags=_e p_ <SELF> <SELF> _2 1_ _4 6 - 3_ <DELETE> <DELETE> <DELETE> _cd_ <SELF> _2 1_
+	pred=_e p_ kings u _2 1_ _4 6 - 3_    _cd_ u _2 1_
+	semiotic=LETTERS LETTERS PLAIN PLAIN CARDINAL CARDINAL TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE PLAIN CARDINAL CARDINAL
+	ref=ep kings u 21 46-3 swd u 21
+error: pred=_3 2 6 - 1 9 7 3 - 4 3 9 - 4 7_; inp=three two six sil one nine seven three sil four three nine sil four seven; ref=TELEPHONE 4 19 | three two six sil one nine seven three sil four three nine sil four seven | 326 (1973) 439-47
+	input=biochimica et biophysics acta three two six sil one nine seven three sil four three nine sil four seven r karol c litchfield d caldwell m caldwell nineteen seventy eight
+	tags=<SELF> <SELF> <SELF> <SELF> _3 2 6 - 1 9 7 3 - 4 3 9 - 4 7_ <SELF> <SELF> _c._ <SELF> _d._ <SELF> _m._ <SELF> _19 7 8_
+	pred=biochimica et biophysics acta _3 2 6 - 1 9 7 3 - 4 3 9 - 4 7_ r karol _c._ litchfield _d._ caldwell _m._ caldwell _19 7 8_
+	semiotic=PLAIN PLAIN PLAIN PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE PLAIN PLAIN LETTERS PLAIN LETTERS PLAIN LETTERS PLAIN DATE DATE DATE
+	ref=biochimica et biophysics acta 326 (1973) 439-47 r karol c. litchfield d. caldwell m. caldwell 1978
+error: pred=_1 9 8 8 - 0 8 - 3 0_; inp=one nine eight eight sil o eight sil three o; ref=TELEPHONE 3 13 | 1988 08 30 | one nine eight eight sil o eight sil three o
+	input=n y times one nine eight eight sil o eight sil three o abrams jonathan august sixteenth twenty eleven
+	tags=_n y_ <SELF> _1 9 8 8 - 0 8 - 3 0_ <SELF> <SELF> <SELF> _16 ,20 11_
+	pred=_n y_ times _1 9 8 8 - 0 8 - 3 0_ abrams jonathan august _16 ,20 11_
+	semiotic=LETTERS LETTERS PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE PLAIN PLAIN DATE DATE DATE DATE
+	ref=ny times 1988 08 30 abrams jonathan august 16, 2011
+error: pred=_1 9 0 0- 1 9 1 0 - 7 2 1 1_; inp=one nine hundred sil one nine one o sil seven two one one; ref=TELEPHONE 21 34 | one nine hundred sil one nine one o sil seven two one one | 1900-1910 7211
+	input=inventaris van het archief van de familie de lange seventeen thirty seven to nineteen eighty seven includes a family history beeldmateriaal one nine hundred sil one nine one o sil seven two one one
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _17 3 7_ _-_ _19 8 7_ <SELF> <SELF> <SELF> <SELF> <SELF> _1 9 0 0- 1 9 1 0 - 7 2 1 1_
+	pred=inventaris van het archief van de familie de lange _17 3 7_ _-_ _19 8 7_ includes a family history beeldmateriaal _1 9 0 0- 1 9 1 0 - 7 2 1 1_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN DATE DATE DATE PLAIN DATE DATE DATE PLAIN PLAIN PLAIN PLAIN PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE
+	ref=inventaris van het archief van de familie de lange 1737 - 1987 includes a family history beeldmateriaal 1900-1910 7211
+error: pred=_8 7 1_    k_; inp=eight seven one sil z r k; ref=TELEPHONE 7 14 | eight seven one sil z r k | 871-zrk
+	input=constitution of the republic of karelialaw number eight seven one sil z r k
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _#_ _8 7 1_ <DELETE> <DELETE> <DELETE> k_
+	pred=constitution of the republic of karelialaw _#_ _8 7 1_    k_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN VERBATIM TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE
+	ref=constitution of the republic of karelialaw # 871-zrk
+error: pred=_1 7 2 - 1 9 6 5 - 1 7 2_; inp=one seven two sil one nine six five sil one seven two; ref=TELEPHONE 4 16 | one seven two sil one nine six five sil one seven two | 172 (1965) 172
+	input=sao special report number one seven two sil one nine six five sil one seven two
+	tags=<SELF> <SELF> <SELF> _#_ _1 7 2 - 1 9 6 5 - 1 7 2_
+	pred=sao special report _#_ _1 7 2 - 1 9 6 5 - 1 7 2_
+	semiotic=PLAIN PLAIN PLAIN PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE
+	ref=sao special report # 172 (1965) 172
+error: pred=1 9 6 4 - 2; inp=one nine six four sil two; ref=TELEPHONE 5 11 | (1964) 2 | (1964)2 | one nine six four sil two
+	input=bishops of vatican council two one nine six four sil two twenty eight
+	tags=<SELF> <SELF> <SELF> <SELF> _2 1 9 6 4 - 2 _2 8_
+	pred=bishops of vatican council _2 1 9 6 4 - 2 _2 8_
+	semiotic=PLAIN PLAIN PLAIN PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE CARDINAL CARDINAL
+	ref=bishops of vatican council ii (1964)2 28
+error: pred=_9 5 0 0 - 1 2 0_; inp=nine five o o sil one two o; ref=TELEPHONE 1 9 | 9500 120 | nine five o o sil one two o
+	input=philips nine five o o sil one two o
+	tags=<SELF> _9 5 0 0 - 1 2 0_
+	pred=philips _9 5 0 0 - 1 2 0_
+	semiotic=PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE
+	ref=philips 9500 120
+error: pred=_1 9 1 3 - 4_; inp=one nine one three sil four; ref=TELEPHONE 4 10 | one nine one three sil four | (1913)4
+	input=le mort qui tue one nine one three sil four
+	tags=<SELF> <SELF> <SELF> <SELF> _1 9 1 3 - 4_
+	pred=le mort qui tue _1 9 1 3 - 4_
+	semiotic=PLAIN PLAIN PLAIN PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE
+	ref=le mort qui tue (1913)4
+error: pred=_9 7 8  1  5 6 8 5 9  2 7 6  3_; inp=nine seven eight sil one sil five six eight five nine sil two seven six sil three; ref=TELEPHONE 4 21 | nine seven eight sil one sil five six eight five nine sil two seven six sil three | 978-1-56859-276-3
+	input=i s b n nine seven eight sil one sil five six eight five nine sil two seven six sil three
+	tags=_i <SELF> <SELF> n_ _9 7 8 <DELETE> 1 <DELETE> 5 6 8 5 9 <DELETE> 2 7 6 <DELETE> 3_
+	pred=_i s b n_ _9 7 8  1  5 6 8 5 9  2 7 6  3_
+	semiotic=LETTERS LETTERS LETTERS LETTERS TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE
+	ref=isbn 978-1-56859-276-3
+error: pred=_3 - 1_    _tk_; inp=three sil one sil m t k; ref=TELEPHONE 3 10 | 3-1 mtk | three sil one sil m t k
+	input=ferenczvarosi t c three sil one sil m t k
+	tags=<SELF> _t c_ _3 - 1_ <DELETE> <DELETE> <DELETE> _tk_
+	pred=ferenczvarosi _t c_ _3 - 1_    _tk_
+	semiotic=PLAIN LETTERS LETTERS TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE
+	ref=ferenczvarosi tc 3-1 mtk
+error: pred=_1 9 6 2 - 6 9_   v_; inp=one nine six two sil six nine sil t v; ref=TELEPHONE 12 22 | 1962-69 tv | one nine six two sil six nine sil t v
+	input=several stories from this collection formed the basis for episodes of the one nine six two sil six nine sil t v series the saint
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _1 9 6 2 - 6 9_ <DELETE> <DELETE> v_ <SELF> <SELF> <SELF>
+	pred=several stories from this collection formed the basis for episodes of the _1 9 6 2 - 6 9_   v_ series the saint
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE PLAIN PLAIN PLAIN
+	ref=several stories from this collection formed the basis for episodes of the 1962-69 tv series the saint
+error: pred=_1 8 4 - 8 3 5 9_; inp=one eight four sil eight three five nine; ref=TELEPHONE 1 9 | 184 8359 | one eight four sil eight three five nine
+	input=short one eight four sil eight three five nine sopwith pup replica n six four five two
+	tags=<SELF> _1 8 4 - 8 3 5 9_ <SELF> <SELF> <SELF> _n__-_ _6 4 5 2_
+	pred=short _1 8 4 - 8 3 5 9_ sopwith pup replica _n__-_ _6 4 5 2_
+	semiotic=PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE PLAIN PLAIN PLAIN LETTERS DIGIT DIGIT DIGIT DIGIT
+	ref=short 184 8359 sopwith pup replica n 6452
+error: pred=_2 1 - 2 1_  mountain; inp=two one sil two one sil mountain; ref=TELEPHONE 4 11 | 21-21 mtn | two one sil two one sil mountain
+	input=south western districts eagles two one sil two one sil mountain falcons
+	tags=<SELF> <SELF> <SELF> <SELF> _2 1 - 2 1_ <DELETE> <SELF> <SELF>
+	pred=south western districts eagles _2 1 - 2 1_  mountain falcons
+	semiotic=PLAIN PLAIN PLAIN PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE
+	ref=south western districts eagles 21-21 mtn falcons
+error: pred=_2 0 9_   _mw_; inp=two o nine sil m w; ref=TELEPHONE 6 12 | two o nine sil m w | 209-mw
+	input=a w e a websiteairtricity finalizes two o nine sil m w wind project in texas renewable energy access the sixteenth of may two thousand seven
+	tags=_a <SELF> <SELF> a_ <SELF> <SELF> _2 0 9_ <DELETE> <DELETE> _mw_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <DELETE> _16_ <DELETE> <SELF> _2 00 7_
+	pred=_a w e a_ websiteairtricity finalizes _2 0 9_   _mw_ wind project in texas renewable energy access  _16_  may _2 00 7_
+	semiotic=LETTERS LETTERS LETTERS LETTERS PLAIN PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN DATE DATE DATE DATE DATE DATE DATE
+	ref=awea websiteairtricity finalizes 209-mw wind project in texas renewable energy access 16 may 2007
+error: pred=_2 0 1 0  9_; inp=two o one o sil nine; ref=TELEPHONE 1 7 | two o one o sil nine | (2010) 9
+	input=hart two o one o sil nine
+	tags=<SELF> _2 0 1 0 <DELETE> 9_
+	pred=hart _2 0 1 0  9_
+	semiotic=PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE
+	ref=hart (2010) 9
+error: pred=_1 9 8 6 - 7 0 1 0_; inp=one nine eight six sil seven o one o; ref=TELEPHONE 5 14 | 1986 7010 | one nine eight six sil seven o one o
+	input=on the tenth of september one nine eight six sil seven o one o last operated and seven thousand six the following day
+	tags=<SELF> <DELETE> _10_ <DELETE> <SELF> _1 9 8 6 - 7 0 1 0_ <SELF> <SELF> <SELF> _7 00 6_ <SELF> <SELF> <SELF>
+	pred=on  _10_  september _1 9 8 6 - 7 0 1 0_ last operated and _7 00 6_ the following day
+	semiotic=PLAIN DATE DATE DATE DATE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE PLAIN PLAIN PLAIN CARDINAL CARDINAL CARDINAL PLAIN PLAIN PLAIN
+	ref=on 10 september 1986 7010 last operated and 7006 the following day
+error: pred=_3 2 2 6 - 3 8 5 1_; inp=three two two six sil three eight five one; ref=TELEPHONE 8 17 | three two two six sil three eight five one | 3226 3851
+	input=it is situated at grid reference n s three two two six sil three eight five one
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _n s_ _3 2 2 6 - 3 8 5 1_
+	pred=it is situated at grid reference _n s_ _3 2 2 6 - 3 8 5 1_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN LETTERS LETTERS TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE
+	ref=it is situated at grid reference ns 3226 3851
+error: pred=_2 0 - 4 - 1 5 6 8 - 1 5 7 4_; inp=two o sil four sil one five six eight sil one five seven four; ref=TELEPHONE 5 19 | 20(4) 1568-1574 | two o sil four sil one five six eight sil one five seven four
+	input=the journal of neuroscience volume two o sil four sil one five six eight sil one five seven four
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> _2 0 - 4 - 1 5 6 8 - 1 5 7 4_
+	pred=the journal of neuroscience volume _2 0 - 4 - 1 5 6 8 - 1 5 7 4_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE
+	ref=the journal of neuroscience vol 20(4) 1568-1574
+error: pred=_1 9 2 7 - 2 000_; inp=one nine two seven sil two thousand; ref=TELEPHONE 3 10 | 1927 2000 | one nine two seven sil two thousand
+	input=remembering johnny vincent one nine two seven sil two thousand
+	tags=<SELF> <SELF> <SELF> _1 9 2 7 - 2 000_
+	pred=remembering johnny vincent _1 9 2 7 - 2 000_
+	semiotic=PLAIN PLAIN PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE
+	ref=remembering johnny vincent 1927 2000
+error: pred=_2 0 0 6 - 0 7_     _pssa_; inp=two o o six sil o seven sil g h s a; ref=TELEPHONE 2 14 | two o o six sil o seven sil g h s a | 2006-07 ghsa
+	input=in the two o o six sil o seven sil g h s a championship game the lions tied roswell high school with both schools being awarded state championships
+	tags=<SELF> <SELF> _2 0 0 6 - 0 7_ <DELETE> <DELETE> <DELETE> <DELETE> _pssa_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=in the _2 0 0 6 - 0 7_     _pssa_ championship game the lions tied roswell high school with both schools being awarded state championships
+	semiotic=PLAIN PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=in the 2006-07 ghsa championship game the lions tied roswell high school with both schools being awarded state championships
+error: pred=_4 0 - 1 9 3 - 9 4 5 6 3_; inp=four o sil one nine three sil nine four five six three; ref=TELEPHONE 7 19 | four o sil one nine three sil nine four five six three | 40 193 - 94563
+	input=twenty four rue de villeneuve b p four o sil one nine three sil nine four five six three rungis cedex directory world airlines
+	tags=_2 4_ <SELF> <SELF> <SELF> _b p_ _4 0 - 1 9 3 - 9 4 5 6 3_ <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=_2 4_ rue de villeneuve _b p_ _4 0 - 1 9 3 - 9 4 5 6 3_ rungis cedex directory world airlines
+	semiotic=CARDINAL CARDINAL PLAIN PLAIN PLAIN LETTERS LETTERS TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=24 rue de villeneuve bp 40 193 - 94563 rungis cedex directory world airlines
+error: pred=_1 9 0 9 - 2 9_; inp=one nine o nine sil two nine; ref=TELEPHONE 5 12 | one nine o nine sil two nine | (1909) 29
+	input=historical value of legal biography one nine o nine sil two nine canadian law times four hundred fifty nelson and reid
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> _1 9 0 9 - 2 9_ <SELF> <SELF> <SELF> _4 <DELETE> 50_ <SELF> _&_ <SELF>
+	pred=historical value of legal biography _1 9 0 9 - 2 9_ canadian law times _4  50_ nelson _&_ reid
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE PLAIN PLAIN PLAIN CARDINAL CARDINAL CARDINAL PLAIN VERBATIM PLAIN
+	ref=historical value of legal biography (1909) 29 canadian law times 450 nelson and reid
+error: pred=_2 0 1 5 - 6 1_     x_; inp=two o one five sil six one sil h u p x; ref=TELEPHONE 1 13 | two o one five sil six one sil h u p x | 2015 61 hupx
+	input=in two o one five sil six one sil h u p x dam members traded a total of fourteen nine tera watt hours which is an eighteen percent gain year on year
+	tags=<SELF> _2 0 1 5 - 6 1_ <DELETE> <DELETE> <DELETE> <DELETE> x_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _14_ _9_ <DELETE> <DELETE> _twh_ <SELF> <SELF> <SELF> _18 %_ <SELF> <SELF> <SELF> <SELF>
+	pred=in _2 0 1 5 - 6 1_     x_ dam members traded a total of _14_ _9_   _twh_ which is an _18 %_ gain year on year
+	semiotic=PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL MEASURE MEASURE MEASURE MEASURE PLAIN PLAIN PLAIN MEASURE MEASURE PLAIN PLAIN PLAIN PLAIN
+	ref=in 2015 61 hupx dam members traded a total of 14 9 twh which is an 18% gain year on year
+error: pred=_1 9 5 9  9 2  3_; inp=one nine five nine sil nine two sil three; ref=TELEPHONE 2 11 | 1959 92-3 | one nine five nine sil nine two sil three
+	input=spencer and one nine five nine sil nine two sil three
+	tags=<SELF> _&_ _1 9 5 9 <DELETE> 9 2 <DELETE> 3_
+	pred=spencer _&_ _1 9 5 9  9 2  3_
+	semiotic=PLAIN VERBATIM TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE
+	ref=spencer & 1959 92-3
+error: pred=_2 0  1 1; inp=two thousand sil one one; ref=TELEPHONE 3 8 | two thousand sil one one | (2000) 11
+	input=braz dent j two thousand sil one one two one hundred forty one to one hundred forty six
+	tags=<SELF> <SELF> _j._ _2 0 <DELETE> 1 1 2_ _1 <DELETE> 4 1_ _-_ _1 <DELETE> 4 6_
+	pred=braz dent _j._ _2 0  1 1 2_ _1  4 1_ _-_ _1  4 6_
+	semiotic=PLAIN PLAIN LETTERS TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE CARDINAL CARDINAL CARDINAL CARDINAL PLAIN CARDINAL CARDINAL CARDINAL CARDINAL
+	ref=braz dent j (2000) 11 2 141 - 146
+error: pred=_1 9 7 3 - 1 8 5_; inp=one nine seven three sil one eight five; ref=TELEPHONE 1 9 | (1973) 185 | one nine seven three sil one eight five
+	input=cook one nine seven three sil one eight five
+	tags=<SELF> _1 9 7 3 - 1 8 5_
+	pred=cook _1 9 7 3 - 1 8 5_
+	semiotic=PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE
+	ref=cook (1973) 185
+error: pred=_7 4 3 2 1 - 6 0 1 1 9 2_; inp=seven four three two one sil six o one one nine two; ref=TELEPHONE 5 17 | 74321 601192 | seven four three two one sil six o one one nine two
+	input=reverso r c a victor seven four three two one sil six o one one nine two
+	tags=<SELF> _r <SELF> a_ <SELF> _7 4 3 2 1 - 6 0 1 1 9 2_
+	pred=reverso _r c a_ victor _7 4 3 2 1 - 6 0 1 1 9 2_
+	semiotic=PLAIN LETTERS LETTERS LETTERS PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE
+	ref=reverso rca victor 74321 601192
+error: pred=_2 0 1 3 - 2 0_; inp=two o one three sil two o; ref=TELEPHONE 6 13 | two o one three sil two o | (2013) 20
+	input=journal of radio and audio media two o one three sil two o number two p p two hundred thirty six to two hundred fifty
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _2 0 1 3 - 2 0_ _#_ _2_ <DELETE> _pp_ _2 <DELETE> 3 6_ _-_ _2 <DELETE> 50_
+	pred=journal of radio and audio media _2 0 1 3 - 2 0_ _#_ _2_  _pp_ _2  3 6_ _-_ _2  50_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE VERBATIM CARDINAL VERBATIM VERBATIM CARDINAL CARDINAL CARDINAL CARDINAL PLAIN CARDINAL CARDINAL CARDINAL
+	ref=journal of radio & audio media (2013) 20 # 2 pp 236 - 250
+error: pred=_4 - 3_; inp=four sil three; ref=TELEPHONE 6 9 | (4)3 | (4)-3 | four sil three
+	input=annals and magazine of natural history four sil three one hundred seventy three to one hundred seventy nine
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _4 - 3_ _1 <DELETE> 7 3_ _-_ _1 <DELETE> 7 9_
+	pred=annals and magazine of natural history _4 - 3_ _1  7 3_ _-_ _1  7 9_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN TELEPHONE TELEPHONE TELEPHONE CARDINAL CARDINAL CARDINAL CARDINAL PLAIN CARDINAL CARDINAL CARDINAL CARDINAL
+	ref=annals and magazine of natural history (4)3 173 - 179
+error: pred=_1 5  3  2 0 1 3  1 8_; inp=one five sil three sil two o one three sil one eight; ref=TELEPHONE 3 15 | one five sil three sil two o one three sil one eight | 15-3-2013 18
+	input=narela delhi on one five sil three sil two o one three sil one eight
+	tags=<SELF> <SELF> <SELF> _1 5 <DELETE> 3 <DELETE> 2 0 1 3 <DELETE> 1 8_
+	pred=narela delhi on _1 5  3  2 0 1 3  1 8_
+	semiotic=PLAIN PLAIN PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE
+	ref=narela delhi on 15-3-2013 18
+error: pred=_2 0 0 5 - 0 6_    _nba_; inp=two o o five sil o six sil p b a; ref=TELEPHONE 2 13 | two o o five sil o six sil p b a | 2005-06 pba
+	input=after the two o o five sil o six sil p b a season he retired and worked for tim cone as one of his assistant coaches
+	tags=<SELF> <SELF> _2 0 0 5 - 0 6_ <DELETE> <DELETE> <DELETE> _nba_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=after the _2 0 0 5 - 0 6_    _nba_ season he retired and worked for tim cone as one of his assistant coaches
+	semiotic=PLAIN PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=after the 2005-06 pba season he retired and worked for tim cone as one of his assistant coaches
+error: pred=_1 9 0 6 - 1 2 9_; inp=one nine o six sil one two nine; ref=TELEPHONE 5 13 | (1906) 129 | one nine o six sil one two nine
+	input=wandt v hearst's chicago american one nine o six sil one two nine wis
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> _1 9 0 6 - 1 2 9_ <SELF>
+	pred=wandt v hearst's chicago american _1 9 0 6 - 1 2 9_ wis
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE PLAIN
+	ref=wandt v hearst's chicago american (1906) 129 wis
+error: pred=_2 2  1 9 9 8 - 1 7 5 - 1 7 7_; inp=two two sil one nine nine eight sil one seven five sil one seven seven; ref=TELEPHONE 3 18 | 22 (1998) 175-177 | two two sil one nine nine eight sil one seven five sil one seven seven
+	input=j of zoology two two sil one nine nine eight sil one seven five sil one seven seven
+	tags=<SELF> <SELF> <SELF> _2 2 <DELETE> 1 9 9 8 - 1 7 5 - 1 7 7_
+	pred=j of zoology _2 2  1 9 9 8 - 1 7 5 - 1 7 7_
+	semiotic=PLAIN PLAIN PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE
+	ref=j of zoology 22 (1998) 175-177
+error: pred=_8 8 0 2 - 8 6 1 8_; inp=eight eight o two sil eight six one eight; ref=TELEPHONE 10 19 | eight eight o two sil eight six one eight | 8802 8618
+	input=the remains of lag tower are located at n x eight eight o two sil eight six one eight
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _n x_ _8 8 0 2 - 8 6 1 8_
+	pred=the remains of lag tower are located at _n x_ _8 8 0 2 - 8 6 1 8_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN LETTERS LETTERS TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE
+	ref=the remains of lag tower are located at nx 8802 8618
+error: pred=_2 3 3 5 4 7 - 2 0 0 7_; inp=two three three five four seven sil two o o seven; ref=TELEPHONE 1 12 | two three three five four seven sil two o o seven | (233547) 2007
+	input=asteroid two three three five four seven sil two o o seven j r twenty seven was named after him
+	tags=<SELF> _2 3 3 5 4 7 - 2 0 0 7_ _j r_ _2 7_ <SELF> <SELF> <SELF> <SELF>
+	pred=asteroid _2 3 3 5 4 7 - 2 0 0 7_ _j r_ _2 7_ was named after him
+	semiotic=PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE LETTERS LETTERS CARDINAL CARDINAL PLAIN PLAIN PLAIN PLAIN
+	ref=asteroid (233547) 2007 jr 27 was named after him
+error: pred=_2 0 1 0 - 1 5 0_; inp=two o one o sil one five o; ref=TELEPHONE 0 8 | two o one o sil one five o | 2010 150
+	input=two o one o sil one five o living legacies susquecentennial commission harrisburg p a
+	tags=_2 0 1 0 - 1 5 0_ <SELF> <SELF> <SELF> <SELF> <SELF> _p a_
+	pred=_2 0 1 0 - 1 5 0_ living legacies susquecentennial commission harrisburg _p a_
+	semiotic=TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE PLAIN PLAIN PLAIN PLAIN PLAIN LETTERS LETTERS
+	ref=2010 150 living legacies susquecentennial commission harrisburg pa
+error: pred=_2 8 9  4 5 7  5 8 6  2_; inp=two eight nine sil four five seven sil five eight six sil two; ref=TELEPHONE 1 14 | 289 457 586-2 | two eight nine sil four five seven sil five eight six sil two
+	input=archiv two eight nine sil four five seven sil five eight six sil two
+	tags=<SELF> _2 8 9 <DELETE> 4 5 7 <DELETE> 5 8 6 <DELETE> 2_
+	pred=archiv _2 8 9  4 5 7  5 8 6  2_
+	semiotic=PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE
+	ref=archiv 289 457 586-2
+error: pred=_0 2 0_ -_ occupations _::_ in _::_ mathematics; inp=o two o sil occupations sil in sil mathematics; ref=TELEPHONE 0 9 | 020 occupations in mathematics | o two o sil occupations sil in sil mathematics
+	input=o two o sil occupations sil in sil mathematics
+	tags=_0 2 0_ -_ <SELF> _::_ <SELF> _::_ <SELF>
+	pred=_0 2 0_ -_ occupations _::_ in _::_ mathematics
+	semiotic=TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE ELECTRONIC PLAIN ELECTRONIC TELEPHONE
+	ref=020 occupations in mathematics
+error: pred=_2 0 0 9 - 3_; inp=two o o nine sil three; ref=TELEPHONE 3 9 | two o o nine sil three | (2009) 3 | (2009)3
+	input=untersuchungen zur sinnespsychologie two o o nine sil three
+	tags=<SELF> <SELF> <SELF> _2 0 0 9 - 3_
+	pred=untersuchungen zur sinnespsychologie _2 0 0 9 - 3_
+	semiotic=PLAIN PLAIN PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE
+	ref=untersuchungen zur sinnespsychologie (2009)3
+error: pred=_1 9 1 4 - 4 8 0 - 5 2 0_; inp=one nine one four sil four eight o sil five two o; ref=TELEPHONE 5 17 | (1914) 480-520 | one nine one four sil four eight o sil five two o
+	input=anat eighty five abt i one nine one four sil four eight o sil five two o neumann e blut und pigmente b p
+	tags=<SELF> _8 5_ <SELF> <SELF> _1 9 1 4 - 4 8 0 - 5 2 0_ <SELF> _e._ <SELF> <SELF> <SELF> _b p_
+	pred=anat _8 5_ abt i _1 9 1 4 - 4 8 0 - 5 2 0_ neumann _e._ blut und pigmente _b p_
+	semiotic=PLAIN CARDINAL CARDINAL PLAIN LETTERS TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE PLAIN LETTERS PLAIN PLAIN PLAIN LETTERS LETTERS
+	ref=anat 85 abt i (1914) 480-520 neumann e. blut und pigmente bp
+error: pred=_8 - 5_; inp=eight sil five; ref=TELEPHONE 6 9 | eight sil five | (8)5
+	input=annals and magazine of natural history eight sil five one hundred ten to one hundred fourteen place
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _8 - 5_ _1 <DELETE> 10_ _-_ _1 <DELETE> 14_ _pl_
+	pred=annals and magazine of natural history _8 - 5_ _1  10_ _-_ _1  14_ _pl_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN TELEPHONE TELEPHONE TELEPHONE CARDINAL CARDINAL CARDINAL PLAIN CARDINAL CARDINAL CARDINAL PLAIN
+	ref=annals and magazine of natural history (8)5 110 - 114 pl
+error: pred=_1 9 5 4 3 2 - 1  8_; inp=one nine five four three two sil one sil eight; ref=TELEPHONE 6 16 | 195432-1-8 | one nine five four three two sil one sil eight
+	input=b seventy six two thousand seven one nine five four three two sil one sil eight
+	tags=<SELF> _7 6_ _2 00 7_ _1 9 5 4 3 2 - 1 <DELETE> 8_
+	pred=b _7 6_ _2 00 7_ _1 9 5 4 3 2 - 1  8_
+	semiotic=PLAIN CARDINAL CARDINAL DATE DATE DATE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE
+	ref=b 76 2007 195432-1-8
+error: pred=_5 - 5 0 - 5 5_; inp=five sil five o sil five five; ref=TELEPHONE 2 9 | five sil five o sil five five | (5) 50-55
+	input=revista fotosite five sil five o sil five five
+	tags=<SELF> <SELF> _5 - 5 0 - 5 5_
+	pred=revista fotosite _5 - 5 0 - 5 5_
+	semiotic=PLAIN PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE
+	ref=revista fotosite (5) 50-55
+error: pred=_1 9 2 6 - 6 00_; inp=one nine two six sil six hundred; ref=TELEPHONE 9 16 | one nine two six sil six hundred | (1926)600
+	input=heart of an actress nineteen twenty four michel strogoff one nine two six sil six hundred o o o francs a month nineteen twenty six the loves of casanova nineteen twenty seven looping the loop nineteen twenty eight hurrah
+	tags=<SELF> <SELF> <SELF> <SELF> _19 2 4_ <SELF> <SELF> _1 9 2 6 - 6 00_ _0 0 0_ <SELF> <SELF> <SELF> _19 2 6_ <SELF> <SELF> <SELF> <SELF> _19 2 7_ <SELF> <SELF> <SELF> _19 2 8_ <SELF>
+	pred=heart of an actress _19 2 4_ michel strogoff _1 9 2 6 - 6 00_ _0 0 0_ francs a month _19 2 6_ the loves of casanova _19 2 7_ looping the loop _19 2 8_ hurrah
+	semiotic=PLAIN PLAIN PLAIN PLAIN DATE DATE DATE PLAIN PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE DIGIT DIGIT DIGIT PLAIN PLAIN PLAIN DATE DATE DATE PLAIN PLAIN PLAIN PLAIN DATE DATE DATE PLAIN PLAIN PLAIN DATE DATE DATE PLAIN
+	ref=heart of an actress 1924 michel strogoff (1926)600 000 francs a month 1926 the loves of casanova 1927 looping the loop 1928 hurrah
+error: pred=_2 0 1 1 - 3 2_; inp=two o one one sil three two; ref=TELEPHONE 14 21 | two o one one sil three two | (2011) 32
+	input=paula o'brien changing public interest law overcoming the law's barriers to social change lawyering two o one one sil three two a l t l j eighty
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _2 0 1 1 - 3 2_ _a <SELF> <SELF> <SELF> j__-_ _80_
+	pred=paula o'brien changing public interest law overcoming the law's barriers to social change lawyering _2 0 1 1 - 3 2_ _a l t l j__-_ _80_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE LETTERS LETTERS LETTERS LETTERS LETTERS CARDINAL
+	ref=paula o'brien changing public interest law overcoming the law's barriers to social change lawyering (2011) 32 altlj 80
+error: pred=_2 - 1_ 1_; inp=two sil one one; ref=TELEPHONE 6 10 | (2)11 | (2) 11 | two sil one one
+	input=annals and magazine of natural history two sil one one one hundred twenty four to one hundred thirty three
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _2 - 1_ 1_ _1 <DELETE> 2 4_ _-_ _1 <DELETE> 3 3_
+	pred=annals and magazine of natural history _2 - 1_ 1_ _1  2 4_ _-_ _1  3 3_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE CARDINAL CARDINAL CARDINAL CARDINAL PLAIN CARDINAL CARDINAL CARDINAL CARDINAL
+	ref=annals and magazine of natural history (2)11 124 - 133
+error: pred=_5 7 - 1 9 9 1 - 3 3 9 - 3 5 0_; inp=five seven sil one nine nine one sil three three nine sil three five o; ref=TELEPHONE 2 17 | five seven sil one nine nine one sil three three nine sil three five o | 57 (1991) 339-350
+	input=biological conservation five seven sil one nine nine one sil three three nine sil three five o
+	tags=<SELF> <SELF> _5 7 - 1 9 9 1 - 3 3 9 - 3 5 0_
+	pred=biological conservation _5 7 - 1 9 9 1 - 3 3 9 - 3 5 0_
+	semiotic=PLAIN PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE
+	ref=biological conservation 57 (1991) 339-350
+error: pred=_1 9 7 9 - 7_; inp=one nine seven nine sil seven; ref=TELEPHONE 2 8 | (1979)7 | one nine seven nine sil seven | (1979) 7
+	input=fall girl one nine seven nine sil seven hiding to nothing one nine eight o sil eight
+	tags=<SELF> <SELF> _1 9 7 9 - 7_ <SELF> <SELF> <SELF> _1 9 8 0 - 8_
+	pred=fall girl _1 9 7 9 - 7_ hiding to nothing _1 9 8 0 - 8_
+	semiotic=PLAIN PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE PLAIN PLAIN PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE
+	ref=fall girl (1979)7 hiding to nothing (1980)8
+error: pred=_1 9 8 0 - 8_; inp=one nine eight o sil eight; ref=TELEPHONE 11 17 | one nine eight o sil eight | (1980)8 | (1980) 8
+	input=fall girl one nine seven nine sil seven hiding to nothing one nine eight o sil eight
+	tags=<SELF> <SELF> _1 9 7 9 - 7_ <SELF> <SELF> <SELF> _1 9 8 0 - 8_
+	pred=fall girl _1 9 7 9 - 7_ hiding to nothing _1 9 8 0 - 8_
+	semiotic=PLAIN PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE PLAIN PLAIN PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE
+	ref=fall girl (1979)7 hiding to nothing (1980)8
+error: pred=_1 9 0 5 - 3_; inp=one nine o five sil three; ref=TELEPHONE 6 12 | (1905) 3 | one nine o five sil three | (1905)3
+	input=mains lasses poem by georges rodenbach one nine o five sil three
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _1 9 0 5 - 3_
+	pred=mains lasses poem by georges rodenbach _1 9 0 5 - 3_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE
+	ref=mains lasses poem by georges rodenbach (1905)3
+error: pred=_0 3 4 5 - 1 3 00 - 2 2 8_; inp=o three four five sil one three hundred sil two two eight; ref=TELEPHONE 7 19 | 0345 1300 228 | o three four five sil one three hundred sil two two eight
+	input=users can telephone the helpline directly on o three four five sil one three hundred sil two two eight or submit queries via a form on b c t's website
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _0 3 4 5 - 1 3 00 - 2 2 8_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _b <SELF> t's_ <SELF>
+	pred=users can telephone the helpline directly on _0 3 4 5 - 1 3 00 - 2 2 8_ or submit queries via a form on _b c t's_ website
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN LETTERS LETTERS LETTERS PLAIN
+	ref=users can telephone the helpline directly on 0345 1300 228 or submit queries via a form on bct's website
+error: pred=_2 2  7  1 0  5  3 8  1 9  3 1 6_; inp=two two sil seven sil one o sil five sil three eight sil one nine sil three one six; ref=TELEPHONE 5 24 | two two sil seven sil one o sil five sil three eight sil one nine sil three one six | 22 7 10 5 38-19 316
+	input=gamla upsala s k uppsala two two sil seven sil one o sil five sil three eight sil one nine sil three one six
+	tags=<SELF> <SELF> _s k_ <SELF> _2 2 <DELETE> 7 <DELETE> 1 0 <DELETE> 5 <DELETE> 3 8 <DELETE> 1 9 <DELETE> 3 1 6_
+	pred=gamla upsala _s k_ uppsala _2 2  7  1 0  5  3 8  1 9  3 1 6_
+	semiotic=PLAIN PLAIN LETTERS LETTERS PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE
+	ref=gamla upsala sk uppsala 22 7 10 5 38-19 316
+error: pred=_3 - 2_   _f ; inp=three sil two sil a f c; ref=TELEPHONE 7 14 | 3-2 afc | three sil two sil a f c
+	input=report basingstoke senior cup final tadley calleva three sil two sil a f c aldermaston a e t from basingstoke gazette
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _3 - 2_ <DELETE> <DELETE> _f <DELETE> <SELF> _a <SELF> t_ <SELF> <SELF> <SELF>
+	pred=report basingstoke senior cup final tadley calleva _3 - 2_   _f  aldermaston _a e t_ from basingstoke gazette
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE PLAIN LETTERS LETTERS LETTERS PLAIN PLAIN PLAIN
+	ref=report basingstoke senior cup final tadley calleva 3-2 afc aldermaston aet from basingstoke gazette
+error: pred=_6 7 - 4 - 3 5 8_; inp=six seven sil four sil three five eight; ref=TELEPHONE 4 12 | six seven sil four sil three five eight | 67(4) 358
+	input=environmental biology of fishes six seven sil four sil three five eight
+	tags=<SELF> <SELF> <SELF> <SELF> _6 7 - 4 - 3 5 8_
+	pred=environmental biology of fishes _6 7 - 4 - 3 5 8_
+	semiotic=PLAIN PLAIN PLAIN PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE
+	ref=environmental biology of fishes 67(4) 358
+error: pred=2_ _8 3 - 7 - 1 4_; inp=two eight three sil seven sil one four; ref=TELEPHONE 11 19 | two eight three sil seven sil one four | 283-7 14
+	input=clin orthop one thousand nine hundred eighty to one hundred fifty two eight three sil seven sil one four cryotherapy induced nerve injury basset f h three kirkpatrick j s engelhardt d l et al
+	tags=<SELF> <SELF> _1 <DELETE> 9 <DELETE> 80_ _:_ _1 <DELETE> 5 2_ _8 3 - 7 - 1 4_ <SELF> <SELF> <SELF> <SELF> <SELF> _f h_ _3_ <SELF> _j s_ <SELF> _d l_ <SELF> <SELF>
+	pred=clin orthop _1  9  80_ _:_ _1  5 2_ _8 3 - 7 - 1 4_ cryotherapy induced nerve injury basset _f h_ _3_ kirkpatrick _j s_ engelhardt _d l_ et al
+	semiotic=PLAIN PLAIN CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL PLAIN CARDINAL CARDINAL CARDINAL CARDINAL TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE PLAIN PLAIN PLAIN PLAIN PLAIN LETTERS LETTERS CARDINAL PLAIN LETTERS LETTERS PLAIN LETTERS LETTERS PLAIN PLAIN
+	ref=clin orthop 1980 : 150 283-7 14 cryotherapy induced nerve injury basset f. h iii kirkpatrick j. s. engelhardt d.l. et al
+error: pred=_2 0 1 1 - 2 0 1 2_; inp=two o one one sil two o one two; ref=TELEPHONE 11 20 | (2011)2012 | 2011 2012 | two o one one sil two o one two
+	input=merley cobham sports at the football club history database season success two o one one sil two o one two
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _2 0 1 1 - 2 0 1 2_
+	pred=merley cobham sports at the football club history database season success _2 0 1 1 - 2 0 1 2_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE
+	ref=merley cobham sports at the football club history database season success 2011 2012
+error: pred=_9 0 - 4 5 2 8 - 4 5 3 3_; inp=nine o sil four five two eight sil four five three three; ref=TELEPHONE 3 15 | nine o sil four five two eight sil four five three three | 90 4528-4533
+	input=nineteen eighty six nine o sil four five two eight sil four five three three yuhai d changing z xiaosheng w influence of lithium sulfate addition on the properties of portland cement paste
+	tags=_19 8 6_ _9 0 - 4 5 2 8 - 4 5 3 3_ <SELF> _d._ <SELF> _z._ <SELF> _w._ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=_19 8 6_ _9 0 - 4 5 2 8 - 4 5 3 3_ yuhai _d._ changing _z._ xiaosheng _w._ influence of lithium sulfate addition on the properties of portland cement paste
+	semiotic=DATE DATE DATE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE PLAIN LETTERS PLAIN LETTERS PLAIN LETTERS PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=1986 90 4528-4533 yuhai d. changing z. xiaosheng w. influence of lithium sulfate addition on the properties of portland cement paste
+error: pred=_1 8 7 6 - 3_; inp=one eight seven six sil three; ref=TELEPHONE 9 15 | (1876) 3 | one eight seven six sil three
+	input=two hundred seventy seven commissioners of sewers v gellatly one eight seven six sil three c h
+	tags=_2 <DELETE> 7 7_ <SELF> <SELF> <SELF> <SELF> <SELF> _1 8 7 6 - 3_ _ch_ <DELETE>
+	pred=_2  7 7_ commissioners of sewers v gellatly _1 8 7 6 - 3_ _ch_ 
+	semiotic=CARDINAL CARDINAL CARDINAL CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE VERBATIM VERBATIM
+	ref=277 commissioners of sewers v gellatly (1876) 3 ch
+error: pred=_2 0 0 7 - 3 5 - 3 6_; inp=two o o seven sil three five sil three six; ref=TELEPHONE 1 11 | two o o seven sil three five sil three six | (2007)35-36
+	input=agora two o o seven sil three five sil three six bozen festival of contemporary music a a v v
+	tags=<SELF> _2 0 0 7 - 3 5 - 3 6_ <SELF> <SELF> <SELF> <SELF> <SELF> _a <SELF> <SELF> v_
+	pred=agora _2 0 0 7 - 3 5 - 3 6_ bozen festival of contemporary music _a a v v_
+	semiotic=PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE PLAIN PLAIN PLAIN PLAIN PLAIN LETTERS LETTERS LETTERS LETTERS
+	ref=agora (2007)35-36 bozen festival of contemporary music aa vv
+error: pred=_1 3 6 6 1 7 - 1 9 9 4_   _cc_; inp=one three six six one seven sil one nine nine four sil c c; ref=TELEPHONE 0 14 | (136617) 1994 cc | one three six six one seven sil one nine nine four sil c c
+	input=one three six six one seven sil one nine nine four sil c c
+	tags=_1 3 6 6 1 7 - 1 9 9 4_ <DELETE> <DELETE> _cc_
+	pred=_1 3 6 6 1 7 - 1 9 9 4_   _cc_
+	semiotic=TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE
+	ref=(136617) 1994 cc
+error: pred=_2 0 0 7 - 4 2_; inp=two o o seven sil four two; ref=TELEPHONE 6 13 | two o o seven sil four two | (2007)42 | (2007) 42
+	input=shirk v vista unified school district two o o seven sil four two cal
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _2 0 0 7 - 4 2_ <SELF>
+	pred=shirk v vista unified school district _2 0 0 7 - 4 2_ cal
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE PLAIN
+	ref=shirk v vista unified school district (2007) 42 cal
+error: pred=_4 4 5 4 7 3 - 2 0 1 0_; inp=four four five four seven three sil two o one o; ref=TELEPHONE 6 17 | (445473) 2010 | four four five four seven three sil two o one o
+	input=i a u minor planet center four four five four seven three sil two o one o v z ninety eight last observation the twelfth of october twenty fifteen arc seventeen years years
+	tags=_i <SELF> u_ <SELF> <SELF> <SELF> _4 4 5 4 7 3 - 2 0 1 0_ _v z_ _9 8_ <SELF> <SELF> <DELETE> _12_ <DELETE> <SELF> _20 15_ <SELF> _17_ _yrs_ _yrs_
+	pred=_i a u_ minor planet center _4 4 5 4 7 3 - 2 0 1 0_ _v z_ _9 8_ last observation  _12_  october _20 15_ arc _17_ _yrs_ _yrs_
+	semiotic=LETTERS LETTERS LETTERS PLAIN PLAIN PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE LETTERS LETTERS CARDINAL CARDINAL PLAIN PLAIN DATE DATE DATE DATE DATE DATE PLAIN MEASURE MEASURE MEASURE
+	ref=iau minor planet center (445473) 2010 vz 98 last observation 2015-10-12 arc 17 years years
+error: pred=_2 0 1 4 - 0 2_; inp=two o one four sil o two; ref=TELEPHONE 3 10 | two o one four sil o two | (2014)02
+	input=dehydration tinashe aquarius two o one four sil o two
+	tags=<SELF> <SELF> <SELF> _2 0 1 4 - 0 2_
+	pred=dehydration tinashe aquarius _2 0 1 4 - 0 2_
+	semiotic=PLAIN PLAIN PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE
+	ref=dehydration tinashe aquarius (2014)02
+error: pred=_2 0 00- 005 0 4_; inp=two thousand sil five o four; ref=TELEPHONE 1 7 | two thousand sil five o four | 2000 504
+	input=the two thousand sil five o four boyz hit single wobble wobble was inspired by a d j jubilee lyric
+	tags=<SELF> _2 0 00- 005 0 4_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _d j_ <SELF> <SELF>
+	pred=the _2 0 00- 005 0 4_ boyz hit single wobble wobble was inspired by a _d j_ jubilee lyric
+	semiotic=PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN LETTERS LETTERS PLAIN PLAIN
+	ref=the 2000 504 boyz hit single wobble wobble was inspired by a dj jubilee lyric
+error: pred=_2  1  0  1  5  5  3_; inp=two sil one sil o sil one sil five sil five sil three; ref=TELEPHONE 3 16 | 2 1 0 1 5-5 3 | two sil one sil o sil one sil five sil five sil three
+	input=f c kontu two sil one sil o sil one sil five sil five sil three promotion playoff promoted three
+	tags=_f c_ <SELF> _2 <DELETE> 1 <DELETE> 0 <DELETE> 1 <DELETE> 5 <DELETE> 5 <DELETE> 3_ <SELF> <SELF> <SELF> _3_
+	pred=_f c_ kontu _2  1  0  1  5  5  3_ promotion playoff promoted _3_
+	semiotic=LETTERS LETTERS PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE PLAIN PLAIN PLAIN CARDINAL
+	ref=fc kontu 2 1 0 1 5-5 3 promotion playoff promoted 3
+error: pred=_3 1 - 1 9 6 6 - 8 9 - 1 0 1_; inp=three one sil one nine six six sil eight nine sil one o one; ref=TELEPHONE 0 14 | 31 (1966) 89 - 101 | three one sil one nine six six sil eight nine sil one o one
+	input=three one sil one nine six six sil eight nine sil one o one asymptotic expansions of ellipsoidal wave functions in terms of hermite functions math
+	tags=_3 1 - 1 9 6 6 - 8 9 - 1 0 1_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=_3 1 - 1 9 6 6 - 8 9 - 1 0 1_ asymptotic expansions of ellipsoidal wave functions in terms of hermite functions math
+	semiotic=TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=31 (1966) 89 - 101 asymptotic expansions of ellipsoidal wave functions in terms of hermite functions math
+error: pred=_2  1 6; inp=two sil one six; ref=TELEPHONE 5 9 | (2)16 | two sil one six
+	input=kongliga svenska vetenskaps akademiens handlingar two sil one six two one to eighty six p l s
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> _2 <DELETE> 1 6 2 1_ _-_ _8 6_ _p <SELF> s_
+	pred=kongliga svenska vetenskaps akademiens handlingar _2  1 6 2 1_ _-_ _8 6_ _p l s_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE PLAIN CARDINAL CARDINAL LETTERS LETTERS LETTERS
+	ref=kongliga svenska vetenskaps akademiens handlingar (2)16 2 1 - 86 pls
+error: pred=_1 8 - 1 9 2 4 - 2 3 9 - 7 2_; inp=one eight sil one nine two four sil two three nine sil seven two; ref=TELEPHONE 8 22 | one eight sil one nine two four sil two three nine sil seven two | 18 (1924) 239-72
+	input=journal of the american society for psychical research one eight sil one nine two four sil two three nine sil seven two
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _1 8 - 1 9 2 4 - 2 3 9 - 7 2_
+	pred=journal of the american society for psychical research _1 8 - 1 9 2 4 - 2 3 9 - 7 2_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE
+	ref=journal of the american society for psychical research 18 (1924) 239-72
+error: pred=_1 0 8_    u_; inp=one o eight sil t e u; ref=TELEPHONE 7 14 | one o eight sil t e u | 108-teu
+	input=of the four others two will have one o eight sil t e u and two will have three six o sil t e u capacity
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _1 0 8_ <DELETE> <DELETE> <DELETE> u_ <SELF> <SELF> <SELF> <SELF> _3 6 0_ <DELETE> _t <DELETE> u_ <SELF>
+	pred=of the four others two will have _1 0 8_    u_ and two will have _3 6 0_  _t  u_ capacity
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE PLAIN PLAIN PLAIN PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE PLAIN
+	ref=of the four others two will have 108-teu and two will have 360-teu capacity
+error: pred=_3 6 0_  _t  u_; inp=three six o sil t e u; ref=TELEPHONE 18 25 | 360-teu | three six o sil t e u
+	input=of the four others two will have one o eight sil t e u and two will have three six o sil t e u capacity
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _1 0 8_ <DELETE> <DELETE> <DELETE> u_ <SELF> <SELF> <SELF> <SELF> _3 6 0_ <DELETE> _t <DELETE> u_ <SELF>
+	pred=of the four others two will have _1 0 8_    u_ and two will have _3 6 0_  _t  u_ capacity
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE PLAIN PLAIN PLAIN PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE PLAIN
+	ref=of the four others two will have 108-teu and two will have 360-teu capacity
+error: pred=_1 9 9 8 - 1 9 9 9_   v_; inp=one nine nine eight sil one nine nine nine sil t v; ref=TELEPHONE 4 16 | one nine nine eight sil one nine nine nine sil t v | 1998-1999 tv
+	input=final ratings for the one nine nine eight sil one nine nine nine sil t v season
+	tags=<SELF> <SELF> <SELF> <SELF> _1 9 9 8 - 1 9 9 9_ <DELETE> <DELETE> v_ <SELF>
+	pred=final ratings for the _1 9 9 8 - 1 9 9 9_   v_ season
+	semiotic=PLAIN PLAIN PLAIN PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE PLAIN
+	ref=final ratings for the 1998-1999 tv season
+error: pred=_0 - 9 5 8 8 0 0 6 - 0_; inp=o sil nine five eight eight o o six sil o; ref=TELEPHONE 21 32 | o sil nine five eight eight o o six sil o | 0 9588006 0
+	input=perkins john nineteen eighty eight the shipwrecks of port elliot eighteen fifty three to eighteen sixty four i s b n o sil nine five eight eight o o six sil o x o c l c twenty six million four hundred forty six thousand five hundred nineteen
+	tags=<SELF> <SELF> _19 8 8_ <SELF> <SELF> <SELF> <SELF> <SELF> _18 5 3_ _-_ _18 6 4_ _i <SELF> <SELF> n_ _0 - 9 5 8 8 0 0 6 - 0_ <SELF> _o <SELF> <SELF> c_ _2 6 <DELETE> 4 <DELETE> 4 6 <DELETE> 5 <DELETE> 19_
+	pred=perkins john _19 8 8_ the shipwrecks of port elliot _18 5 3_ _-_ _18 6 4_ _i s b n_ _0 - 9 5 8 8 0 0 6 - 0_ x _o c l c_ _2 6  4  4 6  5  19_
+	semiotic=PLAIN PLAIN DATE DATE DATE PLAIN PLAIN PLAIN PLAIN PLAIN DATE DATE DATE PLAIN DATE DATE DATE LETTERS LETTERS LETTERS LETTERS TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE PLAIN LETTERS LETTERS LETTERS LETTERS CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL
+	ref=perkins john 1988 the shipwrecks of port elliot 1853 - 1864 isbn 0 9588006 0 x oclc 26446519
+error: pred=_1 9 8 8 - 8; inp=one nine eight eight sil eight; ref=TELEPHONE 2 8 | (1988) 8 | one nine eight eight sil eight | (1988)8
+	input=modern judaism one nine eight eight sil eight three p p
+	tags=<SELF> <SELF> _1 9 8 8 - 8 3_ <DELETE> _pp_
+	pred=modern judaism _1 9 8 8 - 8 3_  _pp_
+	semiotic=PLAIN PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE VERBATIM VERBATIM
+	ref=modern judaism (1988) 8 3 pp
+error: pred=_8 1 - 3 1 3 - 0 3 5 6_   _w; inp=eight one sil three one three sil o three five six sil x w; ref=TELEPHONE 4 18 | eight one sil three one three sil o three five six sil x w | 81-313-0356-xw
+	input=i s b n eight one sil three one three sil o three five six sil x w g clarence smith two thousand six
+	tags=_i <SELF> <SELF> n_ _8 1 - 3 1 3 - 0 3 5 6_ <DELETE> <DELETE> _w _g._ <SELF> <SELF> _2 00 6_
+	pred=_i s b n_ _8 1 - 3 1 3 - 0 3 5 6_   _w _g._ clarence smith _2 00 6_
+	semiotic=LETTERS LETTERS LETTERS LETTERS TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE LETTERS LETTERS PLAIN PLAIN DATE DATE DATE
+	ref=isbn 81-313-0356-xw g. clarence smith 2006
+error: pred=_3 1 4 0 - 2 0 1 1 - 1 0 - 1 2_; inp=three one four o sil two o one one sil one o sil one two; ref=TELEPHONE 9 24 | (3140)2011-10-12 | three one four o sil two o one one sil one o sil one two
+	input=four point four nine a three three four v three one four o sil two o one one sil one o sil one two coincides with i o s five for portable i o s devices
+	tags=_4 . 4 9_ <SELF> _3 3 4_ <SELF> _3 1 4 0 - 2 0 1 1 - 1 0 - 1 2_ <SELF> <SELF> _i <SELF> s_ _5_ <SELF> <SELF> _i <SELF> s_ <SELF>
+	pred=_4 . 4 9_ a _3 3 4_ v _3 1 4 0 - 2 0 1 1 - 1 0 - 1 2_ coincides with _i o s_ _5_ for portable _i o s_ devices
+	semiotic=DECIMAL DECIMAL DECIMAL DECIMAL PLAIN DIGIT DIGIT DIGIT PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE PLAIN PLAIN LETTERS LETTERS LETTERS CARDINAL PLAIN PLAIN LETTERS LETTERS LETTERS PLAIN
+	ref=4.49 a334 v (3140)2011-10-12 coincides with ios 5 for portable ios devices
+error: pred=_9 - 7 6 7 - 4 0_; inp=nine sil seven six seven sil four o; ref=TELEPHONE 2 10 | 9-767 40 | nine sil seven six seven sil four o
+	input=t m nine sil seven six seven sil four o ton tank transporter truck trailer m twenty five
+	tags=_t m_ _9 - 7 6 7 - 4 0_ <SELF> <SELF> <SELF> <SELF> <SELF> _m__-_ _2 5_
+	pred=_t m_ _9 - 7 6 7 - 4 0_ ton tank transporter truck trailer _m__-_ _2 5_
+	semiotic=LETTERS LETTERS TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE PLAIN PLAIN PLAIN PLAIN PLAIN ADDRESS ADDRESS ADDRESS
+	ref=tm 9-767 40 ton tank transporter truck trailer m25
+error: pred=_2 1 4_   w; inp=two one four sil s w; ref=TELEPHONE 11 17 | 214-sw | two one four sil s w
+	input=he was buried in philadelphia's laurel hill cemetery section k lot two one four sil s w one quarter
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _2 1 4_ <DELETE> <DELETE> <SELF> _1 _¼_
+	pred=he was buried in philadelphia's laurel hill cemetery section k lot _2 1 4_   w _1 _¼_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE FRACTION FRACTION
+	ref=he was buried in philadelphia's laurel hill cemetery section k lot 214-sw 1/4
+error: pred=_5 8 1 5 - 1 - 2 0 0 5_   _bc_; inp=five eight one five sil one sil two o o five sil b s; ref=TELEPHONE 8 22 | 5815-1 2005, bs  | five eight one five sil one sil two o o five sil b s
+	input=other relevant u k standards include b s five eight one five sil one sil two o o five sil b s seventy one seventy five crib five imo a five six three and n f p a seven hundred one
+	tags=<SELF> <SELF> _u k_ <SELF> <SELF> _b s_ _5 8 1 5 - 1 - 2 0 0 5_ <DELETE> <DELETE> _bc_ _7 1_ _7 5,_ <SELF> _5,_ <SELF> <SELF> _5 6 3_ <SELF> _n <SELF> <SELF> a_ _7 0 1_
+	pred=other relevant _u k_ standards include _b s_ _5 8 1 5 - 1 - 2 0 0 5_   _bc_ _7 1_ _7 5,_ crib _5,_ imo a _5 6 3_ and _n f p a_ _7 0 1_
+	semiotic=PLAIN PLAIN LETTERS LETTERS PLAIN PLAIN LETTERS LETTERS TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE CARDINAL CARDINAL CARDINAL CARDINAL PLAIN CARDINAL PLAIN ADDRESS ADDRESS ADDRESS ADDRESS PLAIN LETTERS LETTERS LETTERS LETTERS CARDINAL CARDINAL CARDINAL
+	ref=other relevant uk standards include bs 5815-1 2005, bs  71 75, crib 5 imo a563 and nfpa 701

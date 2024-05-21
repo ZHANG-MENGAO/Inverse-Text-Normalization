@@ -1,0 +1,240 @@
+error: pred=_3; inp=thirty; ref=CARDINAL 16 17 | 30 | 30, | xxx | 30 b | 30- | 300 | thirty | 30: | 30 m | 30 u.s.
+	input=in november nineteen fifty seven zuany beat the undefeated puggy jones by k o in just thirty two seconds of the sixth round
+	tags=<SELF> <SELF> _19 5 7_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _k._ _o._ <SELF> <SELF> _3 2_ <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=in november _19 5 7_ zuany beat the undefeated puggy jones by _k._ _o._ in just _3 2_ seconds of the sixth round
+	semiotic=PLAIN DATE DATE DATE DATE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN LETTERS LETTERS PLAIN PLAIN CARDINAL CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=in november 1957 zuany beat the undefeated puggy jones by k.o. in just thirty two seconds of the sixth round
+error: pred=_2; inp=twenty; ref=CARDINAL 8 9 | 20: | 20, | twenty | 20 - | 20 b | 20 m | xx | 20 a | 20 u.s. | 20- | 20 us | 20 i- | 20 | 20 i | 200
+	input=under the burji dynasty egypt was ruled by twenty one circassian sultans from thirteen eighty two to fifteen seventeen
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _2 1_ <SELF> <SELF> <SELF> _13 8 2_ <SELF> _15 17_
+	pred=under the burji dynasty egypt was ruled by _2 1_ circassian sultans from _13 8 2_ to _15 17_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL CARDINAL PLAIN PLAIN PLAIN DATE DATE DATE PLAIN DATE DATE
+	ref=under the burji dynasty egypt was ruled by twenty one circassian sultans from 1382 to 1517
+error: pred=_4; inp=forty; ref=CARDINAL 4 5 | 40- | 400 | xl | 40 - | 40 m | 40: | 40, | 40 | forty | 40 b | 40 u.s. | 40 a
+	input=after the first elimination forty eight remained and then split up into twelve groups of four
+	tags=<SELF> <SELF> <SELF> <SELF> _4 8_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _12_ <SELF> <SELF> <SELF>
+	pred=after the first elimination _4 8_ remained and then split up into _12_ groups of four
+	semiotic=PLAIN PLAIN PLAIN PLAIN CARDINAL CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL PLAIN PLAIN PLAIN
+	ref=after the first elimination forty eight remained and then split up into 12 groups of four
+error: pred=_2  4 7  6  7 4_; inp=two hundred forty seven million six hundred seventy four; ref=CARDINAL 27 36 | 247000674 | two hundred forty seven million six hundred seventy four
+	input=i s b n nine trillion seven hundred eighty billion eight hundred one million four hundred thirty six thousand six hundred sixty six o c l c two hundred forty seven million six hundred seventy four armstrong charles k two thousand seven
+	tags=_i <SELF> <SELF> n_ <DELETE> _9 7 <DELETE> 8 0 8 0 1 <DELETE> 4 <DELETE> 3 6 <DELETE> 6 <DELETE> 6 6_ _o <SELF> <SELF> c_ _2 <DELETE> 4 7 <DELETE> 6 <DELETE> 7 4_ <SELF> <SELF> _k._ _2 00 7_
+	pred=_i s b n_  _9 7  8 0 8 0 1  4  3 6  6  6 6_ _o c l c_ _2  4 7  6  7 4_ armstrong charles _k._ _2 00 7_
+	semiotic=LETTERS LETTERS LETTERS LETTERS CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL LETTERS LETTERS LETTERS LETTERS CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL PLAIN PLAIN LETTERS DATE DATE DATE
+	ref=isbn 9780801436666 oclc 247000674 armstrong charles k. 2007
+error: pred=_03:; inp=three; ref=CARDINAL 5 6 | 30 | iii | 3 i | 3, | iii, | 3 m | 3- | 3: | 3 us | 03 | 3 - | 3 b | 3 u.s. | iii m | 3 | three | 3 a
+	input=journal of integer sequences seven three o four point three point seven
+	tags=<SELF> <SELF> <SELF> <SELF> _7_ _03: 0 _4 _. 3_ _. 7_
+	pred=journal of integer sequences _7_ _03: 0 _4 _. 3_ _. 7_
+	semiotic=PLAIN PLAIN PLAIN PLAIN CARDINAL TIME TIME TIME DECIMAL DECIMAL DECIMAL DECIMAL
+	ref=journal of integer sequences 7 3 04 .3 .7
+error: pred=_2 0; inp=two hundred; ref=CARDINAL 10 12 | 200 b | 200- | 200 u.s. | two hundred | cc | 200 | 200, | 200 m
+	input=council v molini nine hundred fifty one f two d two hundred ninth circle
+	tags=<SELF> <SELF> <SELF> _9 <DELETE> 5 1_ _f._ _2_ <SELF> _2 0 9th_ <SELF>
+	pred=council v molini _9  5 1_ _f._ _2_ d _2 0 9th_ circle
+	semiotic=PLAIN PLAIN PLAIN CARDINAL CARDINAL CARDINAL CARDINAL LETTERS CARDINAL PLAIN ORDINAL ORDINAL ORDINAL PLAIN
+	ref=council v molini 951 f. 2 d 200 9th cir
+error: pred=_7 8 , 3  4 4 , 4 3_; inp=seventy eight million three hundred forty four thousand forty three; ref=CARDINAL 3 13 | 78,344,043 | seventy eight million three hundred forty four thousand forty three
+	input=u s trademark seventy eight million three hundred forty four thousand forty three see history of mozilla firefox hash tag naming mozilla trademark policy
+	tags=_u._ _s._ <SELF> _7 8 , 3 <DELETE> 4 4 , 4 3_ <SELF> <SELF> <SELF> <SELF> <SELF> _#_ <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=_u._ _s._ trademark _7 8 , 3  4 4 , 4 3_ see history of mozilla firefox _#_ tag naming mozilla trademark policy
+	semiotic=LETTERS LETTERS PLAIN CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN ELECTRONIC ELECTRONIC PLAIN PLAIN PLAIN PLAIN
+	ref=u.s. trademark 78,344,043 see history of mozilla firefox #naming mozilla trademark policy
+error: pred=_15  7  90_; inp=fifteen thousand seven hundred ninety; ref=CARDINAL 1 6 | fifteen thousand seven hundred ninety | 15,790
+	input=navpers fifteen thousand seven hundred ninety rev
+	tags=<SELF> _15 <DELETE> 7 <DELETE> 90_ <SELF>
+	pred=navpers _15  7  90_ rev
+	semiotic=PLAIN CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL PLAIN
+	ref=navpers 15,790 rev
+error: pred=_6; inp=sixty; ref=CARDINAL 3 4 | 60 u.s. | 60, | 60: | 60- | 60 | lx | 60 a | 60 us | 60 m | sixty
+	input=nine abraham was sixty two years old when he left haran not seventy five as genesis says abraham two fourteen
+	tags=_9_ <SELF> <SELF> _6 2_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _7 5_ <SELF> <SELF> <SELF> <SELF> _2: 14_
+	pred=_9_ abraham was _6 2_ years old when he left haran not _7 5_ as genesis says abraham _2: 14_
+	semiotic=CARDINAL PLAIN PLAIN CARDINAL CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL CARDINAL PLAIN PLAIN PLAIN PLAIN TIME TIME
+	ref=9 abraham was sixty two years old when he left haran not seventy five as genesis says abraham 2:14
+error: pred=_7; inp=seventy; ref=CARDINAL 12 13 | seventy | 70 m | 70, | 70 | 70 b | 70- | lxx | 70 u.s. | 70 a | 070
+	input=nine abraham was sixty two years old when he left haran not seventy five as genesis says abraham two fourteen
+	tags=_9_ <SELF> <SELF> _6 2_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _7 5_ <SELF> <SELF> <SELF> <SELF> _2: 14_
+	pred=_9_ abraham was _6 2_ years old when he left haran not _7 5_ as genesis says abraham _2: 14_
+	semiotic=CARDINAL PLAIN PLAIN CARDINAL CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL CARDINAL PLAIN PLAIN PLAIN PLAIN TIME TIME
+	ref=9 abraham was sixty two years old when he left haran not seventy five as genesis says abraham 2:14
+error: pred=_5 00 thousand; inp=five hundred thousand; ref=CARDINAL 4 7 | 500, 000 | five hundred thousand | 500,000 | 500 000 | 500000
+	input=the minimum capital of five hundred thousand icelandic kronas k r
+	tags=<SELF> <SELF> <SELF> <SELF> _5 00 <SELF> <SELF> <SELF> _k r_
+	pred=the minimum capital of _5 00 thousand icelandic kronas _k r_
+	semiotic=PLAIN PLAIN PLAIN PLAIN CARDINAL CARDINAL CARDINAL PLAIN PLAIN VERBATIM LETTERS
+	ref=the minimum capital of 500,000 icelandic kronas kr
+error: pred=_rs__1_; inp=one; ref=CARDINAL 3 4 | 1 i | 1 i- | 001 | 1 u.s. | 10 | 1 | 01 | 001- | 1 b | i. | 1 - | one | 1 m | 01- | 1: | i | 1- | 1 a | 1,
+	input=maryada ramanna collects one crore rupees share in first weekend in u s a
+	tags=<SELF> <SELF> <SELF> _rs__1_ <SELF> <DELETE> <SELF> <SELF> <SELF> <SELF> <SELF> _u <SELF> a._
+	pred=maryada ramanna collects _rs__1_ crore  share in first weekend in _u s a._
+	semiotic=PLAIN PLAIN PLAIN MONEY MONEY MONEY PLAIN PLAIN PLAIN PLAIN PLAIN LETTERS LETTERS LETTERS
+	ref=maryada ramanna collects 1 crore rupees share in 1st weekend in usa
+error: pred=_1 hundred 4 1_; inp=one hundred forty one; ref=CARDINAL 0 4 | 141: | 141 | one hundred forty one | 141 u.s. | 141, | cxli
+	input=one hundred forty one small businesses applied for loans totaling to around two point five million dollars two thousand three united states dollars two point seven five million dollars two thousand six united states dollars
+	tags=_1 <SELF> 4 1_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _$<< _$<< _2 . 5_ <SELF> _2 00 3_ <DELETE> _usd_ <DELETE> _2 . 7 5_ <SELF> _2 00 6_ <DELETE> _usd_ <DELETE>
+	pred=_1 hundred 4 1_ small businesses applied for loans totaling to around _$ _$ _2 . 5_ two _2 00 3_  _usd_  _2 . 7 5_ dollars _2 00 6_  _usd_ 
+	semiotic=CARDINAL PLAIN CARDINAL CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN MONEY MONEY MONEY MONEY MONEY MONEY MONEY MONEY MONEY MONEY MONEY MONEY MONEY MONEY MONEY MONEY MONEY MONEY MONEY MONEY MONEY MONEY MONEY
+	ref=141 small businesses applied for loans totaling to around $2.5 million 2003 usd $2.75 million 2006 usd
+error: pred=_1  2 9__u.__s._; inp=one hundred twenty nine; ref=CARDINAL 0 4 | one hundred twenty nine | 129, | cxxix | 129- | 129
+	input=one hundred twenty nine five forty three to forty five
+	tags=_1 <DELETE> 2 9__u.__s._ _5_ _4 3_ _-_ _4 5_
+	pred=_1  2 9__u.__s._ _5_ _4 3_ _-_ _4 5_
+	semiotic=CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL PLAIN CARDINAL CARDINAL
+	ref=129 5 43 - 45
+error: pred=_2 00 00000_; inp=two hundred thousand; ref=CARDINAL 4 7 | 200, 000 | two hundred thousand | 200,000 m | 200,000 | 200 000 | 200000
+	input=nineteen sixty three to two hundred thousand copies
+	tags=_19 6 3_ _-_ _2 00 00000_ <SELF>
+	pred=_19 6 3_ _-_ _2 00 00000_ copies
+	semiotic=DATE DATE DATE PLAIN CARDINAL CARDINAL CARDINAL PLAIN
+	ref=1963 - 200 000 copies
+error: pred=005_; inp=five; ref=CARDINAL 22 23 | 5 m | 5 b | v. | 5- | 5 | 5, | five | 5: | 5 a | v | 05 | 5 - | 50 | 5 u.s.
+	input=the nineteen sixty eight issue was also dated nineteen sixty six a total of one hundred six point eight eight one million five bani coins with the socialist arms were released
+	tags=<SELF> _19 6 8_ <SELF> <SELF> <SELF> <SELF> _19 6 6_ <SELF> <SELF> <SELF> _1 0 6 . 8 8_ _1 , 005_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=the _19 6 8_ issue was also dated _19 6 6_ a total of _1 0 6 . 8 8_ _1 , 005_ bani coins with the socialist arms were released
+	semiotic=PLAIN DATE DATE DATE PLAIN PLAIN PLAIN PLAIN DATE DATE DATE PLAIN PLAIN PLAIN DECIMAL DECIMAL DECIMAL DECIMAL DECIMAL DECIMAL CARDINAL CARDINAL CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=the 1968 issue was also dated 1966 a total of 106.881 million five bani coins with the socialist arms were released
+error: pred=_$; inp=seventy; ref=CARDINAL 12 13 | seventy | 70 m | 70, | 70 | 70 b | 70- | lxx | 70 u.s. | 70 a | 070
+	input=the pizzeria sells twenty thousand pizzas daily with each piece priced at seventy one dollar and ten cents
+	tags=<SELF> <SELF> <SELF> _20 ,000_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _$<< _7 1 <DELETE> . .10_
+	pred=the pizzeria sells _20 ,000_ pizzas daily with each piece priced at _$ _7 1  . .10_
+	semiotic=PLAIN PLAIN PLAIN CARDINAL CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN MONEY MONEY MONEY MONEY MONEY MONEY
+	ref=the pizzeria sells 20,000 pizzas daily with each piece priced at 70 us$1.10
+error: pred=_08:; inp=eight; ref=CARDINAL 4 5 | 8 m | 8, | viii | 8 u.s. | eight | 08 a | 8 | 8- | 8 b | 80 | 08 | 8 - | 8: | 8 a | viii a
+	input=it is located between eight thirty four o o and eight twenty five o o latitude and one hundred twenty five feet fifty nine inches o o and one hundred twenty six twenty two feet four inches longtitude
+	tags=<SELF> <SELF> <SELF> <SELF> _08: 3 4_ _0 0_ <SELF> _08: 2 5_ _0 0_ <SELF> <SELF> _1 <DELETE> 2 5 '_ _5 9 "_ _0 0_ <SELF> _1 <DELETE> 2 6_ _2 2 '_ _4 "_ <SELF>
+	pred=it is located between _08: 3 4_ _0 0_ and _08: 2 5_ _0 0_ latitude and _1  2 5 '_ _5 9 "_ _0 0_ and _1  2 6_ _2 2 '_ _4 "_ longtitude
+	semiotic=PLAIN PLAIN PLAIN PLAIN TIME TIME TIME DIGIT DIGIT PLAIN CARDINAL TIME TIME DIGIT DIGIT PLAIN PLAIN MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE DIGIT DIGIT PLAIN CARDINAL CARDINAL CARDINAL CARDINAL MEASURE MEASURE MEASURE MEASURE MEASURE PLAIN
+	ref=it is located between 8 34 00 and 8 25 00 latitude and 125' 59" 00 and 126 22' 4" longtitude
+error: pred=_08:; inp=eight; ref=CARDINAL 10 11 | 8 m | 8, | viii | 8 u.s. | eight | 08 a | 8 | 8- | 8 b | 80 | 08 | 8 - | 8: | 8 a | viii a
+	input=it is located between eight thirty four o o and eight twenty five o o latitude and one hundred twenty five feet fifty nine inches o o and one hundred twenty six twenty two feet four inches longtitude
+	tags=<SELF> <SELF> <SELF> <SELF> _08: 3 4_ _0 0_ <SELF> _08: 2 5_ _0 0_ <SELF> <SELF> _1 <DELETE> 2 5 '_ _5 9 "_ _0 0_ <SELF> _1 <DELETE> 2 6_ _2 2 '_ _4 "_ <SELF>
+	pred=it is located between _08: 3 4_ _0 0_ and _08: 2 5_ _0 0_ latitude and _1  2 5 '_ _5 9 "_ _0 0_ and _1  2 6_ _2 2 '_ _4 "_ longtitude
+	semiotic=PLAIN PLAIN PLAIN PLAIN TIME TIME TIME DIGIT DIGIT PLAIN CARDINAL TIME TIME DIGIT DIGIT PLAIN PLAIN MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE MEASURE DIGIT DIGIT PLAIN CARDINAL CARDINAL CARDINAL CARDINAL MEASURE MEASURE MEASURE MEASURE MEASURE PLAIN
+	ref=it is located between 8 34 00 and 8 25 00 latitude and 125' 59" 00 and 126 22' 4" longtitude
+error: pred=_1 0 02 4_; inp=one thousand twenty four; ref=CARDINAL 11 15 | one thousand twenty four | 1024 | 1,024
+	input=the thirty one inch seven hundred ninety millimeters telescope supports a one thousand twenty four by one thousand twenty four hawaii one based h g c d t e infrared camera operating between zero point eight and two point five micrometers
+	tags=<SELF> _3 1_ <SELF> _7 <DELETE> 90_ _mm_ <SELF> <SELF> <SELF> _1 0 02 4_ _x_ _1 0 2 4_ <SELF> <SELF> <SELF> _h g_ _c <SELF> <SELF> e_ <SELF> <SELF> <SELF> <SELF> _0 . 8_ <SELF> _2 . 5_ _μm_
+	pred=the _3 1_ inch _7  90_ _mm_ telescope supports a _1 0 02 4_ _x_ _1 0 2 4_ hawaii one based _h g_ _c d t e_ infrared camera operating between _0 . 8_ and _2 . 5_ _μm_
+	semiotic=PLAIN CARDINAL CARDINAL PLAIN MEASURE MEASURE MEASURE MEASURE PLAIN PLAIN PLAIN CARDINAL CARDINAL CARDINAL CARDINAL PLAIN CARDINAL CARDINAL CARDINAL CARDINAL PLAIN PLAIN PLAIN LETTERS LETTERS LETTERS LETTERS LETTERS LETTERS PLAIN PLAIN PLAIN PLAIN DECIMAL DECIMAL DECIMAL PLAIN MEASURE MEASURE MEASURE MEASURE
+	ref=the 31 inch 790 mm telescope supports a 1024 x 1024 hawaii 1 based hgcdte infrared camera operating between 0.8 and 2.5 μm
+error: pred=,2 0 1  3  13_; inp=two hundred one thousand three hundred thirteen; ref=CARDINAL 3 10 | two hundred one thousand three hundred thirteen | 201,313 | 201313
+	input=effective august fifth two hundred one thousand three hundred thirteen trains leave the station each weekday from five twenty a m to nine p m
+	tags=<SELF> <SELF> _5_ ,2 0 1 <DELETE> 3 <DELETE> 13_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _5: 20_ _am_ <DELETE> <SELF> _9:00_ _pm_ <DELETE>
+	pred=effective august _5_ ,2 0 1  3  13_ trains leave the station each weekday from _5: 20_ _am_  to _9:00_ _pm_ 
+	semiotic=PLAIN DATE DATE DATE CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN TIME TIME TIME TIME PLAIN TIME TIME TIME
+	ref=effective august 5 201313 trains leave the station each weekday from 5:20 am to 9:00 pm
+error: pred=_1 0; inp=one hundred; ref=CARDINAL 18 20 | 100 | 100- | 100, | 100: | 100 u.s. | one hundred | 100 a | 100 m
+	input=nineteen seventy five iconographie du cambodge post angkorien paris e f e o p e f e o one hundred three eight one p eighty eight place
+	tags=_19 7 5_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _e <SELF> <SELF> o_ _p <SELF> <SELF> <SELF> o_ _1 0 3_ _8_ _1_ <SELF> _8 8_ _pl_
+	pred=_19 7 5_ iconographie du cambodge post angkorien paris _e f e o_ _p e f e o_ _1 0 3_ _8_ _1_ p _8 8_ _pl_
+	semiotic=DATE DATE DATE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN LETTERS LETTERS LETTERS LETTERS LETTERS LETTERS LETTERS LETTERS LETTERS CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL PLAIN CARDINAL CARDINAL PLAIN
+	ref=1975 iconographie du cambodge post angkorien paris efeo pefeo 100 381 p 88 pl
+error: pred=_4  6 7 , 6 9_; inp=four hundred sixty seven thousand sixty nine; ref=CARDINAL 20 27 | 467069 | four hundred sixty seven thousand sixty nine
+	input=i s b n o sil seven five o nine sil o nine eight nine sil seven u s patent four hundred sixty seven thousand sixty nine air ship referring to a compound aerostat rotorcraft
+	tags=_i <SELF> <SELF> n_ _0 - 7 5 0 9 - 0 9 8 9 - 7_ _u._ _s._ <SELF> _4 <DELETE> 6 7 , 6 9_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=_i s b n_ _0 - 7 5 0 9 - 0 9 8 9 - 7_ _u._ _s._ patent _4  6 7 , 6 9_ air ship referring to a compound aerostat rotorcraft
+	semiotic=LETTERS LETTERS LETTERS LETTERS TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE LETTERS LETTERS PLAIN CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=isbn 0-7509-0989-7 us patent 467069 air ship referring to a compound aerostat rotorcraft
+error: pred=_2  1  4  2 6  3  8 4_; inp=two hundred eleven million four hundred twenty six thousand three hundred eighty four; ref=CARDINAL 35 48 | two hundred eleven million four hundred twenty six thousand three hundred eighty four | 211426384
+	input=dossou yovo noel september nineteen ninety nine the experience of benin international journal on world peace sixteen three i s s n o seven four two sil three six four o o c l c two hundred eleven million four hundred twenty six thousand three hundred eighty four
+	tags=<SELF> <SELF> <SELF> <SELF> _19 9 9_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _16_ _3_ _i <SELF> <SELF> n_ _0 7 4 2 - 3 6 4 0_ _o <SELF> <SELF> c_ _2 <DELETE> 1 <DELETE> 4 <DELETE> 2 6 <DELETE> 3 <DELETE> 8 4_
+	pred=dossou yovo noel september _19 9 9_ the experience of benin international journal on world peace _16_ _3_ _i s s n_ _0 7 4 2 - 3 6 4 0_ _o c l c_ _2  1  4  2 6  3  8 4_
+	semiotic=PLAIN PLAIN PLAIN DATE DATE DATE DATE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL CARDINAL LETTERS LETTERS LETTERS LETTERS TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE LETTERS LETTERS LETTERS LETTERS CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL
+	ref=dossou yovo noel september 1999 the experience of benin international journal on world peace 16 3 issn 0742-3640 oclc 211426384
+error: pred=_4  4; inp=four hundred forty; ref=CARDINAL 6 9 | four hundred forty | 440 u.s. | 440
+	input=ambient water quality criteria for nitrophenols four hundred forty five sil eight o sil o six three p d f
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _4 <DELETE> 4 5 - 8 0 - 0 6 3_ _p <SELF> f_
+	pred=ambient water quality criteria for nitrophenols _4  4 5 - 8 0 - 0 6 3_ _p d f_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE LETTERS LETTERS LETTERS
+	ref=ambient water quality criteria for nitrophenols 440 5-80-063 pdf
+error: pred=_1 ; inp=one hundred; ref=CARDINAL 7 9 | 100 | 100- | 100, | 100: | 100 u.s. | one hundred | 100 a | 100 m
+	input=proceedings of the national academy of sciences one hundred sixteen nine three eight three sil nine three eight seven
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _1 <DELETE> 16_ _9 3 8 3 - 9 3 8 7_
+	pred=proceedings of the national academy of sciences _1  16_ _9 3 8 3 - 9 3 8 7_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL CARDINAL CARDINAL TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE
+	ref=proceedings of the national academy of sciences 100 16 9383-9387
+error: pred=_03:; inp=three; ref=CARDINAL 1 2 | 30 | iii | 3 i | 3, | iii, | 3 m | 3- | 3: | 3 us | 03 | 3 - | 3 b | 3 u.s. | iii m | 3 | three | 3 a
+	input=in three o nine recorded a new album the failed convict with joel hamilton at studio g in brooklyn n y
+	tags=<SELF> _03: 0 9_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _n y_
+	pred=in _03: 0 9_ recorded a new album the failed convict with joel hamilton at studio g in brooklyn _n y_
+	semiotic=PLAIN TIME TIME TIME PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN LETTERS LETTERS
+	ref=in 3 09 recorded a new album the failed convict with joel hamilton at studio g in brooklyn ny
+error: pred=_1  5; inp=one hundred fifty; ref=CARDINAL 8 11 | 150 i | 150 m | one hundred fifty | 150 | 150 u.s. | 150, | cl
+	input=clin orthop one thousand nine hundred eighty to one hundred fifty two eight three sil seven sil one four cryotherapy induced nerve injury basset f h three kirkpatrick j s engelhardt d l et al
+	tags=<SELF> <SELF> _1 <DELETE> 9 <DELETE> 80_ _:_ _1 <DELETE> 5 2_ _8 3 - 7 - 1 4_ <SELF> <SELF> <SELF> <SELF> <SELF> _f h_ _3_ <SELF> _j s_ <SELF> _d l_ <SELF> <SELF>
+	pred=clin orthop _1  9  80_ _:_ _1  5 2_ _8 3 - 7 - 1 4_ cryotherapy induced nerve injury basset _f h_ _3_ kirkpatrick _j s_ engelhardt _d l_ et al
+	semiotic=PLAIN PLAIN CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL PLAIN CARDINAL CARDINAL CARDINAL CARDINAL TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE PLAIN PLAIN PLAIN PLAIN PLAIN LETTERS LETTERS CARDINAL PLAIN LETTERS LETTERS PLAIN LETTERS LETTERS PLAIN PLAIN
+	ref=clin orthop 1980 : 150 283-7 14 cryotherapy induced nerve injury basset f. h iii kirkpatrick j. s. engelhardt d.l. et al
+error: pred=_2; inp=twenty; ref=CARDINAL 4 5 | 20: | 20, | twenty | 20 - | 20 b | 20 m | xx | 20 a | 20 u.s. | 20- | 20 us | 20 i- | 20 | 20 i | 200
+	input=two hundred eighty five twenty two six one two sil two six two one
+	tags=_2 <DELETE> 8 5_ _2 2_ _6 1 2 - 2 6 2 1_
+	pred=_2  8 5_ _2 2_ _6 1 2 - 2 6 2 1_
+	semiotic=CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE TELEPHONE
+	ref=285 20 2612-2621
+error: pred=_1  8; inp=one hundred eighty; ref=CARDINAL 17 20 | clxxx | one hundred eighty | 180 | 180 u.s.
+	input=in what seemed like forever india crawled from one hundred twenty four eighths to one hundred seventy one hundred eighty and one hundred ninety eighths
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _1 <DELETE> 2 4 /8_ <SELF> _1 <DELETE> 70_ _1 <DELETE> 8 <DELETE> /1 <DELETE> 9 8_
+	pred=in what seemed like forever india crawled from _1  2 4 /8_ to _1  70_ _1  8  /1  9 8_
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN FRACTION FRACTION FRACTION FRACTION FRACTION PLAIN CARDINAL CARDINAL CARDINAL FRACTION FRACTION FRACTION FRACTION FRACTION FRACTION FRACTION FRACTION
+	ref=in what seemed like forever india crawled from 124/8 to 170 180 and 190/8
+error: pred=_2; inp=twenty; ref=CARDINAL 14 15 | 20: | 20, | twenty | 20 - | 20 b | 20 m | xx | 20 a | 20 u.s. | 20- | 20 us | 20 i- | 20 | 20 i | 200
+	input=broadcast in the sunday night timeslot at nine o'clock e t the season aired twenty three regular episodes
+	tags=<SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _9:00_ _09:00_ _et_ <DELETE> <SELF> <SELF> <SELF> _2 3_ <SELF> <SELF>
+	pred=broadcast in the sunday night timeslot at _9:00_ _09:00_ _et_  the season aired _2 3_ regular episodes
+	semiotic=PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN TIME TIME TIME TIME PLAIN PLAIN PLAIN CARDINAL CARDINAL PLAIN PLAIN
+	ref=broadcast in the sunday night timeslot at 9:00 et the season aired twenty three regular episodes
+error: pred=_11:00_; inp=eleven; ref=CARDINAL 1 2 | 11 us- | 11, | 11: | 11 u.s. | 110 | 11 | 11 m | 11 i | xi | 11 a | 011- | eleven | 11- | 11 i-
+	input=from eleven a m to seven p m the station returns to a music only status
+	tags=<SELF> _11:00_ _am_ <DELETE> <SELF> _7:00_ _pm_ <DELETE> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=from _11:00_ _am_  to _7:00_ _pm_  the station returns to a music only status
+	semiotic=PLAIN TIME TIME TIME PLAIN TIME TIME TIME PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=from 11 a m to 7 p.m. the station returns to a music only status
+error: pred=_70 00 8 3_; inp=seventy thousand eighty three; ref=CARDINAL 22 26 | seventy thousand eighty three | 70 083
+	input=since two thousand five the society has once again owned an operational steam engine a former bavarian p t two thirds number seventy thousand eighty three
+	tags=<SELF> _2 00 5_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _p t_ _2 /3_ <SELF> _70 00 8 3_
+	pred=since _2 00 5_ the society has once again owned an operational steam engine a former bavarian _p t_ _2 /3_ number _70 00 8 3_
+	semiotic=PLAIN DATE DATE DATE PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN LETTERS LETTERS FRACTION FRACTION VERBATIM CARDINAL CARDINAL CARDINAL CARDINAL
+	ref=since 2005 the society has once again owned an operational steam engine a former bavarian pt 2/3 number 70 083
+error: pred=_4 1  2  4 8  5  7  4_; inp=forty one billion two hundred forty eight million five hundred seventy thousand four; ref=CARDINAL 1 14 | 41 248 570 004 | forty one billion two hundred forty eight million five hundred seventy thousand four
+	input=code forty one billion two hundred forty eight million five hundred seventy thousand four as amended by the amendment hash two hundred fifty nine two thousand fourteenths of december twelfth twenty fourteen
+	tags=<SELF> _4 1 <DELETE> 2 <DELETE> 4 8 <DELETE> 5 <DELETE> 7 <DELETE> 4_ <SELF> <SELF> <SELF> <SELF> <SELF> _#_ _2 <DELETE> 5 9 /2 <DELETE> 014_ <SELF> <SELF> _12 ,20 14_
+	pred=code _4 1  2  4 8  5  7  4_ as amended by the amendment _#_ _2  5 9 /2  014_ of december _12 ,20 14_
+	semiotic=PLAIN CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL PLAIN PLAIN PLAIN PLAIN PLAIN VERBATIM FRACTION FRACTION FRACTION FRACTION FRACTION FRACTION FRACTION PLAIN DATE DATE DATE DATE
+	ref=code 41 248 570 004 as amended by the amendment # 259/2014 of december 12, 2014
+error: pred=_£; inp=seven; ref=CARDINAL 2 3 | 7, | seven | 07 a | 7 m | 7: | 7 | vii | 7 u.s. | 70 | 007 | 07 | 7 b | 7 a | vii, | 7-
+	input=he conceded seven pounds to his opponent and won at odds of one third to claim a three hundred guinea prize
+	tags=<SELF> <SELF> _£<< _7_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _3 00_ <SELF> <SELF>
+	pred=he conceded _£ _7_ to his opponent and won at odds of one third to claim a _3 00_ guinea prize
+	semiotic=PLAIN PLAIN MONEY MONEY PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL CARDINAL PLAIN PLAIN
+	ref=he conceded seven pounds to his opponent and won at odds of 1/3 to claim a 300 guinea prize
+error: pred=_1 , 3  8 2 , 6  3 9_; inp=one billion three hundred eighty two thousand six hundred thirty nine; ref=CARDINAL 17 28 | 1,000,382,639 | one billion three hundred eighty two thousand six hundred thirty nine
+	input=on december twenty first at around fifteen fifty u t c the video's youtube page updated with one billion three hundred eighty two thousand six hundred thirty nine views
+	tags=<SELF> <SELF> _2 1_ <SELF> <SELF> _15: 50_ _utc_ <DELETE> <DELETE> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _1 , 3 <DELETE> 8 2 , 6 <DELETE> 3 9_ <SELF>
+	pred=on december _2 1_ at around _15: 50_ _utc_   the video's youtube page updated with _1 , 3  8 2 , 6  3 9_ views
+	semiotic=PLAIN DATE DATE DATE PLAIN PLAIN TIME TIME TIME TIME TIME PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL PLAIN
+	ref=on december 21 at around 15:50 utc the video's youtube page updated with 1,000,382,639 views
+error: pred=_80 0 3  8 6_; inp=eighty thousand three hundred eighty six; ref=CARDINAL 19 25 | 80386 | eighty thousand three hundred eighty six
+	input=this was followed in nineteen eighty nine by the a three eight two o two cache controller also for eighty thousand three hundred eighty six based systems
+	tags=<SELF> <SELF> <SELF> <SELF> _19 8 9_ <SELF> <SELF> <SELF> _3 8 2 0 2_ <SELF> <SELF> <SELF> <SELF> _80 0 3 <DELETE> 8 6_ <SELF> <SELF>
+	pred=this was followed in _19 8 9_ by the a _3 8 2 0 2_ cache controller also for _80 0 3  8 6_ based systems
+	semiotic=PLAIN PLAIN PLAIN PLAIN DATE DATE DATE PLAIN PLAIN ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS PLAIN PLAIN PLAIN PLAIN CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL CARDINAL PLAIN PLAIN
+	ref=this was followed in 1989 by the a38202  cache controller also for 80386 based systems
+error: pred=_2 five; inp=twenty five; ref=CARDINAL 12 14 | xxv | 25, | 25 b | 25 u.s. | 25: | 25 m | 25- | 25 | 250 | 25 a | twenty five
+	input=at fifteen fifty two the captain told lympne that he had only twenty five minutes fuel remaining
+	tags=<SELF> _15: 5 2_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _2 <SELF> <SELF> <SELF> <SELF>
+	pred=at _15: 5 2_ the captain told lympne that he had only _2 five minutes fuel remaining
+	semiotic=PLAIN TIME TIME TIME PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN
+	ref=at 15:52 the captain told lympne that he had only 25 minutes fuel remaining
+error: pred=_2; inp=twenty; ref=CARDINAL 100 101 | 20: | 20, | twenty | 20 - | 20 b | 20 m | xx | 20 a | 20 u.s. | 20- | 20 us | 20 i- | 20 | 20 i | 200
+	input=d s wilcove and t eisner the impending extinction of natural history chronicle of higher education fifteen two thousand b twenty four h w greene and j b losos systematics natural history and conservation field biologists must fight a public image problem bioscience thirty eight nineteen eighty eight four hundred fifty eight to four hundred sixty two g a bartholomew the role of natural history in contemporary biology bioscience thirty six nineteen eighty six three hundred twenty four to three hundred twenty nine h w greene organisms in nature as a central focus for biology trends in ecology and evolution twenty two thousand five twenty three to twenty seven s g herman wildlife biology and natural history time for a reunion the journal of wildlife management sixty six no
+	tags=_d._ _s._ <SELF> <SELF> _t._ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _15_ _2 000_ <SELF> _2 4_ _h._ _w._ <SELF> <SELF> _j._ _b._ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _3 8_ _19 8 8_ _4 <DELETE> 5 8_ _-_ _4 <DELETE> 6 2_ _g._ _a._ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _3 6_ _19 8 6_ _3 <DELETE> 2 4_ _-_ _3 <DELETE> 2 9_ _h._ _w._ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _2 2 00 5_ _2 3_ _-_ _2 7_ _s._ _g._ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF>
+	pred=_d._ _s._ wilcove and _t._ eisner the impending extinction of natural history chronicle of higher education _15_ _2 000_ b _2 4_ _h._ _w._ greene and _j._ _b._ losos systematics natural history and conservation field biologists must fight a public image problem bioscience _3 8_ _19 8 8_ _4  5 8_ _-_ _4  6 2_ _g._ _a._ bartholomew the role of natural history in contemporary biology bioscience _3 6_ _19 8 6_ _3  2 4_ _-_ _3  2 9_ _h._ _w._ greene organisms in nature as a central focus for biology trends in ecology and evolution _2 2 00 5_ _2 3_ _-_ _2 7_ _s._ _g._ herman wildlife biology and natural history time for a reunion the journal of wildlife management sixty six no
+	semiotic=LETTERS LETTERS PLAIN PLAIN LETTERS PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL DATE DATE PLAIN CARDINAL CARDINAL LETTERS LETTERS PLAIN PLAIN LETTERS LETTERS PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL CARDINAL DATE DATE DATE CARDINAL CARDINAL CARDINAL CARDINAL PLAIN CARDINAL CARDINAL CARDINAL CARDINAL LETTERS LETTERS PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL CARDINAL DATE DATE DATE CARDINAL CARDINAL CARDINAL CARDINAL PLAIN CARDINAL CARDINAL CARDINAL CARDINAL LETTERS LETTERS PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN DATE DATE DATE DATE CARDINAL CARDINAL PLAIN CARDINAL CARDINAL LETTERS LETTERS PLAIN PLAIN PLAIN PLAIN ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS ADDRESS
+	ref=d s wilcove and t. eisner the impending extinction of natural history chronicle of higher education 15 2000 b24 h. w. greene and j. b. losos systematics natural history and conservation field biologists must fight a public image problem bioscience 38 1988 458 - 462 g. a. bartholomew the role of natural history in contemporary biology bioscience 36 1986 324 - 329 h.w. greene organisms in nature as a central focus for biology trends in ecology & evolution 20 2005 23 - 27 s g herman wildlife biology and natural history time for a reunion the journal of wildlife management 66 no
+error: pred=_,3; inp=thirty; ref=CARDINAL 5 6 | 30 | 30, | xxx | 30 b | 30- | 300 | thirty | 30: | 30 m | 30 u.s.
+	input=by the tenth of october thirty two i five s were on hand although attrition had reduced them to sixteen serviceable
+	tags=<SELF> <DELETE> _10_ <DELETE> <SELF> _,3 2_ <SELF> _-5_ <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> <SELF> _16_ <SELF>
+	pred=by  _10_  october _,3 2_ i _-5_ s were on hand although attrition had reduced them to _16_ serviceable
+	semiotic=PLAIN DATE DATE DATE DATE DATE DATE ADDRESS ADDRESS PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN PLAIN CARDINAL PLAIN
+	ref=by 10 october thirty two i-5 s were on hand although attrition had reduced them to sixteen serviceable
